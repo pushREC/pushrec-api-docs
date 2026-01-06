@@ -1,0 +1,110 @@
+# API Documentation Sources Configuration
+# Version: 1.0.0
+# Last Updated: 2025-01-07
+
+sources:
+  claude-code:
+    name: "Claude Code Documentation"
+    description: "Official Claude Code CLI documentation"
+    base_url: "https://docs.anthropic.com/en/docs/claude-code"
+    sitemap_url: "https://docs.anthropic.com/en/docs/claude-code"
+    changelog_url: "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    output_dir: "claude-code"
+    priority: HIGH
+    scrape_method: "api-docs-finder"
+    sections:
+      - getting-started
+      - build
+      - deployment
+      - administration
+      - configuration
+      - reference
+      - resources
+
+  claude-api:
+    name: "Claude API Documentation"
+    description: "Official Anthropic API reference"
+    base_url: "https://docs.anthropic.com/en/api"
+    output_dir: "claude-api"
+    priority: HIGH
+    scrape_method: "api-docs-finder"
+    sections:
+      - get-started
+      - api-reference
+      - build-with-claude
+      - platform
+      - about-claude
+
+  agent-sdk:
+    name: "Claude Agent SDK (Python)"
+    description: "Python SDK for building Claude agents"
+    base_url: "https://github.com/anthropics/claude-code-sdk-python"
+    docs_url: "https://github.com/anthropics/claude-code-sdk-python#readme"
+    type: "github"
+    output_dir: "agent-sdk"
+    priority: HIGH
+    scrape_method: "api-docs-finder"
+    sections:
+      - getting-started
+      - api-reference
+      - guides
+      - examples
+
+# Deprecation settings
+deprecation:
+  archive_after_days: 30
+  warning_banner: true
+  banner_template: "deprecation-banner.md"
+
+# Quality checks
+quality:
+  min_content_length: 500
+  require_frontmatter: true
+  require_source_url: true
+  require_scraped_date: true
+
+# Cross-reference index layers
+index_layers:
+  primitives:
+    description: "Core building blocks"
+    keywords:
+      - tool
+      - model
+      - config
+      - parameter
+      - option
+      - setting
+      - environment
+      - variable
+
+  patterns:
+    description: "Reusable patterns"
+    keywords:
+      - pattern
+      - practice
+      - technique
+      - strategy
+      - approach
+      - workflow
+      - pipeline
+
+  architectures:
+    description: "System designs"
+    keywords:
+      - architecture
+      - system
+      - design
+      - structure
+      - integration
+      - deployment
+      - orchestration
+
+  synthesis:
+    description: "Unified insights"
+    keywords:
+      - overview
+      - summary
+      - comparison
+      - tradeoff
+      - decision
+      - recommendation
