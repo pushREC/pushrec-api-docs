@@ -1,0 +1,3791 @@
+{
+  "info": {
+    "name": "Stripe API",
+    "_postman_id": "stripe-api",
+    "description": "Stripe API - 414 endpoints",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://api.stripe.com"
+    },
+    {
+      "key": "secretKey",
+      "value": "sk_test_..."
+    }
+  ],
+  "auth": {
+    "type": "basic",
+    "basic": [
+      {
+        "key": "username",
+        "value": "{{secretKey}}"
+      },
+      {
+        "key": "password",
+        "value": ""
+      }
+    ]
+  },
+  "item": [
+    {
+      "name": "Account",
+      "item": [
+        {
+          "name": "GET /v1/account",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/account",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "account"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Account Links",
+      "item": [
+        {
+          "name": "POST /v1/account_links",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/account_links",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "account_links"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Account Sessions",
+      "item": [
+        {
+          "name": "POST /v1/account_sessions",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/account_sessions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "account_sessions"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Accounts",
+      "item": [
+        {
+          "name": "GET /v1/accounts",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/accounts",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /v1/accounts/{account}",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts/{account}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts",
+                "{account}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/accounts/{account}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts/{account}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts",
+                "{account}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/accounts/{account}",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts/{account}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts",
+                "{account}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/accounts/{account}/bank_accounts",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts/{account}/bank_accounts",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts",
+                "{account}",
+                "bank_accounts"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /v1/accounts/{account}/bank_accounts/{id}",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts/{account}/bank_accounts/{id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts",
+                "{account}",
+                "bank_accounts",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/accounts/{account}/bank_accounts/{id}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts/{account}/bank_accounts/{id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts",
+                "{account}",
+                "bank_accounts",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/accounts/{account}/bank_accounts/{id}",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts/{account}/bank_accounts/{id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts",
+                "{account}",
+                "bank_accounts",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/accounts/{account}/capabilities",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts/{account}/capabilities",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts",
+                "{account}",
+                "capabilities"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/accounts/{account}/capabilities/{capability}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts/{account}/capabilities/{capability}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts",
+                "{account}",
+                "capabilities",
+                "{capability}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/accounts/{account}/capabilities/{capability}",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts/{account}/capabilities/{capability}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts",
+                "{account}",
+                "capabilities",
+                "{capability}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/accounts/{account}/external_accounts",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts/{account}/external_accounts",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts",
+                "{account}",
+                "external_accounts"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/accounts/{account}/external_accounts",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts/{account}/external_accounts",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts",
+                "{account}",
+                "external_accounts"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /v1/accounts/{account}/external_accounts/{id}",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts/{account}/external_accounts/{id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts",
+                "{account}",
+                "external_accounts",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/accounts/{account}/external_accounts/{id}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts/{account}/external_accounts/{id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts",
+                "{account}",
+                "external_accounts",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/accounts/{account}/external_accounts/{id}",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts/{account}/external_accounts/{id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts",
+                "{account}",
+                "external_accounts",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/accounts/{account}/login_links",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts/{account}/login_links",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts",
+                "{account}",
+                "login_links"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/accounts/{account}/people",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts/{account}/people",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts",
+                "{account}",
+                "people"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/accounts/{account}/people",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts/{account}/people",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts",
+                "{account}",
+                "people"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /v1/accounts/{account}/people/{person}",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts/{account}/people/{person}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts",
+                "{account}",
+                "people",
+                "{person}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/accounts/{account}/people/{person}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts/{account}/people/{person}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts",
+                "{account}",
+                "people",
+                "{person}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/accounts/{account}/people/{person}",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts/{account}/people/{person}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts",
+                "{account}",
+                "people",
+                "{person}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/accounts/{account}/persons",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts/{account}/persons",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts",
+                "{account}",
+                "persons"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/accounts/{account}/persons",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts/{account}/persons",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts",
+                "{account}",
+                "persons"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /v1/accounts/{account}/persons/{person}",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts/{account}/persons/{person}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts",
+                "{account}",
+                "persons",
+                "{person}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/accounts/{account}/persons/{person}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts/{account}/persons/{person}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts",
+                "{account}",
+                "persons",
+                "{person}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/accounts/{account}/persons/{person}",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts/{account}/persons/{person}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts",
+                "{account}",
+                "persons",
+                "{person}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/accounts/{account}/reject",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/accounts/{account}/reject",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "accounts",
+                "{account}",
+                "reject"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Apple Pay",
+      "item": [
+        {
+          "name": "GET /v1/apple_pay/domains",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/apple_pay/domains",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "apple_pay",
+                "domains"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/apple_pay/domains",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/apple_pay/domains",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "apple_pay",
+                "domains"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /v1/apple_pay/domains/{domain}",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/apple_pay/domains/{domain}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "apple_pay",
+                "domains",
+                "{domain}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/apple_pay/domains/{domain}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/apple_pay/domains/{domain}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "apple_pay",
+                "domains",
+                "{domain}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Application Fees",
+      "item": [
+        {
+          "name": "GET /v1/application_fees",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/application_fees",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "application_fees"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/application_fees/{fee}/refunds/{id}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/application_fees/{fee}/refunds/{id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "application_fees",
+                "{fee}",
+                "refunds",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/application_fees/{fee}/refunds/{id}",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/application_fees/{fee}/refunds/{id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "application_fees",
+                "{fee}",
+                "refunds",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/application_fees/{id}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/application_fees/{id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "application_fees",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/application_fees/{id}/refund",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/application_fees/{id}/refund",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "application_fees",
+                "{id}",
+                "refund"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/application_fees/{id}/refunds",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/application_fees/{id}/refunds",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "application_fees",
+                "{id}",
+                "refunds"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/application_fees/{id}/refunds",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/application_fees/{id}/refunds",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "application_fees",
+                "{id}",
+                "refunds"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Apps",
+      "item": [
+        {
+          "name": "GET /v1/apps/secrets",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/apps/secrets",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "apps",
+                "secrets"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/apps/secrets",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/apps/secrets",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "apps",
+                "secrets"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/apps/secrets/delete",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/apps/secrets/delete",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "apps",
+                "secrets",
+                "delete"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/apps/secrets/find",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/apps/secrets/find",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "apps",
+                "secrets",
+                "find"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Balance",
+      "item": [
+        {
+          "name": "GET /v1/balance",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/balance",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "balance"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/balance/history",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/balance/history",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "balance",
+                "history"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/balance/history/{id}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/balance/history/{id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "balance",
+                "history",
+                "{id}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Balance Settings",
+      "item": [
+        {
+          "name": "GET /v1/balance_settings",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/balance_settings",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "balance_settings"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/balance_settings",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/balance_settings",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "balance_settings"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Balance Transactions",
+      "item": [
+        {
+          "name": "GET /v1/balance_transactions",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/balance_transactions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "balance_transactions"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/balance_transactions/{id}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/balance_transactions/{id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "balance_transactions",
+                "{id}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Billing",
+      "item": [
+        {
+          "name": "GET /v1/billing/alerts",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing/alerts",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing",
+                "alerts"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/billing/alerts",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing/alerts",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing",
+                "alerts"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/billing/alerts/{id}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing/alerts/{id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing",
+                "alerts",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/billing/alerts/{id}/activate",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing/alerts/{id}/activate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing",
+                "alerts",
+                "{id}",
+                "activate"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/billing/alerts/{id}/archive",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing/alerts/{id}/archive",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing",
+                "alerts",
+                "{id}",
+                "archive"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/billing/alerts/{id}/deactivate",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing/alerts/{id}/deactivate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing",
+                "alerts",
+                "{id}",
+                "deactivate"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/billing/credit_balance_summary",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing/credit_balance_summary",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing",
+                "credit_balance_summary"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/billing/credit_balance_transactions",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing/credit_balance_transactions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing",
+                "credit_balance_transactions"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/billing/credit_balance_transactions/{id}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing/credit_balance_transactions/{id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing",
+                "credit_balance_transactions",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/billing/credit_grants",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing/credit_grants",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing",
+                "credit_grants"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/billing/credit_grants",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing/credit_grants",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing",
+                "credit_grants"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/billing/credit_grants/{id}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing/credit_grants/{id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing",
+                "credit_grants",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/billing/credit_grants/{id}",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing/credit_grants/{id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing",
+                "credit_grants",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/billing/credit_grants/{id}/expire",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing/credit_grants/{id}/expire",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing",
+                "credit_grants",
+                "{id}",
+                "expire"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/billing/credit_grants/{id}/void",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing/credit_grants/{id}/void",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing",
+                "credit_grants",
+                "{id}",
+                "void"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/billing/meter_event_adjustments",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing/meter_event_adjustments",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing",
+                "meter_event_adjustments"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/billing/meter_events",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing/meter_events",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing",
+                "meter_events"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/billing/meters",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing/meters",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing",
+                "meters"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/billing/meters",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing/meters",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing",
+                "meters"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/billing/meters/{id}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing/meters/{id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing",
+                "meters",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/billing/meters/{id}",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing/meters/{id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing",
+                "meters",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/billing/meters/{id}/deactivate",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing/meters/{id}/deactivate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing",
+                "meters",
+                "{id}",
+                "deactivate"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/billing/meters/{id}/event_summaries",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing/meters/{id}/event_summaries",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing",
+                "meters",
+                "{id}",
+                "event_summaries"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/billing/meters/{id}/reactivate",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing/meters/{id}/reactivate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing",
+                "meters",
+                "{id}",
+                "reactivate"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Billing Portal",
+      "item": [
+        {
+          "name": "GET /v1/billing_portal/configurations",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing_portal/configurations",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing_portal",
+                "configurations"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/billing_portal/configurations",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing_portal/configurations",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing_portal",
+                "configurations"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/billing_portal/configurations/{configuration}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing_portal/configurations/{configuration}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing_portal",
+                "configurations",
+                "{configuration}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/billing_portal/configurations/{configuration}",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing_portal/configurations/{configuration}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing_portal",
+                "configurations",
+                "{configuration}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/billing_portal/sessions",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/billing_portal/sessions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "billing_portal",
+                "sessions"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Charges",
+      "item": [
+        {
+          "name": "GET /v1/charges",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/charges",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "charges"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/charges",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/charges",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "charges"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/charges/search",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/charges/search",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "charges",
+                "search"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/charges/{charge}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/charges/{charge}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "charges",
+                "{charge}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/charges/{charge}",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/charges/{charge}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "charges",
+                "{charge}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/charges/{charge}/capture",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/charges/{charge}/capture",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "charges",
+                "{charge}",
+                "capture"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/charges/{charge}/dispute",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/charges/{charge}/dispute",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "charges",
+                "{charge}",
+                "dispute"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/charges/{charge}/dispute",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/charges/{charge}/dispute",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "charges",
+                "{charge}",
+                "dispute"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/charges/{charge}/dispute/close",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/charges/{charge}/dispute/close",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "charges",
+                "{charge}",
+                "dispute",
+                "close"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/charges/{charge}/refund",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/charges/{charge}/refund",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "charges",
+                "{charge}",
+                "refund"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/charges/{charge}/refunds",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/charges/{charge}/refunds",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "charges",
+                "{charge}",
+                "refunds"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/charges/{charge}/refunds",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/charges/{charge}/refunds",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "charges",
+                "{charge}",
+                "refunds"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/charges/{charge}/refunds/{refund}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/charges/{charge}/refunds/{refund}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "charges",
+                "{charge}",
+                "refunds",
+                "{refund}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/charges/{charge}/refunds/{refund}",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/charges/{charge}/refunds/{refund}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "charges",
+                "{charge}",
+                "refunds",
+                "{refund}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Checkout",
+      "item": [
+        {
+          "name": "GET /v1/checkout/sessions",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/checkout/sessions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "checkout",
+                "sessions"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/checkout/sessions",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/checkout/sessions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "checkout",
+                "sessions"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/checkout/sessions/{session}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/checkout/sessions/{session}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "checkout",
+                "sessions",
+                "{session}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/checkout/sessions/{session}",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/checkout/sessions/{session}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "checkout",
+                "sessions",
+                "{session}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/checkout/sessions/{session}/expire",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/checkout/sessions/{session}/expire",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "checkout",
+                "sessions",
+                "{session}",
+                "expire"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/checkout/sessions/{session}/line_items",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/checkout/sessions/{session}/line_items",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "checkout",
+                "sessions",
+                "{session}",
+                "line_items"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Climate",
+      "item": [
+        {
+          "name": "GET /v1/climate/orders",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/climate/orders",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "climate",
+                "orders"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/climate/orders",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/climate/orders",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "climate",
+                "orders"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/climate/orders/{order}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/climate/orders/{order}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "climate",
+                "orders",
+                "{order}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/climate/orders/{order}",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/climate/orders/{order}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "climate",
+                "orders",
+                "{order}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/climate/orders/{order}/cancel",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/climate/orders/{order}/cancel",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "climate",
+                "orders",
+                "{order}",
+                "cancel"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/climate/products",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/climate/products",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "climate",
+                "products"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/climate/products/{product}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/climate/products/{product}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "climate",
+                "products",
+                "{product}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/climate/suppliers",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/climate/suppliers",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "climate",
+                "suppliers"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/climate/suppliers/{supplier}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/climate/suppliers/{supplier}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "climate",
+                "suppliers",
+                "{supplier}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Confirmation Tokens",
+      "item": [
+        {
+          "name": "GET /v1/confirmation_tokens/{confirmation_token}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/confirmation_tokens/{confirmation_token}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "confirmation_tokens",
+                "{confirmation_token}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Country Specs",
+      "item": [
+        {
+          "name": "GET /v1/country_specs",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/country_specs",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "country_specs"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/country_specs/{country}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/country_specs/{country}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "country_specs",
+                "{country}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Coupons",
+      "item": [
+        {
+          "name": "GET /v1/coupons",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/coupons",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "coupons"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/coupons",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/coupons",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "coupons"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /v1/coupons/{coupon}",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/coupons/{coupon}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "coupons",
+                "{coupon}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/coupons/{coupon}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/coupons/{coupon}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "coupons",
+                "{coupon}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/coupons/{coupon}",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/coupons/{coupon}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "coupons",
+                "{coupon}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Credit Notes",
+      "item": [
+        {
+          "name": "GET /v1/credit_notes",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/credit_notes",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "credit_notes"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/credit_notes",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/credit_notes",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "credit_notes"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/credit_notes/preview",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/credit_notes/preview",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "credit_notes",
+                "preview"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/credit_notes/preview/lines",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/credit_notes/preview/lines",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "credit_notes",
+                "preview",
+                "lines"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/credit_notes/{credit_note}/lines",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/credit_notes/{credit_note}/lines",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "credit_notes",
+                "{credit_note}",
+                "lines"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/credit_notes/{id}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/credit_notes/{id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "credit_notes",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/credit_notes/{id}",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/credit_notes/{id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "credit_notes",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/credit_notes/{id}/void",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/credit_notes/{id}/void",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "credit_notes",
+                "{id}",
+                "void"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Customer Sessions",
+      "item": [
+        {
+          "name": "POST /v1/customer_sessions",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/customer_sessions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "customer_sessions"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Customers",
+      "item": [
+        {
+          "name": "GET /v1/customers",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/customers",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "customers"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/customers",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/customers",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "customers"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/customers/search",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/customers/search",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "customers",
+                "search"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /v1/customers/{customer}",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/customers/{customer}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "customers",
+                "{customer}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/customers/{customer}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/customers/{customer}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "customers",
+                "{customer}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/customers/{customer}",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/customers/{customer}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "customers",
+                "{customer}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/customers/{customer}/balance_transactions",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/customers/{customer}/balance_transactions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "customers",
+                "{customer}",
+                "balance_transactions"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/customers/{customer}/balance_transactions",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/customers/{customer}/balance_transactions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "customers",
+                "{customer}",
+                "balance_transactions"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/customers/{customer}/balance_transactions/{transaction}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/customers/{customer}/balance_transactions/{transaction}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "customers",
+                "{customer}",
+                "balance_transactions",
+                "{transaction}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/customers/{customer}/balance_transactions/{transaction}",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/customers/{customer}/balance_transactions/{transaction}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "customers",
+                "{customer}",
+                "balance_transactions",
+                "{transaction}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/customers/{customer}/bank_accounts",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/customers/{customer}/bank_accounts",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "customers",
+                "{customer}",
+                "bank_accounts"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/customers/{customer}/bank_accounts",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/customers/{customer}/bank_accounts",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "customers",
+                "{customer}",
+                "bank_accounts"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /v1/customers/{customer}/bank_accounts/{id}",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/customers/{customer}/bank_accounts/{id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "customers",
+                "{customer}",
+                "bank_accounts",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/customers/{customer}/bank_accounts/{id}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/customers/{customer}/bank_accounts/{id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "customers",
+                "{customer}",
+                "bank_accounts",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/customers/{customer}/bank_accounts/{id}",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/customers/{customer}/bank_accounts/{id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "customers",
+                "{customer}",
+                "bank_accounts",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/customers/{customer}/bank_accounts/{id}/verify",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/customers/{customer}/bank_accounts/{id}/verify",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "customers",
+                "{customer}",
+                "bank_accounts",
+                "{id}",
+                "verify"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/customers/{customer}/cards",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/customers/{customer}/cards",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "customers",
+                "{customer}",
+                "cards"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/customers/{customer}/cards",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/customers/{customer}/cards",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "customers",
+                "{customer}",
+                "cards"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /v1/customers/{customer}/cards/{id}",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/customers/{customer}/cards/{id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "customers",
+                "{customer}",
+                "cards",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/customers/{customer}/cards/{id}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/customers/{customer}/cards/{id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "customers",
+                "{customer}",
+                "cards",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/customers/{customer}/cards/{id}",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/customers/{customer}/cards/{id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "customers",
+                "{customer}",
+                "cards",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/customers/{customer}/cash_balance",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/customers/{customer}/cash_balance",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "customers",
+                "{customer}",
+                "cash_balance"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/customers/{customer}/cash_balance",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/customers/{customer}/cash_balance",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "customers",
+                "{customer}",
+                "cash_balance"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/customers/{customer}/cash_balance_transactions",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/customers/{customer}/cash_balance_transactions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "customers",
+                "{customer}",
+                "cash_balance_transactions"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/customers/{customer}/cash_balance_transactions/{transaction}",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/customers/{customer}/cash_balance_transactions/{transaction}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "customers",
+                "{customer}",
+                "cash_balance_transactions",
+                "{transaction}"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

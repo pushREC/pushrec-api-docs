@@ -1,0 +1,2815 @@
+{
+  "info": {
+    "name": "GitHub REST API",
+    "_postman_id": "github-rest-api",
+    "description": "GitHub v3 REST API - 719 endpoints",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://api.github.com"
+    },
+    {
+      "key": "token",
+      "value": ""
+    }
+  ],
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{token}}"
+      }
+    ]
+  },
+  "item": [
+    {
+      "name": "",
+      "item": [
+        {
+          "name": "GET /",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                ""
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Advisories",
+      "item": [
+        {
+          "name": "GET /advisories",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/advisories",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "advisories"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /advisories/{ghsa_id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/advisories/{ghsa_id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "advisories",
+                "{ghsa_id}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "App",
+      "item": [
+        {
+          "name": "GET /app",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/app",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "app"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /app/hook/config",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/app/hook/config",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "app",
+                "hook",
+                "config"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PATCH /app/hook/config",
+          "request": {
+            "method": "PATCH",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/app/hook/config",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "app",
+                "hook",
+                "config"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /app/hook/deliveries",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/app/hook/deliveries",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "app",
+                "hook",
+                "deliveries"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /app/hook/deliveries/{delivery_id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/app/hook/deliveries/{delivery_id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "app",
+                "hook",
+                "deliveries",
+                "{delivery_id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /app/hook/deliveries/{delivery_id}/attempts",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/app/hook/deliveries/{delivery_id}/attempts",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "app",
+                "hook",
+                "deliveries",
+                "{delivery_id}",
+                "attempts"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /app/installation-requests",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/app/installation-requests",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "app",
+                "installation-requests"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /app/installations",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/app/installations",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "app",
+                "installations"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /app/installations/{installation_id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/app/installations/{installation_id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "app",
+                "installations",
+                "{installation_id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /app/installations/{installation_id}",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/app/installations/{installation_id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "app",
+                "installations",
+                "{installation_id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /app/installations/{installation_id}/access_tokens",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/app/installations/{installation_id}/access_tokens",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "app",
+                "installations",
+                "{installation_id}",
+                "access_tokens"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /app/installations/{installation_id}/suspended",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/app/installations/{installation_id}/suspended",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "app",
+                "installations",
+                "{installation_id}",
+                "suspended"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /app/installations/{installation_id}/suspended",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/app/installations/{installation_id}/suspended",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "app",
+                "installations",
+                "{installation_id}",
+                "suspended"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "App-Manifests",
+      "item": [
+        {
+          "name": "POST /app-manifests/{code}/conversions",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/app-manifests/{code}/conversions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "app-manifests",
+                "{code}",
+                "conversions"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Applications",
+      "item": [
+        {
+          "name": "DELETE /applications/{client_id}/grant",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/applications/{client_id}/grant",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "applications",
+                "{client_id}",
+                "grant"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /applications/{client_id}/token",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/applications/{client_id}/token",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "applications",
+                "{client_id}",
+                "token"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PATCH /applications/{client_id}/token",
+          "request": {
+            "method": "PATCH",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/applications/{client_id}/token",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "applications",
+                "{client_id}",
+                "token"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /applications/{client_id}/token",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/applications/{client_id}/token",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "applications",
+                "{client_id}",
+                "token"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /applications/{client_id}/token/scoped",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/applications/{client_id}/token/scoped",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "applications",
+                "{client_id}",
+                "token",
+                "scoped"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Apps",
+      "item": [
+        {
+          "name": "GET /apps/{app_slug}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/apps/{app_slug}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "apps",
+                "{app_slug}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Assignments",
+      "item": [
+        {
+          "name": "GET /assignments/{assignment_id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/assignments/{assignment_id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "assignments",
+                "{assignment_id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /assignments/{assignment_id}/accepted_assignments",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/assignments/{assignment_id}/accepted_assignments",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "assignments",
+                "{assignment_id}",
+                "accepted_assignments"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /assignments/{assignment_id}/grades",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/assignments/{assignment_id}/grades",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "assignments",
+                "{assignment_id}",
+                "grades"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Classrooms",
+      "item": [
+        {
+          "name": "GET /classrooms",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/classrooms",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "classrooms"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /classrooms/{classroom_id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/classrooms/{classroom_id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "classrooms",
+                "{classroom_id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /classrooms/{classroom_id}/assignments",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/classrooms/{classroom_id}/assignments",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "classrooms",
+                "{classroom_id}",
+                "assignments"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Codes_Of_Conduct",
+      "item": [
+        {
+          "name": "GET /codes_of_conduct",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/codes_of_conduct",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "codes_of_conduct"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /codes_of_conduct/{key}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/codes_of_conduct/{key}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "codes_of_conduct",
+                "{key}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Credentials",
+      "item": [
+        {
+          "name": "POST /credentials/revoke",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/credentials/revoke",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "credentials",
+                "revoke"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Emojis",
+      "item": [
+        {
+          "name": "GET /emojis",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/emojis",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "emojis"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Enterprises",
+      "item": [
+        {
+          "name": "GET /enterprises/{enterprise}/actions/cache/retention-limit",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/actions/cache/retention-limit",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "actions",
+                "cache",
+                "retention-limit"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /enterprises/{enterprise}/actions/cache/retention-limit",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/actions/cache/retention-limit",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "actions",
+                "cache",
+                "retention-limit"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /enterprises/{enterprise}/actions/cache/storage-limit",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/actions/cache/storage-limit",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "actions",
+                "cache",
+                "storage-limit"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /enterprises/{enterprise}/actions/cache/storage-limit",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/actions/cache/storage-limit",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "actions",
+                "cache",
+                "storage-limit"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /enterprises/{enterprise}/code-security/configurations",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/code-security/configurations",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "code-security",
+                "configurations"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /enterprises/{enterprise}/code-security/configurations",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/code-security/configurations",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "code-security",
+                "configurations"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /enterprises/{enterprise}/code-security/configurations/defaults",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/code-security/configurations/defaults",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "code-security",
+                "configurations",
+                "defaults"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /enterprises/{enterprise}/code-security/configurations/{configuration_id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/code-security/configurations/{configuration_id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "code-security",
+                "configurations",
+                "{configuration_id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PATCH /enterprises/{enterprise}/code-security/configurations/{configuration_id}",
+          "request": {
+            "method": "PATCH",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/code-security/configurations/{configuration_id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "code-security",
+                "configurations",
+                "{configuration_id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /enterprises/{enterprise}/code-security/configurations/{configuration_id}",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/code-security/configurations/{configuration_id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "code-security",
+                "configurations",
+                "{configuration_id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /enterprises/{enterprise}/code-security/configurations/{configuration_id}/attach",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/code-security/configurations/{configuration_id}/attach",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "code-security",
+                "configurations",
+                "{configuration_id}",
+                "attach"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /enterprises/{enterprise}/code-security/configurations/{configuration_id}/defaults",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/code-security/configurations/{configuration_id}/defaults",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "code-security",
+                "configurations",
+                "{configuration_id}",
+                "defaults"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /enterprises/{enterprise}/code-security/configurations/{configuration_id}/repositories",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/code-security/configurations/{configuration_id}/repositories",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "code-security",
+                "configurations",
+                "{configuration_id}",
+                "repositories"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /enterprises/{enterprise}/dependabot/alerts",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/dependabot/alerts",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "dependabot",
+                "alerts"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /enterprises/{enterprise}/teams",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/teams",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "teams"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /enterprises/{enterprise}/teams",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/teams",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "teams"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /enterprises/{enterprise}/teams/{enterprise-team}/memberships",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/teams/{enterprise-team}/memberships",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "teams",
+                "{enterprise-team}",
+                "memberships"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /enterprises/{enterprise}/teams/{enterprise-team}/memberships/add",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/teams/{enterprise-team}/memberships/add",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "teams",
+                "{enterprise-team}",
+                "memberships",
+                "add"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /enterprises/{enterprise}/teams/{enterprise-team}/memberships/remove",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/teams/{enterprise-team}/memberships/remove",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "teams",
+                "{enterprise-team}",
+                "memberships",
+                "remove"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /enterprises/{enterprise}/teams/{enterprise-team}/memberships/{username}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/teams/{enterprise-team}/memberships/{username}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "teams",
+                "{enterprise-team}",
+                "memberships",
+                "{username}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /enterprises/{enterprise}/teams/{enterprise-team}/memberships/{username}",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/teams/{enterprise-team}/memberships/{username}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "teams",
+                "{enterprise-team}",
+                "memberships",
+                "{username}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /enterprises/{enterprise}/teams/{enterprise-team}/memberships/{username}",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/teams/{enterprise-team}/memberships/{username}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "teams",
+                "{enterprise-team}",
+                "memberships",
+                "{username}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /enterprises/{enterprise}/teams/{enterprise-team}/organizations",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/teams/{enterprise-team}/organizations",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "teams",
+                "{enterprise-team}",
+                "organizations"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /enterprises/{enterprise}/teams/{enterprise-team}/organizations/add",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/teams/{enterprise-team}/organizations/add",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "teams",
+                "{enterprise-team}",
+                "organizations",
+                "add"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /enterprises/{enterprise}/teams/{enterprise-team}/organizations/remove",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/teams/{enterprise-team}/organizations/remove",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "teams",
+                "{enterprise-team}",
+                "organizations",
+                "remove"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /enterprises/{enterprise}/teams/{enterprise-team}/organizations/{org}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/teams/{enterprise-team}/organizations/{org}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "teams",
+                "{enterprise-team}",
+                "organizations",
+                "{org}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /enterprises/{enterprise}/teams/{enterprise-team}/organizations/{org}",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/teams/{enterprise-team}/organizations/{org}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "teams",
+                "{enterprise-team}",
+                "organizations",
+                "{org}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /enterprises/{enterprise}/teams/{enterprise-team}/organizations/{org}",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/teams/{enterprise-team}/organizations/{org}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "teams",
+                "{enterprise-team}",
+                "organizations",
+                "{org}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /enterprises/{enterprise}/teams/{team_slug}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/teams/{team_slug}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "teams",
+                "{team_slug}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PATCH /enterprises/{enterprise}/teams/{team_slug}",
+          "request": {
+            "method": "PATCH",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/teams/{team_slug}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "teams",
+                "{team_slug}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /enterprises/{enterprise}/teams/{team_slug}",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/enterprises/{enterprise}/teams/{team_slug}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "enterprises",
+                "{enterprise}",
+                "teams",
+                "{team_slug}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Events",
+      "item": [
+        {
+          "name": "GET /events",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/events",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "events"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Feeds",
+      "item": [
+        {
+          "name": "GET /feeds",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/feeds",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "feeds"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gists",
+      "item": [
+        {
+          "name": "GET /gists",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/gists",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "gists"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /gists",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/gists",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "gists"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /gists/public",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/gists/public",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "gists",
+                "public"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /gists/starred",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/gists/starred",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "gists",
+                "starred"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /gists/{gist_id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/gists/{gist_id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "gists",
+                "{gist_id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PATCH /gists/{gist_id}",
+          "request": {
+            "method": "PATCH",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/gists/{gist_id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "gists",
+                "{gist_id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /gists/{gist_id}",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/gists/{gist_id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "gists",
+                "{gist_id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /gists/{gist_id}/comments",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/gists/{gist_id}/comments",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "gists",
+                "{gist_id}",
+                "comments"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /gists/{gist_id}/comments",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/gists/{gist_id}/comments",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "gists",
+                "{gist_id}",
+                "comments"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /gists/{gist_id}/comments/{comment_id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/gists/{gist_id}/comments/{comment_id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "gists",
+                "{gist_id}",
+                "comments",
+                "{comment_id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PATCH /gists/{gist_id}/comments/{comment_id}",
+          "request": {
+            "method": "PATCH",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/gists/{gist_id}/comments/{comment_id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "gists",
+                "{gist_id}",
+                "comments",
+                "{comment_id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /gists/{gist_id}/comments/{comment_id}",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/gists/{gist_id}/comments/{comment_id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "gists",
+                "{gist_id}",
+                "comments",
+                "{comment_id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /gists/{gist_id}/commits",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/gists/{gist_id}/commits",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "gists",
+                "{gist_id}",
+                "commits"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /gists/{gist_id}/forks",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/gists/{gist_id}/forks",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "gists",
+                "{gist_id}",
+                "forks"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /gists/{gist_id}/forks",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/gists/{gist_id}/forks",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "gists",
+                "{gist_id}",
+                "forks"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /gists/{gist_id}/star",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/gists/{gist_id}/star",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "gists",
+                "{gist_id}",
+                "star"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /gists/{gist_id}/star",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/gists/{gist_id}/star",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "gists",
+                "{gist_id}",
+                "star"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /gists/{gist_id}/star",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/gists/{gist_id}/star",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "gists",
+                "{gist_id}",
+                "star"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /gists/{gist_id}/{sha}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/gists/{gist_id}/{sha}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "gists",
+                "{gist_id}",
+                "{sha}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gitignore",
+      "item": [
+        {
+          "name": "GET /gitignore/templates",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/gitignore/templates",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "gitignore",
+                "templates"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /gitignore/templates/{name}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/gitignore/templates/{name}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "gitignore",
+                "templates",
+                "{name}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Installation",
+      "item": [
+        {
+          "name": "GET /installation/repositories",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/installation/repositories",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "installation",
+                "repositories"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /installation/token",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/installation/token",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "installation",
+                "token"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Issues",
+      "item": [
+        {
+          "name": "GET /issues",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/issues",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "issues"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Licenses",
+      "item": [
+        {
+          "name": "GET /licenses",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/licenses",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "licenses"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /licenses/{license}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/licenses/{license}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "licenses",
+                "{license}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Markdown",
+      "item": [
+        {
+          "name": "POST /markdown",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/markdown",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "markdown"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /markdown/raw",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/markdown/raw",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "markdown",
+                "raw"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Marketplace_Listing",
+      "item": [
+        {
+          "name": "GET /marketplace_listing/accounts/{account_id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/marketplace_listing/accounts/{account_id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "marketplace_listing",
+                "accounts",
+                "{account_id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /marketplace_listing/plans",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/marketplace_listing/plans",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "marketplace_listing",
+                "plans"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /marketplace_listing/plans/{plan_id}/accounts",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/marketplace_listing/plans/{plan_id}/accounts",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "marketplace_listing",
+                "plans",
+                "{plan_id}",
+                "accounts"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /marketplace_listing/stubbed/accounts/{account_id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/marketplace_listing/stubbed/accounts/{account_id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "marketplace_listing",
+                "stubbed",
+                "accounts",
+                "{account_id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /marketplace_listing/stubbed/plans",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/marketplace_listing/stubbed/plans",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "marketplace_listing",
+                "stubbed",
+                "plans"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /marketplace_listing/stubbed/plans/{plan_id}/accounts",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/marketplace_listing/stubbed/plans/{plan_id}/accounts",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "marketplace_listing",
+                "stubbed",
+                "plans",
+                "{plan_id}",
+                "accounts"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Meta",
+      "item": [
+        {
+          "name": "GET /meta",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/meta",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "meta"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Networks",
+      "item": [
+        {
+          "name": "GET /networks/{owner}/{repo}/events",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/networks/{owner}/{repo}/events",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "networks",
+                "{owner}",
+                "{repo}",
+                "events"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Notifications",
+      "item": [
+        {
+          "name": "GET /notifications",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/notifications",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "notifications"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /notifications",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/notifications",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "notifications"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /notifications/threads/{thread_id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/notifications/threads/{thread_id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "notifications",
+                "threads",
+                "{thread_id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PATCH /notifications/threads/{thread_id}",
+          "request": {
+            "method": "PATCH",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/notifications/threads/{thread_id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "notifications",
+                "threads",
+                "{thread_id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /notifications/threads/{thread_id}",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/notifications/threads/{thread_id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "notifications",
+                "threads",
+                "{thread_id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /notifications/threads/{thread_id}/subscription",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/notifications/threads/{thread_id}/subscription",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "notifications",
+                "threads",
+                "{thread_id}",
+                "subscription"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /notifications/threads/{thread_id}/subscription",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/notifications/threads/{thread_id}/subscription",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "notifications",
+                "threads",
+                "{thread_id}",
+                "subscription"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /notifications/threads/{thread_id}/subscription",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/notifications/threads/{thread_id}/subscription",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "notifications",
+                "threads",
+                "{thread_id}",
+                "subscription"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Octocat",
+      "item": [
+        {
+          "name": "GET /octocat",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/octocat",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "octocat"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Organizations",
+      "item": [
+        {
+          "name": "GET /organizations",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/organizations",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "organizations"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /organizations/{org}/actions/cache/retention-limit",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/organizations/{org}/actions/cache/retention-limit",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "organizations",
+                "{org}",
+                "actions",
+                "cache",
+                "retention-limit"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /organizations/{org}/actions/cache/retention-limit",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/organizations/{org}/actions/cache/retention-limit",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "organizations",
+                "{org}",
+                "actions",
+                "cache",
+                "retention-limit"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /organizations/{org}/actions/cache/storage-limit",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/organizations/{org}/actions/cache/storage-limit",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "organizations",
+                "{org}",
+                "actions",
+                "cache",
+                "storage-limit"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /organizations/{org}/actions/cache/storage-limit",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/organizations/{org}/actions/cache/storage-limit",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "organizations",
+                "{org}",
+                "actions",
+                "cache",
+                "storage-limit"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /organizations/{org}/dependabot/repository-access",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/organizations/{org}/dependabot/repository-access",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "organizations",
+                "{org}",
+                "dependabot",
+                "repository-access"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PATCH /organizations/{org}/dependabot/repository-access",
+          "request": {
+            "method": "PATCH",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/organizations/{org}/dependabot/repository-access",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "organizations",
+                "{org}",
+                "dependabot",
+                "repository-access"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /organizations/{org}/dependabot/repository-access/default-level",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/organizations/{org}/dependabot/repository-access/default-level",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "organizations",
+                "{org}",
+                "dependabot",
+                "repository-access",
+                "default-level"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /organizations/{org}/org-properties/values",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/organizations/{org}/org-properties/values",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "organizations",
+                "{org}",
+                "org-properties",
+                "values"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PATCH /organizations/{org}/org-properties/values",
+          "request": {
+            "method": "PATCH",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/organizations/{org}/org-properties/values",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "organizations",
+                "{org}",
+                "org-properties",
+                "values"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /organizations/{org}/settings/billing/budgets",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/organizations/{org}/settings/billing/budgets",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "organizations",
+                "{org}",
+                "settings",
+                "billing",
+                "budgets"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /organizations/{org}/settings/billing/budgets/{budget_id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/organizations/{org}/settings/billing/budgets/{budget_id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "organizations",
+                "{org}",
+                "settings",
+                "billing",
+                "budgets",
+                "{budget_id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PATCH /organizations/{org}/settings/billing/budgets/{budget_id}",
+          "request": {
+            "method": "PATCH",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/organizations/{org}/settings/billing/budgets/{budget_id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "organizations",
+                "{org}",
+                "settings",
+                "billing",
+                "budgets",
+                "{budget_id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /organizations/{org}/settings/billing/budgets/{budget_id}",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/organizations/{org}/settings/billing/budgets/{budget_id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "organizations",
+                "{org}",
+                "settings",
+                "billing",
+                "budgets",
+                "{budget_id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /organizations/{org}/settings/billing/premium_request/usage",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/organizations/{org}/settings/billing/premium_request/usage",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "organizations",
+                "{org}",
+                "settings",
+                "billing",
+                "premium_request",
+                "usage"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /organizations/{org}/settings/billing/usage",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/organizations/{org}/settings/billing/usage",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "organizations",
+                "{org}",
+                "settings",
+                "billing",
+                "usage"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /organizations/{org}/settings/billing/usage/summary",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/organizations/{org}/settings/billing/usage/summary",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "organizations",
+                "{org}",
+                "settings",
+                "billing",
+                "usage",
+                "summary"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Orgs",
+      "item": [
+        {
+          "name": "GET /orgs/{org}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/orgs/{org}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "orgs",
+                "{org}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PATCH /orgs/{org}",
+          "request": {
+            "method": "PATCH",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/orgs/{org}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "orgs",
+                "{org}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /orgs/{org}",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/orgs/{org}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "orgs",
+                "{org}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /orgs/{org}/actions/cache/usage",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/orgs/{org}/actions/cache/usage",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "orgs",
+                "{org}",
+                "actions",
+                "cache",
+                "usage"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /orgs/{org}/actions/cache/usage-by-repository",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/orgs/{org}/actions/cache/usage-by-repository",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "orgs",
+                "{org}",
+                "actions",
+                "cache",
+                "usage-by-repository"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /orgs/{org}/actions/hosted-runners",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/orgs/{org}/actions/hosted-runners",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "orgs",
+                "{org}",
+                "actions",
+                "hosted-runners"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /orgs/{org}/actions/hosted-runners",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/orgs/{org}/actions/hosted-runners",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "orgs",
+                "{org}",
+                "actions",
+                "hosted-runners"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /orgs/{org}/actions/hosted-runners/images/custom",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/orgs/{org}/actions/hosted-runners/images/custom",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "orgs",
+                "{org}",
+                "actions",
+                "hosted-runners",
+                "images",
+                "custom"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /orgs/{org}/actions/hosted-runners/images/custom/{image_definition_id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/orgs/{org}/actions/hosted-runners/images/custom/{image_definition_id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "orgs",
+                "{org}",
+                "actions",
+                "hosted-runners",
+                "images",
+                "custom",
+                "{image_definition_id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /orgs/{org}/actions/hosted-runners/images/custom/{image_definition_id}",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/orgs/{org}/actions/hosted-runners/images/custom/{image_definition_id}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "orgs",
+                "{org}",
+                "actions",
+                "hosted-runners",
+                "images",
+                "custom",
+                "{image_definition_id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /orgs/{org}/actions/hosted-runners/images/custom/{image_definition_id}/versions",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/orgs/{org}/actions/hosted-runners/images/custom/{image_definition_id}/versions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "orgs",
+                "{org}",
+                "actions",
+                "hosted-runners",
+                "images",
+                "custom",
+                "{image_definition_id}",
+                "versions"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /orgs/{org}/actions/hosted-runners/images/custom/{image_definition_id}/versions/{version}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/orgs/{org}/actions/hosted-runners/images/custom/{image_definition_id}/versions/{version}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "orgs",
+                "{org}",
+                "actions",
+                "hosted-runners",
+                "images",
+                "custom",
+                "{image_definition_id}",
+                "versions",
+                "{version}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /orgs/{org}/actions/hosted-runners/images/custom/{image_definition_id}/versions/{version}",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/orgs/{org}/actions/hosted-runners/images/custom/{image_definition_id}/versions/{version}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "orgs",
+                "{org}",
+                "actions",
+                "hosted-runners",
+                "images",
+                "custom",
+                "{image_definition_id}",
+                "versions",
+                "{version}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /orgs/{org}/actions/hosted-runners/images/github-owned",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/orgs/{org}/actions/hosted-runners/images/github-owned",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "orgs",
+                "{org}",
+                "actions",
+                "hosted-runners",
+                "images",
+                "github-owned"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
