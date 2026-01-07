@@ -1,13 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/i18nRegions
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: webfetch
-api: youtube-data-v3
-resource: i18nRegions
-methods: [list]
 ---
-
-# i18nRegions Resource Documentation
+ i18nRegions Resource Documentation
 
 ## Resource Overview
 

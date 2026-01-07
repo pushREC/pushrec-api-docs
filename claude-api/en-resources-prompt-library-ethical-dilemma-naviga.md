@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/resources/prompt-library/ethical-dilemma-navigator
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1890
 ---
-
-Ethical dilemma navigator - Claude Docs
+thical dilemma navigator - Claude Docs
 
 Loading...
 

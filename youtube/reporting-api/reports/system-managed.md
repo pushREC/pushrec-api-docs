@@ -1,11 +1,11 @@
 ---
 source: https://developers.google.com/youtube/reporting/v1/reports/system-managed-reports
 scraped: 2026-01-07
-api: youtube-reporting
-type: system-managed-reports
+api_provider: Google
+discovery_tier: 3
+verified: false
 ---
-
-# System-Managed Reports Documentation
+ System-Managed Reports Documentation
 
 ## Overview
 

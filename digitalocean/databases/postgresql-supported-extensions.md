@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/postgresql/details/supported-extensions/
 scraped: 2026-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-Supported PostgreSQL Extensions | DigitalOcean Documentation
+upported PostgreSQL Extensions | DigitalOcean Documentation
 
 *   [
     

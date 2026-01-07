@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/agents-and-tools/tool-use/web-fetch-tool
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2074
 ---
-
-Web fetch tool - Claude Docs
+eb fetch tool - Claude Docs
 
 Loading...
 

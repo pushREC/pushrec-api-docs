@@ -1,11 +1,11 @@
 ---
 source: https://developers.google.com/youtube/reporting/v1/reference/rest/v1/jobs/create
 scraped: 2026-01-07
-api: youtube-reporting
-type: jobs-create
+api_provider: Google
+discovery_tier: 3
+verified: false
 ---
-
-# YouTube Reporting API - jobs.create Method Documentation
+ YouTube Reporting API - jobs.create Method Documentation
 
 ## Overview
 

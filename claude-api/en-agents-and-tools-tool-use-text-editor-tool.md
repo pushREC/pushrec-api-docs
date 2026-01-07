@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/agents-and-tools/tool-use/text-editor-tool
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 3624
 ---
-
-Text editor tool - Claude Docs
+ext editor tool - Claude Docs
 
 Loading...
 

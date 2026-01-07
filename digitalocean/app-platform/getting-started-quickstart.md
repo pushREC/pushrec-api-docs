@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/getting-started/quickstart/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# App Platform Quickstart
+ App Platform Quickstart
 
 Validated on 3 May 2021 • Last edited on 5 Jan 2026
 

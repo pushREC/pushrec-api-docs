@@ -1,13 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/comments/setModerationStatus
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: webfetch
-api: youtube-data-v3
-resource: comments
-method_name: setModerationStatus
 ---
-
-# Comments: setModerationStatus
+ Comments: setModerationStatus
 
 Updates the moderation status of one or more comments. The API request requires authorization from the channel or video owner associated with the comments being moderated.
 

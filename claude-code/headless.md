@@ -1,11 +1,13 @@
 ---
 source: https://code.claude.com/docs/en/headless
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2095
 ---
-
-Run Claude Code programmatically - Claude Code Docs
+un Claude Code programmatically - Claude Code Docs
 
  
 

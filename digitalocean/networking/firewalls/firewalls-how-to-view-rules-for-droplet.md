@@ -1,17 +1,11 @@
 ---
-created: 2026-01-07
-tags:
-  - bright-data
-  - scraper
-  - digitalocean
-  - networking
-  - firewalls
-  - api-docs
-tool: bright-data-skill
-source_url: https://docs.digitalocean.com/products/networking/firewalls/how-to/view-rules-for-droplet/
-domain: docs.digitalocean.com
+source: '[unknown - firewalls-how-to-view-rules-for-droplet.md]'
+scraped: 2026-01-07
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-                How to View All Firewall Rules Applied to a Droplet | DigitalOcean Documentation
+               How to View All Firewall Rules Applied to a Droplet | DigitalOcean Documentation
 
 *   [
     

@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/postgresql/how-to/import-databases/
 scraped: 2026-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-How to Import PostgreSQL Databases into DigitalOcean Managed Databases with pg\_dump | DigitalOcean Documentation
+ow to Import PostgreSQL Databases into DigitalOcean Managed Databases with pg\_dump | DigitalOcean Documentation
 
 *   [
     

@@ -1,13 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/videos/list
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: webfetch
-api: youtube-data-v3
-resource: videos
-method_name: list
 ---
-
-# YouTube Data API v3: Videos.list Documentation
+ YouTube Data API v3: Videos.list Documentation
 
 ## HTTP Request Format
 

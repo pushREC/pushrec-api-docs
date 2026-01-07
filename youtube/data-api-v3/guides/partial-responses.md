@@ -1,12 +1,13 @@
 ---
 source: https://developers.google.com/youtube/v3/guides/implementation/partial
 scraped: 2026-01-07
-method: webfetch
-api: youtube-data-v3
+api_provider: Google
+discovery_tier: 3
+verified: false
 category: guides
+method: webfetch
 ---
-
-# Implementation: Partial Responses - YouTube Data API v3
+ Implementation: Partial Responses - YouTube Data API v3
 
 ## Overview
 

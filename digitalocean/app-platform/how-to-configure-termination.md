@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/how-to/configure-termination/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# How to Configure App Termination Settings
+ How to Configure App Termination Settings
 
 Validated on 15 Aug 2024 • Last edited on 17 Apr 2025
 

@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/reference/buildpacks/php/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# PHP Buildpack on App Platform
+ PHP Buildpack on App Platform
 
 Validated on 25 Jun 2025 • Last edited on 22 Jul 2025
 

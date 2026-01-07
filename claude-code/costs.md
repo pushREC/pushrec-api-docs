@@ -1,11 +1,13 @@
 ---
 source: https://code.claude.com/docs/en/costs
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1176
 ---
-
-Manage costs effectively - Claude Code Docs
+anage costs effectively - Claude Code Docs
 
  
 

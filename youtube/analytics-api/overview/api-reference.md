@@ -1,11 +1,12 @@
 ---
-title: YouTube Analytics and Reporting APIs - API Reference Overview
 source: https://developers.google.com/youtube/analytics/v2/reference
-api: youtube-analytics
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
+title: YouTube Analytics and Reporting APIs - API Reference Overview
 ---
-
-# YouTube Analytics and Reporting APIs - Documentation Summary
+ YouTube Analytics and Reporting APIs - Documentation Summary
 
 ## Overview
 

@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/resources/prompt-library/master-moderator
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2181
 ---
-
-Master moderator - Claude Docs
+aster moderator - Claude Docs
 
 Loading...
 

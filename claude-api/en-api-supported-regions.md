@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/api/supported-regions
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2516
 ---
-
-Supported regions - Claude Docs
+upported regions - Claude Docs
 
 Loading...
 

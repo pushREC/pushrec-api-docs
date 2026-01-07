@@ -1,12 +1,14 @@
 ---
-source: https://developers.google.com/youtube/v3 (synthesized from API specification and production patterns)
+source: https://developers.google.com/youtube/v3 (synthesized from API specification
+  and production patterns)
 scraped: 2026-01-07
-method: manual
-api: youtube-data-v3
+api_provider: Google
+discovery_tier: 3
+verified: false
 category: guides
+method: manual
 ---
-
-# Best Practices - YouTube Data API v3
+ Best Practices - YouTube Data API v3
 
 ## Overview
 

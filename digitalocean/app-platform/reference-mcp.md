@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/reference/mcp/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# MCP Reference
+ MCP Reference
 
 Validated on 5 Dec 2025 • Last edited on 11 Dec 2025
 

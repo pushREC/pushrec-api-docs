@@ -1,13 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/comments/list
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: webfetch
-api: youtube-data-v3
-resource: comments
-method_name: list
 ---
-
-# Comments: list
+ Comments: list
 
 Returns a list of comments that match the API request parameters.
 

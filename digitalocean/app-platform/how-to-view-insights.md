@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/how-to/view-insights/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# How to View Insights in App Platform
+ How to View Insights in App Platform
 
 Validated on 19 Feb 2024 • Last edited on 19 Feb 2025
 

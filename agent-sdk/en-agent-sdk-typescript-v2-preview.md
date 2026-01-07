@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/agent-sdk/typescript-v2-preview
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 3089
 ---
-
-TypeScript SDK V2 interface (preview) - Claude Docs
+ypeScript SDK V2 interface (preview) - Claude Docs
 
 Loading...
 

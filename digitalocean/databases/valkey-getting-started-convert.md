@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/valkey/getting-started/convert/
 scraped: 2025-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                How to Convert Caching Databases to Valkey | DigitalOcean Documentation
+               How to Convert Caching Databases to Valkey | DigitalOcean Documentation
 
 *   [
     

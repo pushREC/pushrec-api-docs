@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/kubernetes/concepts/choosing-a-plan/
 scraped: 2025-01-07
-tags: [digitalocean, kubernetes, doks, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                Choosing the Right Kubernetes Plan | DigitalOcean Documentation
+               Choosing the Right Kubernetes Plan | DigitalOcean Documentation
 
 *   [
     

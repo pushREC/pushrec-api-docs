@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/how-to/create-alerts/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# How to Create Alerts and Set Up Monitoring in App Platform
+ How to Create Alerts and Set Up Monitoring in App Platform
 
 Validated on 18 Aug 2021 • Last edited on 30 Jul 2025
 

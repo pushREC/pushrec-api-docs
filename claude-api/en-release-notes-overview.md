@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/release-notes/overview
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2578
 ---
-
-Claude Developer Platform - Claude Docs
+laude Developer Platform - Claude Docs
 
 Loading...
 

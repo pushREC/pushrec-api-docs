@@ -1,11 +1,13 @@
 ---
 source: https://code.claude.com/docs/en/common-workflows
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2039
 ---
-
-Common workflows - Claude Code Docs
+ommon workflows - Claude Code Docs
 
  
 

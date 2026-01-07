@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/droplets/reference/
 scraped: 2026-01-07
-tags: [digitalocean, compute, droplets, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-How to Work with DigitalOcean Load Balancers Using doctl | DigitalOcean Documentation
+ow to Work with DigitalOcean Load Balancers Using doctl | DigitalOcean Documentation
 
 *   [
     

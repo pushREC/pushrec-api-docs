@@ -1,12 +1,13 @@
 ---
 source: https://developers.google.com/youtube/terms/branding-guidelines
 scraped: 2026-01-07
-method: webfetch
-api: youtube-data-v3
+api_provider: Google
+discovery_tier: 3
+verified: false
 category: compliance
+method: webfetch
 ---
-
-# YouTube API Services - Branding Guidelines
+ YouTube API Services - Branding Guidelines
 
 ## Overview
 YouTube provides branding assets for developers integrating YouTube functionality. "YouTube APIs let you incorporate YouTube functionality into your application or device," with specific logos and usage rules required.

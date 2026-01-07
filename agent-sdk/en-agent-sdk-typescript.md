@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/agent-sdk/typescript
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 3284
 ---
-
-Agent SDK reference - TypeScript - Claude Docs
+gent SDK reference - TypeScript - Claude Docs
 
 Loading...
 

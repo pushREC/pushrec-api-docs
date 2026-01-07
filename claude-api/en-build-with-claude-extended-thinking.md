@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/build-with-claude/extended-thinking
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 3641
 ---
-
-Building with extended thinking - Claude Docs
+uilding with extended thinking - Claude Docs
 
 Loading...
 

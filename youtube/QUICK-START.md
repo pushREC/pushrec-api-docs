@@ -1,9 +1,11 @@
 ---
-created: 2026-01-07
-type: quick-reference
+source: '[unknown - QUICK-START.md]'
+scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
 ---
-
-# YouTube API Quick Start Guide
+ YouTube API Quick Start Guide
 
 > **New to YouTube APIs?** Start here for a 10-minute path to your first working integration.
 

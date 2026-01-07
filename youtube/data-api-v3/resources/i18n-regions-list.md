@@ -1,14 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/i18nRegions/list
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: webfetch
-api: youtube-data-v3
-resource: i18nRegions
-method_name: list
-quota_cost: 1
 ---
-
-# I18nRegions: list
+ I18nRegions: list
 
 Returns a list of content regions that the YouTube website supports.
 

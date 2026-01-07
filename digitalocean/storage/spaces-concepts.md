@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/spaces/concepts/
 scraped: 2025-01-07
-tags: ["digitalocean", "storage", "api-docs", "spaces", "s3"]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# Spaces Concepts Documentation Summary
+ Spaces Concepts Documentation Summary
 
 Based on the provided web page content, here's what I can extract:
 

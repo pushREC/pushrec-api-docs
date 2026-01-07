@@ -1,11 +1,11 @@
 ---
 source: https://developers.google.com/youtube/reporting/v1/reports/metrics
 scraped: 2026-01-07
-api: youtube-reporting
-type: metrics
+api_provider: Google
+discovery_tier: 3
+verified: false
 ---
-
-# YouTube Reporting API Metrics Documentation
+ YouTube Reporting API Metrics Documentation
 
 ## Overview
 

@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/kafka/details/features/
 scraped: 2025-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                Kafka Features | DigitalOcean Documentation
+               Kafka Features | DigitalOcean Documentation
 
 *   [
     

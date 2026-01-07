@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/kubernetes/details/volume-features/
 scraped: 2025-01-07
-tags: [digitalocean, kubernetes, doks, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                DigitalOcean Volumes Block Storage Features | DigitalOcean Documentation
+               DigitalOcean Volumes Block Storage Features | DigitalOcean Documentation
 
 *   [
     

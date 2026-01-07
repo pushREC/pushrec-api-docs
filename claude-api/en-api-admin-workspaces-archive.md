@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/api/admin/workspaces/archive
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1833
 ---
-
-Archive Workspace - Claude API Reference
+rchive Workspace - Claude API Reference
 
 Loading...
 

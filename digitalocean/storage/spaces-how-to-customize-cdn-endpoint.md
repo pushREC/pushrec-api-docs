@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/spaces/how-to/customize-cdn-endpoint/
 scraped: 2025-01-07
-tags: ["digitalocean", "storage", "api-docs", "spaces", "s3"]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-I need more information to help you with skills. Here are some ways you can use skills:
+ need more information to help you with skills. Here are some ways you can use skills:
 
 **To run a specific skill:**
 - `/skill-name` - For example: `/commit`, `/copywriting`, `/deep-research`

@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/api/beta/files/delete
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 3894
 ---
-
-Delete File - Claude API Reference
+elete File - Claude API Reference
 
 Loading...
 

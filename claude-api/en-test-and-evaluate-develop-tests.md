@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/test-and-evaluate/develop-tests
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2172
 ---
-
-Create strong empirical evaluations - Claude Docs
+reate strong empirical evaluations - Claude Docs
 
 Loading...
 

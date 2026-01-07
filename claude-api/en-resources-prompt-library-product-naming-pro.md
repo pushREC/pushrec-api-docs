@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/resources/prompt-library/product-naming-pro
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2074
 ---
-
-Product naming pro - Claude Docs
+roduct naming pro - Claude Docs
 
 Loading...
 

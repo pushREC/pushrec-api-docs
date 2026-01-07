@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/resources/prompt-library/storytelling-sidekick
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2394
 ---
-
-Storytelling sidekick - Claude Docs
+torytelling sidekick - Claude Docs
 
 Loading...
 

@@ -1,11 +1,13 @@
 ---
 source: https://code.claude.com/docs/en/statusline
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2676
 ---
-
-Status line configuration - Claude Code Docs
+tatus line configuration - Claude Code Docs
 
  
 

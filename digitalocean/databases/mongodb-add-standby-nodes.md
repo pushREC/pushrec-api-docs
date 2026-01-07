@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/mongodb/how-to/add-standby-nodes/
 scraped: 2026-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-How to Add Standby Nodes to MongoDB Database Clusters | DigitalOcean Documentation
+ow to Add Standby Nodes to MongoDB Database Clusters | DigitalOcean Documentation
 
 *   [
     

@@ -1,11 +1,11 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/membershipsLevels
 scraped: 2026-01-07
-api: YouTube Data API v3
-resource: MembershipsLevels
+api_provider: Google
+discovery_tier: 3
+verified: false
 ---
-
-# YouTube Data API - MembershipsLevels Resource Documentation
+ YouTube Data API - MembershipsLevels Resource Documentation
 
 ## Resource Overview
 

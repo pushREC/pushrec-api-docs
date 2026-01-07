@@ -1,11 +1,11 @@
 ---
 source: https://developers.google.com/youtube/reporting/v1/reports/dimensions
 scraped: 2026-01-07
-api: youtube-reporting
-type: dimensions
+api_provider: Google
+discovery_tier: 3
+verified: false
 ---
-
-# YouTube Reporting API Dimensions Documentation
+ YouTube Reporting API Dimensions Documentation
 
 ## Overview
 

@@ -1,13 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/activities/list
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: webfetch
-api: youtube-data-v3
-resource: activities
-method_name: list
 ---
-
-# Activities: list
+ Activities: list
 
 Returns a list of channel activity events that match the request criteria.
 

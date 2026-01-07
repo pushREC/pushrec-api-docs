@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/spaces/how-to/set-file-listing-permissions/
 scraped: 2025-01-07
-tags: ["digitalocean", "storage", "api-docs", "spaces", "s3"]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-I need more information to execute a skill. Could you please specify which skill you'd like to run?
+ need more information to execute a skill. Could you please specify which skill you'd like to run?
 
 You can use the format:
 - `/skill-name` (e.g., `/commit`, `/linkedin-copywriting`, `/deep-research`)

@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/reference/app-spec/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# Reference for App Specification
+ Reference for App Specification
 
 Validated on 6 Oct 2020 • Last edited on 9 Sep 2025
 

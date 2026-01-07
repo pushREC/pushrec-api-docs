@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/api/messages/batches/delete
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2317
 ---
-
-Delete a Message Batch - Claude API Reference
+elete a Message Batch - Claude API Reference
 
 Loading...
 

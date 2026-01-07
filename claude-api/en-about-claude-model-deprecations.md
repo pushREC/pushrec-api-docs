@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/about-claude/model-deprecations
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2430
 ---
-
-Model deprecations - Claude Docs
+odel deprecations - Claude Docs
 
 Loading...
 

@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/droplets/how-to/add-ssh-keys/create-with-putty/
 scraped: 2026-01-07
-tags: [digitalocean, compute, droplets, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-vendor\_portal:delete | DigitalOcean Documentation
+endor\_portal:delete | DigitalOcean Documentation
 
 *   [
     

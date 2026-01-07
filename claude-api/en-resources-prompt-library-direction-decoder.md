@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/resources/prompt-library/direction-decoder
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2479
 ---
-
-Direction decoder - Claude Docs
+irection decoder - Claude Docs
 
 Loading...
 

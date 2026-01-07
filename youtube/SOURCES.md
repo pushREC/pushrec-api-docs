@@ -1,3 +1,10 @@
+---
+source: '[unknown - SOURCES.md]'
+scraped: '2026-01-07'
+api_provider: Google
+discovery_tier: 3
+verified: false
+---
 # YouTube API Documentation Sources
 
 > **Total Pages**: ~135 (estimated)

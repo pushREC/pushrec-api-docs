@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/mysql/details/availability/
 scraped: 2025-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                MySQL Availability | DigitalOcean Documentation
+               MySQL Availability | DigitalOcean Documentation
 
 *   [
     

@@ -1,11 +1,13 @@
 ---
 source: https://code.claude.com/docs/en/github-actions
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1493
 ---
-
-Claude Code GitHub Actions - Claude Code Docs
+laude Code GitHub Actions - Claude Code Docs
 
  
 

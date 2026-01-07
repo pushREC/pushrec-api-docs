@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/kubernetes/details/supported-releases/
 scraped: 2025-01-07
-tags: [digitalocean, kubernetes, doks, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                DigitalOcean Kubernetes Supported Releases | DigitalOcean Documentation
+               DigitalOcean Kubernetes Supported Releases | DigitalOcean Documentation
 
 *   [
     

@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/concepts/choosing-a-plan/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# Choosing a Plan for Your App Components
+ Choosing a Plan for Your App Components
 
 Validated on 16 Jun 2022 • Last edited on 1 May 2025
 

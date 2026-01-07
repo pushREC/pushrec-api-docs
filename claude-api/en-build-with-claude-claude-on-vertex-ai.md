@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/build-with-claude/claude-on-vertex-ai
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2346
 ---
-
-Claude on Vertex AI - Claude Docs
+laude on Vertex AI - Claude Docs
 
 Loading...
 

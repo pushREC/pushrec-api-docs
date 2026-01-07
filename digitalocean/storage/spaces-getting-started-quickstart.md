@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/spaces/getting-started/quickstart/
 scraped: 2025-01-07
-tags: ["digitalocean", "storage", "api-docs", "spaces", "s3"]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# Spaces Quickstart - DigitalOcean Documentation
+ Spaces Quickstart - DigitalOcean Documentation
 
 ## Overview
 

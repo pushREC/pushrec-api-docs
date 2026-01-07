@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/bare-metal-gpus/details/limits/
 scraped: 2026-01-07
-tags: [digitalocean, compute, droplets, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-DigitalOcean Gradient™ AI Bare Metal GPUs Limits | DigitalOcean Documentation
+igitalOcean Gradient™ AI Bare Metal GPUs Limits | DigitalOcean Documentation
 
 *   [
     

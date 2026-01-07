@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/reference/dockerfile/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# App Platform Dockerfile Build Reference
+ App Platform Dockerfile Build Reference
 
 Validated on 24 Sep 2021 • Last edited on 17 Jun 2025
 

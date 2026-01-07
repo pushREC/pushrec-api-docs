@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/build-with-claude/prompt-engineering/chain-of-thought
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1859
 ---
-
-Let Claude think (chain of thought prompting) to increase performance - Claude Docs
+et Claude think (chain of thought prompting) to increase performance - Claude Docs
 
 Loading...
 

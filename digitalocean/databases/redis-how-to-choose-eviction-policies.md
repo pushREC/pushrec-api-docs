@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/redis/how-to/choose-eviction-policies/
 scraped: 2025-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                How to Choose Eviction Policies on Caching Database Clusters | DigitalOcean Documentation
+               How to Choose Eviction Policies on Caching Database Clusters | DigitalOcean Documentation
 
 *   [
     

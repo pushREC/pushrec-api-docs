@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/mysql/how-to/secure/
 scraped: 2026-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-How to Secure MySQL Managed Database Clusters | DigitalOcean Documentation
+ow to Secure MySQL Managed Database Clusters | DigitalOcean Documentation
 
 *   [
     

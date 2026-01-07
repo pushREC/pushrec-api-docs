@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/mysql/how-to/migrate/
 scraped: 2026-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-Getting Started with App Platform | DigitalOcean Documentation
+etting Started with App Platform | DigitalOcean Documentation
 
 *   [
     

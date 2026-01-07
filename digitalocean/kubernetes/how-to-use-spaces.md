@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/kubernetes/how-to/use-spaces/
 scraped: 2025-01-07
-tags: [digitalocean, kubernetes, doks, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                How to Use Spaces With Kubernetes Clusters | DigitalOcean Documentation
+               How to Use Spaces With Kubernetes Clusters | DigitalOcean Documentation
 
 *   [
     

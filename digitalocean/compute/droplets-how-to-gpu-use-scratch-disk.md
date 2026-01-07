@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/droplets/how-to/gpu/use-scratch-disk/
 scraped: 2026-01-07
-tags: [digitalocean, compute, droplets, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-uptime | DigitalOcean Documentation
+ptime | DigitalOcean Documentation
 
 *   [
     

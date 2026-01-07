@@ -1,11 +1,13 @@
 ---
 source: https://code.claude.com/docs/en/gitlab-ci-cd
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1314
 ---
-
-Claude Code GitLab CI/CD - Claude Code Docs
+laude Code GitLab CI/CD - Claude Code Docs
 
  
 

@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/how-to/manage-jobs/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# How to Manage Jobs in App Platform
+ How to Manage Jobs in App Platform
 
 Validated on 24 Feb 2024 • Last edited on 30 Sep 2025
 

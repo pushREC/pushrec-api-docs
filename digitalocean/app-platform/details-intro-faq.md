@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/details/intro-faq/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# An Introduction to App Platform
+ An Introduction to App Platform
 
 Validated on 16 Jun 2022 • Last edited on 24 Nov 2025
 

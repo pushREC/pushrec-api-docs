@@ -1,11 +1,12 @@
 ---
-title: YouTube Analytics API - Content Owner Reports
 source: https://developers.google.com/youtube/analytics/content_owner_reports
-api: youtube-analytics
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
+title: YouTube Analytics API - Content Owner Reports
 ---
-
-# YouTube Analytics API: Content Owner Reports - Complete Documentation
+ YouTube Analytics API: Content Owner Reports - Complete Documentation
 
 ## Overview
 

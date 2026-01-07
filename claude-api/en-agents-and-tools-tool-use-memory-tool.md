@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/agents-and-tools/tool-use/memory-tool
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 4785
 ---
-
-Memory tool - Claude Docs
+emory tool - Claude Docs
 
 Loading...
 

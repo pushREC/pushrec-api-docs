@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/kubernetes/getting-started/deploy-image-to-cluster/
 scraped: 2025-01-07
-tags: [digitalocean, kubernetes, doks, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                Build and Deploy Your First Image to Your First Cluster | DigitalOcean Documentation
+               Build and Deploy Your First Image to Your First Cluster | DigitalOcean Documentation
 
 *   [
     

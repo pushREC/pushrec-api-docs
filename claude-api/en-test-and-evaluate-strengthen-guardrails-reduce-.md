@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/test-and-evaluate/strengthen-guardrails/reduce-prompt-leak
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 3066
 ---
-
-Reduce prompt leak - Claude Docs
+educe prompt leak - Claude Docs
 
 Loading...
 

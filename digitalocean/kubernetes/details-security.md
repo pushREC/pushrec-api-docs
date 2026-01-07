@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/kubernetes/details/security/
 scraped: 2025-01-07
-tags: [digitalocean, kubernetes, doks, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                DigitalOcean Kubernetes Security Information | DigitalOcean Documentation
+               DigitalOcean Kubernetes Security Information | DigitalOcean Documentation
 
 *   [
     

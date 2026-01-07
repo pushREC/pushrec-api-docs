@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/build-with-claude/prompt-engineering/claude-4-best-practices
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2257
 ---
-
-Prompting best practices - Claude Docs
+rompting best practices - Claude Docs
 
 Loading...
 

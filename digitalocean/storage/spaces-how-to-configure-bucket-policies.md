@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/spaces/how-to/configure-bucket-policies/
 scraped: 2025-01-07
-tags: ["digitalocean", "storage", "api-docs", "spaces", "s3"]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-I'll help you with skills! Could you please clarify what you'd like to do with skills? Here are some common options:
+'ll help you with skills! Could you please clarify what you'd like to do with skills? Here are some common options:
 
 1. **List available skills** - See all the skills you have installed
 2. **Run a specific skill** - Execute a skill by name (e.g., `/commit`, `/deep-research`)

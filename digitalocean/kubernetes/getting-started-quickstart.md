@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/kubernetes/getting-started/quickstart/
 scraped: 2025-01-07
-tags: [digitalocean, kubernetes, doks, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                Kubernetes Quickstart | DigitalOcean Documentation
+               Kubernetes Quickstart | DigitalOcean Documentation
 
 *   [
     

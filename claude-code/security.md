@@ -1,11 +1,13 @@
 ---
 source: https://code.claude.com/docs/en/security
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1649
 ---
-
-Security - Claude Code Docs
+ecurity - Claude Code Docs
 
  
 

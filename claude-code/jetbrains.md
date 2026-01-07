@@ -1,11 +1,13 @@
 ---
 source: https://code.claude.com/docs/en/jetbrains
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1645
 ---
-
-JetBrains IDEs - Claude Code Docs
+etBrains IDEs - Claude Code Docs
 
  
 

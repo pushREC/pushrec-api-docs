@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/redis/
 scraped: 2025-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                Caching | DigitalOcean Documentation
+               Caching | DigitalOcean Documentation
 
 *   [
     

@@ -1,11 +1,13 @@
 ---
 source: https://code.claude.com/docs/en/desktop
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1650
 ---
-
-Claude Code on desktop - Claude Code Docs
+laude Code on desktop - Claude Code Docs
 
  
 

@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/how-to/change-region/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# How to Change an App's Datacenter Region
+ How to Change an App's Datacenter Region
 
 Validated on 28 Nov 2023 • Last edited on 24 Nov 2025
 

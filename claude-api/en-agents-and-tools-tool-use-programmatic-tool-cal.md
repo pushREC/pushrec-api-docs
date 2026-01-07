@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/agents-and-tools/tool-use/programmatic-tool-calling
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 4246
 ---
-
-Programmatic tool calling - Claude Docs
+rogrammatic tool calling - Claude Docs
 
 Loading...
 

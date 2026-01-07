@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/api/messages/count_tokens
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 3053
 ---
-
-Count tokens in a Message - Claude API Reference
+ount tokens in a Message - Claude API Reference
 
 Loading...
 

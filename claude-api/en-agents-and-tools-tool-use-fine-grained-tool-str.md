@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/agents-and-tools/tool-use/fine-grained-tool-streaming
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 5343
 ---
-
-Fine-grained tool streaming - Claude Docs
+ine-grained tool streaming - Claude Docs
 
 Loading...
 

@@ -1,12 +1,13 @@
 ---
 source: https://developers.google.com/youtube/v3/guides/auth/installed-apps
 scraped: 2026-01-07
-method: webfetch
-api: youtube-data-v3
+api_provider: Google
+discovery_tier: 3
+verified: false
 category: guides
+method: webfetch
 ---
-
-# OAuth 2.0 for Mobile & Desktop Apps - Complete Guide
+ OAuth 2.0 for Mobile & Desktop Apps - Complete Guide
 
 ## Overview
 

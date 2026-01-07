@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/api/completions
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 3333
 ---
-
-Completions - Claude API Reference
+ompletions - Claude API Reference
 
 Loading...
 

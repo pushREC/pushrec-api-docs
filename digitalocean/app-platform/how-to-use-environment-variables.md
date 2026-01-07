@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/how-to/use-environment-variables/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# How to Use Environment Variables in App Platform
+ How to Use Environment Variables in App Platform
 
 Validated on 16 Jun 2022 • Last edited on 17 Jun 2025
 

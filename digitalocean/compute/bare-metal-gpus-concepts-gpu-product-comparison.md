@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/bare-metal-gpus/concepts/gpu-product-comparison/
 scraped: 2026-01-07
-tags: [digitalocean, compute, droplets, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-vpc:create | DigitalOcean Documentation
+pc:create | DigitalOcean Documentation
 
 *   [
     

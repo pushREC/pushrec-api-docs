@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/build-with-claude/skills-guide
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2188
 ---
-
-Using Agent Skills with the API - Claude Docs
+sing Agent Skills with the API - Claude Docs
 
 Loading...
 

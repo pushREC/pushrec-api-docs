@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/kubernetes/getting-started/
 scraped: 2025-01-07
-tags: [digitalocean, kubernetes, doks, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                Getting Started with DigitalOcean Kubernetes | DigitalOcean Documentation
+               Getting Started with DigitalOcean Kubernetes | DigitalOcean Documentation
 
 *   [
     

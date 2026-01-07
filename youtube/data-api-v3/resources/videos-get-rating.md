@@ -1,13 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/videos/getRating
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: webfetch
-api: youtube-data-v3
-resource: videos
-method_name: getRating
 ---
-
-# YouTube Data API v3: Videos.getRating Documentation
+ YouTube Data API v3: Videos.getRating Documentation
 
 ## Overview
 The `getRating` method retrieves the ratings that the authorized user gave to a list of specified videos.

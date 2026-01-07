@@ -1,13 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/captions/update
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: webfetch
-api: youtube-data-v3
-resource: captions
-method_name: update
 ---
-
-# Captions: update
+ Captions: update
 
 Modifies an existing caption track, allowing updates to draft status and/or caption file uploads.
 

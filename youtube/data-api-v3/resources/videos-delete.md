@@ -1,13 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/videos/delete
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: webfetch
-api: youtube-data-v3
-resource: videos
-method_name: delete
 ---
-
-# YouTube Data API v3: Videos Delete Method Documentation
+ YouTube Data API v3: Videos Delete Method Documentation
 
 ## Overview
 Removes a YouTube video from the platform.

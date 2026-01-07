@@ -1,11 +1,11 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/channelSections
 scraped: 2026-01-07
-api: YouTube Data API v3
-resource: ChannelSections
+api_provider: Google
+discovery_tier: 3
+verified: false
 ---
-
-# YouTube Data API - ChannelSections Resource Documentation
+ YouTube Data API - ChannelSections Resource Documentation
 
 ## Resource Overview
 

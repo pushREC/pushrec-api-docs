@@ -1,11 +1,13 @@
 ---
 source: https://code.claude.com/docs/en/plugins
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1819
 ---
-
-Create plugins - Claude Code Docs
+reate plugins - Claude Code Docs
 
  
 

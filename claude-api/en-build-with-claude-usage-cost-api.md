@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/build-with-claude/usage-cost-api
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2218
 ---
-
-Usage and Cost API - Claude Docs
+sage and Cost API - Claude Docs
 
 Loading...
 

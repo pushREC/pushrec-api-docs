@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/build-with-claude/prompt-engineering/prefill-claudes-response
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2182
 ---
-
-Prefill Claude's response for greater output control - Claude Docs
+refill Claude's response for greater output control - Claude Docs
 
 Loading...
 

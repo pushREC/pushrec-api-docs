@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/getting-started/deploy-sample-apps/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# Deploy Sample Apps to App Platform
+ Deploy Sample Apps to App Platform
 
 Validated on 12 Aug 2024 • Last edited on 17 Jun 2025
 

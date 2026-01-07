@@ -1,12 +1,13 @@
 ---
 source: https://developers.google.com/youtube/v3/guides/implementation/search
 scraped: 2026-01-07
-method: webfetch
-api: youtube-data-v3
+api_provider: Google
+discovery_tier: 3
+verified: false
 category: guides
+method: webfetch
 ---
-
-# YouTube Data API: Search Implementation Guide
+ YouTube Data API: Search Implementation Guide
 
 ## Overview
 

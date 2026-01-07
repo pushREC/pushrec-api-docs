@@ -1,17 +1,11 @@
 ---
-created: 2026-01-07
-tags:
-  - bright-data
-  - scraper
-  - digitalocean
-  - networking
-  - vpc
-  - api-docs
-tool: bright-data-skill
-source_url: https://docs.digitalocean.com/products/networking/vpc/how-to/edit-partner-attachment-vpc/
-domain: docs.digitalocean.com
+source: '[unknown - vpc-how-to-edit-partner-attachment-vpc.md]'
+scraped: 2026-01-07
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-                How to Edit a Partner Attachment's VPC Networks | DigitalOcean Documentation
+               How to Edit a Partner Attachment's VPC Networks | DigitalOcean Documentation
 
 *   [
     

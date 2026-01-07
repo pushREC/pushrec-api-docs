@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/droplets/how-to/track-performance/
 scraped: 2026-01-07
-tags: [digitalocean, compute, droplets, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-spaces\_keys:create | DigitalOcean Documentation
+paces\_keys:create | DigitalOcean Documentation
 
 *   [
     

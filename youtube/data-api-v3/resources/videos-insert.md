@@ -1,13 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/videos/insert
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: webfetch
-api: youtube-data-v3
-resource: videos
-method_name: insert
 ---
-
-# YouTube Data API v3 - Videos: Insert Method Documentation
+ YouTube Data API v3 - Videos: Insert Method Documentation
 
 ## HTTP Request Format
 

@@ -1,11 +1,13 @@
 ---
 source: https://code.claude.com/docs/en/checkpointing
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1763
 ---
-
-Checkpointing - Claude Code Docs
+heckpointing - Claude Code Docs
 
  
 

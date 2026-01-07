@@ -1,3 +1,10 @@
+---
+source: '[unknown - HARVEST-REPORT.md]'
+scraped: '2026-01-07'
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
+---
 # DigitalOcean Compute Documentation Harvest Report
 
 **Agent:** Agent 2 - Compute Documentation

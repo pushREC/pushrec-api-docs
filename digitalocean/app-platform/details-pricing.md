@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/details/pricing/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# App Platform Pricing
+ App Platform Pricing
 
 Validated on 17 Jan 2025 • Last edited on 29 Aug 2025
 

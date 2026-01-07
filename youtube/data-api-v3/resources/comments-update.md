@@ -1,13 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/comments/update
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: webfetch
-api: youtube-data-v3
-resource: comments
-method_name: update
 ---
-
-# Comments: update
+ Comments: update
 
 Modifies an existing comment through a PUT request to the YouTube Data API.
 

@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/how-to/manage-internal-routing/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# How to Set Up Internal Routing in App Platform
+ How to Set Up Internal Routing in App Platform
 
 Validated on 22 Jun 2023 • Last edited on 18 Dec 2024
 

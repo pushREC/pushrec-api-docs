@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/resources/prompt-library/airport-code-analyst
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1968
 ---
-
-Airport code analyst - Claude Docs
+irport code analyst - Claude Docs
 
 Loading...
 

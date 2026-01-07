@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/functions/how-to/set-custom-cors-headers/
 scraped: 2025-01-07
-tags: [digitalocean, containers, registry, functions, monitoring, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-tool: bright-data-skill
+ool: bright-data-skill
 source_url: https://docs.digitalocean.com/products/functions/how-to/set-custom-cors-headers/
 domain: docs.digitalocean.com
 ---

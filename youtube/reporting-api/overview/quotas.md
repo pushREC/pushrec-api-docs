@@ -1,11 +1,11 @@
 ---
 source: https://developers.google.com/youtube/analytics/v2/quotas
 scraped: 2026-01-07
-api: youtube-reporting
-type: quotas
+api_provider: Google
+discovery_tier: 3
+verified: false
 ---
-
-# YouTube Reporting API - Quota Documentation
+ YouTube Reporting API - Quota Documentation
 
 ## Overview
 

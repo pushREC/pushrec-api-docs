@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/resources/prompt-library/time-travel-consultant
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2782
 ---
-
-Time travel consultant - Claude Docs
+ime travel consultant - Claude Docs
 
 Loading...
 

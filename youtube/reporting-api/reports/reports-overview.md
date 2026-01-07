@@ -1,11 +1,11 @@
 ---
 source: https://developers.google.com/youtube/reporting/v1/reports
 scraped: 2026-01-07
-api: youtube-reporting
-type: reports-overview
+api_provider: Google
+discovery_tier: 3
+verified: false
 ---
-
-# YouTube Reporting API - Bulk Data Reports Overview
+ YouTube Reporting API - Bulk Data Reports Overview
 
 ## Core Functionality
 

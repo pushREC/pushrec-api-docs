@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/how-to/manage-time-zone/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# How to Manage App Server's Time Zone
+ How to Manage App Server's Time Zone
 
 Validated on 6 Oct 2023 • Last edited on 17 Jun 2025
 

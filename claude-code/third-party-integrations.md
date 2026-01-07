@@ -1,11 +1,13 @@
 ---
 source: https://code.claude.com/docs/en/third-party-integrations
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1596
 ---
-
-Enterprise deployment overview - Claude Code Docs
+nterprise deployment overview - Claude Code Docs
 
  
 

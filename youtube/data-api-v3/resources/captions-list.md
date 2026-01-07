@@ -1,13 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/captions/list
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: webfetch
-api: youtube-data-v3
-resource: captions
-method_name: list
 ---
-
-# Captions: list
+ Captions: list
 
 Retrieves caption tracks associated with a YouTube video. Note that the API response does not contain the actual captions - you must use the `download` method to access caption content.
 

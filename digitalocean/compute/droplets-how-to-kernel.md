@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/droplets/how-to/kernel/
 scraped: 2026-01-07
-tags: [digitalocean, compute, droplets, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-ssh\_key:update | DigitalOcean Documentation
+sh\_key:update | DigitalOcean Documentation
 
 *   [
     

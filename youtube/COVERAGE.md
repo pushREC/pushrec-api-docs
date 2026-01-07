@@ -1,3 +1,10 @@
+---
+source: '[unknown - COVERAGE.md]'
+scraped: '2026-01-07'
+api_provider: Google
+discovery_tier: 3
+verified: false
+---
 # YouTube API Documentation Coverage Report
 
 > **Last Updated**: 2026-01-07 05:00 UTC

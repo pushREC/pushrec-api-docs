@@ -1,10 +1,11 @@
 ---
 source: https://code.claude.com/docs/en/cli-reference
 scraped: 2026-01-07
-section: reference
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 ---
-
-# Claude Code CLI Reference
+ Claude Code CLI Reference
 
 ## CLI Commands
 

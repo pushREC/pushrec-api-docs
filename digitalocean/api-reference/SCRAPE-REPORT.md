@@ -1,3 +1,10 @@
+---
+source: '[unknown - SCRAPE-REPORT.md]'
+scraped: '2026-01-07'
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
+---
 # API Reference Documentation Scrape Report
 
 **Date:** 2026-01-07 04:42:08

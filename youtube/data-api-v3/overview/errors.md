@@ -1,12 +1,13 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/errors
 scraped: 2026-01-07
-method: webfetch
-api: youtube-data-v3
+api_provider: Google
+discovery_tier: 3
+verified: false
 category: overview
+method: webfetch
 ---
-
-# YouTube Data API - Errors Documentation
+ YouTube Data API - Errors Documentation
 
 ## Overview
 

@@ -1,11 +1,11 @@
 ---
 source: https://developers.google.com/youtube/reporting/v1/reference/rest
 scraped: 2026-01-07
-api: youtube-reporting
-type: api-reference
+api_provider: Google
+discovery_tier: 3
+verified: false
 ---
-
-# YouTube Reporting API REST Reference
+ YouTube Reporting API REST Reference
 
 ## Base URL
 

@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/mysql/how-to/modify-user-privileges/
 scraped: 2026-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-How to Modify User Privileges in MySQL Databases | DigitalOcean Documentation
+ow to Modify User Privileges in MySQL Databases | DigitalOcean Documentation
 
 *   [
     

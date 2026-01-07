@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/api/messages/batches/list
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2162
 ---
-
-List Message Batches - Claude API Reference
+ist Message Batches - Claude API Reference
 
 Loading...
 

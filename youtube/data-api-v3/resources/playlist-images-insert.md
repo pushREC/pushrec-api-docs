@@ -1,12 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/playlistImages/insert
 scraped: 2026-01-07
-api: YouTube Data API v3
-resource: PlaylistImages
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: insert
 ---
-
-# YouTube Data API: PlaylistImages insert
+ YouTube Data API: PlaylistImages insert
 
 ## Method Overview
 

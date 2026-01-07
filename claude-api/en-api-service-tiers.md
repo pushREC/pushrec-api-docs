@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/api/service-tiers
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2088
 ---
-
-Service tiers - Claude Docs
+ervice tiers - Claude Docs
 
 Loading...
 

@@ -1,12 +1,13 @@
 ---
 source: https://developers.google.com/youtube/v3/live/guides/hls-ingestion
 scraped: 2026-01-07
-method: webfetch
-api: youtube-data-v3
+api_provider: Google
+discovery_tier: 3
+verified: false
 category: live-streaming
+method: webfetch
 ---
-
-# YouTube Live Streaming via HLS - Technical Documentation
+ YouTube Live Streaming via HLS - Technical Documentation
 
 ## Overview
 

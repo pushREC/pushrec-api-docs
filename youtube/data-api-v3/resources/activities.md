@@ -1,12 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/activities
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: webfetch
-api: youtube-data-v3
-resource: activities
 ---
-
-# Activities Resource
+ Activities Resource
 
 ## Overview
 

@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/build-with-claude/token-counting
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2198
 ---
-
-Token counting - Claude Docs
+oken counting - Claude Docs
 
 Loading...
 

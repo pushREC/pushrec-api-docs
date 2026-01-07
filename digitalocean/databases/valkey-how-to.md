@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/valkey/how-to/
 scraped: 2025-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                Valkey How-Tos | DigitalOcean Documentation
+               Valkey How-Tos | DigitalOcean Documentation
 
 *   [
     

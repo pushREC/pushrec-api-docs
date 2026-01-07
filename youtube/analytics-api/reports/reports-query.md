@@ -1,11 +1,12 @@
 ---
-title: YouTube Analytics API - Reports Query Method
 source: https://developers.google.com/youtube/analytics/v2/reference/reports/query
-api: youtube-analytics
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
+title: YouTube Analytics API - Reports Query Method
 ---
-
-# YouTube Analytics API: Reports Query Method
+ YouTube Analytics API: Reports Query Method
 
 ## Overview
 

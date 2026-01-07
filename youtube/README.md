@@ -1,3 +1,10 @@
+---
+source: '[unknown - README.md]'
+scraped: '2026-01-07'
+api_provider: Google
+discovery_tier: 3
+verified: false
+---
 # YouTube API Documentation - Complete Reference
 
 > **Last Updated**: 2026-01-07

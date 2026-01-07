@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/resources/prompt-library/alliteration-alchemist
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2626
 ---
-
-Alliteration alchemist - Claude Docs
+lliteration alchemist - Claude Docs
 
 Loading...
 

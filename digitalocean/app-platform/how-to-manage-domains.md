@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/how-to/manage-domains/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# How to Manage Domains in App Platform
+ How to Manage Domains in App Platform
 
 Validated on 30 Apr 2021 • Last edited on 8 Jul 2025
 

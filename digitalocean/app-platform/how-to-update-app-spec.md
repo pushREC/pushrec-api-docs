@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/how-to/update-app-spec/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# How to Update an App's Spec
+ How to Update an App's Spec
 
 Validated on 19 Oct 2023 • Last edited on 18 Dec 2024
 

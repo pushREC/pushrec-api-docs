@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/get-started
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 3724
 ---
-
-Get started with Claude - Claude Docs
+et started with Claude - Claude Docs
 
 Loading...
 

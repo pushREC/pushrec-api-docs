@@ -1,11 +1,13 @@
 ---
 source: https://code.claude.com/docs/en/hooks-guide
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1854
 ---
-
-Get started with Claude Code hooks - Claude Code Docs
+et started with Claude Code hooks - Claude Code Docs
 
  
 

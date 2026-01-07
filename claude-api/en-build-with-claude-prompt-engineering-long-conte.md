@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/build-with-claude/prompt-engineering/long-context-tips
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2363
 ---
-
-Long context prompting tips - Claude Docs
+ong context prompting tips - Claude Docs
 
 Loading...
 

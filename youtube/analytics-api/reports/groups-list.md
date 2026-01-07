@@ -1,11 +1,12 @@
 ---
-title: YouTube Analytics API - Groups List Method
 source: https://developers.google.com/youtube/analytics/v2/reference/groups/list
-api: youtube-analytics
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
+title: YouTube Analytics API - Groups List Method
 ---
-
-# YouTube Analytics API: Groups List Method
+ YouTube Analytics API: Groups List Method
 
 ## Overview
 

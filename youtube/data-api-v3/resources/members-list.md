@@ -1,12 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/members/list
 scraped: 2026-01-07
-api: YouTube Data API v3
-resource: Members
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: list
 ---
-
-# YouTube Data API: Members list
+ YouTube Data API: Members list
 
 ## Method Overview
 

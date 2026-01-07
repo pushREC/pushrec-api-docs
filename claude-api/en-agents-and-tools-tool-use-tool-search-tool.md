@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/agents-and-tools/tool-use/tool-search-tool
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 3975
 ---
-
-Tool search tool - Claude Docs
+ool search tool - Claude Docs
 
 Loading...
 

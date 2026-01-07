@@ -1,12 +1,13 @@
 ---
 source: https://developers.google.com/youtube/terms/api-services-terms-of-service
 scraped: 2026-01-07
-method: bright_data
-api: youtube-data-v3
+api_provider: Google
+discovery_tier: 3
+verified: false
 category: overview
+method: bright_data
 ---
-
-# YouTube API Services Terms of Service
+ YouTube API Services Terms of Service
 
 *Last Updated: 2025-08-28*
 

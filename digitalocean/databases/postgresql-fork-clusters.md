@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/postgresql/how-to/fork-clusters/
 scraped: 2026-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-How to Fork a PostgreSQL Database Cluster | DigitalOcean Documentation
+ow to Fork a PostgreSQL Database Cluster | DigitalOcean Documentation
 
 *   [
     

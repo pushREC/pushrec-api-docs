@@ -1,13 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/playlists/insert
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: webfetch
-api: youtube-data-v3
-resource: playlists
-method_name: insert
 ---
-
-# YouTube Data API v3 - Playlists: Insert Documentation
+ YouTube Data API v3 - Playlists: Insert Documentation
 
 ## Overview
 This endpoint enables creation of new playlists through the YouTube Data API.

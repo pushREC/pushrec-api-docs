@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/mysql/how-to/schedule-updates/
 scraped: 2026-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-How to Schedule Automatic Software Updates for MySQL Database Clusters | DigitalOcean Documentation
+ow to Schedule Automatic Software Updates for MySQL Database Clusters | DigitalOcean Documentation
 
 *   [
     

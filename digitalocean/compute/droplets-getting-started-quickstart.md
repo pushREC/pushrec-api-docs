@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/droplets/getting-started/quickstart/
 scraped: 2026-01-07
-tags: [digitalocean, compute, droplets, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-registry:read | DigitalOcean Documentation
+egistry:read | DigitalOcean Documentation
 
 *   [
     

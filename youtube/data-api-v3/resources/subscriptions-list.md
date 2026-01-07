@@ -1,13 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/subscriptions/list
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: webfetch
-api: youtube-data-v3
-resource: subscriptions
-method_name: list
 ---
-
-# Subscriptions: list
+ Subscriptions: list
 
 Retrieves subscription resources matching specified API request criteria.
 

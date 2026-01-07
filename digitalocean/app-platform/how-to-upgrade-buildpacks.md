@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/how-to/upgrade-buildpacks/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# How to Upgrade Buildpacks in App Platform
+ How to Upgrade Buildpacks in App Platform
 
 Validated on 4 Aug 2022 • Last edited on 10 Dec 2025
 

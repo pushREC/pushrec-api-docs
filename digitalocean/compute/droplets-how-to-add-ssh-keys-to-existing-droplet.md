@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/droplets/how-to/add-ssh-keys/to-existing-droplet/
 scraped: 2026-01-07
-tags: [digitalocean, compute, droplets, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-How to Upload an SSH Public Key to an Existing Droplet | DigitalOcean Documentation
+ow to Upload an SSH Public Key to an Existing Droplet | DigitalOcean Documentation
 
 *   [
     

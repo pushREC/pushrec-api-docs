@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/about-claude/use-case-guides/overview
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2290
 ---
-
-Guides to common use cases - Claude Docs
+uides to common use cases - Claude Docs
 
 Loading...
 

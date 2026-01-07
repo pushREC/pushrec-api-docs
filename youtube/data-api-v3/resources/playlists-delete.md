@@ -1,13 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/playlists/delete
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: webfetch
-api: youtube-data-v3
-resource: playlists
-method_name: delete
 ---
-
-# YouTube Data API v3: Playlists Delete Method Documentation
+ YouTube Data API v3: Playlists Delete Method Documentation
 
 ## Overview
 This endpoint removes a playlist from YouTube. The operation requires proper authorization.

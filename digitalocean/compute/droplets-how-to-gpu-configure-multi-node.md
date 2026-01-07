@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/droplets/how-to/gpu/configure-multi-node/
 scraped: 2026-01-07
-tags: [digitalocean, compute, droplets, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-How to Configure Multi-Node GPU Droplets | DigitalOcean Documentation
+ow to Configure Multi-Node GPU Droplets | DigitalOcean Documentation
 
 *   [
     

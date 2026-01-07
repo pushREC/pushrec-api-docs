@@ -1,12 +1,13 @@
 ---
 source: https://developers.google.com/youtube/v3/live/getting-started
 scraped: 2026-01-07
-method: webfetch
-api: youtube-data-v3
+api_provider: Google
+discovery_tier: 3
+verified: false
 category: live-streaming
+method: webfetch
 ---
-
-# YouTube Live Streaming API Getting Started Guide
+ YouTube Live Streaming API Getting Started Guide
 
 ## Overview
 

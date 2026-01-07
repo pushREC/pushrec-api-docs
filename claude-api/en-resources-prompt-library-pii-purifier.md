@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/resources/prompt-library/pii-purifier
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2102
 ---
-
-PII purifier - Claude Docs
+II purifier - Claude Docs
 
 Loading...
 

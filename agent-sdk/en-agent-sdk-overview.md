@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/agent-sdk/overview
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1509
 ---
-
-Agent SDK overview - Claude Docs
+gent SDK overview - Claude Docs
 
 Loading...
 

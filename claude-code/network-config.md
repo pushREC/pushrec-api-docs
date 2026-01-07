@@ -1,11 +1,13 @@
 ---
 source: https://code.claude.com/docs/en/network-config
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1298
 ---
-
-Enterprise network configuration - Claude Code Docs
+nterprise network configuration - Claude Code Docs
 
  
 

@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/mysql/how-to/import-databases/
 scraped: 2026-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-How to Import MySQL Databases into DigitalOcean Managed Databases | DigitalOcean Documentation
+ow to Import MySQL Databases into DigitalOcean Managed Databases | DigitalOcean Documentation
 
 *   [
     

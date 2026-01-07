@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/test-and-evaluate/strengthen-guardrails/handle-streaming-refusals
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1734
 ---
-
-Streaming refusals - Claude Docs
+treaming refusals - Claude Docs
 
 Loading...
 

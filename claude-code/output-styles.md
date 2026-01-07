@@ -1,11 +1,13 @@
 ---
 source: https://code.claude.com/docs/en/output-styles
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1807
 ---
-
-Output styles - Claude Code Docs
+utput styles - Claude Code Docs
 
  
 

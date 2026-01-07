@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/how-to/add-deploy-do-button/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# How to Add a "Deploy to DigitalOcean" Button to Your Repository
+ How to Add a "Deploy to DigitalOcean" Button to Your Repository
 
 Validated on 12 Mar 2025 • Last edited on 17 Sep 2025
 

@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/how-to/configure-http2/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# How to Configure HTTP/2
+ How to Configure HTTP/2
 
 Validated on 30 Sep 2024 • Last edited on 21 Aug 2025
 

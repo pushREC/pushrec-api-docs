@@ -1,11 +1,12 @@
 ---
-title: YouTube Analytics and Reporting APIs - Getting Started
 source: https://developers.google.com/youtube/analytics/getting-started
-api: youtube-analytics
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
+title: YouTube Analytics and Reporting APIs - Getting Started
 ---
-
-# YouTube Analytics and Reporting APIs - Introduction
+ YouTube Analytics and Reporting APIs - Introduction
 
 ## Overview
 

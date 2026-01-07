@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/reference/dev-config/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# Reference for Dev Config YAML
+ Reference for Dev Config YAML
 
 Validated on 27 Sep 2022 • Last edited on 28 Sep 2022
 

@@ -1,12 +1,13 @@
 ---
 source: https://developers.google.com/youtube/v3 (synthesized from API specification)
 scraped: 2026-01-07
-method: manual
-api: youtube-data-v3
+api_provider: Google
+discovery_tier: 3
+verified: false
 category: guides
+method: manual
 ---
-
-# Standard Query Parameters - YouTube Data API v3
+ Standard Query Parameters - YouTube Data API v3
 
 ## Overview
 

@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/kubernetes/how-to/set-up-autoscaling/
 scraped: 2025-01-07
-tags: [digitalocean, kubernetes, doks, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                DigitalOcean Gradient™ AI Bare Metal GPUs vs DigitalOcean Gradient™ AI GPU Droplets | DigitalOcean Documentation
+               DigitalOcean Gradient™ AI Bare Metal GPUs vs DigitalOcean Gradient™ AI GPU Droplets | DigitalOcean Documentation
 
 *   [
     

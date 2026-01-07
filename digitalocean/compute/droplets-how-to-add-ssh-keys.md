@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/droplets/how-to/add-ssh-keys/
 scraped: 2026-01-07
-tags: [digitalocean, compute, droplets, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-1.20.15-do.1 | DigitalOcean Documentation
+.20.15-do.1 | DigitalOcean Documentation
 
 *   [
     

@@ -1,17 +1,11 @@
 ---
-created: 2026-01-07
-tags:
-  - bright-data
-  - scraper
-  - digitalocean
-  - networking
-  - reserved-ips
-  - api-docs
-tool: bright-data-skill
-source_url: https://docs.digitalocean.com/products/networking/reserved-ips/how-to/create/
-domain: docs.digitalocean.com
+source: '[unknown - reserved-ips-how-to-create.md]'
+scraped: 2026-01-07
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-                How to Create Reserved IPs | DigitalOcean Documentation
+               How to Create Reserved IPs | DigitalOcean Documentation
 
 *   [
     

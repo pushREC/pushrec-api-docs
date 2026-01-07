@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/droplets/how-to/connect-with-ssh/putty/
 scraped: 2026-01-07
-tags: [digitalocean, compute, droplets, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-vendor\_portal:create | DigitalOcean Documentation
+endor\_portal:create | DigitalOcean Documentation
 
 *   [
     

@@ -1,11 +1,11 @@
 ---
 source: https://developers.google.com/youtube/reporting/revision_history
 scraped: 2026-01-07
-api: youtube-reporting
-type: revision-history
+api_provider: Google
+discovery_tier: 3
+verified: false
 ---
-
-# YouTube Analytics and Reporting APIs - Revision History
+ YouTube Analytics and Reporting APIs - Revision History
 
 ## Recent Major Updates
 

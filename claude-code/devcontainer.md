@@ -1,11 +1,13 @@
 ---
 source: https://code.claude.com/docs/en/devcontainer
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1967
 ---
-
-Development containers - Claude Code Docs
+evelopment containers - Claude Code Docs
 
  
 

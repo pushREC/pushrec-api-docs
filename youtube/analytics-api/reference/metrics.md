@@ -1,11 +1,12 @@
 ---
-title: YouTube Analytics API - Metrics Reference
 source: https://developers.google.com/youtube/analytics/metrics
-api: youtube-analytics
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
+title: YouTube Analytics API - Metrics Reference
 ---
-
-# YouTube Analytics API Metrics Documentation
+ YouTube Analytics API Metrics Documentation
 
 ## Overview
 

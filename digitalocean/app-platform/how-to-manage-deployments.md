@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/how-to/manage-deployments/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# How to Manage Deployments in App Platform
+ How to Manage Deployments in App Platform
 
 Validated on 27 Feb 2025 • Last edited on 3 Mar 2025
 

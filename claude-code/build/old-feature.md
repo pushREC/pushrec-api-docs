@@ -1,12 +1,11 @@
 ---
 source: https://docs.anthropic.com/en/docs/claude-code/old-feature
 scraped: 2026-01-07
-status: deprecated
-deprecated_date: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 ---
-
-
-> **DEPRECATED**: This feature was deprecated on 2026-01-07.
+ **DEPRECATED**: This feature was deprecated on 2026-01-07.
 > **Replacement**: TBD
 > **Archive Date**: 2026-02-06
 

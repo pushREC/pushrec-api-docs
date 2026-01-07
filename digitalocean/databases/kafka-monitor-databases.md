@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/kafka/how-to/monitor-databases/
 scraped: 2026-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-How to Monitor Kafka Database Performance | DigitalOcean Documentation
+ow to Monitor Kafka Database Performance | DigitalOcean Documentation
 
 *   [
     

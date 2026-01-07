@@ -1,17 +1,11 @@
 ---
-created: 2026-01-07
-tags:
-  - bright-data
-  - scraper
-  - digitalocean
-  - networking
-  - firewalls
-  - api-docs
-tool: bright-data-skill
-source_url: https://docs.digitalocean.com/products/networking/firewalls/how-to/manage-droplets/
-domain: docs.digitalocean.com
+source: '[unknown - firewalls-how-to-manage-droplets.md]'
+scraped: 2026-01-07
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-                How to Add and Remove Droplets from Firewalls | DigitalOcean Documentation
+               How to Add and Remove Droplets from Firewalls | DigitalOcean Documentation
 
 *   [
     

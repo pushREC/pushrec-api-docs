@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/api/messages/batches/create
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2967
 ---
-
-Create a Message Batch - Claude API Reference
+reate a Message Batch - Claude API Reference
 
 Loading...
 

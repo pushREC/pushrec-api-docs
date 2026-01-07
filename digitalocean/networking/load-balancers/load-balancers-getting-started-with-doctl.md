@@ -1,17 +1,11 @@
 ---
-created: 2026-01-07
-tags:
-  - bright-data
-  - scraper
-  - digitalocean
-  - networking
-  - load-balancers
-  - api-docs
-tool: bright-data-skill
-source_url: https://docs.digitalocean.com/products/networking/load-balancers/getting-started/with-doctl/
-domain: docs.digitalocean.com
+source: '[unknown - load-balancers-getting-started-with-doctl.md]'
+scraped: 2026-01-07
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-                How to Work with DigitalOcean Load Balancers Using doctl | DigitalOcean Documentation
+               How to Work with DigitalOcean Load Balancers Using doctl | DigitalOcean Documentation
 
 *   [
     

@@ -1,12 +1,13 @@
 ---
 source: https://developers.google.com/youtube/v3/guides/working_with_channel_ids
 scraped: 2026-01-07
-method: webfetch
-api: youtube-data-v3
+api_provider: Google
+discovery_tier: 3
+verified: false
 category: guides
+method: webfetch
 ---
-
-# YouTube Data API: Working with Channel IDs Guide
+ YouTube Data API: Working with Channel IDs Guide
 
 ## Overview
 

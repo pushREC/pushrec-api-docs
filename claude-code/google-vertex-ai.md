@@ -1,11 +1,13 @@
 ---
 source: https://code.claude.com/docs/en/google-vertex-ai
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1572
 ---
-
-Claude Code on Google Vertex AI - Claude Code Docs
+laude Code on Google Vertex AI - Claude Code Docs
 
  
 

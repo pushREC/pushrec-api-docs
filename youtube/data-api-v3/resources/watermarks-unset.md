@@ -1,12 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/watermarks/unset
 scraped: 2026-01-07
-api: YouTube Data API v3
-resource: Watermarks
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: unset
 ---
-
-# YouTube Data API: Watermarks unset
+ YouTube Data API: Watermarks unset
 
 ## Method Overview
 

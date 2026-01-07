@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/gpu-droplets/
 scraped: 2026-01-07
-tags: [digitalocean, compute, droplets, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-1.18.19-do.0 | DigitalOcean Documentation
+.18.19-do.0 | DigitalOcean Documentation
 
 *   [
     

@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/reference/buildpacks/legacy-nodejs/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# Legacy Node.js Buildpack on App Platform
+ Legacy Node.js Buildpack on App Platform
 
 Validated on 15 Oct 2024 • Last edited on 17 Jun 2025
 

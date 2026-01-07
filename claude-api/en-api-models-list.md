@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/api/models/list
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2487
 ---
-
-List Models - Claude API Reference
+ist Models - Claude API Reference
 
 Loading...
 

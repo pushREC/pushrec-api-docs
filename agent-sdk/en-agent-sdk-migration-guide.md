@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/agent-sdk/migration-guide
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2562
 ---
-
-Migrate to Claude Agent SDK - Claude Docs
+igrate to Claude Agent SDK - Claude Docs
 
 Loading...
 

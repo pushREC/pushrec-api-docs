@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/getting-started/deploy-etherpad/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# Deploy the Etherpad Collaborative Web Editor to App Platform
+ Deploy the Etherpad Collaborative Web Editor to App Platform
 
 Validated on 29 Sep 2021 • Last edited on 23 Jan 2025
 

@@ -1,13 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/playlists/list
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: webfetch
-api: youtube-data-v3
-resource: playlists
-method_name: list
 ---
-
-# YouTube Data API v3 - Playlists.list Documentation
+ YouTube Data API v3 - Playlists.list Documentation
 
 ## HTTP Request Format
 

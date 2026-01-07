@@ -1,11 +1,11 @@
 ---
 source: https://developers.google.com/youtube/reporting/v1/reports/channel_reports
 scraped: 2026-01-07
-api: youtube-reporting
-type: channel-reports
+api_provider: Google
+discovery_tier: 3
+verified: false
 ---
-
-# YouTube Channel Reports Documentation
+ YouTube Channel Reports Documentation
 
 ## Overview
 

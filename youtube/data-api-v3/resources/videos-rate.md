@@ -1,13 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/videos/rate
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: webfetch
-api: youtube-data-v3
-resource: videos
-method_name: rate
 ---
-
-# YouTube Data API v3: Videos.rate Method Documentation
+ YouTube Data API v3: Videos.rate Method Documentation
 
 ## Overview
 Add a like or dislike rating to a video or remove a rating from a video. This endpoint allows authenticated users to rate YouTube videos programmatically.

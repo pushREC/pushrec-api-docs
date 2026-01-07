@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/kubernetes/getting-started/operational-readiness/
 scraped: 2025-01-07
-tags: [digitalocean, kubernetes, doks, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                Set Up Tools to Make DOKS Cluster Operationally Ready | DigitalOcean Documentation
+               Set Up Tools to Make DOKS Cluster Operationally Ready | DigitalOcean Documentation
 
 *   [
     

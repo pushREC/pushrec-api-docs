@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/valkey/getting-started/
 scraped: 2025-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                How to Connect to your Droplet with PuTTY on Windows | DigitalOcean Documentation
+               How to Connect to your Droplet with PuTTY on Windows | DigitalOcean Documentation
 
 *   [
     

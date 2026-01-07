@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/resources/prompt-library/git-gud
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2055
 ---
-
-Git gud - Claude Docs
+it gud - Claude Docs
 
 Loading...
 

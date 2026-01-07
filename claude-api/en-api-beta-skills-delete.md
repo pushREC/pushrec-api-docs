@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/api/beta/skills/delete
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2208
 ---
-
-Delete Skill - Claude API Reference
+elete Skill - Claude API Reference
 
 Loading...
 

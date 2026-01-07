@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/resources/prompt-library/futuristic-fashion-advisor
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1863
 ---
-
-Futuristic fashion advisor - Claude Docs
+uturistic fashion advisor - Claude Docs
 
 Loading...
 

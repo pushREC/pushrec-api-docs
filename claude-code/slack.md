@@ -1,11 +1,13 @@
 ---
 source: https://code.claude.com/docs/en/slack
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1564
 ---
-
-Claude Code in Slack - Claude Code Docs
+laude Code in Slack - Claude Code Docs
 
  
 

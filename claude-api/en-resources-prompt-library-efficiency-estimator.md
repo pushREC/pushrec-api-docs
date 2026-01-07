@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/resources/prompt-library/efficiency-estimator
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2369
 ---
-
-Efficiency estimator - Claude Docs
+fficiency estimator - Claude Docs
 
 Loading...
 

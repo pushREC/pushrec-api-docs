@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/build-with-claude/claude-in-microsoft-foundry
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2771
 ---
-
-Claude in Microsoft Foundry - Claude Docs
+laude in Microsoft Foundry - Claude Docs
 
 Loading...
 

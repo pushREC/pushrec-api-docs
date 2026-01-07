@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/getting-started/sample-apps/hugo/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# Sample App for Hugo
+ Sample App for Hugo
 
 Generated on 6 Jan 2026
 

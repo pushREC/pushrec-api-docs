@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/postgresql/details/limits/
 scraped: 2025-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                PostgreSQL Limits | DigitalOcean Documentation
+               PostgreSQL Limits | DigitalOcean Documentation
 
 *   [
     

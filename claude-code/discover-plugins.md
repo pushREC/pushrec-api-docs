@@ -1,11 +1,13 @@
 ---
 source: https://code.claude.com/docs/en/discover-plugins
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2125
 ---
-
-Discover and install prebuilt plugins through marketplaces - Claude Code Docs
+iscover and install prebuilt plugins through marketplaces - Claude Code Docs
 
  
 

@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/how-to/manage-source-repo/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# How to Manage an App's Source Repository
+ How to Manage an App's Source Repository
 
 Validated on 23 May 2023 • Last edited on 6 May 2025
 

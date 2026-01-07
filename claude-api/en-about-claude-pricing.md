@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/about-claude/pricing
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2505
 ---
-
-Pricing - Claude Docs
+ricing - Claude Docs
 
 Loading...
 

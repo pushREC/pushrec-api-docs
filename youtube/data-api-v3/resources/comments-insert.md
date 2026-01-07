@@ -1,13 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/comments/insert
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: webfetch
-api: youtube-data-v3
-resource: comments
-method_name: insert
 ---
-
-# Comments: insert
+ Comments: insert
 
 Creates a reply to an existing comment. Note that top-level comments require the `commentThreads.insert` method instead.
 

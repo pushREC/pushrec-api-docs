@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/reference/buildpacks/nodejs/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# 1.30.5-do.1
+ 1.30.5-do.1
 
 Validated on 30 Sep 2024 • Last edited on 8 Aug 2025
 

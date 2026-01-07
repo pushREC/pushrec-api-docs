@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/mysql/concepts/sort-buffer-size/
 scraped: 2025-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-Sort Buffer Size on MySQL | DigitalOcean Documentation
+ort Buffer Size on MySQL | DigitalOcean Documentation
 
 *   [
     

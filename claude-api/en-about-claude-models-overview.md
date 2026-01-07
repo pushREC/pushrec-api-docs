@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/about-claude/models/overview
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2208
 ---
-
-Models overview - Claude Docs
+odels overview - Claude Docs
 
 Loading...
 

@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/api/beta
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 6652
 ---
-
-Beta - Claude API Reference
+eta - Claude API Reference
 
 Loading...
 

@@ -1,11 +1,13 @@
 ---
 source: https://code.claude.com/docs/en/legal-and-compliance
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1572
 ---
-
-Legal and compliance - Claude Code Docs
+egal and compliance - Claude Code Docs
 
  
 

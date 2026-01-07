@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/redis/getting-started/quickstart/
 scraped: 2025-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                Caching Quickstart | DigitalOcean Documentation
+               Caching Quickstart | DigitalOcean Documentation
 
 *   [
     

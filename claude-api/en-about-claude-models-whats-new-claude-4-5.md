@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/about-claude/models/whats-new-claude-4-5
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 3505
 ---
-
-What's new in Claude 4.5 - Claude Docs
+hat's new in Claude 4.5 - Claude Docs
 
 Loading...
 

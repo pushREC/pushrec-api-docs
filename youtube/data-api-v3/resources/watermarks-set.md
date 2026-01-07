@@ -1,12 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/watermarks/set
 scraped: 2026-01-07
-api: YouTube Data API v3
-resource: Watermarks
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: set
 ---
-
-# YouTube Data API: Watermarks set
+ YouTube Data API: Watermarks set
 
 ## Overview
 

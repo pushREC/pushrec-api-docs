@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/resources/prompt-library/grammar-genie
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2701
 ---
-
-Grammar genie - Claude Docs
+rammar genie - Claude Docs
 
 Loading...
 

@@ -1,11 +1,13 @@
 ---
 source: https://code.claude.com/docs/en/microsoft-foundry
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1315
 ---
-
-Claude Code on Microsoft Foundry - Claude Code Docs
+laude Code on Microsoft Foundry - Claude Code Docs
 
  
 

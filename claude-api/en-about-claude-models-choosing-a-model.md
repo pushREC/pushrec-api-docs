@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/about-claude/models/choosing-a-model
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 3613
 ---
-
-Choosing the right model - Claude Docs
+hoosing the right model - Claude Docs
 
 Loading...
 

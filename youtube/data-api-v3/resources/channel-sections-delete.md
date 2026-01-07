@@ -1,12 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/channelSections/delete
 scraped: 2026-01-07
-api: YouTube Data API v3
-resource: ChannelSections
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: delete
 ---
-
-# YouTube Data API: ChannelSections delete
+ YouTube Data API: ChannelSections delete
 
 ## Method Overview
 

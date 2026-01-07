@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/resources/prompt-library/grading-guru
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 3749
 ---
-
-Grading guru - Claude Docs
+rading guru - Claude Docs
 
 Loading...
 

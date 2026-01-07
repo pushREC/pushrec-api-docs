@@ -1,11 +1,11 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/thumbnails
 scraped: 2026-01-07
-api: YouTube Data API v3
-resource: Thumbnails
+api_provider: Google
+discovery_tier: 3
+verified: false
 ---
-
-# YouTube Data API - Thumbnails Resource Documentation
+ YouTube Data API - Thumbnails Resource Documentation
 
 ## Resource Overview
 

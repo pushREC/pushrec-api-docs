@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/agents-and-tools/tool-use/implement-tool-use
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 5943
 ---
-
-How to implement tool use - Claude Docs
+ow to implement tool use - Claude Docs
 
 Loading...
 

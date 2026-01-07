@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/how-to/manage-databases/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# How to Manage Databases in App Platform
+ How to Manage Databases in App Platform
 
 Validated on 14 Jan 2022 • Last edited on 3 Dec 2025
 

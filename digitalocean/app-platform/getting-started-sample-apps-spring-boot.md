@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/getting-started/sample-apps/spring-boot/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# Sample App for Spring boot using Docker
+ Sample App for Spring boot using Docker
 
 Generated on 6 Jan 2026
 

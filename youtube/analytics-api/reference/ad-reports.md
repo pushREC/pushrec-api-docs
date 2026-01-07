@@ -1,11 +1,12 @@
 ---
-title: YouTube Analytics API - Ad Reports
 source: https://developers.google.com/youtube/analytics/ad_reports
-api: youtube-analytics
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
+title: YouTube Analytics API - Ad Reports
 ---
-
-# YouTube Analytics API: Ad Reports Documentation
+ YouTube Analytics API: Ad Reports Documentation
 
 ## Overview
 

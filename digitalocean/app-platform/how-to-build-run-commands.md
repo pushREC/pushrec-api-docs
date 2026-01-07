@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/how-to/build-run-commands/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# How to Manage Build and Run Commands
+ How to Manage Build and Run Commands
 
 Validated on 17 Jan 2024 • Last edited on 17 Jun 2025
 

@@ -1,14 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/i18nLanguages/list
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: webfetch
-api: youtube-data-v3
-resource: i18nLanguages
-method_name: list
-quota_cost: 1
 ---
-
-# I18nLanguages: list
+ I18nLanguages: list
 
 Returns a list of application languages that the YouTube website supports.
 

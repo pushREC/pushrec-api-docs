@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/how-to/maintenance-mode/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# How to Configure Maintenance Mode
+ How to Configure Maintenance Mode
 
 Validated on 18 Oct 2024 • Last edited on 17 Apr 2025
 

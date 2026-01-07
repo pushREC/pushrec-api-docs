@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/reference/buildpacks/hugo/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# Hugo Buildpack on App Platform
+ Hugo Buildpack on App Platform
 
 Validated on 25 Jun 2025 • Last edited on 22 Jul 2025
 

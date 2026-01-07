@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/droplets/details/pricing/
 scraped: 2026-01-07
-tags: [digitalocean, compute, droplets, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-regions | DigitalOcean Documentation
+egions | DigitalOcean Documentation
 
 *   [
     

@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/about-claude/use-case-guides/customer-support-chat
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 3519
 ---
-
-Customer support agent - Claude Docs
+ustomer support agent - Claude Docs
 
 Loading...
 

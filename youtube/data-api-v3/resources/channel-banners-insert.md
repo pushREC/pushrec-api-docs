@@ -1,12 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/channelBanners/insert
 scraped: 2026-01-07
-api: YouTube Data API v3
-resource: ChannelBanners
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: insert
 ---
-
-# YouTube Data API - ChannelBanners: insert
+ YouTube Data API - ChannelBanners: insert
 
 ## Overview
 

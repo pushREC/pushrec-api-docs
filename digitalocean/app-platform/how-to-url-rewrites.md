@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/how-to/url-rewrites/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# How to Rewrite or Redirect URL Paths
+ How to Rewrite or Redirect URL Paths
 
 Validated on 30 Mar 2023 • Last edited on 23 Jan 2025
 

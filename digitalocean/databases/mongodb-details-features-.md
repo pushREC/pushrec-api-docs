@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/mongodb/details/features/
 scraped: 2025-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-MongoDB Features | DigitalOcean Documentation
+ongoDB Features | DigitalOcean Documentation
 
 *   [
     

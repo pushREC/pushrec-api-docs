@@ -1,11 +1,13 @@
 ---
 source: https://code.claude.com/docs/en/terminal-config
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1672
 ---
-
-Optimize your terminal setup - Claude Code Docs
+ptimize your terminal setup - Claude Code Docs
 
  
 

@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/reference/buildpacks/bun/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# Bun Buildpack on App Platform
+ Bun Buildpack on App Platform
 
 Validated on 29 Oct 2025 • Last edited on 10 Dec 2025
 

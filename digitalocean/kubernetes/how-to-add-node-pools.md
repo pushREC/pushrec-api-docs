@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/kubernetes/how-to/add-node-pools/
 scraped: 2025-01-07
-tags: [digitalocean, kubernetes, doks, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                How to Add Node Pools to a Cluster | DigitalOcean Documentation
+               How to Add Node Pools to a Cluster | DigitalOcean Documentation
 
 *   [
     

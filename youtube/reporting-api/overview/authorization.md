@@ -1,11 +1,11 @@
 ---
 source: https://developers.google.com/youtube/reporting/guides/authorization
 scraped: 2026-01-07
-api: youtube-reporting
-type: authorization
+api_provider: Google
+discovery_tier: 3
+verified: false
 ---
-
-# OAuth 2.0 Authorization for YouTube Reporting API
+ OAuth 2.0 Authorization for YouTube Reporting API
 
 ## Core Concepts
 

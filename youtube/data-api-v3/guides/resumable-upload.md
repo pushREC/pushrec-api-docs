@@ -1,12 +1,13 @@
 ---
 source: https://developers.google.com/youtube/v3/guides/using_resumable_upload_protocol
 scraped: 2026-01-07
-method: webfetch
-api: youtube-data-v3
+api_provider: Google
+discovery_tier: 3
+verified: false
 category: guides
+method: webfetch
 ---
-
-# YouTube Resumable Upload Protocol - Complete Guide
+ YouTube Resumable Upload Protocol - Complete Guide
 
 ## Overview
 

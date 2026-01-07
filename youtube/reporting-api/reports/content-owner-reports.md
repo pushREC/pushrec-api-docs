@@ -1,11 +1,11 @@
 ---
 source: https://developers.google.com/youtube/reporting/v1/reports/content_owner_reports
 scraped: 2026-01-07
-api: youtube-reporting
-type: content-owner-reports
+api_provider: Google
+discovery_tier: 3
+verified: false
 ---
-
-# YouTube Content Owner Reports Documentation
+ YouTube Content Owner Reports Documentation
 
 ## Overview
 

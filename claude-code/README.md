@@ -1,9 +1,11 @@
 ---
 source: https://docs.anthropic.com/en/docs/claude-code
-created: 2026-01-07
+scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 ---
-
-# Claude Code Documentation
+ Claude Code Documentation
 
 Documentation mirror from official sources.
 

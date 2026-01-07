@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/redis/how-to/monitor-clusters/
 scraped: 2025-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                How to Monitor Caching Database Cluster Performance | DigitalOcean Documentation
+               How to Monitor Caching Database Cluster Performance | DigitalOcean Documentation
 
 *   [
     

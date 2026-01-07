@@ -1,13 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/captions/delete
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: webfetch
-api: youtube-data-v3
-resource: captions
-method_name: delete
 ---
-
-# Captions: delete
+ Captions: delete
 
 Removes a designated caption track from a YouTube video.
 

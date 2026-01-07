@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/build-with-claude/claude-code-analytics-api
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1873
 ---
-
-Claude Code Analytics API - Claude Docs
+laude Code Analytics API - Claude Docs
 
 Loading...
 

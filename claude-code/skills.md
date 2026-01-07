@@ -1,11 +1,13 @@
 ---
 source: https://code.claude.com/docs/en/skills
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1539
 ---
-
-Agent Skills - Claude Code Docs
+gent Skills - Claude Code Docs
 
  
 

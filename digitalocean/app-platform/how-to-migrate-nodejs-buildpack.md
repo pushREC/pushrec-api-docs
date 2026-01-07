@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/how-to/migrate-nodejs-buildpack/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# How to Upgrade Your NodeJS Buildpack in App Platform
+ How to Upgrade Your NodeJS Buildpack in App Platform
 
 Validated on 15 Oct 2024 • Last edited on 10 Dec 2025
 

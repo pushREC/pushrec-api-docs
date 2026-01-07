@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/build-with-claude/structured-outputs
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 3316
 ---
-
-Structured outputs - Claude Docs
+tructured outputs - Claude Docs
 
 Loading...
 

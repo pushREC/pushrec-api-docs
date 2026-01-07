@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/api/messages/batches/cancel
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2296
 ---
-
-Cancel a Message Batch - Claude API Reference
+ancel a Message Batch - Claude API Reference
 
 Loading...
 

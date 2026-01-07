@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/redis/how-to/schedule-updates/
 scraped: 2025-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                How to Schedule Automatic Software Updates for Caching Database Clusters | DigitalOcean Documentation
+               How to Schedule Automatic Software Updates for Caching Database Clusters | DigitalOcean Documentation
 
 *   [
     

@@ -1,12 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/thumbnails/set
 scraped: 2026-01-07
-api: YouTube Data API v3
-resource: Thumbnails
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: set
 ---
-
-# YouTube Data API: Thumbnails set
+ YouTube Data API: Thumbnails set
 
 ## Overview
 

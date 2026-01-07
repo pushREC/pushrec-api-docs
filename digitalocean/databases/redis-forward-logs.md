@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/redis/how-to/forward-logs/
 scraped: 2026-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-How to Forward Logs from a Caching Cluster | DigitalOcean Documentation
+ow to Forward Logs from a Caching Cluster | DigitalOcean Documentation
 
 *   [
     

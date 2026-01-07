@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/build-with-claude/claude-on-amazon-bedrock
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1893
 ---
-
-Claude on Amazon Bedrock - Claude Docs
+laude on Amazon Bedrock - Claude Docs
 
 Loading...
 

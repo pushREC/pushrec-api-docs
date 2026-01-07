@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/build-with-claude/prompt-engineering/prompt-templates-and-variables
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2631
 ---
-
-Use prompt templates and variables - Claude Docs
+se prompt templates and variables - Claude Docs
 
 Loading...
 

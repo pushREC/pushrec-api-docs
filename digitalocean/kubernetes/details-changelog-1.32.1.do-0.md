@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/kubernetes/details/changelog/1.32.1.do-0/
 scraped: 2025-01-07
-tags: [digitalocean, kubernetes, doks, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                1.32.1-do.0 | DigitalOcean Documentation
+               1.32.1-do.0 | DigitalOcean Documentation
 
 *   [
     

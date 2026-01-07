@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/resources/prompt-library/data-organizer
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2615
 ---
-
-Data organizer - Claude Docs
+ata organizer - Claude Docs
 
 Loading...
 

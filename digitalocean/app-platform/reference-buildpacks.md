@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/reference/buildpacks/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# App Platform Buildpack References
+ App Platform Buildpack References
 
 Validated on 8 Apr 2022 • Last edited on 17 Jun 2025
 

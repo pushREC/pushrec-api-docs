@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/kafka/how-to/manage-users-and-privileges/
 scraped: 2026-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-How to Manage Kafka Users in a Database Cluster | DigitalOcean Documentation
+ow to Manage Kafka Users in a Database Cluster | DigitalOcean Documentation
 
 *   [
     

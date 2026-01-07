@@ -1,12 +1,13 @@
 ---
 source: https://developers.google.com/youtube/v3/guides/auth/client-side-web-apps
 scraped: 2026-01-07
-method: webfetch
-api: youtube-data-v3
+api_provider: Google
+discovery_tier: 3
+verified: false
 category: authentication
+method: webfetch
 ---
-
-# OAuth 2.0 for JavaScript Web Applications - YouTube Data API v3
+ OAuth 2.0 for JavaScript Web Applications - YouTube Data API v3
 
 ## Overview
 

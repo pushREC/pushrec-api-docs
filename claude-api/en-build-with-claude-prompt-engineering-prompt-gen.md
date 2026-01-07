@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/build-with-claude/prompt-engineering/prompt-generator
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2864
 ---
-
-Automatically generate first draft prompt templates - Claude Docs
+utomatically generate first draft prompt templates - Claude Docs
 
 Loading...
 

@@ -1,13 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/commentThreads/insert
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: webfetch
-api: youtube-data-v3
-resource: commentThreads
-method_name: insert
 ---
-
-# CommentThreads: insert
+ CommentThreads: insert
 
 Creates new top-level comments on videos. To reply to existing comments, use the `comments.insert` method instead.
 

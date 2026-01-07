@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/build-with-claude/prompt-engineering/multishot-prompting
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2418
 ---
-
-Use examples (multishot prompting) to guide Claude's behavior - Claude Docs
+se examples (multishot prompting) to guide Claude's behavior - Claude Docs
 
 Loading...
 

@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/api/admin/workspaces/members/delete
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1606
 ---
-
-Delete Workspace Member - Claude API Reference
+elete Workspace Member - Claude API Reference
 
 Loading...
 

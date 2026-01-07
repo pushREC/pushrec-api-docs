@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/resources/prompt-library/python-bug-buster
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1265
 ---
-
-Python bug buster - Claude Docs
+ython bug buster - Claude Docs
 
 Loading...
 

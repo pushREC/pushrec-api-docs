@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/spaces/how-to/destroy/
 scraped: 2025-01-07
-tags: ["digitalocean", "storage", "api-docs", "spaces", "s3"]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-I'd be happy to help you with skills! However, I need more information about what you'd like to do.
+'d be happy to help you with skills! However, I need more information about what you'd like to do.
 
 Skills in Claude Code are reusable workflows that can be invoked with commands like `/skill-name`. Here are some ways I can help:
 

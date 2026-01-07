@@ -1,17 +1,11 @@
 ---
-created: 2026-01-07
-tags:
-  - bright-data
-  - scraper
-  - digitalocean
-  - networking
-  - firewalls
-  - api-docs
-tool: bright-data-skill
-source_url: https://docs.digitalocean.com/products/networking/firewalls/how-to/destroy/
-domain: docs.digitalocean.com
+source: '[unknown - firewalls-how-to-destroy.md]'
+scraped: 2026-01-07
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-                How to Destroy Firewalls | DigitalOcean Documentation
+               How to Destroy Firewalls | DigitalOcean Documentation
 
 *   [
     

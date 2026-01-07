@@ -1,3 +1,10 @@
+---
+source: '[unknown - VALIDATION.md]'
+scraped: '2026-01-07'
+api_provider: Google
+discovery_tier: 3
+verified: false
+---
 # YouTube API Documentation Validation Report
 
 > **Last Run**: 2026-01-07 03:57 UTC

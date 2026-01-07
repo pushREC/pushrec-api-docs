@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/kubernetes/getting-started/operational-readiness/enable-https/
 scraped: 2025-01-07
-tags: [digitalocean, kubernetes, doks, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                DOKS Operational Readiness, Part 2: Enable HTTPS | DigitalOcean Documentation
+               DOKS Operational Readiness, Part 2: Enable HTTPS | DigitalOcean Documentation
 
 *   [
     

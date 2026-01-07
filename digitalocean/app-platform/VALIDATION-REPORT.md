@@ -1,3 +1,10 @@
+---
+source: '[unknown - VALIDATION-REPORT.md]'
+scraped: '2026-01-07'
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
+---
 # App Platform Documentation Validation Report
 
 **Validation Date:** 2026-01-07  

@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/how-to/enable-vpc/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# How to Enable App Platform VPC
+ How to Enable App Platform VPC
 
 Validated on 8 Jul 2025 • Last edited on 24 Sep 2025
 

@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/reference/mcp/use-local-mcp/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# Getting Started with DigitalOcean Kubernetes
+ Getting Started with DigitalOcean Kubernetes
 
 Validated on 9 Aug 2023 • Last edited on 17 Apr 2025
 

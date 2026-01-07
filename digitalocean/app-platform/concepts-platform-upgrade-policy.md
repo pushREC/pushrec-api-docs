@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/concepts/platform-upgrade-policy/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# App Platform Build System Update Policy
+ App Platform Build System Update Policy
 
 Validated on 16 Jun 2022 • Last edited on 11 Mar 2024
 

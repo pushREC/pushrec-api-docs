@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/build-with-claude/working-with-messages
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2781
 ---
-
-Using the Messages API - Claude Docs
+sing the Messages API - Claude Docs
 
 Loading...
 

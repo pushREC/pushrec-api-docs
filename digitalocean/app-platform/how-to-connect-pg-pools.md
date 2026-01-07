@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/how-to/connect-pg-pools/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# How to Connect PostgreSQL to Connection Pools in App Platform
+ How to Connect PostgreSQL to Connection Pools in App Platform
 
 Validated on 6 Jan 2023 • Last edited on 3 Dec 2025
 

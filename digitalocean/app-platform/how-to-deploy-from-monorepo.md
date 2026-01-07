@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/how-to/deploy-from-monorepo/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# How to Deploy from Monorepos
+ How to Deploy from Monorepos
 
 Validated on 2 Jun 2022 • Last edited on 5 Jan 2026
 

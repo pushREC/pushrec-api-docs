@@ -1,17 +1,11 @@
 ---
-created: 2026-01-07
-tags:
-  - bright-data
-  - scraper
-  - digitalocean
-  - networking
-  - vpc
-  - api-docs
-tool: bright-data-skill
-source_url: https://docs.digitalocean.com/products/networking/vpc/how-to/set-default-vpc/
-domain: docs.digitalocean.com
+source: '[unknown - vpc-how-to-set-default-vpc.md]'
+scraped: 2026-01-07
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-                How to Set a Default VPC | DigitalOcean Documentation
+               How to Set a Default VPC | DigitalOcean Documentation
 
 *   [
     

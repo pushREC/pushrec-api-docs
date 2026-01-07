@@ -1,13 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/captions/download
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: webfetch
-api: youtube-data-v3
-resource: captions
-method_name: download
 ---
-
-# Captions: download
+ Captions: download
 
 Retrieves caption tracks from YouTube videos. The track returns in its original format unless the request specifies a format conversion via the `tfmt` parameter, or language translation through the `tlang` parameter.
 

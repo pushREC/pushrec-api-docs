@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/details/limits/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# App Platform Limits
+ App Platform Limits
 
 Validated on 16 Jun 2022 • Last edited on 5 Jan 2026
 

@@ -1,12 +1,13 @@
 ---
 source: https://developers.google.com/youtube/v3/support
 scraped: 2026-01-07
-method: bright_data
-api: youtube-data-v3
+api_provider: Google
+discovery_tier: 3
+verified: false
 category: overview
+method: bright_data
 ---
-
-# YouTube Data API v3 Support Resources
+ YouTube Data API v3 Support Resources
 
 ## Primary Support Channel
 

@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/how-to/console/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# How to Access the Console for an App Platform Component
+ How to Access the Console for an App Platform Component
 
 Validated on 27 Nov 2024 • Last edited on 20 Jun 2025
 

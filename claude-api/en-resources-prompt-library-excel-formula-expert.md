@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/resources/prompt-library/excel-formula-expert
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1604
 ---
-
-Excel formula expert - Claude Docs
+xcel formula expert - Claude Docs
 
 Loading...
 

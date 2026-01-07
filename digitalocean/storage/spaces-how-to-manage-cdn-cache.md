@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/spaces/how-to/manage-cdn-cache/
 scraped: 2025-01-07
-tags: ["digitalocean", "storage", "api-docs", "spaces", "s3"]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-I'd be happy to help you with skills! Skills are custom commands in Claude Code that you can invoke with slash commands like `/commit` or `/review-pr`.
+'d be happy to help you with skills! Skills are custom commands in Claude Code that you can invoke with slash commands like `/commit` or `/review-pr`.
 
 Here's what I can help you with:
 

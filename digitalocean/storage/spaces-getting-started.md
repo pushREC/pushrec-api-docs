@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/spaces/getting-started/
 scraped: 2025-01-07
-tags: ["digitalocean", "storage", "api-docs", "spaces", "s3"]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# DigitalOcean Spaces Getting Started Documentation
+ DigitalOcean Spaces Getting Started Documentation
 
 Based on the provided web page content, here's what I can extract:
 

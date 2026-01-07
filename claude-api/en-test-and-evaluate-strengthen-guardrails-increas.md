@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/test-and-evaluate/strengthen-guardrails/increase-consistency
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1621
 ---
-
-Increase output consistency - Claude Docs
+ncrease output consistency - Claude Docs
 
 Loading...
 

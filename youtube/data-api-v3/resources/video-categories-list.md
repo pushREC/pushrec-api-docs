@@ -1,12 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/videoCategories/list
 scraped: 2026-01-07
-api: YouTube Data API v3
-resource: VideoCategories
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: list
 ---
-
-# YouTube Data API: VideoCategories list
+ YouTube Data API: VideoCategories list
 
 ## Method Overview
 

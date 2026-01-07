@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/kubernetes/how-to/manage-1click-apps/
 scraped: 2025-01-07
-tags: [digitalocean, kubernetes, doks, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                How to Manage Kubernetes 1-Click Applications | DigitalOcean Documentation
+               How to Manage Kubernetes 1-Click Applications | DigitalOcean Documentation
 
 *   [
     

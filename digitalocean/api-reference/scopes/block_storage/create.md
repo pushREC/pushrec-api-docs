@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/reference/api/scopes/block_storage/create/
 scraped: 2026-01-07
-tags: [digitalocean, api-reference, rest-api, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
----
+--
 created: 2026-01-07
 tags:
   - bright-data

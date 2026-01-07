@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/api/admin/invites/list
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2233
 ---
-
-List Invites - Claude API Reference
+ist Invites - Claude API Reference
 
 Loading...
 

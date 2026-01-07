@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/agents-and-tools/agent-skills/quickstart
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2531
 ---
-
-Get started with Agent Skills in the API - Claude Docs
+et started with Agent Skills in the API - Claude Docs
 
 Loading...
 

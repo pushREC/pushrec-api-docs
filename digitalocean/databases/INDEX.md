@@ -1,3 +1,10 @@
+---
+source: '[unknown - INDEX.md]'
+scraped: '2026-01-07'
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
+---
 # DigitalOcean Managed Databases Documentation Index
 
 **Scraped:** 2025-01-07

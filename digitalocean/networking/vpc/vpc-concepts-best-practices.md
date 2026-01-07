@@ -1,17 +1,11 @@
 ---
-created: 2026-01-07
-tags:
-  - bright-data
-  - scraper
-  - digitalocean
-  - networking
-  - vpc
-  - api-docs
-tool: bright-data-skill
-source_url: https://docs.digitalocean.com/products/networking/vpc/concepts/best-practices/
-domain: docs.digitalocean.com
+source: '[unknown - vpc-concepts-best-practices.md]'
+scraped: 2026-01-07
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-                Use VPC Networks to Secure Your Servers and Other Best Practices | DigitalOcean Documentation
+               Use VPC Networks to Secure Your Servers and Other Best Practices | DigitalOcean Documentation
 
 *   [
     

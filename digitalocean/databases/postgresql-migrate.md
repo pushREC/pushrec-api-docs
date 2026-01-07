@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/postgresql/how-to/migrate/
 scraped: 2026-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-How to Migrate PostgreSQL Databases to DigitalOcean using Continuous Migration | DigitalOcean Documentation
+ow to Migrate PostgreSQL Databases to DigitalOcean using Continuous Migration | DigitalOcean Documentation
 
 *   [
     

@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/spaces/how-to/enable-versioning/
 scraped: 2025-01-07
-tags: ["digitalocean", "storage", "api-docs", "spaces", "s3"]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-I'd be happy to help you with skills! However, I need more information about what you'd like to do.
+'d be happy to help you with skills! However, I need more information about what you'd like to do.
 
 You can use skills in several ways:
 

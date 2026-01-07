@@ -1,17 +1,11 @@
 ---
-created: 2026-01-07
-tags:
-  - bright-data
-  - scraper
-  - digitalocean
-  - networking
-  - dns
-  - api-docs
-tool: bright-data-skill
-source_url: https://docs.digitalocean.com/products/networking/dns/how-to/create-caa-records/
-domain: docs.digitalocean.com
+source: '[unknown - dns-how-to-create-caa-records.md]'
+scraped: 2026-01-07
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-                How to Manage CAA Records | DigitalOcean Documentation
+               How to Manage CAA Records | DigitalOcean Documentation
 
 *   [
     

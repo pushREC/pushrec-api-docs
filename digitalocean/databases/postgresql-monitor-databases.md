@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/postgresql/how-to/monitor-databases/
 scraped: 2026-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-How to Monitor PostgreSQL Database Performance | DigitalOcean Documentation
+ow to Monitor PostgreSQL Database Performance | DigitalOcean Documentation
 
 *   [
     

@@ -1,11 +1,13 @@
 ---
 source: https://code.claude.com/docs/en/sandboxing
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1426
 ---
-
-Sandboxing - Claude Code Docs
+andboxing - Claude Code Docs
 
  
 

@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/spaces/details/pricing/
 scraped: 2025-01-07
-tags: ["digitalocean", "storage", "api-docs", "spaces", "s3"]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# Spaces Pricing - DigitalOcean Documentation
+ Spaces Pricing - DigitalOcean Documentation
 
 ## Overview
 

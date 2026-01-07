@@ -1,13 +1,12 @@
 ---
 source: https://developers.google.com/youtube/v3/docs/videos/update
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
 method: webfetch
-api: youtube-data-v3
-resource: videos
-method_name: update
 ---
-
-# YouTube Data API v3 - Videos: Update Documentation
+ YouTube Data API v3 - Videos: Update Documentation
 
 ## Endpoint Overview
 Updates a video's metadata through the YouTube Data API v3.

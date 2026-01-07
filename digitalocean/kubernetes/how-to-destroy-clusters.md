@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/kubernetes/how-to/destroy-clusters/
 scraped: 2025-01-07
-tags: [digitalocean, kubernetes, doks, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                How to Destroy DigitalOcean Kubernetes Clusters | DigitalOcean Documentation
+               How to Destroy DigitalOcean Kubernetes Clusters | DigitalOcean Documentation
 
 *   [
     

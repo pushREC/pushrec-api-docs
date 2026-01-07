@@ -1,11 +1,13 @@
 ---
 source: https://code.claude.com/docs/en/cli-reference
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1447
 ---
-
-CLI reference - Claude Code Docs
+LI reference - Claude Code Docs
 
  
 

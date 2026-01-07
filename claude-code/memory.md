@@ -1,11 +1,13 @@
 ---
 source: https://code.claude.com/docs/en/memory
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1277
 ---
-
-Manage Claude's memory - Claude Code Docs
+anage Claude's memory - Claude Code Docs
 
  
 

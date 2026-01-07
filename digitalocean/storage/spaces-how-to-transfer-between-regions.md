@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/spaces/how-to/transfer-between-regions/
 scraped: 2025-01-07
-tags: ["digitalocean", "storage", "api-docs", "spaces", "s3"]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-I need more information to help you with skills. Here are some options:
+ need more information to help you with skills. Here are some options:
 
 **If you want to run a specific skill:**
 Use `/skill-name` syntax. For example:

@@ -1,10 +1,11 @@
 ---
 source: https://code.claude.com/docs/en/overview
 scraped: 2026-01-07
-section: getting-started
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 ---
-
-# Claude Code Overview
+ Claude Code Overview
 
 Learn about Claude Code, Anthropic's agentic coding tool that lives in your terminal and helps you turn ideas into code faster than ever before.
 

@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/droplets/support/
 scraped: 2026-01-07
-tags: [digitalocean, compute, droplets, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-reserved\_ip:update | DigitalOcean Documentation
+eserved\_ip:update | DigitalOcean Documentation
 
 *   [
     

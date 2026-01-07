@@ -1,12 +1,13 @@
 ---
 source: https://developers.google.com/youtube/v3/quickstart/python
 scraped: 2026-01-07
-method: bright_data
-api: youtube-data-v3
+api_provider: Google
+discovery_tier: 3
+verified: false
 category: overview
+method: bright_data
 ---
-
-# Python Quickstart for YouTube Data API
+ Python Quickstart for YouTube Data API
 
 ## Overview
 

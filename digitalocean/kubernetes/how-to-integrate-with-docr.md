@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/kubernetes/how-to/integrate-with-docr/
 scraped: 2025-01-07
-tags: [digitalocean, kubernetes, doks, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                How to Integrate with a DigitalOcean Container Registry | DigitalOcean Documentation
+               How to Integrate with a DigitalOcean Container Registry | DigitalOcean Documentation
 
 *   [
     

@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/resources/prompt-library/corporate-clairvoyant
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 1641
 ---
-
-Corporate clairvoyant - Claude Docs
+orporate clairvoyant - Claude Docs
 
 Loading...
 

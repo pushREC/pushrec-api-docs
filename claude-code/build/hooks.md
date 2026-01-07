@@ -1,10 +1,11 @@
 ---
 source: https://code.claude.com/docs/en/hooks
 scraped: 2026-01-07
-section: build
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 ---
-
-Claude Code Docs home page
+laude Code Docs home page
 ⌘ K Ask AI
 Hooks reference
 -

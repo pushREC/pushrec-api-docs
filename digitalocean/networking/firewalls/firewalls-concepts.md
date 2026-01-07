@@ -1,17 +1,11 @@
 ---
-created: 2026-01-07
-tags:
-  - bright-data
-  - scraper
-  - digitalocean
-  - networking
-  - firewalls
-  - api-docs
-tool: bright-data-skill
-source_url: https://docs.digitalocean.com/products/networking/firewalls/concepts/
-domain: docs.digitalocean.com
+source: '[unknown - firewalls-concepts.md]'
+scraped: 2026-01-07
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-                Firewalls Concepts | DigitalOcean Documentation
+               Firewalls Concepts | DigitalOcean Documentation
 
 *   [
     

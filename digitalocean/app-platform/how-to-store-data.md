@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/how-to/store-data/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# How to Store Data in App Platform
+ How to Store Data in App Platform
 
 Validated on 6 Oct 2020 • Last edited on 17 Jun 2025
 

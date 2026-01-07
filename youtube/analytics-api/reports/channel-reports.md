@@ -1,11 +1,12 @@
 ---
-title: YouTube Analytics API - Channel Reports
 source: https://developers.google.com/youtube/analytics/channel_reports
-api: youtube-analytics
 scraped: 2026-01-07
+api_provider: Google
+discovery_tier: 3
+verified: false
+title: YouTube Analytics API - Channel Reports
 ---
-
-# YouTube Analytics API: Channel Reports - Complete Documentation
+ YouTube Analytics API: Channel Reports - Complete Documentation
 
 ## Overview
 

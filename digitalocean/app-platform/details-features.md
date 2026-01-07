@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/app-platform/details/features/
 scraped: 2026-01-07
-tags: [digitalocean, app-platform, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-# Load Balancers Limits
+ Load Balancers Limits
 
 Validated on 27 Feb 2025 • Last edited on 22 Sep 2025
 

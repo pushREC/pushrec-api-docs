@@ -1,12 +1,13 @@
 ---
 source: https://developers.google.com/youtube/v3/getting-started
 scraped: 2026-01-07
-method: bright_data
-api: youtube-data-v3
+api_provider: Google
+discovery_tier: 3
+verified: false
 category: overview
+method: bright_data
 ---
-
-# YouTube Data API v3 Getting Started
+ YouTube Data API v3 Getting Started
 
 ## Introduction
 

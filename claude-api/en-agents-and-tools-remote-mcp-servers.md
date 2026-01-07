@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/agents-and-tools/remote-mcp-servers
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2658
 ---
-
-Remote MCP servers - Claude Docs
+emote MCP servers - Claude Docs
 
 Loading...
 

@@ -1,10 +1,11 @@
 ---
 source: https://docs.digitalocean.com/products/databases/opensearch/details/limits/
 scraped: 2025-01-07
-tags: [digitalocean, databases, managed-db, api-docs]
+api_provider: DigitalOcean
+discovery_tier: 3
+verified: false
 ---
-
-                OpenSearch Limits | DigitalOcean Documentation
+               OpenSearch Limits | DigitalOcean Documentation
 
 *   [
     

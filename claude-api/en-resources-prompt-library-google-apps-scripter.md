@@ -1,11 +1,13 @@
 ---
 source: https://docs.anthropic.com/en/resources/prompt-library/google-apps-scripter
 scraped: 2026-01-07
+api_provider: Anthropic
+discovery_tier: 3
+verified: false
 method: bright_data
 duration_ms: 2433
 ---
-
-Google apps scripter - Claude Docs
+oogle apps scripter - Claude Docs
 
 Loading...
 
