@@ -1,0 +1,122 @@
+---
+created: 2026-01-07
+tags:
+  - bright-data
+  - scraper
+  - digitalocean
+  - networking
+  - vpc
+  - api-docs
+tool: bright-data-skill
+source_url: https://docs.digitalocean.com/products/networking/vpc/how-to/configure-doks-nat-gateway/
+domain: docs.digitalocean.com
+---
+                How to Configure DOKS for NAT Gateway | DigitalOcean Documentation
+
+*   [
+    
+    DigitalOcean | Docs](https://docs.digitalocean.com/)
+
+*   
+
+*   [Platform](https://docs.digitalocean.com/platform/)
+*   [Products](https://docs.digitalocean.com/products/)
+*   [Reference](https://docs.digitalocean.com/reference/)
+*   [Support](https://docs.digitalocean.com/support/)
+*   [Sign Up](https://cloud.digitalocean.com/registrations/new)
+
+*   [![](/images/icons/vpc.8e35a29c5ce11122208ae3824979d1635c2e67bfb31236328f0665502135db7e.svg)VPC](/products/networking/vpc/)
+*   [Getting Started](/products/networking/vpc/getting-started/)
+    *   [Quickstart](/products/networking/vpc/getting-started/quickstart/)
+*   [How-Tos](/products/networking/vpc/how-to/)
+    *   [Create VPCs](/products/networking/vpc/how-to/create/)
+    *   [Destroy VPCs](/products/networking/vpc/how-to/destroy/)
+    *   [Add Resources](/products/networking/vpc/how-to/add-resources/)
+    *   [Migrate Resources](/products/networking/vpc/how-to/migrate-resources/)
+    *   [Enable on Existing Droplets](/products/networking/vpc/how-to/enable/)
+    *   [Set Default VPC](/products/networking/vpc/how-to/set-default-vpc/)
+    *   [Use VPC-local DNS](/products/networking/vpc/how-to/use-local-dns-resolver/)
+    *   [Create Peering](/products/networking/vpc/how-to/create-peering/)
+    *   [Destroy Peering](/products/networking/vpc/how-to/destroy-peering/)
+    *   [Update Peering Routes](/products/networking/vpc/how-to/update-peering-routes/)
+    *   [Create NAT Gateway](/products/networking/vpc/how-to/create-nat-gateway/)
+    *   [Destroy NAT Gateway](/products/networking/vpc/how-to/destroy-nat-gateway/)
+    *   [Configure Droplets for NAT Gateway](/products/networking/vpc/how-to/configure-droplet-nat-gateway/)
+    *   [Configure DOKS for NAT Gateway](/products/networking/vpc/how-to/configure-doks-nat-gateway/)
+    *   [Create Partner Attachment](/products/networking/vpc/how-to/create-partner-attachment/)
+    *   [Destroy Partner Attachment](/products/networking/vpc/how-to/destroy-partner-attachment/)
+    *   [Edit Partner Attachment VPC](/products/networking/vpc/how-to/edit-partner-attachment-vpc/)
+    *   [Add High Availability to Partner Attachment](/products/networking/vpc/how-to/add-ha-to-partner-attachment/)
+    *   [Troubleshoot Partner Attachment](/products/networking/vpc/how-to/troubleshoot-partner-attachment/)
+*   [Reference](/products/networking/vpc/reference/)
+    *   [API Reference](https://docs.digitalocean.com/reference/api/digitalocean/#tag/VPCs)
+    *   [CLI Reference](/reference/doctl/reference/vpcs/)
+    *   [MCP Reference](/reference/mcp/)
+*   [Concepts](/products/networking/vpc/concepts/)
+    *   [Plan Custom VPC Network](/products/networking/vpc/concepts/plan-your-network/)
+    *   [VPC Best Practices](/products/networking/vpc/concepts/best-practices/)
+*   [Details](/products/networking/vpc/details/)
+    *   [Features](/products/networking/vpc/details/features/)
+    *   [Pricing](/products/networking/vpc/details/pricing/)
+    *   [Availability](/products/networking/vpc/details/availability/)
+    *   [Limits](/products/networking/vpc/details/limits/)
+*   [Support](/products/networking/vpc/support/)
+
+*   [How-Tos](/products/networking/vpc/how-to/) 
+*   Configure DOKS for NAT Gateway
+
+[Give Feedback](https://ideas.digitalocean.com/documentation)
+
+# How to Configure DOKS for NAT Gateway
+
+Validated on 19 Nov 2025 • Last edited on 19 Nov 2025
+
+A Virtual Private Cloud (VPC) is a private network interface for collections of DigitalOcean resources. VPC networks are inaccessible from the public internet and other VPC networks, and traffic on them doesn’t count against bandwidth usage. You can link VPC networks to each other using VPC peering connections.
+
+To use a NAT gateway with DOKS, enable the routing agent on your cluster. Then, configure your routes to use the NAT gateway’s **Routing table IP address**, which you can find on the NAT gateway’s details page.
+
+To navigate to the NAT gateway’s details page click **Networking** in the left menu, then click the **VPC** tab. Click on the VPC that contains the NAT gateway, then click its **NAT Gateway** tab. Click on the name of the NAT gateway to load its details.
+
+For more information, read [How to Use the Routing Agent in Kubernetes Clusters](/products/kubernetes/how-to/use-routing-agent/).
+
+In this article...
+
+[How to Configure DOKS for NAT Gateway](https://docs.digitalocean.com/products/networking/vpc/how-to/configure-doks-nat-gateway/)
+
+##### Company
+
+*   [About](https://www.digitalocean.com/about)
+*   [Careers](https://www.digitalocean.com/careers)
+*   [Blog](https://www.digitalocean.com/blog)
+
+##### Docs
+
+*   [Docs Home](https://docs.digitalocean.com)
+*   [API Reference](https://docs.digitalocean.com/reference/api)
+*   [CLI Reference](https://docs.digitalocean.com/reference/doctl)
+*   [Release Notes](https://docs.digitalocean.com/release-notes)
+*   [Trust Platform](https://www.digitalocean.com/trust)
+
+##### Community
+
+*   [Tutorials](https://www.digitalocean.com/community/tutorials)
+*   [Q&A](https://www.digitalocean.com/community/questions)
+*   [Write for DOnations](https://www.digitalocean.com/community/pages/write-for-digitalocean)
+*   [Currents Research](https://www.digitalocean.com/currents)
+*   [Legal](https://www.digitalocean.com/legal)
+*   [Code of Conduct](https://www.digitalocean.com/community/pages/code-of-conduct)
+
+##### Support
+
+*   [Support Center](/support)
+*   [Report Abuse](https://www.digitalocean.com/company/contact/abuse)
+
+* * *
+
+© 2025 DigitalOcean, LLC. All rights reserved
+
+[](https://x.com/digitalocean)[](https://www.instagram.com/thedigitalocean)[](https://www.facebook.com/DigitalOceanCloudHosting)[](https://discord.gg/digitalocean)[](https://www.youtube.com/DigitalOcean)[](https://www.linkedin.com/company/digitalocean)[](https://github.com/digitalocean)
+
+### We can't find any results for your search.
+
+Try using different keywords or simplifying your se

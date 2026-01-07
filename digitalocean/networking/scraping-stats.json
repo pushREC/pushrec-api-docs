@@ -1,0 +1,16 @@
+{
+  "total_urls": 134,
+  "successful": 134,
+  "failed": 0,
+  "too_small": 0,
+  "categories": {
+    "vpc": 33,
+    "dns": 19,
+    "firewalls": 18,
+    "ipv6": 15,
+    "load-balancers": 25,
+    "reserved-ips": 23,
+    "general": 1
+  },
+  "errors": []
+}

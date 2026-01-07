@@ -1,0 +1,3277 @@
+{
+  "category": "networking",
+  "analysis_date": "2026-01-07",
+  "total_files_analyzed": 134,
+  "summary": {
+    "total_files": 134,
+    "exact_duplicates_found": 0,
+    "unique_content_fingerprints": 134,
+    "redundancy_assessment": "NO REDUNDANCY - All files essential",
+    "by_category": {
+      "dns": 19,
+      "firewalls": 18,
+      "general": 49,
+      "ipv6": 15,
+      "vpc": 33
+    },
+    "by_type": {
+      "concepts": 11,
+      "details": 24,
+      "getting-started": 14,
+      "how-to": 54,
+      "overview": 19,
+      "reference": 6,
+      "support": 6
+    }
+  },
+  "key_findings": [
+    "All 134 files have unique content with distinct purposes",
+    "No exact duplicates or high-overlap files detected",
+    "Files properly organized across 5 product categories",
+    "Documentation follows standardized structure by type",
+    "How-to guides represent the largest segment (54 files, 40.3%)",
+    "Supporting infrastructure includes concepts, details, getting-started, reference, and support docs"
+  ],
+  "files": [
+    {
+      "path": "./networking/dns/dns-concepts.md",
+      "category": "dns",
+      "type": "concepts",
+      "topic": "DNS Concepts",
+      "size_bytes": 5951,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "DNS Concepts | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Domains and DNS](/products/networking/dns/)      *   [Quickstart](/products/"
+    },
+    {
+      "path": "./networking/dns/dns-details-availability.md",
+      "category": "dns",
+      "type": "details",
+      "topic": "DNS Availability",
+      "size_bytes": 4400,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "DNS Availability | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Domains and DNS](/products/networking/dns/)      *   [Quickstart](/produ"
+    },
+    {
+      "path": "./networking/dns/dns-details-features.md",
+      "category": "dns",
+      "type": "details",
+      "topic": "DNS Features",
+      "size_bytes": 5117,
+      "structure": {
+        "h2_sections": 2,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Supported Records",
+        "Fully Managed SSL Certificates"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "DNS Features | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Domains and DNS](/products/networking/dns/)      *   [Quickstart](/products/"
+    },
+    {
+      "path": "./networking/dns/dns-details-limits.md",
+      "category": "dns",
+      "type": "details",
+      "topic": "DNS Limits",
+      "size_bytes": 6606,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.punycoder.com/",
+        "https://www.digitalocean.com/company/contact/abuse"
+      ],
+      "content_preview": "DNS Limits | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Domains and DNS](/products/networking/dns/)      *   [Quickstart](/products/ne"
+    },
+    {
+      "path": "./networking/dns/dns-details-pricing.md",
+      "category": "dns",
+      "type": "details",
+      "topic": "DNS Pricing",
+      "size_bytes": 4285,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "DNS Pricing | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Domains and DNS](/products/networking/dns/)      *   [Quickstart](/products/n"
+    },
+    {
+      "path": "./networking/dns/dns-details.md",
+      "category": "dns",
+      "type": "overview",
+      "topic": "Dns Details",
+      "size_bytes": 4963,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Dns Details | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Domains and DNS](/products/networking/dns/)      *   [Quickstart](/products/n"
+    },
+    {
+      "path": "./networking/dns/dns-getting-started-dns-registrars.md",
+      "category": "dns",
+      "type": "getting-started",
+      "topic": "Point to DigitalOcean Name Servers From Common Domain Registrars",
+      "size_bytes": 8728,
+      "structure": {
+        "h2_sections": 1,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Update Your Domain\u2019s Delegation"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.godaddy.com/help/edit-my-domain-nameservers-664",
+        "https://www.digitalocean.com/company/contact/abuse"
+      ],
+      "content_preview": "Point to DigitalOcean Name Servers From Common Domain Registrars | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Domains and DNS](/produc"
+    },
+    {
+      "path": "./networking/dns/dns-getting-started-quickstart.md",
+      "category": "dns",
+      "type": "getting-started",
+      "topic": "DNS Quickstart",
+      "size_bytes": 5766,
+      "structure": {
+        "h2_sections": 1,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Set Up a Domain"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "DNS Quickstart | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Domains and DNS](/products/networking/dns/)      *   [Quickstart](/product"
+    },
+    {
+      "path": "./networking/dns/dns-getting-started.md",
+      "category": "dns",
+      "type": "getting-started",
+      "topic": "Getting Started with Domains and DNS",
+      "size_bytes": 4743,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Getting Started with Domains and DNS | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Domains and DNS](/products/networking/dns/)      *  "
+    },
+    {
+      "path": "./networking/dns/dns-how-to-add-domains.md",
+      "category": "dns",
+      "type": "how-to",
+      "topic": "How to Add Domains",
+      "size_bytes": 9722,
+      "structure": {
+        "h2_sections": 2,
+        "h3_sections": 5
+      },
+      "main_sections": [
+        "Add a Domain Using Automation",
+        "Add a Domain Using the Control Panel"
+      ],
+      "subsections": [
+        "cURL",
+        "Go",
+        "Ruby",
+        "Python",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.punycoder.com/",
+        "https://www.digitalocean.com/company/contact/abuse"
+      ],
+      "content_preview": "How to Add Domains | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Domains and DNS](/products/networking/dns/)      *   [Quickstart](/pro"
+    },
+    {
+      "path": "./networking/dns/dns-how-to-add-subdomain.md",
+      "category": "dns",
+      "type": "how-to",
+      "topic": "How to Add a Subdomain to Your Domain",
+      "size_bytes": 7234,
+      "structure": {
+        "h2_sections": 1,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Create a New Hostname with an A Record"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.punycoder.com/",
+        "https://www.digitalocean.com/company/contact/abuse"
+      ],
+      "content_preview": "How to Add a Subdomain to Your Domain | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Domains and DNS](/products/networking/dns/)      * "
+    },
+    {
+      "path": "./networking/dns/dns-how-to-create-caa-records.md",
+      "category": "dns",
+      "type": "how-to",
+      "topic": "How to Manage CAA Records",
+      "size_bytes": 7971,
+      "structure": {
+        "h2_sections": 1,
+        "h3_sections": 4
+      },
+      "main_sections": [
+        "Create a CAA Record"
+      ],
+      "subsections": [
+        "Tags",
+        "Authority Granted For",
+        "Flags",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Manage CAA Records | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Domains and DNS](/products/networking/dns/)      *   [Quickstar"
+    },
+    {
+      "path": "./networking/dns/dns-how-to-delete-domains.md",
+      "category": "dns",
+      "type": "how-to",
+      "topic": "How to Delete Domains",
+      "size_bytes": 8291,
+      "structure": {
+        "h2_sections": 2,
+        "h3_sections": 5
+      },
+      "main_sections": [
+        "Delete a Domain Using Automation",
+        "Delete a Domain Using the Control Panel"
+      ],
+      "subsections": [
+        "cURL",
+        "Go",
+        "Ruby",
+        "Python",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://api.digitalocean.com/v2/domains/{domain_name}`",
+        "https://www.digitalocean.com/company/contact/abuse"
+      ],
+      "content_preview": "How to Delete Domains | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Domains and DNS](/products/networking/dns/)      *   [Quickstart](/"
+    },
+    {
+      "path": "./networking/dns/dns-how-to-download-zone-file.md",
+      "category": "dns",
+      "type": "how-to",
+      "topic": "How to Download DNS Zone Files",
+      "size_bytes": 5103,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Download DNS Zone Files | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Domains and DNS](/products/networking/dns/)      *   [Quic"
+    },
+    {
+      "path": "./networking/dns/dns-how-to-manage-records.md",
+      "category": "dns",
+      "type": "how-to",
+      "topic": "How to Create, Edit, and Delete DNS Records",
+      "size_bytes": 27321,
+      "structure": {
+        "h2_sections": 4,
+        "h3_sections": 23
+      },
+      "main_sections": [
+        "Create, Update, or Delete Records Using the CLI",
+        "Create, Update, or Delete Records Using the API",
+        "Create, Update, and Delete Records Using the Control Panel",
+        "Supported Record Types"
+      ],
+      "subsections": [
+        "Time To Live (TTL) Guidance",
+        "cURL",
+        "Go",
+        "Ruby",
+        "Python",
+        "cURL",
+        "Python",
+        "cURL",
+        "Go",
+        "Ruby"
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://en.wikipedia.org/wiki/Session_Initiation_Protocol"
+      ],
+      "content_preview": "How to Create, Edit, and Delete DNS Records | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Domains and DNS](/products/networking/dns/)  "
+    },
+    {
+      "path": "./networking/dns/dns-how-to.md",
+      "category": "dns",
+      "type": "overview",
+      "topic": "DNS How-Tos",
+      "size_bytes": 5659,
+      "structure": {
+        "h2_sections": 2,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Getting Started",
+        "DNS Management"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "DNS How-Tos | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Domains and DNS](/products/networking/dns/)      *   [Quickstart](/products/n"
+    },
+    {
+      "path": "./networking/dns/dns-reference.md",
+      "category": "dns",
+      "type": "reference",
+      "topic": "DNS Reference",
+      "size_bytes": 6479,
+      "structure": {
+        "h2_sections": 1,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Other DigitalOcean Tools"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/community/tools/spf",
+        "https://www.digitalocean.com/company/contact/abuse"
+      ],
+      "content_preview": "DNS Reference | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Domains and DNS](/products/networking/dns/)      *   [Quickstart](/products"
+    },
+    {
+      "path": "./networking/dns/dns-support.md",
+      "category": "dns",
+      "type": "support",
+      "topic": "DNS Support",
+      "size_bytes": 7646,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "DNS Support | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Domains and DNS](/products/networking/dns/)      *   [Quickstart](/products/n"
+    },
+    {
+      "path": "./networking/dns/dns.md",
+      "category": "dns",
+      "type": "overview",
+      "topic": "Domains and DNS",
+      "size_bytes": 7762,
+      "structure": {
+        "h2_sections": 1,
+        "h3_sections": 2
+      },
+      "main_sections": [
+        "Latest Updates"
+      ],
+      "subsections": [
+        "5 June 2023",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Domains and DNS | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Domains and DNS](/products/networking/dns/)      *   [Quickstart](/produc"
+    },
+    {
+      "path": "./networking/firewalls/firewalls-concepts-organization.md",
+      "category": "firewalls",
+      "type": "concepts",
+      "topic": "How to Organize DigitalOcean Cloud Firewalls",
+      "size_bytes": 11601,
+      "structure": {
+        "h2_sections": 3,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Splitting by Role",
+        "Using Tags",
+        "On Naming"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Organize DigitalOcean Cloud Firewalls | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Cloud Firewalls](/products/networking/firewa"
+    },
+    {
+      "path": "./networking/firewalls/firewalls-concepts.md",
+      "category": "firewalls",
+      "type": "concepts",
+      "topic": "Firewalls Concepts",
+      "size_bytes": 5598,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/community/tutorials/how-to-choose-an-effective-firewall-policy-to-secure-your-servers",
+        "https://www.digitalocean.com/company/contact/abuse"
+      ],
+      "content_preview": "Firewalls Concepts | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Cloud Firewalls](/products/networking/firewalls/)      *   [Quickstart"
+    },
+    {
+      "path": "./networking/firewalls/firewalls-details-availability.md",
+      "category": "firewalls",
+      "type": "details",
+      "topic": "Firewalls Availability",
+      "size_bytes": 4421,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Firewalls Availability | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Cloud Firewalls](/products/networking/firewalls/)      *   [Quicks"
+    },
+    {
+      "path": "./networking/firewalls/firewalls-details-features.md",
+      "category": "firewalls",
+      "type": "details",
+      "topic": "Firewalls Features",
+      "size_bytes": 4985,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Firewalls Features | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Cloud Firewalls](/products/networking/firewalls/)      *   [Quickstart"
+    },
+    {
+      "path": "./networking/firewalls/firewalls-details-limits.md",
+      "category": "firewalls",
+      "type": "details",
+      "topic": "Firewalls Limits",
+      "size_bytes": 5814,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Firewalls Limits | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Cloud Firewalls](/products/networking/firewalls/)      *   [Quickstart]("
+    },
+    {
+      "path": "./networking/firewalls/firewalls-details-pricing.md",
+      "category": "firewalls",
+      "type": "details",
+      "topic": "Firewalls Pricing",
+      "size_bytes": 4343,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Firewalls Pricing | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Cloud Firewalls](/products/networking/firewalls/)      *   [Quickstart]"
+    },
+    {
+      "path": "./networking/firewalls/firewalls-details.md",
+      "category": "firewalls",
+      "type": "overview",
+      "topic": "Firewalls Details",
+      "size_bytes": 5305,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Firewalls Details | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Cloud Firewalls](/products/networking/firewalls/)      *   [Quickstart]"
+    },
+    {
+      "path": "./networking/firewalls/firewalls-getting-started-quickstart.md",
+      "category": "firewalls",
+      "type": "getting-started",
+      "topic": "Firewalls Quickstart",
+      "size_bytes": 6522,
+      "structure": {
+        "h2_sections": 3,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Inbound Rules",
+        "Outbound Rules",
+        "Apply to Droplets"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Firewalls Quickstart | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Cloud Firewalls](/products/networking/firewalls/)      *   [Quicksta"
+    },
+    {
+      "path": "./networking/firewalls/firewalls-getting-started.md",
+      "category": "firewalls",
+      "type": "getting-started",
+      "topic": "Getting Started with Cloud Firewalls",
+      "size_bytes": 4499,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Getting Started with Cloud Firewalls | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Cloud Firewalls](/products/networking/firewalls/)   "
+    },
+    {
+      "path": "./networking/firewalls/firewalls-how-to-configure-rules.md",
+      "category": "firewalls",
+      "type": "how-to",
+      "topic": "How to Configure Firewall Rules",
+      "size_bytes": 26357,
+      "structure": {
+        "h2_sections": 3,
+        "h3_sections": 17
+      },
+      "main_sections": [
+        "Add, Update, or Remove Rules from a Firewall Using the CLI",
+        "Add, Update, or Remove Rules from a Firewall Using the API",
+        "Add or Remove Rules from a Firewall Using the Control Panel"
+      ],
+      "subsections": [
+        "cURL",
+        "Go",
+        "Ruby",
+        "Python",
+        "cURL",
+        "Go",
+        "Ruby",
+        "Python",
+        "cURL",
+        "Go"
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Configure Firewall Rules | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Cloud Firewalls](/products/networking/firewalls/)      * "
+    },
+    {
+      "path": "./networking/firewalls/firewalls-how-to-create.md",
+      "category": "firewalls",
+      "type": "how-to",
+      "topic": "How to Create Firewalls",
+      "size_bytes": 15046,
+      "structure": {
+        "h2_sections": 3,
+        "h3_sections": 9
+      },
+      "main_sections": [
+        "Create a Firewall Using the CLI",
+        "Create a Firewall Using the API",
+        "Create a Firewall Using the Control Panel"
+      ],
+      "subsections": [
+        "cURL",
+        "Go",
+        "Ruby",
+        "Python",
+        "Default Inbound Rule: SSH",
+        "Default Outbound Rules: Permit All Traffic",
+        "Apply to Droplets",
+        "Create the Firewall",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Create Firewalls | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Cloud Firewalls](/products/networking/firewalls/)      *   [Quick"
+    },
+    {
+      "path": "./networking/firewalls/firewalls-how-to-destroy.md",
+      "category": "firewalls",
+      "type": "how-to",
+      "topic": "How to Destroy Firewalls",
+      "size_bytes": 8320,
+      "structure": {
+        "h2_sections": 3,
+        "h3_sections": 5
+      },
+      "main_sections": [
+        "Destroy a Firewall Using the CLI",
+        "Destroy a Firewall Using the API",
+        "Destroy a Firewall Using the Control Panel"
+      ],
+      "subsections": [
+        "cURL",
+        "Go",
+        "Ruby",
+        "Python",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Destroy Firewalls | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Cloud Firewalls](/products/networking/firewalls/)      *   [Quic"
+    },
+    {
+      "path": "./networking/firewalls/firewalls-how-to-manage-droplets.md",
+      "category": "firewalls",
+      "type": "how-to",
+      "topic": "How to Add and Remove Droplets from Firewalls",
+      "size_bytes": 12486,
+      "structure": {
+        "h2_sections": 3,
+        "h3_sections": 9
+      },
+      "main_sections": [
+        "Add or Remove Droplets from a Firewall Using the CLI",
+        "Add or Remove Droplets from a Firewall Using the API",
+        "Add or Remove Droplets from a Firewall Using the Control Panel"
+      ],
+      "subsections": [
+        "cURL",
+        "Go",
+        "Ruby",
+        "Python",
+        "cURL",
+        "Go",
+        "Ruby",
+        "Python",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Add and Remove Droplets from Firewalls | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Cloud Firewalls](/products/networking/firew"
+    },
+    {
+      "path": "./networking/firewalls/firewalls-how-to-view-rules-for-droplet.md",
+      "category": "firewalls",
+      "type": "how-to",
+      "topic": "How to View All Firewall Rules Applied to a Droplet",
+      "size_bytes": 5855,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to View All Firewall Rules Applied to a Droplet | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Cloud Firewalls](/products/networking"
+    },
+    {
+      "path": "./networking/firewalls/firewalls-how-to.md",
+      "category": "firewalls",
+      "type": "overview",
+      "topic": "Firewalls How-Tos",
+      "size_bytes": 5589,
+      "structure": {
+        "h2_sections": 2,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Getting Started",
+        "Cloud Firewall Management"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Firewalls How-Tos | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Cloud Firewalls](/products/networking/firewalls/)      *   [Quickstart]"
+    },
+    {
+      "path": "./networking/firewalls/firewalls-reference.md",
+      "category": "firewalls",
+      "type": "reference",
+      "topic": "Firewalls Reference",
+      "size_bytes": 5586,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Firewalls Reference | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Cloud Firewalls](/products/networking/firewalls/)      *   [Quickstar"
+    },
+    {
+      "path": "./networking/firewalls/firewalls-support.md",
+      "category": "firewalls",
+      "type": "support",
+      "topic": "Firewalls Support",
+      "size_bytes": 5014,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Firewalls Support | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Cloud Firewalls](/products/networking/firewalls/)      *   [Quickstart]"
+    },
+    {
+      "path": "./networking/firewalls/firewalls.md",
+      "category": "firewalls",
+      "type": "overview",
+      "topic": "Cloud Firewalls",
+      "size_bytes": 8004,
+      "structure": {
+        "h2_sections": 1,
+        "h3_sections": 4
+      },
+      "main_sections": [
+        "Latest Updates"
+      ],
+      "subsections": [
+        "27 June 2024",
+        "1 July 2023",
+        "3 August 2021",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Cloud Firewalls | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Cloud Firewalls](/products/networking/firewalls/)      *   [Quickstart](/"
+    },
+    {
+      "path": "./networking/general/index.md",
+      "category": "general",
+      "type": "overview",
+      "topic": "Networking",
+      "size_bytes": 10859,
+      "structure": {
+        "h2_sections": 1,
+        "h3_sections": 4
+      },
+      "main_sections": [
+        "Latest Updates"
+      ],
+      "subsections": [
+        "19 November 2025",
+        "30 September 2025",
+        "18 September 2025",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Networking | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Compute](/products/compute/)     *   [![](/images/icons/droplets.f4877fc574e6b"
+    },
+    {
+      "path": "./networking/ipv6/ipv6-concepts.md",
+      "category": "ipv6",
+      "type": "concepts",
+      "topic": "IPv6 Concepts",
+      "size_bytes": 4457,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "IPv6 Concepts | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           IPv6](/products/networking/ipv6/)      *   [Quickstart](/products/networkin"
+    },
+    {
+      "path": "./networking/ipv6/ipv6-details-availability.md",
+      "category": "ipv6",
+      "type": "details",
+      "topic": "IPv6 Availability",
+      "size_bytes": 4134,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "IPv6 Availability | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           IPv6](/products/networking/ipv6/)      *   [Quickstart](/products/netwo"
+    },
+    {
+      "path": "./networking/ipv6/ipv6-details-features.md",
+      "category": "ipv6",
+      "type": "details",
+      "topic": "IPv6 Features",
+      "size_bytes": 4681,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "IPv6 Features | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           IPv6](/products/networking/ipv6/)      *   [Quickstart](/products/networkin"
+    },
+    {
+      "path": "./networking/ipv6/ipv6-details-limits.md",
+      "category": "ipv6",
+      "type": "details",
+      "topic": "IPv6 Limits",
+      "size_bytes": 5246,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "IPv6 Limits | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           IPv6](/products/networking/ipv6/)      *   [Quickstart](/products/networking/"
+    },
+    {
+      "path": "./networking/ipv6/ipv6-details-pricing.md",
+      "category": "ipv6",
+      "type": "details",
+      "topic": "IPv6 Pricing",
+      "size_bytes": 4235,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "IPv6 Pricing | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           IPv6](/products/networking/ipv6/)      *   [Quickstart](/products/networking"
+    },
+    {
+      "path": "./networking/ipv6/ipv6-details.md",
+      "category": "ipv6",
+      "type": "overview",
+      "topic": "IPv6 Details",
+      "size_bytes": 4893,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "IPv6 Details | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           IPv6](/products/networking/ipv6/)      *   [Quickstart](/products/networking"
+    },
+    {
+      "path": "./networking/ipv6/ipv6-getting-started-quickstart.md",
+      "category": "ipv6",
+      "type": "getting-started",
+      "topic": "IPv6 Quickstart",
+      "size_bytes": 5833,
+      "structure": {
+        "h2_sections": 2,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Enable IPv6 during Droplet Creation",
+        "Enable IPv6 on Existing Droplets"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "IPv6 Quickstart | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           IPv6](/products/networking/ipv6/)      *   [Quickstart](/products/network"
+    },
+    {
+      "path": "./networking/ipv6/ipv6-getting-started.md",
+      "category": "ipv6",
+      "type": "getting-started",
+      "topic": "Getting Started with IPv6",
+      "size_bytes": 4251,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Getting Started with IPv6 | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           IPv6](/products/networking/ipv6/)      *   [Quickstart](/produc"
+    },
+    {
+      "path": "./networking/ipv6/ipv6-how-to-configure-additional-addresses.md",
+      "category": "ipv6",
+      "type": "how-to",
+      "topic": "How to Enable Additional IPv6 Addresses",
+      "size_bytes": 10433,
+      "structure": {
+        "h2_sections": 3,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Enable New Addresses on Boot",
+        "Enable New Addresses Immediately",
+        "Verify the Configuration"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Enable Additional IPv6 Addresses | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           IPv6](/products/networking/ipv6/)      *   [Quick"
+    },
+    {
+      "path": "./networking/ipv6/ipv6-how-to-disable-ipv4.md",
+      "category": "ipv6",
+      "type": "how-to",
+      "topic": "How to Disable IPv4 and Only Use IPv6",
+      "size_bytes": 9270,
+      "structure": {
+        "h2_sections": 2,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Disable IPv4 on Boot",
+        "Disable IPv4 Immediately"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Disable IPv4 and Only Use IPv6 | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           IPv6](/products/networking/ipv6/)      *   [Quickst"
+    },
+    {
+      "path": "./networking/ipv6/ipv6-how-to-enable.md",
+      "category": "ipv6",
+      "type": "how-to",
+      "topic": "How to Enable IPv6 on Droplets",
+      "size_bytes": 22618,
+      "structure": {
+        "h2_sections": 5,
+        "h3_sections": 4
+      },
+      "main_sections": [
+        "Enable IPv6 During Droplet Creation Using the CLI",
+        "Enable IPv6 During Droplet Creation Using the API",
+        "Enable IPv6 During Droplet Creation Using the Control Panel",
+        "Enable IPv6 on Existing Droplets",
+        "Verify the Configuration"
+      ],
+      "subsections": [
+        "cURL",
+        "Go",
+        "Ruby",
+        "Python"
+      ],
+      "code_languages": [
+        "shell"
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Enable IPv6 on Droplets | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           IPv6](/products/networking/ipv6/)      *   [Quickstart](/p"
+    },
+    {
+      "path": "./networking/ipv6/ipv6-how-to.md",
+      "category": "ipv6",
+      "type": "overview",
+      "topic": "IPv6 How-Tos",
+      "size_bytes": 4761,
+      "structure": {
+        "h2_sections": 1,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Getting Started"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "IPv6 How-Tos | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           IPv6](/products/networking/ipv6/)      *   [Quickstart](/products/networking"
+    },
+    {
+      "path": "./networking/ipv6/ipv6-reference.md",
+      "category": "ipv6",
+      "type": "reference",
+      "topic": "IPv6 Reference",
+      "size_bytes": 5664,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "IPv6 Reference | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           IPv6](/products/networking/ipv6/)      *   [Quickstart](/products/networki"
+    },
+    {
+      "path": "./networking/ipv6/ipv6-support.md",
+      "category": "ipv6",
+      "type": "support",
+      "topic": "IPv6 Support",
+      "size_bytes": 5231,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "IPv6 Support | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           IPv6](/products/networking/ipv6/)      *   [Quickstart](/products/networking"
+    },
+    {
+      "path": "./networking/ipv6/ipv6.md",
+      "category": "ipv6",
+      "type": "overview",
+      "topic": "IPv6",
+      "size_bytes": 6605,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "IPv6 | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           IPv6](/products/networking/ipv6/)      *   [Quickstart](/products/networking/ipv6/ge"
+    },
+    {
+      "path": "./networking/load-balancers/load-balancers-concepts-best-practices.md",
+      "category": "general",
+      "type": "concepts",
+      "topic": "Best Practices for Performance on DigitalOcean Load Balancers",
+      "size_bytes": 11768,
+      "structure": {
+        "h2_sections": 4,
+        "h3_sections": 12
+      },
+      "main_sections": [
+        "Use HTTP/2",
+        "Monitor the Performance of Your Droplets",
+        "Scale Droplets Horizontally or Vertically",
+        "Scale the Load Balancer"
+      ],
+      "subsections": [
+        "When Should I Do This?",
+        "How Does This Improve Performance?",
+        "How Do I Implement This?",
+        "When Should I Do This?",
+        "How Does This Improve Performance?",
+        "How Do I Implement This?",
+        "When Should I Do This?",
+        "How Does This Improve Performance?",
+        "How Do I Implement This?",
+        "When Should I Do This?"
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Best Practices for Performance on DigitalOcean Load Balancers | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Load Balancers](/products/n"
+    },
+    {
+      "path": "./networking/load-balancers/load-balancers-concepts-load-balancer-status.md",
+      "category": "general",
+      "type": "concepts",
+      "topic": "Load Balancer Status",
+      "size_bytes": 6216,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Load Balancer Status | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Load Balancers](/products/networking/load-balancers/)      *   [Quic"
+    },
+    {
+      "path": "./networking/load-balancers/load-balancers-concepts.md",
+      "category": "general",
+      "type": "concepts",
+      "topic": "Load Balancers Concepts",
+      "size_bytes": 5807,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Load Balancers Concepts | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Load Balancers](/products/networking/load-balancers/)      *   [Q"
+    },
+    {
+      "path": "./networking/load-balancers/load-balancers-details-availability.md",
+      "category": "general",
+      "type": "details",
+      "topic": "Load Balancers Availability",
+      "size_bytes": 5631,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Load Balancers Availability | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Load Balancers](/products/networking/load-balancers/)      * "
+    },
+    {
+      "path": "./networking/load-balancers/load-balancers-details-features.md",
+      "category": "general",
+      "type": "details",
+      "topic": "Load Balancers Features",
+      "size_bytes": 17399,
+      "structure": {
+        "h2_sections": 3,
+        "h3_sections": 20
+      },
+      "main_sections": [
+        "All Load Balancers",
+        "Regional Load Balancers",
+        "Global Load Balancers"
+      ],
+      "subsections": [
+        "High Availability",
+        "Backend Droplet Tagging",
+        "Backend Droplet Connections",
+        "Load Balancing Algorithm",
+        "HTTP",
+        "HTTPS and HTTP/2",
+        "Let\u2019s Encrypt SSL Certificates",
+        "Configurable Connection Timeouts",
+        "Protocol Support",
+        "HTTP/3"
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Alt-Svc",
+        "https://www.digitalocean.com/company/contact/abuse"
+      ],
+      "content_preview": "Load Balancers Features | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Load Balancers](/products/networking/load-balancers/)      *   [Q"
+    },
+    {
+      "path": "./networking/load-balancers/load-balancers-details-limits.md",
+      "category": "general",
+      "type": "details",
+      "topic": "Load Balancers Limits",
+      "size_bytes": 12496,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 4
+      },
+      "subsections": [
+        "Regional Load Balancers",
+        "Global Load Balancers",
+        "Let\u2019s Encrypt",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Load Balancers Limits | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Load Balancers](/products/networking/load-balancers/)      *   [Qui"
+    },
+    {
+      "path": "./networking/load-balancers/load-balancers-details-pricing.md",
+      "category": "general",
+      "type": "details",
+      "topic": "Load Balancers Pricing",
+      "size_bytes": 8168,
+      "structure": {
+        "h2_sections": 2,
+        "h3_sections": 2
+      },
+      "main_sections": [
+        "Global Load Balancers",
+        "Regional Load Balancers"
+      ],
+      "subsections": [
+        "Bandwidth",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Load Balancers Pricing | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Load Balancers](/products/networking/load-balancers/)      *   [Qu"
+    },
+    {
+      "path": "./networking/load-balancers/load-balancers-details.md",
+      "category": "general",
+      "type": "overview",
+      "topic": "Load Balancer Details",
+      "size_bytes": 6302,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Load Balancer Details | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Load Balancers](/products/networking/load-balancers/)      *   [Qui"
+    },
+    {
+      "path": "./networking/load-balancers/load-balancers-getting-started-quickstart.md",
+      "category": "general",
+      "type": "getting-started",
+      "topic": "Load Balancer Quickstart",
+      "size_bytes": 7652,
+      "structure": {
+        "h2_sections": 4,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Create Load Balancers",
+        "Add and Remove Droplets",
+        "Use SSL Certificates",
+        "Delete Load Balancers"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Load Balancer Quickstart | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Load Balancers](/products/networking/load-balancers/)      *   ["
+    },
+    {
+      "path": "./networking/load-balancers/load-balancers-getting-started-with-doctl.md",
+      "category": "general",
+      "type": "getting-started",
+      "topic": "How to Work with DigitalOcean Load Balancers Using doctl",
+      "size_bytes": 19030,
+      "structure": {
+        "h2_sections": 7,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Prerequisites",
+        "Step 1: Setting Up the Backend Web Servers",
+        "Step 2: Creating a Load Balancer",
+        "Step 3: Adding Droplets to the Load Balancer",
+        "Step 4: Testing Fail Over",
+        "Summary",
+        "What\u2019s Next?"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Work with DigitalOcean Load Balancers Using doctl | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Load Balancers](/products/networ"
+    },
+    {
+      "path": "./networking/load-balancers/load-balancers-getting-started.md",
+      "category": "general",
+      "type": "getting-started",
+      "topic": "Getting Started with Load Balancers",
+      "size_bytes": 5849,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Getting Started with Load Balancers | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Load Balancers](/products/networking/load-balancers/)"
+    },
+    {
+      "path": "./networking/load-balancers/load-balancers-how-to-configure-droplets-for-nlb.md",
+      "category": "general",
+      "type": "how-to",
+      "topic": "How to Configure Backend Droplets for Network Load Balancers",
+      "size_bytes": 9599,
+      "structure": {
+        "h2_sections": 3,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Find the Load Balancer IP Address",
+        "Add a Route for the Load Balancer IP Address",
+        "Make the Route Permanent"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Configure Backend Droplets for Network Load Balancers | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Load Balancers](/products/ne"
+    },
+    {
+      "path": "./networking/load-balancers/load-balancers-how-to-create-global-load-balancer.md",
+      "category": "general",
+      "type": "how-to",
+      "topic": "How to Create and Set Up Global Load Balancers",
+      "size_bytes": 15077,
+      "structure": {
+        "h2_sections": 2,
+        "h3_sections": 7
+      },
+      "main_sections": [
+        "Create a Global Load Balancer",
+        "Connect a Domain"
+      ],
+      "subsections": [
+        "Connect Resources",
+        "Configure Forwarding Rules",
+        "Configure Advanced Settings",
+        "Finalize and create",
+        "Connect a Domain that Uses DigitalOcean DNS",
+        "Connect a Domain using External DNS",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Create and Set Up Global Load Balancers | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Load Balancers](/products/networking/load-"
+    },
+    {
+      "path": "./networking/load-balancers/load-balancers-how-to-create.md",
+      "category": "general",
+      "type": "how-to",
+      "topic": "How to Create Regional Load Balancers",
+      "size_bytes": 24188,
+      "structure": {
+        "h2_sections": 3,
+        "h3_sections": 5
+      },
+      "main_sections": [
+        "Create a Load Balancer Using the CLI",
+        "Create a Load Balancer Using the API",
+        "Create a Load Balancer Using the Control Panel"
+      ],
+      "subsections": [
+        "cURL",
+        "Go",
+        "Ruby",
+        "Python",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Create Regional Load Balancers | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Load Balancers](/products/networking/load-balancers"
+    },
+    {
+      "path": "./networking/load-balancers/load-balancers-how-to-destroy.md",
+      "category": "general",
+      "type": "how-to",
+      "topic": "How to Destroy Load Balancers",
+      "size_bytes": 9031,
+      "structure": {
+        "h2_sections": 2,
+        "h3_sections": 5
+      },
+      "main_sections": [
+        "Delete a Load Balancer Using Automation",
+        "Destroy a Load Balancer Using the Control Panel"
+      ],
+      "subsections": [
+        "cURL",
+        "Go",
+        "Ruby",
+        "Python",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Destroy Load Balancers | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Load Balancers](/products/networking/load-balancers/)      "
+    },
+    {
+      "path": "./networking/load-balancers/load-balancers-how-to-manage-global-load-balancers.md",
+      "category": "general",
+      "type": "how-to",
+      "topic": "How to Manage Global Load Balancers",
+      "size_bytes": 12648,
+      "structure": {
+        "h2_sections": 2,
+        "h3_sections": 9
+      },
+      "main_sections": [
+        "Add or Remove Resources",
+        "Additional Settings"
+      ],
+      "subsections": [
+        "Domains",
+        "CDN Caching",
+        "Forwarding Rules",
+        "Health Checks",
+        "Traffic Distribution Priority",
+        "Sticky Sessions",
+        "SSL",
+        "HTTP Idle Timeout",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Manage Global Load Balancers | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Load Balancers](/products/networking/load-balancers/)"
+    },
+    {
+      "path": "./networking/load-balancers/load-balancers-how-to-manage.md",
+      "category": "general",
+      "type": "how-to",
+      "topic": "How to Manage Regional Load Balancers",
+      "size_bytes": 37974,
+      "structure": {
+        "h2_sections": 5,
+        "h3_sections": 29
+      },
+      "main_sections": [
+        "Point Hostname at Load Balancer",
+        "Droplet Connectivity",
+        "Manage the Backend Nodes",
+        "View Graphs",
+        "Modify Advanced Settings"
+      ],
+      "subsections": [
+        "Add Droplets to a Load Balancer Using the CLI",
+        "Add Droplets to a Load Balancer Using the API",
+        "cURL",
+        "Go",
+        "Ruby",
+        "Python",
+        "Add Droplets to a Load Balancer Using the Control Panel",
+        "Scaling Configuration",
+        "Forwarding Rules",
+        "cURL"
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Manage Regional Load Balancers | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Load Balancers](/products/networking/load-balancers"
+    },
+    {
+      "path": "./networking/load-balancers/load-balancers-how-to-scale.md",
+      "category": "general",
+      "type": "how-to",
+      "topic": "How to Scale Regional Load Balancers",
+      "size_bytes": 15991,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 8
+      },
+      "subsections": [
+        "Scale a Load Balancer Using the CLI",
+        "Scale a Load Balancer Using the API",
+        "cURL",
+        "Go",
+        "Ruby",
+        "Python",
+        "Scale a Load Balancer Using the Control Panel",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Scale Regional Load Balancers | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Load Balancers](/products/networking/load-balancers/"
+    },
+    {
+      "path": "./networking/load-balancers/load-balancers-how-to-ssl-passthrough.md",
+      "category": "general",
+      "type": "how-to",
+      "topic": "How to Configure SSL Passthrough",
+      "size_bytes": 10914,
+      "structure": {
+        "h2_sections": 3,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Backend Configuration for SSL Passthrough",
+        "Add the Load Balancer SSL Passthrough Rule",
+        "Force SSL Traffic"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Configure SSL Passthrough | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Load Balancers](/products/networking/load-balancers/)   "
+    },
+    {
+      "path": "./networking/load-balancers/load-balancers-how-to-ssl-termination.md",
+      "category": "general",
+      "type": "how-to",
+      "topic": "How to Configure SSL Termination",
+      "size_bytes": 15736,
+      "structure": {
+        "h2_sections": 3,
+        "h3_sections": 3
+      },
+      "main_sections": [
+        "Add the SSL Termination Rule",
+        "Add an SSL Certificate",
+        "Force SSL Traffic"
+      ],
+      "subsections": [
+        "Use an Existing Domain",
+        "Add a New Domain",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Configure SSL Termination | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Load Balancers](/products/networking/load-balancers/)   "
+    },
+    {
+      "path": "./networking/load-balancers/load-balancers-how-to-tcp.md",
+      "category": "general",
+      "type": "how-to",
+      "topic": "How to Balance TCP Traffic",
+      "size_bytes": 7653,
+      "structure": {
+        "h2_sections": 2,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Add the TCP Forwarding Rule",
+        "Add the TCP Health Check"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Balance TCP Traffic | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Load Balancers](/products/networking/load-balancers/)      *  "
+    },
+    {
+      "path": "./networking/load-balancers/load-balancers-how-to.md",
+      "category": "general",
+      "type": "overview",
+      "topic": "Load Balancer How-Tos",
+      "size_bytes": 8180,
+      "structure": {
+        "h2_sections": 2,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Getting Started",
+        "Load Balancer Management"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Load Balancer How-Tos | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Load Balancers](/products/networking/load-balancers/)      *   [Qui"
+    },
+    {
+      "path": "./networking/load-balancers/load-balancers-reference.md",
+      "category": "general",
+      "type": "reference",
+      "topic": "Load Balancer Reference",
+      "size_bytes": 6341,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Load Balancer Reference | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Load Balancers](/products/networking/load-balancers/)      *   [Q"
+    },
+    {
+      "path": "./networking/load-balancers/load-balancers-support.md",
+      "category": "general",
+      "type": "support",
+      "topic": "Load Balancer Support",
+      "size_bytes": 7680,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Load Balancer Support | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Load Balancers](/products/networking/load-balancers/)      *   [Qui"
+    },
+    {
+      "path": "./networking/load-balancers/load-balancers.md",
+      "category": "general",
+      "type": "overview",
+      "topic": "Load Balancers",
+      "size_bytes": 10836,
+      "structure": {
+        "h2_sections": 1,
+        "h3_sections": 4
+      },
+      "main_sections": [
+        "Latest Updates"
+      ],
+      "subsections": [
+        "27 March 2025",
+        "28 February 2025",
+        "12 December 2024",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Load Balancers | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Load Balancers](/products/networking/load-balancers/)      *   [Quickstart"
+    },
+    {
+      "path": "./networking/reserved-ips/reserved-ips-concepts.md",
+      "category": "general",
+      "type": "concepts",
+      "topic": "Reserved IP Concepts",
+      "size_bytes": 4989,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Reserved IP Concepts | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Reserved IPs](/products/networking/reserved-ips/)      *   [Quicksta"
+    },
+    {
+      "path": "./networking/reserved-ips/reserved-ips-details-availability.md",
+      "category": "general",
+      "type": "details",
+      "topic": "Reserved IP Availability",
+      "size_bytes": 5307,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Reserved IP Availability | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Reserved IPs](/products/networking/reserved-ips/)      *   [Quic"
+    },
+    {
+      "path": "./networking/reserved-ips/reserved-ips-details-features.md",
+      "category": "general",
+      "type": "details",
+      "topic": "Reserved IP Features",
+      "size_bytes": 6274,
+      "structure": {
+        "h2_sections": 1,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Bring Your Own IP"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Reserved IP Features | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Reserved IPs](/products/networking/reserved-ips/)      *   [Quicksta"
+    },
+    {
+      "path": "./networking/reserved-ips/reserved-ips-details-limits.md",
+      "category": "general",
+      "type": "details",
+      "topic": "Reserved IP Limits",
+      "size_bytes": 7004,
+      "structure": {
+        "h2_sections": 2,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Reserved IPs",
+        "Bring Your Own IPs"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Reserved IP Limits | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Reserved IPs](/products/networking/reserved-ips/)      *   [Quickstart"
+    },
+    {
+      "path": "./networking/reserved-ips/reserved-ips-details-pricing.md",
+      "category": "general",
+      "type": "details",
+      "topic": "Reserved IPs Pricing",
+      "size_bytes": 5474,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Reserved IPs Pricing | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Reserved IPs](/products/networking/reserved-ips/)      *   [Quicksta"
+    },
+    {
+      "path": "./networking/reserved-ips/reserved-ips-details.md",
+      "category": "general",
+      "type": "overview",
+      "topic": "Reserved IP Details",
+      "size_bytes": 5909,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Reserved IP Details | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Reserved IPs](/products/networking/reserved-ips/)      *   [Quickstar"
+    },
+    {
+      "path": "./networking/reserved-ips/reserved-ips-getting-started-quickstart.md",
+      "category": "general",
+      "type": "getting-started",
+      "topic": "Reserved IP Quickstart",
+      "size_bytes": 6771,
+      "structure": {
+        "h2_sections": 4,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Create and Assign Reserved IPs",
+        "Reassign Reserved IPs",
+        "Unassign Reserved IPs",
+        "Delete Reserved IPs"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Reserved IP Quickstart | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Reserved IPs](/products/networking/reserved-ips/)      *   [Quicks"
+    },
+    {
+      "path": "./networking/reserved-ips/reserved-ips-getting-started.md",
+      "category": "general",
+      "type": "getting-started",
+      "topic": "Getting Started with Reserved IPs",
+      "size_bytes": 5107,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Getting Started with Reserved IPs | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Reserved IPs](/products/networking/reserved-ips/)      "
+    },
+    {
+      "path": "./networking/reserved-ips/reserved-ips-how-to-assign-byoip-ip.md",
+      "category": "general",
+      "type": "how-to",
+      "topic": "How to Assign BYOIP IPs",
+      "size_bytes": 7349,
+      "structure": {
+        "h2_sections": 2,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Assign a BYOIP IP Address Using Automation",
+        "Assign a BYOIP IP Address Using the Control Panel"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Assign BYOIP IPs | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Reserved IPs](/products/networking/reserved-ips/)      *   [Quick"
+    },
+    {
+      "path": "./networking/reserved-ips/reserved-ips-how-to-create.md",
+      "category": "general",
+      "type": "how-to",
+      "topic": "How to Create Reserved IPs",
+      "size_bytes": 12945,
+      "structure": {
+        "h2_sections": 3,
+        "h3_sections": 8
+      },
+      "main_sections": [
+        "Create a Reserved IP Using the CLI",
+        "Create a Reserved IP Using the API",
+        "Create a Reserved IP Using the Control Panel"
+      ],
+      "subsections": [
+        "cURL",
+        "Go",
+        "Ruby",
+        "Python",
+        "cURL",
+        "Go",
+        "Python",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Create Reserved IPs | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Reserved IPs](/products/networking/reserved-ips/)      *   [Qu"
+    },
+    {
+      "path": "./networking/reserved-ips/reserved-ips-how-to-delete.md",
+      "category": "general",
+      "type": "how-to",
+      "topic": "How to Delete Reserved IPs",
+      "size_bytes": 9743,
+      "structure": {
+        "h2_sections": 2,
+        "h3_sections": 5
+      },
+      "main_sections": [
+        "Delete an Assigned IP Using Automation",
+        "Delete an Assigned IP Using the Control Panel"
+      ],
+      "subsections": [
+        "cURL",
+        "Go",
+        "Ruby",
+        "Python",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Delete Reserved IPs | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Reserved IPs](/products/networking/reserved-ips/)      *   [Qu"
+    },
+    {
+      "path": "./networking/reserved-ips/reserved-ips-how-to-deprovision-byoip.md",
+      "category": "general",
+      "type": "how-to",
+      "topic": "How to Deprovision a BYOIP Prefix",
+      "size_bytes": 7203,
+      "structure": {
+        "h2_sections": 3,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Deprovision a BYOIP Prefix Using the CLI",
+        "Deprovision a BYOIP Prefix Using the API",
+        "Deprovision a BYOIP Prefix Using the Control Panel"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Deprovision a BYOIP Prefix | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Reserved IPs](/products/networking/reserved-ips/)      "
+    },
+    {
+      "path": "./networking/reserved-ips/reserved-ips-how-to-find-anchor-ips.md",
+      "category": "general",
+      "type": "how-to",
+      "topic": "How to Find Information about Droplet Anchor IPs",
+      "size_bytes": 7509,
+      "structure": {
+        "h2_sections": 1,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Get a Droplet\u2019s Anchor IP"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Find Information about Droplet Anchor IPs | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Reserved IPs](/products/networking/reser"
+    },
+    {
+      "path": "./networking/reserved-ips/reserved-ips-how-to-manually-enable.md",
+      "category": "general",
+      "type": "how-to",
+      "topic": "How to Manually Enable Reserved IPs",
+      "size_bytes": 12066,
+      "structure": {
+        "h2_sections": 3,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Enable Anchor IPs Immediately",
+        "Persist Anchor IPs After Reboots",
+        "Enable Reserved IPv6"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Manually Enable Reserved IPs | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Reserved IPs](/products/networking/reserved-ips/)    "
+    },
+    {
+      "path": "./networking/reserved-ips/reserved-ips-how-to-modify-byoip-ip.md",
+      "category": "general",
+      "type": "how-to",
+      "topic": "How to Reassign or Unassign BYOIP IPs",
+      "size_bytes": 10030,
+      "structure": {
+        "h2_sections": 4,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Reassign a BYOIP IP Address Using Automation",
+        "Reassign a BYOIP IP Address Using the Control Panel",
+        "Unassign a BYOIP IP Address Using Automation",
+        "Unassign a BYOIP IP Address Using the Control Panel"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Reassign or Unassign BYOIP IPs | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Reserved IPs](/products/networking/reserved-ips/)  "
+    },
+    {
+      "path": "./networking/reserved-ips/reserved-ips-how-to-modify.md",
+      "category": "general",
+      "type": "how-to",
+      "topic": "How to Reassign or Unassign Reserved IPs",
+      "size_bytes": 11181,
+      "structure": {
+        "h2_sections": 2,
+        "h3_sections": 5
+      },
+      "main_sections": [
+        "Reassign a Reserved IP Using Automation",
+        "Reassign a Reserved IP Using the Control Panel"
+      ],
+      "subsections": [
+        "cURL",
+        "Go",
+        "Ruby",
+        "Python",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Reassign or Unassign Reserved IPs | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Reserved IPs](/products/networking/reserved-ips/"
+    },
+    {
+      "path": "./networking/reserved-ips/reserved-ips-how-to-outbound-traffic.md",
+      "category": "general",
+      "type": "how-to",
+      "topic": "How to Send Outbound Traffic Over a Reserved IP",
+      "size_bytes": 13656,
+      "structure": {
+        "h2_sections": 4,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Prerequisites",
+        "Enable Outbound Reserved IP Traffic Immediately",
+        "Persist Outbound Reserved IP Traffic After Reboot",
+        "Disable Outbound Reserved IP Traffic"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Send Outbound Traffic Over a Reserved IP | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Reserved IPs](/products/networking/reserv"
+    },
+    {
+      "path": "./networking/reserved-ips/reserved-ips-how-to-pause-byoip.md",
+      "category": "general",
+      "type": "how-to",
+      "topic": "How to Pause or Resume BYOIP Prefix Advertisement",
+      "size_bytes": 9195,
+      "structure": {
+        "h2_sections": 2,
+        "h3_sections": 7
+      },
+      "main_sections": [
+        "Pause the Advertisement of a BYOIP Prefix",
+        "Resume the Advertisement of a BYOIP Prefix"
+      ],
+      "subsections": [
+        "Using the CLI",
+        "Using the API",
+        "Using the Control Panel",
+        "Using the CLI",
+        "Using the API",
+        "Using the Control Panel",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Pause or Resume BYOIP Prefix Advertisement | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Reserved IPs](/products/networking/rese"
+    },
+    {
+      "path": "./networking/reserved-ips/reserved-ips-how-to-provision-byoip.md",
+      "category": "general",
+      "type": "how-to",
+      "topic": "How to Provision a BYOIP Prefix",
+      "size_bytes": 20849,
+      "structure": {
+        "h2_sections": 8,
+        "h3_sections": 6
+      },
+      "main_sections": [
+        "Prerequisites",
+        "Generate the X.509 Certificate",
+        "Add the X.509 Certificate to Your RIR",
+        "Verify the Certificate Records",
+        "Generate the Signature Hash",
+        "Submit Your Provisioning Request",
+        "Get the Status of a Provisioning Request",
+        "How To Use BYOIP Addresses"
+      ],
+      "subsections": [
+        "Submit Your Provisioning Request Using the CLI",
+        "Submit Your Provisioning Request Using the API",
+        "Get the Status of a Provisioning Request Using the CLI",
+        "Get the Status of a Provisioning Request Using the API",
+        "Network Operations Communication Expectations",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://afrinic.net/support/rpki/create-add-rpki-roa",
+        "https://www.digitalocean.com/company/contact/abuse"
+      ],
+      "content_preview": "How to Provision a BYOIP Prefix | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Reserved IPs](/products/networking/reserved-ips/)      * "
+    },
+    {
+      "path": "./networking/reserved-ips/reserved-ips-how-to.md",
+      "category": "general",
+      "type": "overview",
+      "topic": "Reserved IP How-Tos",
+      "size_bytes": 7591,
+      "structure": {
+        "h2_sections": 3,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Getting Started",
+        "Reserved IP Management",
+        "Bring Your Own IP"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Reserved IP How-Tos | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Reserved IPs](/products/networking/reserved-ips/)      *   [Quickstar"
+    },
+    {
+      "path": "./networking/reserved-ips/reserved-ips-reference.md",
+      "category": "general",
+      "type": "reference",
+      "topic": "Reserved IP Reference",
+      "size_bytes": 6102,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Reserved IP Reference | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Reserved IPs](/products/networking/reserved-ips/)      *   [Quickst"
+    },
+    {
+      "path": "./networking/reserved-ips/reserved-ips-support.md",
+      "category": "general",
+      "type": "support",
+      "topic": "Reserved IP Support",
+      "size_bytes": 5958,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Reserved IP Support | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Reserved IPs](/products/networking/reserved-ips/)      *   [Quickstar"
+    },
+    {
+      "path": "./networking/reserved-ips/reserved-ips.md",
+      "category": "general",
+      "type": "overview",
+      "topic": "Reserved IPs",
+      "size_bytes": 9108,
+      "structure": {
+        "h2_sections": 1,
+        "h3_sections": 4
+      },
+      "main_sections": [
+        "Latest Updates"
+      ],
+      "subsections": [
+        "18 September 2025",
+        "25 June 2025",
+        "17 June 2025",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Reserved IPs | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           Reserved IPs](/products/networking/reserved-ips/)      *   [Quickstart](/pro"
+    },
+    {
+      "path": "./networking/vpc/vpc-concepts-best-practices.md",
+      "category": "vpc",
+      "type": "concepts",
+      "topic": "Use VPC Networks to Secure Your Servers and Other Best Practices",
+      "size_bytes": 14514,
+      "structure": {
+        "h2_sections": 5,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Isolate Environments and Tenants with VPC Networks",
+        "Internet Gateways",
+        "SSH Keys",
+        "Cloud Firewalls",
+        "Service Auditing"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Use VPC Networks to Secure Your Servers and Other Best Practices | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networkin"
+    },
+    {
+      "path": "./networking/vpc/vpc-concepts-plan-your-network.md",
+      "category": "vpc",
+      "type": "concepts",
+      "topic": "How to Plan Your Custom VPC Network",
+      "size_bytes": 12370,
+      "structure": {
+        "h2_sections": 4,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Large Networks Versus Smaller Networks",
+        "DigitalOcean Reserved IP Addresses and Ranges",
+        "Determine Your IP Range",
+        "Other Tools and Resources"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.ipaddressguide.com/cidr",
+        "https://www.digitalocean.com/company/contact/abuse"
+      ],
+      "content_preview": "How to Plan Your Custom VPC Network | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quickstart]"
+    },
+    {
+      "path": "./networking/vpc/vpc-concepts.md",
+      "category": "vpc",
+      "type": "concepts",
+      "topic": "VPC Concepts",
+      "size_bytes": 6024,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "VPC Concepts | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quickstart](/products/networking/v"
+    },
+    {
+      "path": "./networking/vpc/vpc-details-availability.md",
+      "category": "vpc",
+      "type": "details",
+      "topic": "VPC Availability",
+      "size_bytes": 5907,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "VPC Availability | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quickstart](/products/networki"
+    },
+    {
+      "path": "./networking/vpc/vpc-details-features.md",
+      "category": "vpc",
+      "type": "details",
+      "topic": "VPC Features",
+      "size_bytes": 12223,
+      "structure": {
+        "h2_sections": 1,
+        "h3_sections": 2
+      },
+      "main_sections": [
+        "Internet Gateways"
+      ],
+      "subsections": [
+        "NAT Gateways",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "VPC Features | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quickstart](/products/networking/v"
+    },
+    {
+      "path": "./networking/vpc/vpc-details-limits.md",
+      "category": "vpc",
+      "type": "details",
+      "topic": "VPC Limit",
+      "size_bytes": 9817,
+      "structure": {
+        "h2_sections": 2,
+        "h3_sections": 3
+      },
+      "main_sections": [
+        "Limits",
+        "Known Issues"
+      ],
+      "subsections": [
+        "VPC Peering Limits",
+        "VPC NAT Gateway Limits public",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "VPC Limit | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quickstart](/products/networking/vpc/"
+    },
+    {
+      "path": "./networking/vpc/vpc-details-pricing.md",
+      "category": "vpc",
+      "type": "details",
+      "topic": "VPC Pricing",
+      "size_bytes": 7028,
+      "structure": {
+        "h2_sections": 4,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "VPC Networks",
+        "VPC Peering",
+        "VPC NAT Gateway",
+        "Partner Network Connect"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "VPC Pricing | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quickstart](/products/networking/vp"
+    },
+    {
+      "path": "./networking/vpc/vpc-details.md",
+      "category": "vpc",
+      "type": "overview",
+      "topic": "VPC Details",
+      "size_bytes": 6712,
+      "structure": {
+        "h2_sections": 1,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "VPC Networks"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "VPC Details | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quickstart](/products/networking/vp"
+    },
+    {
+      "path": "./networking/vpc/vpc-getting-started-quickstart.md",
+      "category": "vpc",
+      "type": "getting-started",
+      "topic": "VPC Quickstart",
+      "size_bytes": 8339,
+      "structure": {
+        "h2_sections": 3,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Create a VPC Network",
+        "Add a New Resource to a VPC",
+        "Migrate an Existing Droplet to a VPC Network"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "VPC Quickstart | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quickstart](/products/networking"
+    },
+    {
+      "path": "./networking/vpc/vpc-getting-started.md",
+      "category": "vpc",
+      "type": "getting-started",
+      "topic": "Getting Started with VPCs",
+      "size_bytes": 5754,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "Getting Started with VPCs | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quickstart](/products"
+    },
+    {
+      "path": "./networking/vpc/vpc-how-to-add-ha-to-partner-attachment.md",
+      "category": "vpc",
+      "type": "how-to",
+      "topic": "How to Add High Availability to a Partner Attachment",
+      "size_bytes": 11074,
+      "structure": {
+        "h2_sections": 2,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Add High Availability to a Partner Attachment",
+        "Complete the Connection"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Add High Availability to a Partner Attachment | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)     "
+    },
+    {
+      "path": "./networking/vpc/vpc-how-to-add-resources.md",
+      "category": "vpc",
+      "type": "how-to",
+      "topic": "How to Add New Resources to a VPC Network",
+      "size_bytes": 7191,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Add New Resources to a VPC Network | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quick"
+    },
+    {
+      "path": "./networking/vpc/vpc-how-to-configure-doks-nat-gateway.md",
+      "category": "vpc",
+      "type": "how-to",
+      "topic": "How to Configure DOKS for NAT Gateway",
+      "size_bytes": 6293,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Configure DOKS for NAT Gateway | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quickstar"
+    },
+    {
+      "path": "./networking/vpc/vpc-how-to-configure-droplet-nat-gateway.md",
+      "category": "vpc",
+      "type": "how-to",
+      "topic": "How to Configure Droplets for NAT Gateway",
+      "size_bytes": 20814,
+      "structure": {
+        "h2_sections": 4,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Default Gateway Routing",
+        "Define Temporary Route Changes",
+        "Test Route Changes",
+        "Persistent Route Changes"
+      ],
+      "subsections": [
+        "We can't find any results for your sear"
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Configure Droplets for NAT Gateway | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quick"
+    },
+    {
+      "path": "./networking/vpc/vpc-how-to-create-nat-gateway.md",
+      "category": "vpc",
+      "type": "how-to",
+      "topic": "How to Create a NAT Gateway",
+      "size_bytes": 12110,
+      "structure": {
+        "h2_sections": 3,
+        "h3_sections": 7
+      },
+      "main_sections": [
+        "Create a NAT Gateway Using the CLI",
+        "Create a NAT Gateway Using the API",
+        "Create a NAT Gateway Using the Control Panel"
+      ],
+      "subsections": [
+        "cURL",
+        "Choose a region",
+        "Select a VPC",
+        "Choose a size",
+        "Timeouts",
+        "Finalize",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Create a NAT Gateway | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quickstart](/produc"
+    },
+    {
+      "path": "./networking/vpc/vpc-how-to-create-partner-attachment.md",
+      "category": "vpc",
+      "type": "how-to",
+      "topic": "How to Create a Partner Attachment",
+      "size_bytes": 22315,
+      "structure": {
+        "h2_sections": 5,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Create a Partner Attachment",
+        "Create a Megaport Cloud Router",
+        "Create a Virtual Cross Connection (VXC) to DigitalOcean",
+        "Verify the Connection Between DigitalOcean and Megaport",
+        "Connect Megaport to Other Clouds or On-premises Datacenters"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Create a Partner Attachment | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quickstart]("
+    },
+    {
+      "path": "./networking/vpc/vpc-how-to-create-peering.md",
+      "category": "vpc",
+      "type": "how-to",
+      "topic": "How to Create a VPC Peering",
+      "size_bytes": 11046,
+      "structure": {
+        "h2_sections": 4,
+        "h3_sections": 2
+      },
+      "main_sections": [
+        "Create a VPC Peering Using the CLI",
+        "Create a VPC Peering Using the API",
+        "Create a VPC Peering Using the Control Panel",
+        "View a VPC\u2019s Peering Connections"
+      ],
+      "subsections": [
+        "cURL",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Create a VPC Peering | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quickstart](/produc"
+    },
+    {
+      "path": "./networking/vpc/vpc-how-to-create.md",
+      "category": "vpc",
+      "type": "how-to",
+      "topic": "How to Create a VPC",
+      "size_bytes": 11400,
+      "structure": {
+        "h2_sections": 3,
+        "h3_sections": 4
+      },
+      "main_sections": [
+        "Create a VPC Network Using the CLI",
+        "Create a VPC Network Using the API",
+        "Create a VPC Network Using the Control Panel"
+      ],
+      "subsections": [
+        "cURL",
+        "Go",
+        "Python",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Create a VPC | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quickstart](/products/netwo"
+    },
+    {
+      "path": "./networking/vpc/vpc-how-to-destroy-nat-gateway.md",
+      "category": "vpc",
+      "type": "how-to",
+      "topic": "How to Destroy a NAT Gateway",
+      "size_bytes": 8598,
+      "structure": {
+        "h2_sections": 3,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Destroy a NAT Gateway Using the Command Line",
+        "Destroy a NAT Gateway Using the API",
+        "Destroy a NAT Gateway Using the Control Panel"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Destroy a NAT Gateway | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quickstart](/produ"
+    },
+    {
+      "path": "./networking/vpc/vpc-how-to-destroy-partner-attachment.md",
+      "category": "vpc",
+      "type": "how-to",
+      "topic": "How to Destroy a Partner Attachment",
+      "size_bytes": 6910,
+      "structure": {
+        "h2_sections": 2,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Destroy a Partner Attachment Using the API",
+        "Destroy a Partner Attachment Using the Control Panel"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Destroy a Partner Attachment | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quickstart]"
+    },
+    {
+      "path": "./networking/vpc/vpc-how-to-destroy-peering.md",
+      "category": "vpc",
+      "type": "how-to",
+      "topic": "How to Destroy a VPC Peering",
+      "size_bytes": 8622,
+      "structure": {
+        "h2_sections": 2,
+        "h3_sections": 2
+      },
+      "main_sections": [
+        "Delete a VPC Peering Using Automation",
+        "Delete a VPC Peering Using the Control Panel"
+      ],
+      "subsections": [
+        "cURL",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Destroy a VPC Peering | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quickstart](/produ"
+    },
+    {
+      "path": "./networking/vpc/vpc-how-to-destroy.md",
+      "category": "vpc",
+      "type": "how-to",
+      "topic": "How to Destroy a VPC",
+      "size_bytes": 9079,
+      "structure": {
+        "h2_sections": 2,
+        "h3_sections": 4
+      },
+      "main_sections": [
+        "Delete a VPC Network Using Automation",
+        "Delete a VPC Network Using the Control Panel"
+      ],
+      "subsections": [
+        "cURL",
+        "Go",
+        "Python",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Destroy a VPC | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quickstart](/products/netw"
+    },
+    {
+      "path": "./networking/vpc/vpc-how-to-edit-partner-attachment-vpc.md",
+      "category": "vpc",
+      "type": "how-to",
+      "topic": "How to Edit a Partner Attachment's VPC Networks",
+      "size_bytes": 7457,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Edit a Partner Attachment's VPC Networks | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   "
+    },
+    {
+      "path": "./networking/vpc/vpc-how-to-enable.md",
+      "category": "vpc",
+      "type": "how-to",
+      "topic": "How to Enable VPC Networking on Existing Droplets",
+      "size_bytes": 16624,
+      "structure": {
+        "h2_sections": 2,
+        "h3_sections": 2
+      },
+      "main_sections": [
+        "Enable VPC Networking on Existing Droplets",
+        "Verify the Configuration"
+      ],
+      "subsections": [
+        "Network Configuration by Operating System",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://netplan.io/",
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse"
+      ],
+      "content_preview": "How to Enable VPC Networking on Existing Droplets | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      * "
+    },
+    {
+      "path": "./networking/vpc/vpc-how-to-migrate-resources.md",
+      "category": "vpc",
+      "type": "how-to",
+      "topic": "How to Migrate Resources Into and Between VPC Networks",
+      "size_bytes": 10486,
+      "structure": {
+        "h2_sections": 2,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Migrate Droplets Into A VPC Network",
+        "Migrate Your Database to a Different VPC Network"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Migrate Resources Into and Between VPC Networks | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)   "
+    },
+    {
+      "path": "./networking/vpc/vpc-how-to-set-default-vpc.md",
+      "category": "vpc",
+      "type": "how-to",
+      "topic": "How to Set a Default VPC",
+      "size_bytes": 6879,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Set a Default VPC | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quickstart](/products/"
+    },
+    {
+      "path": "./networking/vpc/vpc-how-to-troubleshoot-partner-attachment.md",
+      "category": "vpc",
+      "type": "how-to",
+      "topic": "How to Troubleshoot a Partner Attachment",
+      "size_bytes": 8392,
+      "structure": {
+        "h2_sections": 4,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Troubleshoot with Megaport Cloud Router Looking Glass",
+        "Troubleshoot Using the DigitalOcean Control Panel",
+        "View Megaport Maintenance and Outage Status",
+        "Regenerate an Expired Service Key"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Troubleshoot a Partner Attachment | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quicks"
+    },
+    {
+      "path": "./networking/vpc/vpc-how-to-update-peering-routes.md",
+      "category": "vpc",
+      "type": "how-to",
+      "topic": "How to Update Routes to Enable VPC Peering",
+      "size_bytes": 17559,
+      "structure": {
+        "h2_sections": 6,
+        "h3_sections": 2
+      },
+      "main_sections": [
+        "Restart Network Services",
+        "Add Routes Manually",
+        "Verify Added Routes",
+        "Remove Manually Added Routes",
+        "Disable Automatic Route Injection",
+        "Disable Automatic Route Injection for the Entire Team"
+      ],
+      "subsections": [
+        "Permanently Add the Routes",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Update Routes to Enable VPC Peering | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quic"
+    },
+    {
+      "path": "./networking/vpc/vpc-how-to-use-local-dns-resolver.md",
+      "category": "vpc",
+      "type": "how-to",
+      "topic": "How to Use the VPC-local DNS Resolver",
+      "size_bytes": 13588,
+      "structure": {
+        "h2_sections": 2,
+        "h3_sections": 3
+      },
+      "main_sections": [
+        "Find a VPC Network\u2019s Internal Resolver IP Address",
+        "Update Droplets to Use the VPC-local DNS Resolver"
+      ],
+      "subsections": [
+        "Use the Control Panel to Find a VPC Network\u2019s Internal Resolver IP Address",
+        "Use the DigitalOcean API to Find a VPC Network\u2019s Internal Resolver IP Address",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "How to Use the VPC-local DNS Resolver | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quickstar"
+    },
+    {
+      "path": "./networking/vpc/vpc-how-to.md",
+      "category": "vpc",
+      "type": "overview",
+      "topic": "VPC How-Tos",
+      "size_bytes": 9993,
+      "structure": {
+        "h2_sections": 5,
+        "h3_sections": 1
+      },
+      "main_sections": [
+        "Getting Started",
+        "VPC Network Management",
+        "VPC Peering Management",
+        "NAT Gateway",
+        "Partner Network Connect"
+      ],
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "VPC How-Tos | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quickstart](/products/networking/vp"
+    },
+    {
+      "path": "./networking/vpc/vpc-reference.md",
+      "category": "vpc",
+      "type": "reference",
+      "topic": "VPC Reference",
+      "size_bytes": 6915,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "VPC Reference | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quickstart](/products/networking/"
+    },
+    {
+      "path": "./networking/vpc/vpc-support.md",
+      "category": "vpc",
+      "type": "support",
+      "topic": "VPC Support",
+      "size_bytes": 5806,
+      "structure": {
+        "h2_sections": 0,
+        "h3_sections": 1
+      },
+      "subsections": [
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "VPC Support | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quickstart](/products/networking/vp"
+    },
+    {
+      "path": "./networking/vpc/vpc.md",
+      "category": "vpc",
+      "type": "overview",
+      "topic": "VPC",
+      "size_bytes": 9619,
+      "structure": {
+        "h2_sections": 1,
+        "h3_sections": 4
+      },
+      "main_sections": [
+        "Latest Updates"
+      ],
+      "subsections": [
+        "19 November 2025",
+        "30 September 2025",
+        "28 August 2025",
+        "We can't find any results for your search."
+      ],
+      "external_references": [
+        "https://www.digitalocean.com/currents",
+        "https://www.digitalocean.com/company/contact/abuse",
+        "https://www.digitalocean.com/community/tutorials"
+      ],
+      "content_preview": "VPC | DigitalOcean Documentation  *   [          DigitalOcean | Docs](https://docs.digitalocean.com/)  *           VPC](/products/networking/vpc/)      *   [Quickstart](/products/networking/vpc/gettin"
+    }
+  ]
+}
