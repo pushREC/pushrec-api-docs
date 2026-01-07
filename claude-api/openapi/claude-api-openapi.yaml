@@ -1,0 +1,153 @@
+openapi: 3.0.3
+info:
+  title: Anthropic Claude API
+  version: 1.0.0
+  description: API documentation for Anthropic Claude API
+  x-generated-by: api-docs-finder export_generator
+  x-generated-at: '2026-01-07T16:55:16.910888'
+servers:
+- url: https://api.anthropic.com/v1
+  description: Production
+paths:
+  /v1/messages:
+    post:
+      summary: POST /v1/messages
+      tags:
+      - v1
+      - claude-api
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /v1/messages/batches:
+    post:
+      summary: POST /v1/messages/batches
+      tags:
+      - v1
+      - claude-api
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /v1/messages/count_tokens:
+    post:
+      summary: POST /v1/messages/count_tokens
+      tags:
+      - v1
+      - claude-api
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /v1/models:
+    get:
+      summary: GET /v1/models
+      tags:
+      - v1
+      - claude-api
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /v1/files:
+    post:
+      summary: POST /v1/files
+      tags:
+      - v1
+      - claude-api
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    get:
+      summary: GET /v1/files
+      tags:
+      - v1
+      - claude-api
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /v1/skills:
+    post:
+      summary: POST /v1/skills
+      tags:
+      - v1
+      - claude-api
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    get:
+      summary: GET /v1/skills
+      tags:
+      - v1
+      - claude-api
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+components:
+  securitySchemes:
+    apiKeyAuth:
+      type: apiKey
+      in: header
+      name: x-api-key
+security:
+- apiKeyAuth: []

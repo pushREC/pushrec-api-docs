@@ -1,0 +1,185 @@
+{
+  "info": {
+    "_postman_id": "0b033967-03eb-45bb-9a07-0bc1aa8cfe1f",
+    "name": "DigitalOcean API",
+    "description": "Postman collection for DigitalOcean API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "",
+      "item": [
+        {
+          "name": "OPTIONS //",
+          "request": {
+            "method": "OPTIONS",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{apiToken}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}//",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Copy",
+      "item": [
+        {
+          "name": "PUT /copy",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{apiToken}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/copy",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "copy"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Hello",
+      "item": [
+        {
+          "name": "GET /hello",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{apiToken}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/hello",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "hello"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /hello",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{apiToken}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/hello",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "hello"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /hello",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{apiToken}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/hello",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "hello"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Large-File",
+      "item": [
+        {
+          "name": "POST /large-file",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{apiToken}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/large-file",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "large-file"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /large-file",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{apiToken}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/large-file",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "large-file"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://api.digitalocean.com/v2"
+    },
+    {
+      "key": "apiToken",
+      "value": ""
+    }
+  ]
+}

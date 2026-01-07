@@ -1,0 +1,203 @@
+{
+  "info": {
+    "_postman_id": "1af36a9c-e237-488d-a9a8-031a261100e1",
+    "name": "Anthropic Claude API",
+    "description": "Postman collection for Anthropic Claude API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "V1",
+      "item": [
+        {
+          "name": "POST /v1/messages",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "x-api-key",
+                "value": "{{apiToken}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/messages",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "messages"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/messages/batches",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "x-api-key",
+                "value": "{{apiToken}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/messages/batches",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "messages",
+                "batches"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/messages/count_tokens",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "x-api-key",
+                "value": "{{apiToken}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/messages/count_tokens",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "messages",
+                "count_tokens"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/models",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "x-api-key",
+                "value": "{{apiToken}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/models",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "models"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/files",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "x-api-key",
+                "value": "{{apiToken}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/files",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "files"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/files",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "x-api-key",
+                "value": "{{apiToken}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/files",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "files"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /v1/skills",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "x-api-key",
+                "value": "{{apiToken}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/skills",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "skills"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/skills",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "x-api-key",
+                "value": "{{apiToken}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/skills",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "skills"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://api.anthropic.com/v1"
+    },
+    {
+      "key": "apiToken",
+      "value": ""
+    }
+  ]
+}

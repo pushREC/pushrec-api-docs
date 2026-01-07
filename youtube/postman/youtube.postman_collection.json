@@ -1,0 +1,1379 @@
+{
+  "info": {
+    "_postman_id": "19b1c11e-a309-441e-95eb-378ba02191c6",
+    "name": "YouTube Data API v3",
+    "description": "Postman collection for YouTube Data API v3",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Activities",
+      "item": [
+        {
+          "name": "Activities",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/activities",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "activities"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Captions",
+      "item": [
+        {
+          "name": "Captions",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/captions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "captions"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /captions",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/captions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "captions"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /captions",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/captions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "captions"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /captions/id",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/captions/id",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "captions",
+                "id"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /captions",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/captions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "captions"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Channelbanners",
+      "item": [
+        {
+          "name": "ChannelBanners",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/channelBanners/insert",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "channelBanners",
+                "insert"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Channelsections",
+      "item": [
+        {
+          "name": "ChannelSections",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/channelSections",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "channelSections"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /channelSections",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/channelSections",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "channelSections"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /channelSections",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/channelSections",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "channelSections"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /channelSections",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/channelSections",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "channelSections"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Channels",
+      "item": [
+        {
+          "name": "Channels",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/channels",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "channels"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /channels",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/channels",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "channels"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Commentthreads",
+      "item": [
+        {
+          "name": "CommentThreads",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/commentThreads",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "commentThreads"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /commentThreads",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/commentThreads",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "commentThreads"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Comments",
+      "item": [
+        {
+          "name": "Comments",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/comments",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "comments"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /comments",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/comments",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "comments"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /comments",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/comments",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "comments"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /comments/setModerationStatus",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/comments/setModerationStatus",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "comments",
+                "setModerationStatus"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /comments",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/comments",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "comments"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "I18Nlanguages",
+      "item": [
+        {
+          "name": "I18nLanguages",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/i18nLanguages",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "i18nLanguages"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "I18Nregions",
+      "item": [
+        {
+          "name": "I18nRegions",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/i18nRegions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "i18nRegions"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Members",
+      "item": [
+        {
+          "name": "Members",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/members",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "members"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Membershipslevels",
+      "item": [
+        {
+          "name": "MembershipsLevels",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/membershipsLevels",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "membershipsLevels"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Playlistitems",
+      "item": [
+        {
+          "name": "PlaylistItems",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/playlistItems",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "playlistItems"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /playlistItems",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/playlistItems",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "playlistItems"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /playlistItems",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/playlistItems",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "playlistItems"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /playlistItems",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/playlistItems",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "playlistItems"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Playlists",
+      "item": [
+        {
+          "name": "Playlists",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/playlists",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "playlists"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /playlists",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/playlists",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "playlists"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /playlists",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/playlists",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "playlists"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /playlists",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/playlists",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "playlists"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Search",
+      "item": [
+        {
+          "name": "Search",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/search",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "search"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Subscriptions",
+      "item": [
+        {
+          "name": "Subscriptions",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/subscriptions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "subscriptions"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /subscriptions",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/subscriptions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "subscriptions"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /subscriptions",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/subscriptions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "subscriptions"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Thumbnails",
+      "item": [
+        {
+          "name": "Thumbnails",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/thumbnails/set",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "thumbnails",
+                "set"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Token",
+      "item": [
+        {
+          "name": "Token Refresh",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/token",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "token"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Upload",
+      "item": [
+        {
+          "name": "3. Upload Videos",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/upload/youtube/v3/videos",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "upload",
+                "youtube",
+                "v3",
+                "videos"
+              ]
+            }
+          }
+        },
+        {
+          "name": "6. Upload Custom Thumbnail",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/upload/youtube/v3/thumbnails/set",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "upload",
+                "youtube",
+                "v3",
+                "thumbnails",
+                "set"
+              ]
+            }
+          }
+        },
+        {
+          "name": "3. Upload Videos",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/upload/youtube/v3/videos?",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "upload",
+                "youtube",
+                "v3",
+                "videos?"
+              ]
+            }
+          }
+        },
+        {
+          "name": "6. Upload Custom Thumbnail",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/upload/youtube/v3/thumbnails/set?videoId=VIDEO_ID",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "upload",
+                "youtube",
+                "v3",
+                "thumbnails",
+                "set?videoId=VIDEO_ID"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Step 1: Initiate a Resumable Session",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status,contentDetails",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "upload",
+                "youtube",
+                "v3",
+                "videos?uploadType=resumable&part=snippet,status,contentDetails"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Step 1: Initiate a Resumable Session",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/upload/youtube/v3/videos?uploadType=resumable",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "upload",
+                "youtube",
+                "v3",
+                "videos?uploadType=resumable"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Playlist Images",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/upload/youtube/v3/playlistImages",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "upload",
+                "youtube",
+                "v3",
+                "playlistImages"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Playlist Images",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/upload/youtube/v3/playlistImages?playlistId=PLAYLIST_ID",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "upload",
+                "youtube",
+                "v3",
+                "playlistImages?playlistId=PLAYLIST_ID"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "V1",
+      "item": [
+        {
+          "name": "POST /v1/jobs",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/v1/jobs",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "jobs"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/jobs",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/v1/jobs",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "jobs"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/jobs/{jobId}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/v1/jobs/:jobId",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "jobs",
+                ":jobId"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /v1/jobs/{jobId}",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/v1/jobs/:jobId",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "jobs",
+                ":jobId"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/jobs/{jobId}/reports",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/v1/jobs/:jobId/reports",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "jobs",
+                ":jobId",
+                "reports"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/jobs/{jobId}/reports/{reportId}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/v1/jobs/:jobId/reports/:reportId",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "jobs",
+                ":jobId",
+                "reports",
+                ":reportId"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /v1/reportTypes",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/v1/reportTypes",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "reportTypes"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "V2",
+      "item": [
+        {
+          "name": "GET /v2/reports",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/v2/reports",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v2",
+                "reports"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Videoabusereportreasons",
+      "item": [
+        {
+          "name": "VideoAbuseReportReasons",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/videoAbuseReportReasons",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "videoAbuseReportReasons"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Videocategories",
+      "item": [
+        {
+          "name": "VideoCategories",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/videoCategories",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "videoCategories"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Videos",
+      "item": [
+        {
+          "name": "Videos",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/videos",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "videos"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /videos",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/videos",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "videos"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /videos",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/videos",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "videos"
+              ]
+            }
+          }
+        },
+        {
+          "name": "DELETE /videos",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/videos",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "videos"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /videos/rate",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/videos/rate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "videos",
+                "rate"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /videos/getRating",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/videos/getRating",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "videos",
+                "getRating"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /videos/reportAbuse",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/videos/reportAbuse",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "videos",
+                "reportAbuse"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Watermarks",
+      "item": [
+        {
+          "name": "Watermarks",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/watermarks/set",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "watermarks",
+                "set"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /watermarks/unset",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/watermarks/unset",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "watermarks",
+                "unset"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Youtube",
+      "item": [
+        {
+          "name": "GET /youtube/v3/videos",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/youtube/v3/videos",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "youtube",
+                "v3",
+                "videos"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /youtube/v3/videos",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/youtube/v3/videos",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "youtube",
+                "v3",
+                "videos"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /youtube/v3/channels",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/youtube/v3/channels",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "youtube",
+                "v3",
+                "channels"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /youtube/v3/videos?part=snippet&id=VIDEO_ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/youtube/v3/videos?part=snippet&id=VIDEO_ID",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "youtube",
+                "v3",
+                "videos?part=snippet&id=VIDEO_ID"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /youtube/v3/videos?part=snippet",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/youtube/v3/videos?part=snippet",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "youtube",
+                "v3",
+                "videos?part=snippet"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /youtube/v3/channels?part=snippet&mine=true",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/youtube/v3/channels?part=snippet&mine=true",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "youtube",
+                "v3",
+                "channels?part=snippet&mine=true"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Basic Pagination Pattern",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/youtube/v3/search",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "youtube",
+                "v3",
+                "search"
+              ]
+            }
+          }
+        },
+        {
+          "name": "1. Use Maximum Page Size",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/youtube/v3/search?maxResults=50&...",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "youtube",
+                "v3",
+                "search?maxResults=50&..."
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://www.googleapis.com/youtube/v3"
+    },
+    {
+      "key": "apiToken",
+      "value": ""
+    }
+  ]
+}

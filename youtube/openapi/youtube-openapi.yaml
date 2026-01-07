@@ -1,0 +1,1264 @@
+openapi: 3.0.3
+info:
+  title: YouTube Data API v3
+  version: 1.0.0
+  description: API documentation for YouTube Data API v3
+  x-generated-by: api-docs-finder export_generator
+  x-generated-at: '2026-01-07T16:55:16.984233'
+servers:
+- url: https://www.googleapis.com/youtube/v3
+  description: Production
+paths:
+  /v1/jobs:
+    post:
+      summary: POST /v1/jobs
+      tags:
+      - v1
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    get:
+      summary: GET /v1/jobs
+      tags:
+      - v1
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /v1/jobs/{jobId}:
+    get:
+      summary: GET /v1/jobs/{jobId}
+      tags:
+      - v1
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+      parameters:
+      - name: jobId
+        in: path
+        required: true
+        schema:
+          type: string
+    delete:
+      summary: DELETE /v1/jobs/{jobId}
+      tags:
+      - v1
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+      parameters:
+      - name: jobId
+        in: path
+        required: true
+        schema:
+          type: string
+  /v1/jobs/{jobId}/reports:
+    get:
+      summary: GET /v1/jobs/{jobId}/reports
+      tags:
+      - v1
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+      parameters:
+      - name: jobId
+        in: path
+        required: true
+        schema:
+          type: string
+  /v1/jobs/{jobId}/reports/{reportId}:
+    get:
+      summary: GET /v1/jobs/{jobId}/reports/{reportId}
+      tags:
+      - v1
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+      parameters:
+      - name: jobId
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: reportId
+        in: path
+        required: true
+        schema:
+          type: string
+  /v1/reportTypes:
+    get:
+      summary: GET /v1/reportTypes
+      tags:
+      - v1
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /youtube/v3/videos:
+    get:
+      summary: GET /youtube/v3/videos
+      tags:
+      - youtube
+      - guides
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    put:
+      summary: PUT /youtube/v3/videos
+      tags:
+      - youtube
+      - guides
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /youtube/v3/channels:
+    get:
+      summary: GET /youtube/v3/channels
+      tags:
+      - youtube
+      - guides
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /youtube/v3/videos?part=snippet&id=VIDEO_ID:
+    get:
+      summary: GET /youtube/v3/videos?part=snippet&id=VIDEO_ID
+      tags:
+      - youtube
+      - guides
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /youtube/v3/videos?part=snippet:
+    put:
+      summary: PUT /youtube/v3/videos?part=snippet
+      tags:
+      - youtube
+      - guides
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /youtube/v3/channels?part=snippet&mine=true:
+    get:
+      summary: GET /youtube/v3/channels?part=snippet&mine=true
+      tags:
+      - youtube
+      - guides
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /token:
+    post:
+      summary: Token Refresh
+      tags:
+      - token
+      - guides
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /upload/youtube/v3/videos:
+    post:
+      summary: 3. Upload Videos
+      tags:
+      - upload
+      - guides
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /upload/youtube/v3/thumbnails/set:
+    post:
+      summary: 6. Upload Custom Thumbnail
+      tags:
+      - upload
+      - guides
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /upload/youtube/v3/videos?:
+    post:
+      summary: 3. Upload Videos
+      tags:
+      - upload
+      - guides
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /upload/youtube/v3/thumbnails/set?videoId=VIDEO_ID:
+    post:
+      summary: 6. Upload Custom Thumbnail
+      tags:
+      - upload
+      - guides
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /v2/reports:
+    get:
+      summary: GET /v2/reports
+      tags:
+      - v2
+      - guides
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /youtube/v3/search:
+    get:
+      summary: Basic Pagination Pattern
+      tags:
+      - youtube
+      - guides
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /youtube/v3/search?maxResults=50&...:
+    get:
+      summary: 1. Use Maximum Page Size
+      tags:
+      - youtube
+      - guides
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /upload/youtube/v3/videos?uploadType=resumable&part=snippet,status,contentDetails:
+    post:
+      summary: 'Step 1: Initiate a Resumable Session'
+      tags:
+      - upload
+      - guides
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /upload/youtube/v3/videos?uploadType=resumable:
+    post:
+      summary: 'Step 1: Initiate a Resumable Session'
+      tags:
+      - upload
+      - guides
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /upload/youtube/v3/playlistImages:
+    post:
+      summary: Playlist Images
+      tags:
+      - upload
+      - guides
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /upload/youtube/v3/playlistImages?playlistId=PLAYLIST_ID:
+    post:
+      summary: Playlist Images
+      tags:
+      - upload
+      - guides
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /activities:
+    get:
+      summary: Activities
+      tags:
+      - activities
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /captions:
+    get:
+      summary: Captions
+      tags:
+      - captions
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    post:
+      summary: POST /captions
+      tags:
+      - captions
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    put:
+      summary: PUT /captions
+      tags:
+      - captions
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    delete:
+      summary: DELETE /captions
+      tags:
+      - captions
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /captions/id:
+    get:
+      summary: GET /captions/id
+      tags:
+      - captions
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /channelBanners/insert:
+    post:
+      summary: ChannelBanners
+      tags:
+      - channelBanners
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /channels:
+    get:
+      summary: Channels
+      tags:
+      - channels
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    put:
+      summary: PUT /channels
+      tags:
+      - channels
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /channelSections:
+    get:
+      summary: ChannelSections
+      tags:
+      - channelSections
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    post:
+      summary: POST /channelSections
+      tags:
+      - channelSections
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    put:
+      summary: PUT /channelSections
+      tags:
+      - channelSections
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    delete:
+      summary: DELETE /channelSections
+      tags:
+      - channelSections
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /comments:
+    get:
+      summary: Comments
+      tags:
+      - comments
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    post:
+      summary: POST /comments
+      tags:
+      - comments
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    put:
+      summary: PUT /comments
+      tags:
+      - comments
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    delete:
+      summary: DELETE /comments
+      tags:
+      - comments
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /comments/setModerationStatus:
+    post:
+      summary: POST /comments/setModerationStatus
+      tags:
+      - comments
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /commentThreads:
+    get:
+      summary: CommentThreads
+      tags:
+      - commentThreads
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    post:
+      summary: POST /commentThreads
+      tags:
+      - commentThreads
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /i18nLanguages:
+    get:
+      summary: I18nLanguages
+      tags:
+      - i18nLanguages
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /i18nRegions:
+    get:
+      summary: I18nRegions
+      tags:
+      - i18nRegions
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /members:
+    get:
+      summary: Members
+      tags:
+      - members
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /membershipsLevels:
+    get:
+      summary: MembershipsLevels
+      tags:
+      - membershipsLevels
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /playlistItems:
+    get:
+      summary: PlaylistItems
+      tags:
+      - playlistItems
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    post:
+      summary: POST /playlistItems
+      tags:
+      - playlistItems
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    put:
+      summary: PUT /playlistItems
+      tags:
+      - playlistItems
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    delete:
+      summary: DELETE /playlistItems
+      tags:
+      - playlistItems
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /playlists:
+    get:
+      summary: Playlists
+      tags:
+      - playlists
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    post:
+      summary: POST /playlists
+      tags:
+      - playlists
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    put:
+      summary: PUT /playlists
+      tags:
+      - playlists
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    delete:
+      summary: DELETE /playlists
+      tags:
+      - playlists
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /search:
+    get:
+      summary: Search
+      tags:
+      - search
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /subscriptions:
+    get:
+      summary: Subscriptions
+      tags:
+      - subscriptions
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    post:
+      summary: POST /subscriptions
+      tags:
+      - subscriptions
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    delete:
+      summary: DELETE /subscriptions
+      tags:
+      - subscriptions
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /thumbnails/set:
+    post:
+      summary: Thumbnails
+      tags:
+      - thumbnails
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /videoAbuseReportReasons:
+    get:
+      summary: VideoAbuseReportReasons
+      tags:
+      - videoAbuseReportReasons
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /videoCategories:
+    get:
+      summary: VideoCategories
+      tags:
+      - videoCategories
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /videos:
+    get:
+      summary: Videos
+      tags:
+      - videos
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    post:
+      summary: POST /videos
+      tags:
+      - videos
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    put:
+      summary: PUT /videos
+      tags:
+      - videos
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    delete:
+      summary: DELETE /videos
+      tags:
+      - videos
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /videos/rate:
+    post:
+      summary: POST /videos/rate
+      tags:
+      - videos
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /videos/getRating:
+    get:
+      summary: GET /videos/getRating
+      tags:
+      - videos
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /videos/reportAbuse:
+    post:
+      summary: POST /videos/reportAbuse
+      tags:
+      - videos
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /watermarks/set:
+    post:
+      summary: Watermarks
+      tags:
+      - watermarks
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /watermarks/unset:
+    post:
+      summary: POST /watermarks/unset
+      tags:
+      - watermarks
+      - overview
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+components:
+  securitySchemes:
+    apiKeyAuth:
+      type: apiKey
+      in: query
+      name: key
+security:
+- apiKeyAuth: []
