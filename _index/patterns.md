@@ -1,18 +1,18 @@
 ---
 layer: patterns
-updated: 2025-01-07
+updated: 2026-01-07
 ---
 
 # Patterns
 
-Reusable patterns - practices, techniques, strategies, workflows, pipelines.
+Reusable patterns
 
 ## Documents
 
 | Title | Source | Path |
 |-------|--------|------|
+| Claude Code Overview | claude-code | [[claude-code/getting-started/overview.md]] |
 
 ---
 
-*0 documents in this layer*
-*Run `api-docs index` after scraping to populate*
+*1 documents in this layer*

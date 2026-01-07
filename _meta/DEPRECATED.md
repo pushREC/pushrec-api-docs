@@ -29,3 +29,4 @@ Files moved to `_deprecated/` folders after 30-day waiting period.
 ---
 
 *Updated automatically by deprecation.py*
+| `claude-code/build/old-feature.md` | 2026-01-07 | 2026-02-06 | pending |

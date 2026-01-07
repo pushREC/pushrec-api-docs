@@ -1,5 +1,5 @@
 ---
-updated: 2025-01-07
+updated: 2026-01-07
 ---
 
 # Cross-Reference Index
@@ -10,27 +10,19 @@ Conceptual organization of documentation across all sources.
 
 | Layer | Description | Documents |
 |-------|-------------|-----------|
-| [[primitives]] | Core building blocks | 0 |
-| [[patterns]] | Reusable patterns | 0 |
-| [[architectures]] | System designs | 0 |
-| [[synthesis]] | Unified insights | 0 |
+| [[primitives]] | Core building blocks | 1 |
+| [[patterns]] | Reusable patterns | 1 |
+| [[architectures]] | System designs | 1 |
+| [[synthesis]] | Unified insights | 1 |
 
 ## How It Works
 
 Documents are automatically categorized based on keyword matching:
 
 - **primitives**: tool, model, config, parameter, option...
-- **patterns**: pattern, practice, technique, strategy...
-- **architectures**: architecture, system, design, structure...
-- **synthesis**: overview, summary, comparison, tradeoff...
-
-## Rebuild Index
-
-```bash
-api-docs index
-```
-
-This will scan all documentation and regenerate the layer files.
+- **patterns**: pattern, practice, technique, strategy, approach...
+- **architectures**: architecture, system, design, structure, integration...
+- **synthesis**: overview, summary, comparison, tradeoff, decision...
 
 ---
 

@@ -1,18 +1,18 @@
 ---
 layer: primitives
-updated: 2025-01-07
+updated: 2026-01-07
 ---
 
 # Primitives
 
-Core building blocks - tools, models, configurations, parameters, options, settings.
+Core building blocks
 
 ## Documents
 
 | Title | Source | Path |
 |-------|--------|------|
+| Claude Code Overview | claude-code | [[claude-code/getting-started/overview.md]] |
 
 ---
 
-*0 documents in this layer*
-*Run `api-docs index` after scraping to populate*
+*1 documents in this layer*

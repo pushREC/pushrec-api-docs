@@ -18,3 +18,15 @@ Automatically detected changes during scrapes.
 ---
 
 *Changes detected by hash comparison during `api-docs update`*
+
+## 2026-01-07 01:09:20 - claude-code
+
+### Added
+- `README.md`
+
+
+## 2026-01-07 01:11:11 - claude-code
+
+### Added
+- `getting-started/overview.md`
+
