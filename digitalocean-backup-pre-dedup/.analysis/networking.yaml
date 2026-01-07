@@ -1,0 +1,1320 @@
+category: networking
+analysis_date: '2026-01-07'
+total_files_analyzed: 134
+summary:
+  total_files: 134
+  exact_duplicates_found: 0
+  unique_content_fingerprints: 134
+  redundancy_assessment: 'NO REDUNDANCY - All files essential'
+  by_category:
+    dns: 19
+    firewalls: 18
+    general: 49
+    ipv6: 15
+    vpc: 33
+  by_type:
+    concepts: 11
+    details: 24
+    getting-started: 14
+    how-to: 54
+    overview: 19
+    reference: 6
+    support: 6
+
+key_findings:
+  - All 134 files have unique content with distinct purposes
+  - No exact duplicates or high-overlap files detected
+  - Files properly organized across 5 product categories
+  - Documentation follows standardized structure by type
+  - How-to guides represent the largest segment (54 files, 40.3%)
+  - Supporting infrastructure includes concepts, details, getting-started, reference, and support docs
+
+files:
+  - path: ./networking/dns/dns-concepts.md
+    category: dns
+    type: concepts
+    topic: DNS Concepts
+    size_bytes: 5951
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/dns/dns-details-availability.md
+    category: dns
+    type: details
+    topic: DNS Availability
+    size_bytes: 4400
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/dns/dns-details-features.md
+    category: dns
+    type: details
+    topic: DNS Features
+    size_bytes: 5117
+    structure:
+      h2_sections: 2
+      h3_sections: 1
+    main_sections: ['Supported Records', 'Fully Managed SSL Certificates']
+
+  - path: ./networking/dns/dns-details-limits.md
+    category: dns
+    type: details
+    topic: DNS Limits
+    size_bytes: 6606
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/dns/dns-details-pricing.md
+    category: dns
+    type: details
+    topic: DNS Pricing
+    size_bytes: 4285
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/dns/dns-details.md
+    category: dns
+    type: overview
+    topic: Dns Details
+    size_bytes: 4963
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/dns/dns-getting-started-dns-registrars.md
+    category: dns
+    type: getting-started
+    topic: Point to DigitalOcean Name Servers From Common Domain Registrars
+    size_bytes: 8728
+    structure:
+      h2_sections: 1
+      h3_sections: 1
+    main_sections: ['Update Your Domain’s Delegation']
+
+  - path: ./networking/dns/dns-getting-started-quickstart.md
+    category: dns
+    type: getting-started
+    topic: DNS Quickstart
+    size_bytes: 5766
+    structure:
+      h2_sections: 1
+      h3_sections: 1
+    main_sections: ['Set Up a Domain']
+
+  - path: ./networking/dns/dns-getting-started.md
+    category: dns
+    type: getting-started
+    topic: Getting Started with Domains and DNS
+    size_bytes: 4743
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/dns/dns-how-to-add-domains.md
+    category: dns
+    type: how-to
+    topic: How to Add Domains
+    size_bytes: 9722
+    structure:
+      h2_sections: 2
+      h3_sections: 5
+    main_sections: ['Add a Domain Using Automation', 'Add a Domain Using the Control Panel']
+
+  - path: ./networking/dns/dns-how-to-add-subdomain.md
+    category: dns
+    type: how-to
+    topic: How to Add a Subdomain to Your Domain
+    size_bytes: 7234
+    structure:
+      h2_sections: 1
+      h3_sections: 1
+    main_sections: ['Create a New Hostname with an A Record']
+
+  - path: ./networking/dns/dns-how-to-create-caa-records.md
+    category: dns
+    type: how-to
+    topic: How to Manage CAA Records
+    size_bytes: 7971
+    structure:
+      h2_sections: 1
+      h3_sections: 4
+    main_sections: ['Create a CAA Record']
+
+  - path: ./networking/dns/dns-how-to-delete-domains.md
+    category: dns
+    type: how-to
+    topic: How to Delete Domains
+    size_bytes: 8291
+    structure:
+      h2_sections: 2
+      h3_sections: 5
+    main_sections: ['Delete a Domain Using Automation', 'Delete a Domain Using the Control Panel']
+
+  - path: ./networking/dns/dns-how-to-download-zone-file.md
+    category: dns
+    type: how-to
+    topic: How to Download DNS Zone Files
+    size_bytes: 5103
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/dns/dns-how-to-manage-records.md
+    category: dns
+    type: how-to
+    topic: How to Create, Edit, and Delete DNS Records
+    size_bytes: 27321
+    structure:
+      h2_sections: 4
+      h3_sections: 23
+    main_sections: ['Create, Update, or Delete Records Using the CLI', 'Create, Update, or Delete Records Using the API', 'Create, Update, and Delete Records Using the Control Panel', 'Supported Record Types']
+
+  - path: ./networking/dns/dns-how-to.md
+    category: dns
+    type: overview
+    topic: DNS How-Tos
+    size_bytes: 5659
+    structure:
+      h2_sections: 2
+      h3_sections: 1
+    main_sections: ['Getting Started', 'DNS Management']
+
+  - path: ./networking/dns/dns-reference.md
+    category: dns
+    type: reference
+    topic: DNS Reference
+    size_bytes: 6479
+    structure:
+      h2_sections: 1
+      h3_sections: 1
+    main_sections: ['Other DigitalOcean Tools']
+
+  - path: ./networking/dns/dns-support.md
+    category: dns
+    type: support
+    topic: DNS Support
+    size_bytes: 7646
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/dns/dns.md
+    category: dns
+    type: overview
+    topic: Domains and DNS
+    size_bytes: 7762
+    structure:
+      h2_sections: 1
+      h3_sections: 2
+    main_sections: ['Latest Updates']
+
+  - path: ./networking/firewalls/firewalls-concepts-organization.md
+    category: firewalls
+    type: concepts
+    topic: How to Organize DigitalOcean Cloud Firewalls
+    size_bytes: 11601
+    structure:
+      h2_sections: 3
+      h3_sections: 1
+    main_sections: ['Splitting by Role', 'Using Tags', 'On Naming']
+
+  - path: ./networking/firewalls/firewalls-concepts.md
+    category: firewalls
+    type: concepts
+    topic: Firewalls Concepts
+    size_bytes: 5598
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/firewalls/firewalls-details-availability.md
+    category: firewalls
+    type: details
+    topic: Firewalls Availability
+    size_bytes: 4421
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/firewalls/firewalls-details-features.md
+    category: firewalls
+    type: details
+    topic: Firewalls Features
+    size_bytes: 4985
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/firewalls/firewalls-details-limits.md
+    category: firewalls
+    type: details
+    topic: Firewalls Limits
+    size_bytes: 5814
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/firewalls/firewalls-details-pricing.md
+    category: firewalls
+    type: details
+    topic: Firewalls Pricing
+    size_bytes: 4343
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/firewalls/firewalls-details.md
+    category: firewalls
+    type: overview
+    topic: Firewalls Details
+    size_bytes: 5305
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/firewalls/firewalls-getting-started-quickstart.md
+    category: firewalls
+    type: getting-started
+    topic: Firewalls Quickstart
+    size_bytes: 6522
+    structure:
+      h2_sections: 3
+      h3_sections: 1
+    main_sections: ['Inbound Rules', 'Outbound Rules', 'Apply to Droplets']
+
+  - path: ./networking/firewalls/firewalls-getting-started.md
+    category: firewalls
+    type: getting-started
+    topic: Getting Started with Cloud Firewalls
+    size_bytes: 4499
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/firewalls/firewalls-how-to-configure-rules.md
+    category: firewalls
+    type: how-to
+    topic: How to Configure Firewall Rules
+    size_bytes: 26357
+    structure:
+      h2_sections: 3
+      h3_sections: 17
+    main_sections: ['Add, Update, or Remove Rules from a Firewall Using the CLI', 'Add, Update, or Remove Rules from a Firewall Using the API', 'Add or Remove Rules from a Firewall Using the Control Panel']
+
+  - path: ./networking/firewalls/firewalls-how-to-create.md
+    category: firewalls
+    type: how-to
+    topic: How to Create Firewalls
+    size_bytes: 15046
+    structure:
+      h2_sections: 3
+      h3_sections: 9
+    main_sections: ['Create a Firewall Using the CLI', 'Create a Firewall Using the API', 'Create a Firewall Using the Control Panel']
+
+  - path: ./networking/firewalls/firewalls-how-to-destroy.md
+    category: firewalls
+    type: how-to
+    topic: How to Destroy Firewalls
+    size_bytes: 8320
+    structure:
+      h2_sections: 3
+      h3_sections: 5
+    main_sections: ['Destroy a Firewall Using the CLI', 'Destroy a Firewall Using the API', 'Destroy a Firewall Using the Control Panel']
+
+  - path: ./networking/firewalls/firewalls-how-to-manage-droplets.md
+    category: firewalls
+    type: how-to
+    topic: How to Add and Remove Droplets from Firewalls
+    size_bytes: 12486
+    structure:
+      h2_sections: 3
+      h3_sections: 9
+    main_sections: ['Add or Remove Droplets from a Firewall Using the CLI', 'Add or Remove Droplets from a Firewall Using the API', 'Add or Remove Droplets from a Firewall Using the Control Panel']
+
+  - path: ./networking/firewalls/firewalls-how-to-view-rules-for-droplet.md
+    category: firewalls
+    type: how-to
+    topic: How to View All Firewall Rules Applied to a Droplet
+    size_bytes: 5855
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/firewalls/firewalls-how-to.md
+    category: firewalls
+    type: overview
+    topic: Firewalls How-Tos
+    size_bytes: 5589
+    structure:
+      h2_sections: 2
+      h3_sections: 1
+    main_sections: ['Getting Started', 'Cloud Firewall Management']
+
+  - path: ./networking/firewalls/firewalls-reference.md
+    category: firewalls
+    type: reference
+    topic: Firewalls Reference
+    size_bytes: 5586
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/firewalls/firewalls-support.md
+    category: firewalls
+    type: support
+    topic: Firewalls Support
+    size_bytes: 5014
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/firewalls/firewalls.md
+    category: firewalls
+    type: overview
+    topic: Cloud Firewalls
+    size_bytes: 8004
+    structure:
+      h2_sections: 1
+      h3_sections: 4
+    main_sections: ['Latest Updates']
+
+  - path: ./networking/general/index.md
+    category: general
+    type: overview
+    topic: Networking
+    size_bytes: 10859
+    structure:
+      h2_sections: 1
+      h3_sections: 4
+    main_sections: ['Latest Updates']
+
+  - path: ./networking/ipv6/ipv6-concepts.md
+    category: ipv6
+    type: concepts
+    topic: IPv6 Concepts
+    size_bytes: 4457
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/ipv6/ipv6-details-availability.md
+    category: ipv6
+    type: details
+    topic: IPv6 Availability
+    size_bytes: 4134
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/ipv6/ipv6-details-features.md
+    category: ipv6
+    type: details
+    topic: IPv6 Features
+    size_bytes: 4681
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/ipv6/ipv6-details-limits.md
+    category: ipv6
+    type: details
+    topic: IPv6 Limits
+    size_bytes: 5246
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/ipv6/ipv6-details-pricing.md
+    category: ipv6
+    type: details
+    topic: IPv6 Pricing
+    size_bytes: 4235
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/ipv6/ipv6-details.md
+    category: ipv6
+    type: overview
+    topic: IPv6 Details
+    size_bytes: 4893
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/ipv6/ipv6-getting-started-quickstart.md
+    category: ipv6
+    type: getting-started
+    topic: IPv6 Quickstart
+    size_bytes: 5833
+    structure:
+      h2_sections: 2
+      h3_sections: 1
+    main_sections: ['Enable IPv6 during Droplet Creation', 'Enable IPv6 on Existing Droplets']
+
+  - path: ./networking/ipv6/ipv6-getting-started.md
+    category: ipv6
+    type: getting-started
+    topic: Getting Started with IPv6
+    size_bytes: 4251
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/ipv6/ipv6-how-to-configure-additional-addresses.md
+    category: ipv6
+    type: how-to
+    topic: How to Enable Additional IPv6 Addresses
+    size_bytes: 10433
+    structure:
+      h2_sections: 3
+      h3_sections: 1
+    main_sections: ['Enable New Addresses on Boot', 'Enable New Addresses Immediately', 'Verify the Configuration']
+
+  - path: ./networking/ipv6/ipv6-how-to-disable-ipv4.md
+    category: ipv6
+    type: how-to
+    topic: How to Disable IPv4 and Only Use IPv6
+    size_bytes: 9270
+    structure:
+      h2_sections: 2
+      h3_sections: 1
+    main_sections: ['Disable IPv4 on Boot', 'Disable IPv4 Immediately']
+
+  - path: ./networking/ipv6/ipv6-how-to-enable.md
+    category: ipv6
+    type: how-to
+    topic: How to Enable IPv6 on Droplets
+    size_bytes: 22618
+    structure:
+      h2_sections: 5
+      h3_sections: 4
+    code_languages: ['shell']
+    main_sections: ['Enable IPv6 During Droplet Creation Using the CLI', 'Enable IPv6 During Droplet Creation Using the API', 'Enable IPv6 During Droplet Creation Using the Control Panel', 'Enable IPv6 on Existing Droplets', 'Verify the Configuration']
+
+  - path: ./networking/ipv6/ipv6-how-to.md
+    category: ipv6
+    type: overview
+    topic: IPv6 How-Tos
+    size_bytes: 4761
+    structure:
+      h2_sections: 1
+      h3_sections: 1
+    main_sections: ['Getting Started']
+
+  - path: ./networking/ipv6/ipv6-reference.md
+    category: ipv6
+    type: reference
+    topic: IPv6 Reference
+    size_bytes: 5664
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/ipv6/ipv6-support.md
+    category: ipv6
+    type: support
+    topic: IPv6 Support
+    size_bytes: 5231
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/ipv6/ipv6.md
+    category: ipv6
+    type: overview
+    topic: IPv6
+    size_bytes: 6605
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/load-balancers/load-balancers-concepts-best-practices.md
+    category: general
+    type: concepts
+    topic: Best Practices for Performance on DigitalOcean Load Balancers
+    size_bytes: 11768
+    structure:
+      h2_sections: 4
+      h3_sections: 12
+    main_sections: ['Use HTTP/2', 'Monitor the Performance of Your Droplets', 'Scale Droplets Horizontally or Vertically', 'Scale the Load Balancer']
+
+  - path: ./networking/load-balancers/load-balancers-concepts-load-balancer-status.md
+    category: general
+    type: concepts
+    topic: Load Balancer Status
+    size_bytes: 6216
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/load-balancers/load-balancers-concepts.md
+    category: general
+    type: concepts
+    topic: Load Balancers Concepts
+    size_bytes: 5807
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/load-balancers/load-balancers-details-availability.md
+    category: general
+    type: details
+    topic: Load Balancers Availability
+    size_bytes: 5631
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/load-balancers/load-balancers-details-features.md
+    category: general
+    type: details
+    topic: Load Balancers Features
+    size_bytes: 17399
+    structure:
+      h2_sections: 3
+      h3_sections: 20
+    main_sections: ['All Load Balancers', 'Regional Load Balancers', 'Global Load Balancers']
+
+  - path: ./networking/load-balancers/load-balancers-details-limits.md
+    category: general
+    type: details
+    topic: Load Balancers Limits
+    size_bytes: 12496
+    structure:
+      h2_sections: 0
+      h3_sections: 4
+
+  - path: ./networking/load-balancers/load-balancers-details-pricing.md
+    category: general
+    type: details
+    topic: Load Balancers Pricing
+    size_bytes: 8168
+    structure:
+      h2_sections: 2
+      h3_sections: 2
+    main_sections: ['Global Load Balancers', 'Regional Load Balancers']
+
+  - path: ./networking/load-balancers/load-balancers-details.md
+    category: general
+    type: overview
+    topic: Load Balancer Details
+    size_bytes: 6302
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/load-balancers/load-balancers-getting-started-quickstart.md
+    category: general
+    type: getting-started
+    topic: Load Balancer Quickstart
+    size_bytes: 7652
+    structure:
+      h2_sections: 4
+      h3_sections: 1
+    main_sections: ['Create Load Balancers', 'Add and Remove Droplets', 'Use SSL Certificates', 'Delete Load Balancers']
+
+  - path: ./networking/load-balancers/load-balancers-getting-started-with-doctl.md
+    category: general
+    type: getting-started
+    topic: How to Work with DigitalOcean Load Balancers Using doctl
+    size_bytes: 19030
+    structure:
+      h2_sections: 7
+      h3_sections: 1
+    main_sections: ['Prerequisites', 'Step 1: Setting Up the Backend Web Servers', 'Step 2: Creating a Load Balancer', 'Step 3: Adding Droplets to the Load Balancer', 'Step 4: Testing Fail Over', 'Summary', 'What’s Next?']
+
+  - path: ./networking/load-balancers/load-balancers-getting-started.md
+    category: general
+    type: getting-started
+    topic: Getting Started with Load Balancers
+    size_bytes: 5849
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/load-balancers/load-balancers-how-to-configure-droplets-for-nlb.md
+    category: general
+    type: how-to
+    topic: How to Configure Backend Droplets for Network Load Balancers
+    size_bytes: 9599
+    structure:
+      h2_sections: 3
+      h3_sections: 1
+    main_sections: ['Find the Load Balancer IP Address', 'Add a Route for the Load Balancer IP Address', 'Make the Route Permanent']
+
+  - path: ./networking/load-balancers/load-balancers-how-to-create-global-load-balancer.md
+    category: general
+    type: how-to
+    topic: How to Create and Set Up Global Load Balancers
+    size_bytes: 15077
+    structure:
+      h2_sections: 2
+      h3_sections: 7
+    main_sections: ['Create a Global Load Balancer', 'Connect a Domain']
+
+  - path: ./networking/load-balancers/load-balancers-how-to-create.md
+    category: general
+    type: how-to
+    topic: How to Create Regional Load Balancers
+    size_bytes: 24188
+    structure:
+      h2_sections: 3
+      h3_sections: 5
+    main_sections: ['Create a Load Balancer Using the CLI', 'Create a Load Balancer Using the API', 'Create a Load Balancer Using the Control Panel']
+
+  - path: ./networking/load-balancers/load-balancers-how-to-destroy.md
+    category: general
+    type: how-to
+    topic: How to Destroy Load Balancers
+    size_bytes: 9031
+    structure:
+      h2_sections: 2
+      h3_sections: 5
+    main_sections: ['Delete a Load Balancer Using Automation', 'Destroy a Load Balancer Using the Control Panel']
+
+  - path: ./networking/load-balancers/load-balancers-how-to-manage-global-load-balancers.md
+    category: general
+    type: how-to
+    topic: How to Manage Global Load Balancers
+    size_bytes: 12648
+    structure:
+      h2_sections: 2
+      h3_sections: 9
+    main_sections: ['Add or Remove Resources', 'Additional Settings']
+
+  - path: ./networking/load-balancers/load-balancers-how-to-manage.md
+    category: general
+    type: how-to
+    topic: How to Manage Regional Load Balancers
+    size_bytes: 37974
+    structure:
+      h2_sections: 5
+      h3_sections: 29
+    main_sections: ['Point Hostname at Load Balancer', 'Droplet Connectivity', 'Manage the Backend Nodes', 'View Graphs', 'Modify Advanced Settings']
+
+  - path: ./networking/load-balancers/load-balancers-how-to-scale.md
+    category: general
+    type: how-to
+    topic: How to Scale Regional Load Balancers
+    size_bytes: 15991
+    structure:
+      h2_sections: 0
+      h3_sections: 8
+
+  - path: ./networking/load-balancers/load-balancers-how-to-ssl-passthrough.md
+    category: general
+    type: how-to
+    topic: How to Configure SSL Passthrough
+    size_bytes: 10914
+    structure:
+      h2_sections: 3
+      h3_sections: 1
+    main_sections: ['Backend Configuration for SSL Passthrough', 'Add the Load Balancer SSL Passthrough Rule', 'Force SSL Traffic']
+
+  - path: ./networking/load-balancers/load-balancers-how-to-ssl-termination.md
+    category: general
+    type: how-to
+    topic: How to Configure SSL Termination
+    size_bytes: 15736
+    structure:
+      h2_sections: 3
+      h3_sections: 3
+    main_sections: ['Add the SSL Termination Rule', 'Add an SSL Certificate', 'Force SSL Traffic']
+
+  - path: ./networking/load-balancers/load-balancers-how-to-tcp.md
+    category: general
+    type: how-to
+    topic: How to Balance TCP Traffic
+    size_bytes: 7653
+    structure:
+      h2_sections: 2
+      h3_sections: 1
+    main_sections: ['Add the TCP Forwarding Rule', 'Add the TCP Health Check']
+
+  - path: ./networking/load-balancers/load-balancers-how-to.md
+    category: general
+    type: overview
+    topic: Load Balancer How-Tos
+    size_bytes: 8180
+    structure:
+      h2_sections: 2
+      h3_sections: 1
+    main_sections: ['Getting Started', 'Load Balancer Management']
+
+  - path: ./networking/load-balancers/load-balancers-reference.md
+    category: general
+    type: reference
+    topic: Load Balancer Reference
+    size_bytes: 6341
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/load-balancers/load-balancers-support.md
+    category: general
+    type: support
+    topic: Load Balancer Support
+    size_bytes: 7680
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/load-balancers/load-balancers.md
+    category: general
+    type: overview
+    topic: Load Balancers
+    size_bytes: 10836
+    structure:
+      h2_sections: 1
+      h3_sections: 4
+    main_sections: ['Latest Updates']
+
+  - path: ./networking/reserved-ips/reserved-ips-concepts.md
+    category: general
+    type: concepts
+    topic: Reserved IP Concepts
+    size_bytes: 4989
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/reserved-ips/reserved-ips-details-availability.md
+    category: general
+    type: details
+    topic: Reserved IP Availability
+    size_bytes: 5307
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/reserved-ips/reserved-ips-details-features.md
+    category: general
+    type: details
+    topic: Reserved IP Features
+    size_bytes: 6274
+    structure:
+      h2_sections: 1
+      h3_sections: 1
+    main_sections: ['Bring Your Own IP']
+
+  - path: ./networking/reserved-ips/reserved-ips-details-limits.md
+    category: general
+    type: details
+    topic: Reserved IP Limits
+    size_bytes: 7004
+    structure:
+      h2_sections: 2
+      h3_sections: 1
+    main_sections: ['Reserved IPs', 'Bring Your Own IPs']
+
+  - path: ./networking/reserved-ips/reserved-ips-details-pricing.md
+    category: general
+    type: details
+    topic: Reserved IPs Pricing
+    size_bytes: 5474
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/reserved-ips/reserved-ips-details.md
+    category: general
+    type: overview
+    topic: Reserved IP Details
+    size_bytes: 5909
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/reserved-ips/reserved-ips-getting-started-quickstart.md
+    category: general
+    type: getting-started
+    topic: Reserved IP Quickstart
+    size_bytes: 6771
+    structure:
+      h2_sections: 4
+      h3_sections: 1
+    main_sections: ['Create and Assign Reserved IPs', 'Reassign Reserved IPs', 'Unassign Reserved IPs', 'Delete Reserved IPs']
+
+  - path: ./networking/reserved-ips/reserved-ips-getting-started.md
+    category: general
+    type: getting-started
+    topic: Getting Started with Reserved IPs
+    size_bytes: 5107
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/reserved-ips/reserved-ips-how-to-assign-byoip-ip.md
+    category: general
+    type: how-to
+    topic: How to Assign BYOIP IPs
+    size_bytes: 7349
+    structure:
+      h2_sections: 2
+      h3_sections: 1
+    main_sections: ['Assign a BYOIP IP Address Using Automation', 'Assign a BYOIP IP Address Using the Control Panel']
+
+  - path: ./networking/reserved-ips/reserved-ips-how-to-create.md
+    category: general
+    type: how-to
+    topic: How to Create Reserved IPs
+    size_bytes: 12945
+    structure:
+      h2_sections: 3
+      h3_sections: 8
+    main_sections: ['Create a Reserved IP Using the CLI', 'Create a Reserved IP Using the API', 'Create a Reserved IP Using the Control Panel']
+
+  - path: ./networking/reserved-ips/reserved-ips-how-to-delete.md
+    category: general
+    type: how-to
+    topic: How to Delete Reserved IPs
+    size_bytes: 9743
+    structure:
+      h2_sections: 2
+      h3_sections: 5
+    main_sections: ['Delete an Assigned IP Using Automation', 'Delete an Assigned IP Using the Control Panel']
+
+  - path: ./networking/reserved-ips/reserved-ips-how-to-deprovision-byoip.md
+    category: general
+    type: how-to
+    topic: How to Deprovision a BYOIP Prefix
+    size_bytes: 7203
+    structure:
+      h2_sections: 3
+      h3_sections: 1
+    main_sections: ['Deprovision a BYOIP Prefix Using the CLI', 'Deprovision a BYOIP Prefix Using the API', 'Deprovision a BYOIP Prefix Using the Control Panel']
+
+  - path: ./networking/reserved-ips/reserved-ips-how-to-find-anchor-ips.md
+    category: general
+    type: how-to
+    topic: How to Find Information about Droplet Anchor IPs
+    size_bytes: 7509
+    structure:
+      h2_sections: 1
+      h3_sections: 1
+    main_sections: ['Get a Droplet’s Anchor IP']
+
+  - path: ./networking/reserved-ips/reserved-ips-how-to-manually-enable.md
+    category: general
+    type: how-to
+    topic: How to Manually Enable Reserved IPs
+    size_bytes: 12066
+    structure:
+      h2_sections: 3
+      h3_sections: 1
+    main_sections: ['Enable Anchor IPs Immediately', 'Persist Anchor IPs After Reboots', 'Enable Reserved IPv6']
+
+  - path: ./networking/reserved-ips/reserved-ips-how-to-modify-byoip-ip.md
+    category: general
+    type: how-to
+    topic: How to Reassign or Unassign BYOIP IPs
+    size_bytes: 10030
+    structure:
+      h2_sections: 4
+      h3_sections: 1
+    main_sections: ['Reassign a BYOIP IP Address Using Automation', 'Reassign a BYOIP IP Address Using the Control Panel', 'Unassign a BYOIP IP Address Using Automation', 'Unassign a BYOIP IP Address Using the Control Panel']
+
+  - path: ./networking/reserved-ips/reserved-ips-how-to-modify.md
+    category: general
+    type: how-to
+    topic: How to Reassign or Unassign Reserved IPs
+    size_bytes: 11181
+    structure:
+      h2_sections: 2
+      h3_sections: 5
+    main_sections: ['Reassign a Reserved IP Using Automation', 'Reassign a Reserved IP Using the Control Panel']
+
+  - path: ./networking/reserved-ips/reserved-ips-how-to-outbound-traffic.md
+    category: general
+    type: how-to
+    topic: How to Send Outbound Traffic Over a Reserved IP
+    size_bytes: 13656
+    structure:
+      h2_sections: 4
+      h3_sections: 1
+    main_sections: ['Prerequisites', 'Enable Outbound Reserved IP Traffic Immediately', 'Persist Outbound Reserved IP Traffic After Reboot', 'Disable Outbound Reserved IP Traffic']
+
+  - path: ./networking/reserved-ips/reserved-ips-how-to-pause-byoip.md
+    category: general
+    type: how-to
+    topic: How to Pause or Resume BYOIP Prefix Advertisement
+    size_bytes: 9195
+    structure:
+      h2_sections: 2
+      h3_sections: 7
+    main_sections: ['Pause the Advertisement of a BYOIP Prefix', 'Resume the Advertisement of a BYOIP Prefix']
+
+  - path: ./networking/reserved-ips/reserved-ips-how-to-provision-byoip.md
+    category: general
+    type: how-to
+    topic: How to Provision a BYOIP Prefix
+    size_bytes: 20849
+    structure:
+      h2_sections: 8
+      h3_sections: 6
+    main_sections: ['Prerequisites', 'Generate the X.509 Certificate', 'Add the X.509 Certificate to Your RIR', 'Verify the Certificate Records', 'Generate the Signature Hash', 'Submit Your Provisioning Request', 'Get the Status of a Provisioning Request', 'How To Use BYOIP Addresses']
+
+  - path: ./networking/reserved-ips/reserved-ips-how-to.md
+    category: general
+    type: overview
+    topic: Reserved IP How-Tos
+    size_bytes: 7591
+    structure:
+      h2_sections: 3
+      h3_sections: 1
+    main_sections: ['Getting Started', 'Reserved IP Management', 'Bring Your Own IP']
+
+  - path: ./networking/reserved-ips/reserved-ips-reference.md
+    category: general
+    type: reference
+    topic: Reserved IP Reference
+    size_bytes: 6102
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/reserved-ips/reserved-ips-support.md
+    category: general
+    type: support
+    topic: Reserved IP Support
+    size_bytes: 5958
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/reserved-ips/reserved-ips.md
+    category: general
+    type: overview
+    topic: Reserved IPs
+    size_bytes: 9108
+    structure:
+      h2_sections: 1
+      h3_sections: 4
+    main_sections: ['Latest Updates']
+
+  - path: ./networking/vpc/vpc-concepts-best-practices.md
+    category: vpc
+    type: concepts
+    topic: Use VPC Networks to Secure Your Servers and Other Best Practices
+    size_bytes: 14514
+    structure:
+      h2_sections: 5
+      h3_sections: 1
+    main_sections: ['Isolate Environments and Tenants with VPC Networks', 'Internet Gateways', 'SSH Keys', 'Cloud Firewalls', 'Service Auditing']
+
+  - path: ./networking/vpc/vpc-concepts-plan-your-network.md
+    category: vpc
+    type: concepts
+    topic: How to Plan Your Custom VPC Network
+    size_bytes: 12370
+    structure:
+      h2_sections: 4
+      h3_sections: 1
+    main_sections: ['Large Networks Versus Smaller Networks', 'DigitalOcean Reserved IP Addresses and Ranges', 'Determine Your IP Range', 'Other Tools and Resources']
+
+  - path: ./networking/vpc/vpc-concepts.md
+    category: vpc
+    type: concepts
+    topic: VPC Concepts
+    size_bytes: 6024
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/vpc/vpc-details-availability.md
+    category: vpc
+    type: details
+    topic: VPC Availability
+    size_bytes: 5907
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/vpc/vpc-details-features.md
+    category: vpc
+    type: details
+    topic: VPC Features
+    size_bytes: 12223
+    structure:
+      h2_sections: 1
+      h3_sections: 2
+    main_sections: ['Internet Gateways']
+
+  - path: ./networking/vpc/vpc-details-limits.md
+    category: vpc
+    type: details
+    topic: VPC Limit
+    size_bytes: 9817
+    structure:
+      h2_sections: 2
+      h3_sections: 3
+    main_sections: ['Limits', 'Known Issues']
+
+  - path: ./networking/vpc/vpc-details-pricing.md
+    category: vpc
+    type: details
+    topic: VPC Pricing
+    size_bytes: 7028
+    structure:
+      h2_sections: 4
+      h3_sections: 1
+    main_sections: ['VPC Networks', 'VPC Peering', 'VPC NAT Gateway', 'Partner Network Connect']
+
+  - path: ./networking/vpc/vpc-details.md
+    category: vpc
+    type: overview
+    topic: VPC Details
+    size_bytes: 6712
+    structure:
+      h2_sections: 1
+      h3_sections: 1
+    main_sections: ['VPC Networks']
+
+  - path: ./networking/vpc/vpc-getting-started-quickstart.md
+    category: vpc
+    type: getting-started
+    topic: VPC Quickstart
+    size_bytes: 8339
+    structure:
+      h2_sections: 3
+      h3_sections: 1
+    main_sections: ['Create a VPC Network', 'Add a New Resource to a VPC', 'Migrate an Existing Droplet to a VPC Network']
+
+  - path: ./networking/vpc/vpc-getting-started.md
+    category: vpc
+    type: getting-started
+    topic: Getting Started with VPCs
+    size_bytes: 5754
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/vpc/vpc-how-to-add-ha-to-partner-attachment.md
+    category: vpc
+    type: how-to
+    topic: How to Add High Availability to a Partner Attachment
+    size_bytes: 11074
+    structure:
+      h2_sections: 2
+      h3_sections: 1
+    main_sections: ['Add High Availability to a Partner Attachment', 'Complete the Connection']
+
+  - path: ./networking/vpc/vpc-how-to-add-resources.md
+    category: vpc
+    type: how-to
+    topic: How to Add New Resources to a VPC Network
+    size_bytes: 7191
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/vpc/vpc-how-to-configure-doks-nat-gateway.md
+    category: vpc
+    type: how-to
+    topic: How to Configure DOKS for NAT Gateway
+    size_bytes: 6293
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/vpc/vpc-how-to-configure-droplet-nat-gateway.md
+    category: vpc
+    type: how-to
+    topic: How to Configure Droplets for NAT Gateway
+    size_bytes: 20814
+    structure:
+      h2_sections: 4
+      h3_sections: 1
+    main_sections: ['Default Gateway Routing', 'Define Temporary Route Changes', 'Test Route Changes', 'Persistent Route Changes']
+
+  - path: ./networking/vpc/vpc-how-to-create-nat-gateway.md
+    category: vpc
+    type: how-to
+    topic: How to Create a NAT Gateway
+    size_bytes: 12110
+    structure:
+      h2_sections: 3
+      h3_sections: 7
+    main_sections: ['Create a NAT Gateway Using the CLI', 'Create a NAT Gateway Using the API', 'Create a NAT Gateway Using the Control Panel']
+
+  - path: ./networking/vpc/vpc-how-to-create-partner-attachment.md
+    category: vpc
+    type: how-to
+    topic: How to Create a Partner Attachment
+    size_bytes: 22315
+    structure:
+      h2_sections: 5
+      h3_sections: 1
+    main_sections: ['Create a Partner Attachment', 'Create a Megaport Cloud Router', 'Create a Virtual Cross Connection (VXC) to DigitalOcean', 'Verify the Connection Between DigitalOcean and Megaport', 'Connect Megaport to Other Clouds or On-premises Datacenters']
+
+  - path: ./networking/vpc/vpc-how-to-create-peering.md
+    category: vpc
+    type: how-to
+    topic: How to Create a VPC Peering
+    size_bytes: 11046
+    structure:
+      h2_sections: 4
+      h3_sections: 2
+    main_sections: ['Create a VPC Peering Using the CLI', 'Create a VPC Peering Using the API', 'Create a VPC Peering Using the Control Panel', 'View a VPC’s Peering Connections']
+
+  - path: ./networking/vpc/vpc-how-to-create.md
+    category: vpc
+    type: how-to
+    topic: How to Create a VPC
+    size_bytes: 11400
+    structure:
+      h2_sections: 3
+      h3_sections: 4
+    main_sections: ['Create a VPC Network Using the CLI', 'Create a VPC Network Using the API', 'Create a VPC Network Using the Control Panel']
+
+  - path: ./networking/vpc/vpc-how-to-destroy-nat-gateway.md
+    category: vpc
+    type: how-to
+    topic: How to Destroy a NAT Gateway
+    size_bytes: 8598
+    structure:
+      h2_sections: 3
+      h3_sections: 1
+    main_sections: ['Destroy a NAT Gateway Using the Command Line', 'Destroy a NAT Gateway Using the API', 'Destroy a NAT Gateway Using the Control Panel']
+
+  - path: ./networking/vpc/vpc-how-to-destroy-partner-attachment.md
+    category: vpc
+    type: how-to
+    topic: How to Destroy a Partner Attachment
+    size_bytes: 6910
+    structure:
+      h2_sections: 2
+      h3_sections: 1
+    main_sections: ['Destroy a Partner Attachment Using the API', 'Destroy a Partner Attachment Using the Control Panel']
+
+  - path: ./networking/vpc/vpc-how-to-destroy-peering.md
+    category: vpc
+    type: how-to
+    topic: How to Destroy a VPC Peering
+    size_bytes: 8622
+    structure:
+      h2_sections: 2
+      h3_sections: 2
+    main_sections: ['Delete a VPC Peering Using Automation', 'Delete a VPC Peering Using the Control Panel']
+
+  - path: ./networking/vpc/vpc-how-to-destroy.md
+    category: vpc
+    type: how-to
+    topic: How to Destroy a VPC
+    size_bytes: 9079
+    structure:
+      h2_sections: 2
+      h3_sections: 4
+    main_sections: ['Delete a VPC Network Using Automation', 'Delete a VPC Network Using the Control Panel']
+
+  - path: ./networking/vpc/vpc-how-to-edit-partner-attachment-vpc.md
+    category: vpc
+    type: how-to
+    topic: How to Edit a Partner Attachment's VPC Networks
+    size_bytes: 7457
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/vpc/vpc-how-to-enable.md
+    category: vpc
+    type: how-to
+    topic: How to Enable VPC Networking on Existing Droplets
+    size_bytes: 16624
+    structure:
+      h2_sections: 2
+      h3_sections: 2
+    main_sections: ['Enable VPC Networking on Existing Droplets', 'Verify the Configuration']
+
+  - path: ./networking/vpc/vpc-how-to-migrate-resources.md
+    category: vpc
+    type: how-to
+    topic: How to Migrate Resources Into and Between VPC Networks
+    size_bytes: 10486
+    structure:
+      h2_sections: 2
+      h3_sections: 1
+    main_sections: ['Migrate Droplets Into A VPC Network', 'Migrate Your Database to a Different VPC Network']
+
+  - path: ./networking/vpc/vpc-how-to-set-default-vpc.md
+    category: vpc
+    type: how-to
+    topic: How to Set a Default VPC
+    size_bytes: 6879
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/vpc/vpc-how-to-troubleshoot-partner-attachment.md
+    category: vpc
+    type: how-to
+    topic: How to Troubleshoot a Partner Attachment
+    size_bytes: 8392
+    structure:
+      h2_sections: 4
+      h3_sections: 1
+    main_sections: ['Troubleshoot with Megaport Cloud Router Looking Glass', 'Troubleshoot Using the DigitalOcean Control Panel', 'View Megaport Maintenance and Outage Status', 'Regenerate an Expired Service Key']
+
+  - path: ./networking/vpc/vpc-how-to-update-peering-routes.md
+    category: vpc
+    type: how-to
+    topic: How to Update Routes to Enable VPC Peering
+    size_bytes: 17559
+    structure:
+      h2_sections: 6
+      h3_sections: 2
+    main_sections: ['Restart Network Services', 'Add Routes Manually', 'Verify Added Routes', 'Remove Manually Added Routes', 'Disable Automatic Route Injection', 'Disable Automatic Route Injection for the Entire Team']
+
+  - path: ./networking/vpc/vpc-how-to-use-local-dns-resolver.md
+    category: vpc
+    type: how-to
+    topic: How to Use the VPC-local DNS Resolver
+    size_bytes: 13588
+    structure:
+      h2_sections: 2
+      h3_sections: 3
+    main_sections: ['Find a VPC Network’s Internal Resolver IP Address', 'Update Droplets to Use the VPC-local DNS Resolver']
+
+  - path: ./networking/vpc/vpc-how-to.md
+    category: vpc
+    type: overview
+    topic: VPC How-Tos
+    size_bytes: 9993
+    structure:
+      h2_sections: 5
+      h3_sections: 1
+    main_sections: ['Getting Started', 'VPC Network Management', 'VPC Peering Management', 'NAT Gateway', 'Partner Network Connect']
+
+  - path: ./networking/vpc/vpc-reference.md
+    category: vpc
+    type: reference
+    topic: VPC Reference
+    size_bytes: 6915
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/vpc/vpc-support.md
+    category: vpc
+    type: support
+    topic: VPC Support
+    size_bytes: 5806
+    structure:
+      h2_sections: 0
+      h3_sections: 1
+
+  - path: ./networking/vpc/vpc.md
+    category: vpc
+    type: overview
+    topic: VPC
+    size_bytes: 9619
+    structure:
+      h2_sections: 1
+      h3_sections: 4
+    main_sections: ['Latest Updates']
+

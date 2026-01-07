@@ -1,3 +1,10 @@
+---
+source: 'https://github.com/stripe/openapi'
+scraped: '2026-01-07'
+api_provider: 'Stripe'
+discovery_tier: 1
+verified: true
+---
 # Stripe API - Source Registry
 
 ## Primary Sources

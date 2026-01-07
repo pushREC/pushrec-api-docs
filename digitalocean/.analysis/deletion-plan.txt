@@ -1,0 +1,78 @@
+# DigitalOcean Documentation Deduplication - Deletion Plan
+# Generated: 2026-01-07
+# Backup: ~/api-docs/digitalocean-backup-pre-dedup
+
+## Phase 1: Delete Corrupted Files (64 total)
+
+### Compute Files with API Scope Corruption (47 files)
+# These files contain "Token Scopes" API documentation instead of compute content
+bare-metal-gpus-concepts-gpu-product-comparison.md
+bare-metal-gpus-concepts.md
+bare-metal-gpus-how-to-create.md
+bare-metal-gpus-how-to.md
+droplets-concepts-autoscale-pools.md
+droplets-concepts-choosing-a-plan.md
+droplets-concepts-downsizing-considerations.md
+droplets-details-availability.md
+droplets-details-features.md
+droplets-details-image-deprecation.md
+droplets-details-images.md
+droplets-details-limits.md
+droplets-details-live-migration.md
+droplets-details-policies.md
+droplets-details-pricing.md
+droplets-details.md
+droplets-getting-started-quickstart.md
+droplets-getting-started-recommended-droplet-setup.md
+droplets-getting-started.md
+droplets-how-to-add-ssh-keys-create-with-openssh.md
+droplets-how-to-add-ssh-keys-create-with-putty.md
+droplets-how-to-connect-with-console.md
+droplets-how-to-connect-with-ssh-openssh.md
+droplets-how-to-connect-with-ssh-putty.md
+droplets-how-to-connect-with-ssh.md
+droplets-how-to-create.md
+droplets-how-to-destroy.md
+droplets-how-to-gpu-create.md
+droplets-how-to-gpu-enable-jumbo-frames.md
+droplets-how-to-gpu-enable-metrics.md
+droplets-how-to-gpu-use-scratch-disk.md
+droplets-how-to-gpu.md
+droplets-how-to-kernel-grubloader.md
+droplets-how-to-kernel-upgrade.md
+droplets-how-to-kernel-use-non-default.md
+droplets-how-to-kernel.md
+droplets-how-to-provide-user-data.md
+droplets-how-to-recovery-recovery-console.md
+droplets-how-to-recovery-recovery-iso.md
+droplets-how-to-recovery.md
+droplets-how-to-resize.md
+droplets-how-to-tag.md
+droplets-how-to-track-performance.md
+droplets-how-to-transfer-files.md
+droplets-how-to-use-autoscale-pools.md
+droplets-support.md
+droplets.md
+
+### Database Files with Trailing Dash (15 files)
+# These are corrupted duplicates with trailing dash in filename
+databases/valkey-details-pricing-.md
+databases/postgresql-details-features-.md
+databases/mysql-details-pricing-.md
+databases/kafka-details-pricing-.md
+databases/valkey-details-features-.md
+databases/kafka-details-features-.md
+databases/mongodb-details-features-.md
+databases/opensearch-details-pricing-.md
+databases/mysql-concepts-sort-buffer-size-.md
+databases/mysql-concepts-migration-strategies-.md
+databases/redis-details-features-.md
+databases/mysql-details-features-.md
+databases/redis-details-pricing-.md
+databases/mongodb-details-pricing-.md
+databases/opensearch-details-features-.md
+
+### Storage Files with Skill Prompt Corruption (2 files)
+# These files contain skill prompt content instead of Spaces documentation
+storage/spaces-how-to-customize-cdn-endpoint.md
+storage/spaces-how-to-set-file-permissions.md

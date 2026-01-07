@@ -1,0 +1,134 @@
+openapi: 3.0.3
+info:
+  title: DigitalOcean API
+  version: 1.0.0
+  description: API documentation for DigitalOcean API
+  x-generated-by: api-docs-finder export_generator
+  x-generated-at: '2026-01-07T16:55:16.669634'
+servers:
+- url: https://api.digitalocean.com/v2
+  description: Production
+paths:
+  /hello:
+    get:
+      summary: GET /hello
+      tags:
+      - hello
+      - api-reference
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    put:
+      summary: PUT /hello
+      tags:
+      - hello
+      - api-reference
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    delete:
+      summary: DELETE /hello
+      tags:
+      - hello
+      - api-reference
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /copy:
+    put:
+      summary: PUT /copy
+      tags:
+      - copy
+      - api-reference
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  /large-file:
+    post:
+      summary: POST /large-file
+      tags:
+      - large-file
+      - api-reference
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+    put:
+      summary: PUT /large-file
+      tags:
+      - large-file
+      - api-reference
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+  //:
+    options:
+      summary: OPTIONS //
+      tags:
+      - ''
+      - containers
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not found
+        '500':
+          description: Server error
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+security:
+- bearerAuth: []

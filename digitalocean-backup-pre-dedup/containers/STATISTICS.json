@@ -1,0 +1,44 @@
+{
+  "harvest_date": "2025-01-07",
+  "agent": "Agent 9 - Container Services",
+  "status": "COMPLETE",
+  "metrics": {
+    "total_urls": 73,
+    "successful": 73,
+    "failed": 0,
+    "success_rate": 1.0,
+    "total_size_kb": 880,
+    "total_files": 75
+  },
+  "service_breakdown": {
+    "container_registry": {
+      "count": 16,
+      "percentage": 21.9,
+      "categories": ["details", "getting-started", "how-to", "reference", "support"]
+    },
+    "functions": {
+      "count": 39,
+      "percentage": 53.4,
+      "categories": ["details", "getting-started", "jamstack", "how-to", "reference", "runtimes", "concepts"]
+    },
+    "monitoring": {
+      "count": 18,
+      "percentage": 24.7,
+      "categories": ["details", "getting-started", "how-to", "concepts", "reference", "support"]
+    }
+  },
+  "quality_metrics": {
+    "min_file_size_bytes": 500,
+    "all_files_meet_minimum": true,
+    "docker_commands_preserved": true,
+    "code_examples_intact": true,
+    "frontmatter_present": true
+  },
+  "output_directory": "~/api-docs/digitalocean/containers/",
+  "scraping_method": "Bright Data markdown scraper",
+  "additional_files": [
+    "HARVEST-REPORT.md",
+    "INDEX.md",
+    "STATISTICS.json"
+  ]
+}

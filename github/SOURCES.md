@@ -1,3 +1,10 @@
+---
+source: 'https://github.com/github/rest-api-description'
+scraped: '2026-01-07'
+api_provider: 'GitHub'
+discovery_tier: 1
+verified: true
+---
 # GitHub API - Source Registry
 
 ## Primary Sources
