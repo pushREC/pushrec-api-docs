@@ -1,0 +1,398 @@
+{
+  "total_urls": 48,
+  "successful": 48,
+  "failed": 0,
+  "bright_data_count": 48,
+  "webfetch_count": 0,
+  "total_duration_ms": 20503,
+  "avg_duration_ms": 427.15,
+  "total_bytes": 835948,
+  "start_time": "2026-01-07T03:13:24.927715",
+  "end_time": "2026-01-07T03:13:45.431349",
+  "results": [
+    {
+      "url": "https://code.claude.com/docs/en/chrome",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-chrome.md",
+      "size": 15245,
+      "duration_ms": 1607
+    },
+    {
+      "url": "https://code.claude.com/docs/en/amazon-bedrock",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-amazon-bedrock.md",
+      "size": 13800,
+      "duration_ms": 1662
+    },
+    {
+      "url": "https://code.claude.com/docs/en/analytics",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-analytics.md",
+      "size": 6802,
+      "duration_ms": 1699
+    },
+    {
+      "url": "https://code.claude.com/docs/en/checkpointing",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-checkpointing.md",
+      "size": 6995,
+      "duration_ms": 1763
+    },
+    {
+      "url": "https://code.claude.com/docs/en/costs",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-costs.md",
+      "size": 10991,
+      "duration_ms": 1176
+    },
+    {
+      "url": "https://code.claude.com/docs/en/cli-reference",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-cli-reference.md",
+      "size": 14285,
+      "duration_ms": 1447
+    },
+    {
+      "url": "https://code.claude.com/docs/en/claude-code-on-the-web",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-claude-code-on-the-web.md",
+      "size": 23345,
+      "duration_ms": 1535
+    },
+    {
+      "url": "https://code.claude.com/docs/en/common-workflows",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-common-workflows.md",
+      "size": 33780,
+      "duration_ms": 2039
+    },
+    {
+      "url": "https://code.claude.com/docs/en/data-usage",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-data-usage.md",
+      "size": 12765,
+      "duration_ms": 1631
+    },
+    {
+      "url": "https://code.claude.com/docs/en/desktop",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-desktop.md",
+      "size": 10011,
+      "duration_ms": 1650
+    },
+    {
+      "url": "https://code.claude.com/docs/en/devcontainer",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-devcontainer.md",
+      "size": 8743,
+      "duration_ms": 1967
+    },
+    {
+      "url": "https://code.claude.com/docs/en/discover-plugins",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-discover-plugins.md",
+      "size": 19672,
+      "duration_ms": 2125
+    },
+    {
+      "url": "https://code.claude.com/docs/en/github-actions",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-github-actions.md",
+      "size": 32489,
+      "duration_ms": 1493
+    },
+    {
+      "url": "https://code.claude.com/docs/en/gitlab-ci-cd",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-gitlab-ci-cd.md",
+      "size": 24689,
+      "duration_ms": 1314
+    },
+    {
+      "url": "https://code.claude.com/docs/en/google-vertex-ai",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-google-vertex-ai.md",
+      "size": 10824,
+      "duration_ms": 1572
+    },
+    {
+      "url": "https://code.claude.com/docs/en/hooks-guide",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-hooks-guide.md",
+      "size": 15099,
+      "duration_ms": 1854
+    },
+    {
+      "url": "https://code.claude.com/docs/en/headless",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-headless.md",
+      "size": 10077,
+      "duration_ms": 2095
+    },
+    {
+      "url": "https://code.claude.com/docs/en/hooks",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-hooks.md",
+      "size": 45175,
+      "duration_ms": 2357
+    },
+    {
+      "url": "https://code.claude.com/docs/en/iam",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-iam.md",
+      "size": 15113,
+      "duration_ms": 1920
+    },
+    {
+      "url": "https://code.claude.com/docs/en/interactive-mode",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-interactive-mode.md",
+      "size": 10540,
+      "duration_ms": 1315
+    },
+    {
+      "url": "https://code.claude.com/docs/en/jetbrains",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-jetbrains.md",
+      "size": 10951,
+      "duration_ms": 1645
+    },
+    {
+      "url": "https://code.claude.com/docs/en/llm-gateway",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-llm-gateway.md",
+      "size": 9896,
+      "duration_ms": 1313
+    },
+    {
+      "url": "https://code.claude.com/docs/en/legal-and-compliance",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-legal-and-compliance.md",
+      "size": 5095,
+      "duration_ms": 1572
+    },
+    {
+      "url": "https://code.claude.com/docs/en/memory",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-memory.md",
+      "size": 13207,
+      "duration_ms": 1277
+    },
+    {
+      "url": "https://code.claude.com/docs/en/mcp",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-mcp.md",
+      "size": 38081,
+      "duration_ms": 1697
+    },
+    {
+      "url": "https://code.claude.com/docs/en/microsoft-foundry",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-microsoft-foundry.md",
+      "size": 8165,
+      "duration_ms": 1315
+    },
+    {
+      "url": "https://code.claude.com/docs/en/model-config",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-model-config.md",
+      "size": 9358,
+      "duration_ms": 1558
+    },
+    {
+      "url": "https://code.claude.com/docs/en/monitoring-usage",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-monitoring-usage.md",
+      "size": 26775,
+      "duration_ms": 1336
+    },
+    {
+      "url": "https://code.claude.com/docs/en/network-config",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-network-config.md",
+      "size": 7304,
+      "duration_ms": 1298
+    },
+    {
+      "url": "https://code.claude.com/docs/en/output-styles",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-output-styles.md",
+      "size": 8593,
+      "duration_ms": 1807
+    },
+    {
+      "url": "https://code.claude.com/docs/en/overview",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-overview.md",
+      "size": 8879,
+      "duration_ms": 2360
+    },
+    {
+      "url": "https://code.claude.com/docs/en/plugins",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-plugins.md",
+      "size": 20179,
+      "duration_ms": 1819
+    },
+    {
+      "url": "https://code.claude.com/docs/en/plugin-marketplaces",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-plugin-marketplaces.md",
+      "size": 25082,
+      "duration_ms": 1911
+    },
+    {
+      "url": "https://code.claude.com/docs/en/plugins-reference",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-plugins-reference.md",
+      "size": 31358,
+      "duration_ms": 1642
+    },
+    {
+      "url": "https://code.claude.com/docs/en/quickstart",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-quickstart.md",
+      "size": 13109,
+      "duration_ms": 1437
+    },
+    {
+      "url": "https://code.claude.com/docs/en/sandboxing",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-sandboxing.md",
+      "size": 17506,
+      "duration_ms": 1426
+    },
+    {
+      "url": "https://code.claude.com/docs/en/security",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-security.md",
+      "size": 13705,
+      "duration_ms": 1649
+    },
+    {
+      "url": "https://code.claude.com/docs/en/settings",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-settings.md",
+      "size": 46706,
+      "duration_ms": 1706
+    },
+    {
+      "url": "https://code.claude.com/docs/en/setup",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-setup.md",
+      "size": 13939,
+      "duration_ms": 1308
+    },
+    {
+      "url": "https://code.claude.com/docs/en/skills",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-skills.md",
+      "size": 26144,
+      "duration_ms": 1539
+    },
+    {
+      "url": "https://code.claude.com/docs/en/slack",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-slack.md",
+      "size": 15651,
+      "duration_ms": 1564
+    },
+    {
+      "url": "https://code.claude.com/docs/en/slash-commands",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-slash-commands.md",
+      "size": 23808,
+      "duration_ms": 1719
+    },
+    {
+      "url": "https://code.claude.com/docs/en/sub-agents",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-sub-agents.md",
+      "size": 27766,
+      "duration_ms": 1866
+    },
+    {
+      "url": "https://code.claude.com/docs/en/terminal-config",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-terminal-config.md",
+      "size": 6851,
+      "duration_ms": 1672
+    },
+    {
+      "url": "https://code.claude.com/docs/en/statusline",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-statusline.md",
+      "size": 12310,
+      "duration_ms": 2676
+    },
+    {
+      "url": "https://code.claude.com/docs/en/third-party-integrations",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-third-party-integrations.md",
+      "size": 14159,
+      "duration_ms": 1596
+    },
+    {
+      "url": "https://code.claude.com/docs/en/troubleshooting",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-troubleshooting.md",
+      "size": 21164,
+      "duration_ms": 1234
+    },
+    {
+      "url": "https://code.claude.com/docs/en/vs-code",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/claude-code-docs/docs-en-vs-code.md",
+      "size": 19767,
+      "duration_ms": 1480
+    }
+  ]
+}

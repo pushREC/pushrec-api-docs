@@ -13,12 +13,15 @@ import re
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Set
+from typing import Any, Dict, List, Set
 
 try:
     import yaml
 except ImportError:
     yaml = None
+
+# Import shared config
+from config import load_config, get_sources, ConfigError
 
 
 # Default layer keywords if config not available
@@ -78,14 +81,15 @@ def match_layers(content: str, layers: Dict) -> Set[str]:
     return matched
 
 
-def scan_documentation(repo: Path, layers: Dict) -> Dict[str, List[Dict]]:
+def scan_documentation(repo: Path, layers: Dict, config: Dict) -> Dict[str, List[Dict]]:
     """Scan all documentation and categorize by layer."""
-    sources = ["claude-code", "claude-api", "agent-sdk"]
+    sources = get_sources(config)
     layer_docs = defaultdict(list)
 
     for source in sources:
         source_dir = repo / source
         if not source_dir.exists():
+            print(f"[SKIP] Source directory not found: {source}")
             continue
 
         for md_file in source_dir.rglob("*.md"):
@@ -96,7 +100,17 @@ def scan_documentation(repo: Path, layers: Dict) -> Dict[str, List[Dict]]:
             try:
                 with open(md_file, "r", encoding="utf-8") as f:
                     content = f.read()
-            except Exception:
+            except FileNotFoundError:
+                print(f"[ERROR] File not found: {md_file}")
+                continue
+            except PermissionError:
+                print(f"[ERROR] Permission denied: {md_file}")
+                continue
+            except UnicodeDecodeError:
+                print(f"[ERROR] Invalid encoding in: {md_file}")
+                continue
+            except Exception as e:
+                print(f"[ERROR] Failed to read {md_file}: {e}")
                 continue
 
             title = extract_title(content)
@@ -143,10 +157,10 @@ updated: {datetime.now().strftime('%Y-%m-%d')}
     return content
 
 
-def build_index(repo: Path, config_path: Path) -> None:
+def build_index(repo: Path, config_path: Path, config: Dict) -> None:
     """Build the complete cross-reference index."""
     layers = load_layer_config(config_path)
-    layer_docs = scan_documentation(repo, layers)
+    layer_docs = scan_documentation(repo, layers, config)
 
     index_dir = repo / "_index"
     index_dir.mkdir(parents=True, exist_ok=True)
@@ -157,10 +171,14 @@ def build_index(repo: Path, config_path: Path) -> None:
         content = generate_layer_file(layer_name, layer_config, docs)
 
         layer_file = index_dir / f"{layer_name}.md"
-        with open(layer_file, "w") as f:
-            f.write(content)
-
-        print(f"[INDEX] {layer_name}: {len(docs)} documents")
+        try:
+            with open(layer_file, "w", encoding="utf-8") as f:
+                f.write(content)
+            print(f"[INDEX] {layer_name}: {len(docs)} documents")
+        except PermissionError:
+            print(f"[ERROR] Permission denied writing: {layer_file}")
+        except Exception as e:
+            print(f"[ERROR] Failed to write {layer_file}: {e}")
 
     # Generate index README
     readme_content = f"""---
@@ -194,8 +212,13 @@ Documents are automatically categorized based on keyword matching:
 
     readme_content += "\n---\n\n*Rebuild with: `api-docs index`*\n"
 
-    with open(index_dir / "README.md", "w") as f:
-        f.write(readme_content)
+    try:
+        with open(index_dir / "README.md", "w", encoding="utf-8") as f:
+            f.write(readme_content)
+    except PermissionError:
+        print(f"[ERROR] Permission denied writing: {index_dir}/README.md")
+    except Exception as e:
+        print(f"[ERROR] Failed to write README: {e}")
 
     print(f"\n[COMPLETE] Index built with {len(layers)} layers")
 
@@ -207,9 +230,16 @@ def main():
     args = parser.parse_args()
 
     repo = Path(args.repo)
-    config = Path(args.config)
+    config_path = Path(args.config)
 
-    build_index(repo, config)
+    # Load shared config (no hardcoding)
+    try:
+        config = load_config()
+    except ConfigError as e:
+        print(e)
+        return
+
+    build_index(repo, config_path, config)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,967 @@
+---
+source: https://code.claude.com/docs/en/claude-code-on-the-web
+scraped: 2026-01-07
+method: bright_data
+duration_ms: 1535
+---
+
+Claude Code on the web - Claude Code Docs
+
+ 
+
+[Skip to main content](#content-area)
+
+[Claude Code Docs home page![light logo](https://mintcdn.com/claude-code/o69F7a6qoW9vboof/logo/light.svg?fit=max&auto=format&n=o69F7a6qoW9vboof&q=85&s=536eade682636e84231afce2577f9509)![dark logo](https://mintcdn.com/claude-code/o69F7a6qoW9vboof/logo/dark.svg?fit=max&auto=format&n=o69F7a6qoW9vboof&q=85&s=0766b3221061e80143e9f300733e640b)](/docs)
+
+![US](https://d3gk2c5xim1je2.cloudfront.net/flags/US.svg)
+
+English
+
+Search...
+
+⌘KAsk AI
+
+*   [Claude Developer Platform](https://platform.claude.com/)
+*   [Claude Code on the Web](https://claude.ai/code)
+*   [
+    
+    Claude Code on the Web
+    
+    ](https://claude.ai/code)
+
+Search...
+
+Navigation
+
+Outside of the terminal
+
+Claude Code on the web
+
+[Getting started
+
+](/docs/en/overview)[Build with Claude Code
+
+](/docs/en/sub-agents)[Deployment
+
+](/docs/en/third-party-integrations)[Administration
+
+](/docs/en/setup)[Configuration
+
+](/docs/en/settings)[Reference
+
+](/docs/en/cli-reference)[Resources
+
+](/docs/en/legal-and-compliance)
+
+##### Getting started
+
+*   [
+    
+    Overview
+    
+    
+    
+    ](/docs/en/overview)
+*   [
+    
+    Quickstart
+    
+    
+    
+    ](/docs/en/quickstart)
+*   [
+    
+    Common workflows
+    
+    
+    
+    ](/docs/en/common-workflows)
+*   [
+    
+    Changelog
+    
+    
+    
+    ](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md)
+
+##### Outside of the terminal
+
+*   [
+    
+    Claude Code on the web
+    
+    
+    
+    ](/docs/en/claude-code-on-the-web)
+*   [
+    
+    Claude Code on desktop
+    
+    
+    
+    ](/docs/en/desktop)
+*   [
+    
+    Chrome extension (beta)
+    
+    
+    
+    ](/docs/en/chrome)
+*   [
+    
+    Visual Studio Code
+    
+    
+    
+    ](/docs/en/vs-code)
+*   [
+    
+    JetBrains IDEs
+    
+    
+    
+    ](/docs/en/jetbrains)
+*   [
+    
+    GitHub Actions
+    
+    
+    
+    ](/docs/en/github-actions)
+*   [
+    
+    GitLab CI/CD
+    
+    
+    
+    ](/docs/en/gitlab-ci-cd)
+*   [
+    
+    Claude Code in Slack
+    
+    
+    
+    ](/docs/en/slack)
+
+  
+
+On this page
+
+*   [What is Claude Code on the web?](#what-is-claude-code-on-the-web)
+*   [Who can use Claude Code on the web?](#who-can-use-claude-code-on-the-web)
+*   [Getting started](#getting-started)
+*   [How it works](#how-it-works)
+*   [Moving tasks between web and terminal](#moving-tasks-between-web-and-terminal)
+*   [From web to terminal](#from-web-to-terminal)
+*   [Cloud environment](#cloud-environment)
+*   [Default image](#default-image)
+*   [Checking available tools](#checking-available-tools)
+*   [Language-specific setups](#language-specific-setups)
+*   [Databases](#databases)
+*   [Environment configuration](#environment-configuration)
+*   [Dependency management](#dependency-management)
+*   [Local vs remote execution](#local-vs-remote-execution)
+*   [Persisting environment variables](#persisting-environment-variables)
+*   [Network access and security](#network-access-and-security)
+*   [Network policy](#network-policy)
+*   [GitHub proxy](#github-proxy)
+*   [Security proxy](#security-proxy)
+*   [Access levels](#access-levels)
+*   [Default allowed domains](#default-allowed-domains)
+*   [Anthropic Services](#anthropic-services)
+*   [Version Control](#version-control)
+*   [Container Registries](#container-registries)
+*   [Cloud Platforms](#cloud-platforms)
+*   [Package Managers - JavaScript/Node](#package-managers-javascript%2Fnode)
+*   [Package Managers - Python](#package-managers-python)
+*   [Package Managers - Ruby](#package-managers-ruby)
+*   [Package Managers - Rust](#package-managers-rust)
+*   [Package Managers - Go](#package-managers-go)
+*   [Package Managers - JVM](#package-managers-jvm)
+*   [Package Managers - Other Languages](#package-managers-other-languages)
+*   [Linux Distributions](#linux-distributions)
+*   [Development Tools & Platforms](#development-tools-%26-platforms)
+*   [Cloud Services & Monitoring](#cloud-services-%26-monitoring)
+*   [Content Delivery & Mirrors](#content-delivery-%26-mirrors)
+*   [Schema & Configuration](#schema-%26-configuration)
+*   [Security best practices for customized network access](#security-best-practices-for-customized-network-access)
+*   [Security and isolation](#security-and-isolation)
+*   [Pricing and rate limits](#pricing-and-rate-limits)
+*   [Limitations](#limitations)
+*   [Best practices](#best-practices)
+*   [Related resources](#related-resources)
+
+Outside of the terminal
+
+# Claude Code on the web
+
+Copy page
+
+Run Claude Code tasks asynchronously on secure cloud infrastructure
+
+Copy page
+
+Claude Code on the web is currently in research preview.
+
+## 
+
+[​
+
+](#what-is-claude-code-on-the-web)
+
+What is Claude Code on the web?
+
+Claude Code on the web lets developers kick off Claude Code from the Claude app. This is perfect for:
+
+*   **Answering questions**: Ask about code architecture and how features are implemented
+*   **Bug fixes and routine tasks**: Well-defined tasks that don’t require frequent steering
+*   **Parallel work**: Tackle multiple bug fixes in parallel
+*   **Repositories not on your local machine**: Work on code you don’t have checked out locally
+*   **Backend changes**: Where Claude Code can write tests and then write code to pass those tests
+
+Claude Code is also available on the Claude iOS app. This is perfect for:
+
+*   **On the go**: Kick off tasks while commuting or away from laptop
+*   **Monitoring**: Watch the trajectory and steer the agent’s work
+
+Developers can also move Claude Code sessions from the Claude app to their terminal to continue tasks locally.
+
+## 
+
+[​
+
+](#who-can-use-claude-code-on-the-web)
+
+Who can use Claude Code on the web?
+
+Claude Code on the web is available in research preview to:
+
+*   **Pro users**
+*   **Max users**
+*   **Team premium seat users**
+*   **Enterprise premium seat users**
+
+## 
+
+[​
+
+](#getting-started)
+
+Getting started
+
+1.  Visit [claude.ai/code](https://claude.ai/code)
+2.  Connect your GitHub account
+3.  Install the Claude GitHub app in your repositories
+4.  Select your default environment
+5.  Submit your coding task
+6.  Review changes and create a pull request in GitHub
+
+## 
+
+[​
+
+](#how-it-works)
+
+How it works
+
+When you start a task on Claude Code on the web:
+
+1.  **Repository cloning**: Your repository is cloned to an Anthropic-managed virtual machine
+2.  **Environment setup**: Claude prepares a secure cloud environment with your code
+3.  **Network configuration**: Internet access is configured based on your settings
+4.  **Task execution**: Claude analyzes code, makes changes, runs tests, and checks its work
+5.  **Completion**: You’re notified when finished and can create a PR with the changes
+6.  **Results**: Changes are pushed to a branch, ready for pull request creation
+
+## 
+
+[​
+
+](#moving-tasks-between-web-and-terminal)
+
+Moving tasks between web and terminal
+
+### 
+
+[​
+
+](#from-web-to-terminal)
+
+From web to terminal
+
+After starting a task on the web:
+
+1.  Click the “Open in CLI” button
+2.  Paste and run the command in your terminal in a checkout of the repo
+3.  Any existing local changes will be stashed, and the remote session will be loaded
+4.  Continue working locally
+
+## 
+
+[​
+
+](#cloud-environment)
+
+Cloud environment
+
+### 
+
+[​
+
+](#default-image)
+
+Default image
+
+We build and maintain a universal image with common toolchains and language ecosystems pre-installed. This image includes:
+
+*   Popular programming languages and runtimes
+*   Common build tools and package managers
+*   Testing frameworks and linters
+
+#### 
+
+[​
+
+](#checking-available-tools)
+
+Checking available tools
+
+To see what’s pre-installed in your environment, ask Claude Code to run:
+
+Copy
+
+Ask AI
+
+    check-tools
+    
+
+This command displays:
+
+*   Programming languages and their versions
+*   Available package managers
+*   Installed development tools
+
+#### 
+
+[​
+
+](#language-specific-setups)
+
+Language-specific setups
+
+The universal image includes pre-configured environments for:
+
+*   **Python**: Python 3.x with pip, poetry, and common scientific libraries
+*   **Node.js**: Latest LTS versions with npm, yarn, pnpm, and bun
+*   **Ruby**: Versions 3.1.6, 3.2.6, 3.3.6 (default: 3.3.6) with gem, bundler, and rbenv for version management
+*   **PHP**: Version 8.4.14
+*   **Java**: OpenJDK with Maven and Gradle
+*   **Go**: Latest stable version with module support
+*   **Rust**: Rust toolchain with cargo
+*   **C++**: GCC and Clang compilers
+
+#### 
+
+[​
+
+](#databases)
+
+Databases
+
+The universal image includes the following databases:
+
+*   **PostgreSQL**: Version 16
+*   **Redis**: Version 7.0
+
+### 
+
+[​
+
+](#environment-configuration)
+
+Environment configuration
+
+When you start a session in Claude Code on the web, here’s what happens under the hood:
+
+1.  **Environment preparation**: We clone your repository and run any configured Claude hooks for initialization. The repo will be cloned with the default branch on your GitHub repo. If you would like to check out a specific branch, you can specify that in the prompt.
+2.  **Network configuration**: We configure internet access for the agent. Internet access is limited by default, but you can configure the environment to have no internet or full internet access based on your needs.
+3.  **Claude Code execution**: Claude Code runs to complete your task, writing code, running tests, and checking its work. You can guide and steer Claude throughout the session via the web interface. Claude respects context you’ve defined in your `CLAUDE.md`.
+4.  **Outcome**: When Claude completes its work, it will push the branch to remote. You will be able to create a PR for the branch.
+
+Claude operates entirely through the terminal and CLI tools available in the environment. It uses the pre-installed tools in the universal image and any additional tools you install through hooks or dependency management.
+
+**To add a new environment:** Select the current environment to open the environment selector, and then select “Add environment”. This will open a dialog where you can specify the environment name, network access level, and any environment variables you want to set. **To update an existing environment:** Select the current environment, to the right of the environment name, and select the settings button. This will open a dialog where you can update the environment name, network access, and environment variables.
+
+Environment variables must be specified as key-value pairs, in [`.env` format](https://www.dotenv.org/). For example:
+
+Copy
+
+Ask AI
+
+    API_KEY=your_api_key
+    DEBUG=true
+    
+
+### 
+
+[​
+
+](#dependency-management)
+
+Dependency management
+
+Configure automatic dependency installation using [SessionStart hooks](/docs/en/hooks#sessionstart). This can be configured in your repository’s `.claude/settings.json` file:
+
+Copy
+
+Ask AI
+
+    {
+      "hooks": {
+        "SessionStart": [
+          {
+            "matcher": "startup",
+            "hooks": [
+              {
+                "type": "command",
+                "command": "\"$CLAUDE_PROJECT_DIR\"/scripts/install_pkgs.sh"
+              }
+            ]
+          }
+        ]
+      }
+    }
+    
+
+Create the corresponding script at `scripts/install_pkgs.sh`:
+
+Copy
+
+Ask AI
+
+    #!/bin/bash
+    npm install
+    pip install -r requirements.txt
+    exit 0
+    
+
+Make it executable: `chmod +x scripts/install_pkgs.sh`
+
+#### 
+
+[​
+
+](#local-vs-remote-execution)
+
+Local vs remote execution
+
+By default, all hooks execute both locally and in remote (web) environments. To run a hook only in one environment, check the `CLAUDE_CODE_REMOTE` environment variable in your hook script.
+
+Copy
+
+Ask AI
+
+    #!/bin/bash
+    
+    # Example: Only run in remote environments
+    if [ "$CLAUDE_CODE_REMOTE" != "true" ]; then
+      exit 0
+    fi
+    
+    npm install
+    pip install -r requirements.txt
+    
+
+#### 
+
+[​
+
+](#persisting-environment-variables)
+
+Persisting environment variables
+
+SessionStart hooks can persist environment variables for subsequent bash commands by writing to the file specified in the `CLAUDE_ENV_FILE` environment variable. For details, see [SessionStart hooks](/docs/en/hooks#sessionstart) in the hooks reference.
+
+## 
+
+[​
+
+](#network-access-and-security)
+
+Network access and security
+
+### 
+
+[​
+
+](#network-policy)
+
+Network policy
+
+#### 
+
+[​
+
+](#github-proxy)
+
+GitHub proxy
+
+For security, all GitHub operations go through a dedicated proxy service that transparently handles all git interactions. Inside the sandbox, the git client authenticates using a custom-built scoped credential. This proxy:
+
+*   Manages GitHub authentication securely - the git client uses a scoped credential inside the sandbox, which the proxy verifies and translates to your actual GitHub authentication token
+*   Restricts git push operations to the current working branch for safety
+*   Enables seamless cloning, fetching, and PR operations while maintaining security boundaries
+
+#### 
+
+[​
+
+](#security-proxy)
+
+Security proxy
+
+Environments run behind an HTTP/HTTPS network proxy for security and abuse prevention purposes. All outbound internet traffic passes through this proxy, which provides:
+
+*   Protection against malicious requests
+*   Rate limiting and abuse prevention
+*   Content filtering for enhanced security
+
+### 
+
+[​
+
+](#access-levels)
+
+Access levels
+
+By default, network access is limited to [allowlisted domains](#default-allowed-domains). You can configure custom network access, including disabling network access.
+
+### 
+
+[​
+
+](#default-allowed-domains)
+
+Default allowed domains
+
+When using “Limited” network access, the following domains are allowed by default:
+
+#### 
+
+[​
+
+](#anthropic-services)
+
+Anthropic Services
+
+*   api.anthropic.com
+*   statsig.anthropic.com
+*   claude.ai
+
+#### 
+
+[​
+
+](#version-control)
+
+Version Control
+
+*   github.com
+*   [www.github.com](http://www.github.com)
+*   api.github.com
+*   raw.githubusercontent.com
+*   objects.githubusercontent.com
+*   codeload.github.com
+*   avatars.githubusercontent.com
+*   camo.githubusercontent.com
+*   gist.github.com
+*   gitlab.com
+*   [www.gitlab.com](http://www.gitlab.com)
+*   registry.gitlab.com
+*   bitbucket.org
+*   [www.bitbucket.org](http://www.bitbucket.org)
+*   api.bitbucket.org
+
+#### 
+
+[​
+
+](#container-registries)
+
+Container Registries
+
+*   registry-1.docker.io
+*   auth.docker.io
+*   index.docker.io
+*   hub.docker.com
+*   [www.docker.com](http://www.docker.com)
+*   production.cloudflare.docker.com
+*   download.docker.com
+*   \*.gcr.io
+*   ghcr.io
+*   mcr.microsoft.com
+*   \*.data.mcr.microsoft.com
+
+#### 
+
+[​
+
+](#cloud-platforms)
+
+Cloud Platforms
+
+*   cloud.google.com
+*   accounts.google.com
+*   gcloud.google.com
+*   \*.googleapis.com
+*   storage.googleapis.com
+*   compute.googleapis.com
+*   container.googleapis.com
+*   azure.com
+*   portal.azure.com
+*   microsoft.com
+*   [www.microsoft.com](http://www.microsoft.com)
+*   \*.microsoftonline.com
+*   packages.microsoft.com
+*   dotnet.microsoft.com
+*   dot.net
+*   visualstudio.com
+*   dev.azure.com
+*   oracle.com
+*   [www.oracle.com](http://www.oracle.com)
+*   java.com
+*   [www.java.com](http://www.java.com)
+*   java.net
+*   [www.java.net](http://www.java.net)
+*   download.oracle.com
+*   yum.oracle.com
+
+#### 
+
+[​
+
+](#package-managers-javascript/node)
+
+Package Managers - JavaScript/Node
+
+*   registry.npmjs.org
+*   [www.npmjs.com](http://www.npmjs.com)
+*   [www.npmjs.org](http://www.npmjs.org)
+*   npmjs.com
+*   npmjs.org
+*   yarnpkg.com
+*   registry.yarnpkg.com
+
+#### 
+
+[​
+
+](#package-managers-python)
+
+Package Managers - Python
+
+*   pypi.org
+*   [www.pypi.org](http://www.pypi.org)
+*   files.pythonhosted.org
+*   pythonhosted.org
+*   test.pypi.org
+*   pypi.python.org
+*   pypa.io
+*   [www.pypa.io](http://www.pypa.io)
+
+#### 
+
+[​
+
+](#package-managers-ruby)
+
+Package Managers - Ruby
+
+*   rubygems.org
+*   [www.rubygems.org](http://www.rubygems.org)
+*   api.rubygems.org
+*   index.rubygems.org
+*   ruby-lang.org
+*   [www.ruby-lang.org](http://www.ruby-lang.org)
+*   rubyforge.org
+*   [www.rubyforge.org](http://www.rubyforge.org)
+*   rubyonrails.org
+*   [www.rubyonrails.org](http://www.rubyonrails.org)
+*   rvm.io
+*   get.rvm.io
+
+#### 
+
+[​
+
+](#package-managers-rust)
+
+Package Managers - Rust
+
+*   crates.io
+*   [www.crates.io](http://www.crates.io)
+*   static.crates.io
+*   rustup.rs
+*   static.rust-lang.org
+*   [www.rust-lang.org](http://www.rust-lang.org)
+
+#### 
+
+[​
+
+](#package-managers-go)
+
+Package Managers - Go
+
+*   proxy.golang.org
+*   sum.golang.org
+*   index.golang.org
+*   golang.org
+*   [www.golang.org](http://www.golang.org)
+*   goproxy.io
+*   pkg.go.dev
+
+#### 
+
+[​
+
+](#package-managers-jvm)
+
+Package Managers - JVM
+
+*   maven.org
+*   repo.maven.org
+*   central.maven.org
+*   repo1.maven.org
+*   jcenter.bintray.com
+*   gradle.org
+*   [www.gradle.org](http://www.gradle.org)
+*   services.gradle.org
+*   spring.io
+*   repo.spring.io
+
+#### 
+
+[​
+
+](#package-managers-other-languages)
+
+Package Managers - Other Languages
+
+*   packagist.org (PHP Composer)
+*   [www.packagist.org](http://www.packagist.org)
+*   repo.packagist.org
+*   nuget.org (.NET NuGet)
+*   [www.nuget.org](http://www.nuget.org)
+*   api.nuget.org
+*   pub.dev (Dart/Flutter)
+*   api.pub.dev
+*   hex.pm (Elixir/Erlang)
+*   [www.hex.pm](http://www.hex.pm)
+*   cpan.org (Perl CPAN)
+*   [www.cpan.org](http://www.cpan.org)
+*   metacpan.org
+*   [www.metacpan.org](http://www.metacpan.org)
+*   api.metacpan.org
+*   cocoapods.org (iOS/macOS)
+*   [www.cocoapods.org](http://www.cocoapods.org)
+*   cdn.cocoapods.org
+*   haskell.org
+*   [www.haskell.org](http://www.haskell.org)
+*   hackage.haskell.org
+*   swift.org
+*   [www.swift.org](http://www.swift.org)
+
+#### 
+
+[​
+
+](#linux-distributions)
+
+Linux Distributions
+
+*   archive.ubuntu.com
+*   security.ubuntu.com
+*   ubuntu.com
+*   [www.ubuntu.com](http://www.ubuntu.com)
+*   \*.ubuntu.com
+*   ppa.launchpad.net
+*   launchpad.net
+*   [www.launchpad.net](http://www.launchpad.net)
+
+#### 
+
+[​
+
+](#development-tools-&-platforms)
+
+Development Tools & Platforms
+
+*   dl.k8s.io (Kubernetes)
+*   pkgs.k8s.io
+*   k8s.io
+*   [www.k8s.io](http://www.k8s.io)
+*   releases.hashicorp.com (HashiCorp)
+*   apt.releases.hashicorp.com
+*   rpm.releases.hashicorp.com
+*   archive.releases.hashicorp.com
+*   hashicorp.com
+*   [www.hashicorp.com](http://www.hashicorp.com)
+*   repo.anaconda.com (Anaconda/Conda)
+*   conda.anaconda.org
+*   anaconda.org
+*   [www.anaconda.com](http://www.anaconda.com)
+*   anaconda.com
+*   continuum.io
+*   apache.org (Apache)
+*   [www.apache.org](http://www.apache.org)
+*   archive.apache.org
+*   downloads.apache.org
+*   eclipse.org (Eclipse)
+*   [www.eclipse.org](http://www.eclipse.org)
+*   download.eclipse.org
+*   nodejs.org (Node.js)
+*   [www.nodejs.org](http://www.nodejs.org)
+
+#### 
+
+[​
+
+](#cloud-services-&-monitoring)
+
+Cloud Services & Monitoring
+
+*   statsig.com
+*   [www.statsig.com](http://www.statsig.com)
+*   api.statsig.com
+*   \*.sentry.io
+
+#### 
+
+[​
+
+](#content-delivery-&-mirrors)
+
+Content Delivery & Mirrors
+
+*   \*.sourceforge.net
+*   packagecloud.io
+*   \*.packagecloud.io
+
+#### 
+
+[​
+
+](#schema-&-configuration)
+
+Schema & Configuration
+
+*   json-schema.org
+*   [www.json-schema.org](http://www.json-schema.org)
+*   json.schemastore.org
+*   [www.schemastore.org](http://www.schemastore.org)
+
+Domains marked with `*` indicate wildcard subdomain matching. For example, `*.gcr.io` allows access to any subdomain of `gcr.io`.
+
+### 
+
+[​
+
+](#security-best-practices-for-customized-network-access)
+
+Security best practices for customized network access
+
+1.  **Principle of least privilege**: Only enable the minimum network access required
+2.  **Audit regularly**: Review allowed domains periodically
+3.  **Use HTTPS**: Always prefer HTTPS endpoints over HTTP
+
+## 
+
+[​
+
+](#security-and-isolation)
+
+Security and isolation
+
+Claude Code on the web provides strong security guarantees:
+
+*   **Isolated virtual machines**: Each session runs in an isolated, Anthropic-managed VM
+*   **Network access controls**: Network access is limited by default, and can be disabled
+
+When running with network access disabled, Claude Code is allowed to communicate with the Anthropic API which may still allow data to exit the isolated Claude Code VM.
+
+*   **Credential protection**: Sensitive credentials (such as git credentials or signing keys) are never inside the sandbox with Claude Code. Authentication is handled through a secure proxy using scoped credentials
+*   **Secure analysis**: Code is analyzed and modified within isolated VMs before creating PRs
+
+## 
+
+[​
+
+](#pricing-and-rate-limits)
+
+Pricing and rate limits
+
+Claude Code on the web shares rate limits with all other Claude and Claude Code usage within your account. Running multiple tasks in parallel will consume more rate limits proportionately.
+
+## 
+
+[​
+
+](#limitations)
+
+Limitations
+
+*   **Repository authentication**: You can only move sessions from web to local when you are authenticated to the same account
+*   **Platform restrictions**: Claude Code on the web only works with code hosted in GitHub. GitLab and other non-GitHub repositories cannot be used with cloud sessions
+
+## 
+
+[​
+
+](#best-practices)
+
+Best practices
+
+1.  **Use Claude Code hooks**: Configure [SessionStart hooks](/docs/en/hooks#sessionstart) to automate environment setup and dependency installation.
+2.  **Document requirements**: Clearly specify dependencies and commands in your `CLAUDE.md` file. If you have an `AGENTS.md` file, you can source it in your `CLAUDE.md` using `@AGENTS.md` to maintain a single source of truth.
+
+## 
+
+[​
+
+](#related-resources)
+
+Related resources
+
+*   [Hooks configuration](/docs/en/hooks)
+*   [Settings reference](/docs/en/settings)
+*   [Security](/docs/en/security)
+*   [Data usage](/docs/en/data-usage)
+
+Was this page helpful?
+
+YesNo
+
+[Changelog](/docs/en/changelog)[Claude Code on desktop](/docs/en/desktop)
+
+⌘I
+
+[Claude Code Docs home page![light logo](https://mintcdn.com/claude-code/o69F7a6qoW9vboof/logo/light.svg?fit=max&auto=format&n=o69F7a6qoW9vboof&q=85&s=536eade682636e84231afce2577f9509)![dark logo](https://mintcdn.com/claude-code/o69F7a6qoW9vboof/logo/dark.svg?fit=max&auto=format&n=o69F7a6qoW9vboof&q=85&s=0766b3221061e80143e9f300733e640b)](/docs)
+
+[x](https://x.com/AnthropicAI)[linkedin](https://www.linkedin.com/company/anthropicresearch)
+
+Company
+
+[Anthropic](https://www.anthropic.com/company)[Careers](https://www.anthropic.com/careers)[Economic Futures](https://www.anthropic.com/economic-futures)[Research](https://www.anthropic.com/research)[News](https://www.anthropic.com/news)[Trust center](https://trust.anthropic.com/)[Transparency](https://www.anthropic.com/transparency)
+
+Help and security
+
+[Availability](https://www.anthropic.com/supported-countries)[Status](https://status.anthropic.com/)[Support center](https://support.claude.com/)
+
+Learn
+
+[Courses](https://www.anthropic.com/learn)[MCP connectors](https://claude.com/partners/mcp)[Customer stories](https://www.claude.com/customers)[Engineering blog](https://www.anthropic.com/engineering)[Events](https://www.anthropic.com/events)[Powered by Claude](https://claude.com/partners/powered-by-claude)[Service partners](https://claude.com/partners/services)[Startups program](https://claude.com/programs/startups)
+
+Terms and policies
+
+[Privacy policy](https://www.anthropic.com/legal/privacy)[Disclosure policy](https://www.anthropic.com/responsible-disclosure-policy)[Usage policy](https://www.anthropic.com/legal/aup)[Commercial te

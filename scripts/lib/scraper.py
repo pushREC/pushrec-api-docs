@@ -21,7 +21,10 @@ import json
 import os
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Any, Dict, List, Optional
+
+# Import shared config
+from config import load_config, get_sources, get_source_config, ConfigError
 
 # Model selection for cost optimization
 # Task tool accepts: "haiku", "sonnet", "opus"
@@ -47,43 +50,6 @@ def get_recommended_model(task_type: str) -> str:
     """
     return TASK_MODEL_MAP.get(task_type, "haiku")  # Default to haiku for cost
 
-try:
-    import yaml
-except ImportError:
-    yaml = None
-
-
-def load_config(config_path: Path) -> Dict:
-    """Load sources configuration."""
-    if yaml is None:
-        # Fallback: parse YAML manually for basic structure
-        with open(config_path, "r") as f:
-            content = f.read()
-        # Basic parsing - in production, require PyYAML
-        print("[WARN] PyYAML not installed. Using default config.")
-        return {
-            "sources": {
-                "claude-code": {
-                    "name": "Claude Code Documentation",
-                    "base_url": "https://docs.anthropic.com/en/docs/claude-code",
-                    "output_dir": "claude-code"
-                },
-                "claude-api": {
-                    "name": "Claude API Documentation",
-                    "base_url": "https://docs.anthropic.com/en/api",
-                    "output_dir": "claude-api"
-                },
-                "agent-sdk": {
-                    "name": "Claude Agent SDK",
-                    "base_url": "https://github.com/anthropics/claude-code-sdk-python",
-                    "output_dir": "agent-sdk"
-                }
-            }
-        }
-
-    with open(config_path, "r") as f:
-        return yaml.safe_load(f)
-
 
 def generate_scrape_instructions(source: str, config: Dict, output_dir: Path) -> str:
     """
@@ -92,9 +58,10 @@ def generate_scrape_instructions(source: str, config: Dict, output_dir: Path) ->
     These instructions are meant to be executed by invoking the api-docs-finder
     skill in HARVEST mode from the calling Claude session.
     """
-    source_config = config["sources"].get(source)
-    if not source_config:
-        return f"[ERROR] Unknown source: {source}"
+    try:
+        source_config = get_source_config(config, source)
+    except ConfigError as e:
+        return str(e)
 
     instructions = f"""
 ================================================================================
@@ -149,7 +116,12 @@ def scrape_source(source: str, config: Dict, output_dir: Path) -> None:
     print(generate_scrape_instructions(source, config, output_dir))
 
     # Create output directory structure
-    source_config = config["sources"].get(source)
+    try:
+        source_config = get_source_config(config, source)
+    except ConfigError as e:
+        print(e)
+        return
+
     if source_config:
         source_dir = output_dir / source_config["output_dir"]
         source_dir.mkdir(parents=True, exist_ok=True)
@@ -186,26 +158,31 @@ def main():
     parser = argparse.ArgumentParser(description="Documentation scraping")
     parser.add_argument("--source", help="Specific source to scrape")
     parser.add_argument("--all", action="store_true", help="Scrape all sources")
-    parser.add_argument("--config", required=True, help="Path to sources.yaml")
     parser.add_argument("--output", required=True, help="Output directory")
     args = parser.parse_args()
 
-    config_path = Path(args.config)
     output_dir = Path(args.output)
 
-    if not config_path.exists():
-        print(f"[ERROR] Config not found: {config_path}")
+    # Load shared config (no hardcoding)
+    try:
+        config = load_config()
+    except ConfigError as e:
+        print(e)
         return
 
-    config = load_config(config_path)
+    sources = get_sources(config)
 
     if args.source:
+        if args.source not in sources:
+            print(f"[ERROR] Unknown source: '{args.source}'. Available: {sources}")
+            return
         scrape_source(args.source, config, output_dir)
     elif args.all:
-        for source in config["sources"]:
+        for source in sources:
             scrape_source(source, config, output_dir)
     else:
         print("Usage: scraper.py --source=<source> | --all")
+        print(f"Available sources: {sources}")
 
 
 if __name__ == "__main__":

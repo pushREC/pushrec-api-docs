@@ -16,26 +16,59 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
+# Import shared config
+from config import load_config, get_sources, ConfigError
 
-def compute_hash(file_path: Path) -> str:
+
+def compute_hash(file_path: Path) -> Optional[str]:
     """Compute SHA-256 hash of file content."""
-    with open(file_path, "rb") as f:
-        return hashlib.sha256(f.read()).hexdigest()
+    try:
+        with open(file_path, "rb") as f:
+            return hashlib.sha256(f.read()).hexdigest()
+    except FileNotFoundError:
+        print(f"[ERROR] File not found: {file_path}")
+        return None
+    except PermissionError:
+        print(f"[ERROR] Permission denied: {file_path}")
+        return None
+    except Exception as e:
+        print(f"[ERROR] Failed to hash {file_path}: {e}")
+        return None
 
 
 def load_hashes(hash_file: Path) -> Dict[str, str]:
     """Load stored hashes from JSON file."""
-    if hash_file.exists():
-        with open(hash_file, "r") as f:
+    if not hash_file.exists():
+        return {}
+
+    try:
+        with open(hash_file, "r", encoding="utf-8") as f:
             return json.load(f)
-    return {}
+    except json.JSONDecodeError as e:
+        print(f"[ERROR] Corrupted hash file {hash_file}: {e}")
+        print(f"[INFO] Recreating hash file from scratch")
+        return {}
+    except PermissionError:
+        print(f"[ERROR] Permission denied reading: {hash_file}")
+        return {}
+    except Exception as e:
+        print(f"[ERROR] Failed to load hashes from {hash_file}: {e}")
+        return {}
 
 
-def save_hashes(hash_file: Path, hashes: Dict[str, str]) -> None:
-    """Save hashes to JSON file."""
-    hash_file.parent.mkdir(parents=True, exist_ok=True)
-    with open(hash_file, "w") as f:
-        json.dump(hashes, f, indent=2, sort_keys=True)
+def save_hashes(hash_file: Path, hashes: Dict[str, str]) -> bool:
+    """Save hashes to JSON file. Returns True on success."""
+    try:
+        hash_file.parent.mkdir(parents=True, exist_ok=True)
+        with open(hash_file, "w", encoding="utf-8") as f:
+            json.dump(hashes, f, indent=2, sort_keys=True)
+        return True
+    except PermissionError:
+        print(f"[ERROR] Permission denied writing: {hash_file}")
+        return False
+    except Exception as e:
+        print(f"[ERROR] Failed to save hashes to {hash_file}: {e}")
+        return False
 
 
 def compute_all_hashes(source_dir: Path) -> Dict[str, str]:
@@ -46,7 +79,9 @@ def compute_all_hashes(source_dir: Path) -> Dict[str, str]:
         if "_deprecated" in str(md_file):
             continue
         relative_path = str(md_file.relative_to(source_dir))
-        hashes[relative_path] = compute_hash(md_file)
+        file_hash = compute_hash(md_file)
+        if file_hash is not None:
+            hashes[relative_path] = file_hash
     return hashes
 
 
@@ -81,10 +116,10 @@ def log_changes(
     added: List[str],
     modified: List[str],
     removed: List[str]
-) -> None:
-    """Append changes to changelog."""
+) -> bool:
+    """Append changes to changelog. Returns True on success."""
     if not (added or modified or removed):
-        return
+        return True
 
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
@@ -108,8 +143,17 @@ def log_changes(
             entry += f"- `{f}`\n"
         entry += "\n"
 
-    with open(changelog_path, "a") as f:
-        f.write(entry)
+    try:
+        changelog_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(changelog_path, "a", encoding="utf-8") as f:
+            f.write(entry)
+        return True
+    except PermissionError:
+        print(f"[ERROR] Permission denied writing changelog: {changelog_path}")
+        return False
+    except Exception as e:
+        print(f"[ERROR] Failed to write changelog: {e}")
+        return False
 
 
 def main():
@@ -124,8 +168,18 @@ def main():
     hashes_dir = meta_dir / "hashes"
     changelog_path = meta_dir / "CHANGELOG.md"
 
-    sources = ["claude-code", "claude-api", "agent-sdk"]
+    # Load sources from config (no hardcoding)
+    try:
+        config = load_config()
+        sources = get_sources(config)
+    except ConfigError as e:
+        print(e)
+        return
+
     if args.source:
+        if args.source not in sources:
+            print(f"[ERROR] Unknown source: '{args.source}'. Available: {sources}")
+            return
         sources = [args.source]
 
     for source in sources:

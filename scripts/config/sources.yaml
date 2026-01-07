@@ -1,7 +1,16 @@
 # API Documentation Sources Configuration
-# Version: 1.0.0
-# Last Updated: 2025-01-07
+# Version: 1.1.0
+# Last Updated: 2026-01-07
 
+# === SYSTEM SETTINGS (consolidated for config.py) ===
+system:
+  min_content_length: 500      # Validation threshold for page content
+  staleness_days: 30           # When to flag docs as stale
+  archive_after_days: 30       # Deprecation archive window
+  require_frontmatter: true    # All docs must have YAML frontmatter
+  require_source_url: true     # Frontmatter must include source URL
+
+# === SOURCES (add any API docs here - Python discovers automatically) ===
 sources:
   claude-code:
     name: "Claude Code Documentation"

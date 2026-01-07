@@ -1,0 +1,1750 @@
+{
+  "total_urls": 217,
+  "successful": 217,
+  "failed": 0,
+  "bright_data_count": 217,
+  "webfetch_count": 0,
+  "total_duration_ms": 92324,
+  "avg_duration_ms": 425.46,
+  "total_bytes": 4244610,
+  "start_time": "2026-01-07T03:42:10.675831",
+  "end_time": "2026-01-07T03:43:43.000727",
+  "results": [
+    {
+      "url": "https://docs.anthropic.com/en/about-claude/glossary",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-about-claude-glossary.md",
+      "size": 13201,
+      "duration_ms": 2128
+    },
+    {
+      "url": "https://docs.anthropic.com/en/about-claude/models/overview",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-about-claude-models-overview.md",
+      "size": 16062,
+      "duration_ms": 2208
+    },
+    {
+      "url": "https://docs.anthropic.com/en/about-claude/model-deprecations",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-about-claude-model-deprecations.md",
+      "size": 17438,
+      "duration_ms": 2430
+    },
+    {
+      "url": "https://docs.anthropic.com/en/about-claude/models/migrating-to-claude-4",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-about-claude-models-migrating-to-claude-4.md",
+      "size": 27696,
+      "duration_ms": 2786
+    },
+    {
+      "url": "https://docs.anthropic.com/en/about-claude/models/whats-new-claude-4-5",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-about-claude-models-whats-new-claude-4-5.md",
+      "size": 39242,
+      "duration_ms": 3505
+    },
+    {
+      "url": "https://docs.anthropic.com/en/about-claude/models/choosing-a-model",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-about-claude-models-choosing-a-model.md",
+      "size": 14530,
+      "duration_ms": 3613
+    },
+    {
+      "url": "https://docs.anthropic.com/en/about-claude/use-case-guides/content-moderation",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-about-claude-use-case-guides-content-moderation.md",
+      "size": 29316,
+      "duration_ms": 2158
+    },
+    {
+      "url": "https://docs.anthropic.com/en/about-claude/use-case-guides/legal-summarization",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-about-claude-use-case-guides-legal-summarizatio.md",
+      "size": 23148,
+      "duration_ms": 1805
+    },
+    {
+      "url": "https://docs.anthropic.com/en/about-claude/pricing",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-about-claude-pricing.md",
+      "size": 28004,
+      "duration_ms": 2505
+    },
+    {
+      "url": "https://docs.anthropic.com/en/about-claude/use-case-guides/overview",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-about-claude-use-case-guides-overview.md",
+      "size": 5322,
+      "duration_ms": 2290
+    },
+    {
+      "url": "https://docs.anthropic.com/en/about-claude/use-case-guides/customer-support-chat",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-about-claude-use-case-guides-customer-support-c.md",
+      "size": 35843,
+      "duration_ms": 3519
+    },
+    {
+      "url": "https://docs.anthropic.com/en/agent-sdk/overview",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-agent-sdk-overview.md",
+      "size": 16827,
+      "duration_ms": 1509
+    },
+    {
+      "url": "https://docs.anthropic.com/en/about-claude/use-case-guides/ticket-routing",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-about-claude-use-case-guides-ticket-routing.md",
+      "size": 25231,
+      "duration_ms": 2506
+    },
+    {
+      "url": "https://docs.anthropic.com/en/agent-sdk/migration-guide",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-agent-sdk-migration-guide.md",
+      "size": 17937,
+      "duration_ms": 2562
+    },
+    {
+      "url": "https://docs.anthropic.com/en/agent-sdk/python",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-agent-sdk-python.md",
+      "size": 72982,
+      "duration_ms": 4065
+    },
+    {
+      "url": "https://docs.anthropic.com/en/agent-sdk/quickstart",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-agent-sdk-quickstart.md",
+      "size": 19836,
+      "duration_ms": 3164
+    },
+    {
+      "url": "https://docs.anthropic.com/en/agents-and-tools/agent-skills/best-practices",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-agents-and-tools-agent-skills-best-practices.md",
+      "size": 54763,
+      "duration_ms": 2866
+    },
+    {
+      "url": "https://docs.anthropic.com/en/agent-sdk/typescript-v2-preview",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-agent-sdk-typescript-v2-preview.md",
+      "size": 21706,
+      "duration_ms": 3089
+    },
+    {
+      "url": "https://docs.anthropic.com/en/agent-sdk/typescript",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-agent-sdk-typescript.md",
+      "size": 64187,
+      "duration_ms": 3284
+    },
+    {
+      "url": "https://docs.anthropic.com/en/agents-and-tools/agent-skills/overview",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-agents-and-tools-agent-skills-overview.md",
+      "size": 28672,
+      "duration_ms": 2688
+    },
+    {
+      "url": "https://docs.anthropic.com/en/agents-and-tools/agent-skills/quickstart",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-agents-and-tools-agent-skills-quickstart.md",
+      "size": 18121,
+      "duration_ms": 2531
+    },
+    {
+      "url": "https://docs.anthropic.com/en/agents-and-tools/remote-mcp-servers",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-agents-and-tools-remote-mcp-servers.md",
+      "size": 11244,
+      "duration_ms": 2658
+    },
+    {
+      "url": "https://docs.anthropic.com/en/agents-and-tools/tool-use/code-execution-tool",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-agents-and-tools-tool-use-code-execution-tool.md",
+      "size": 33421,
+      "duration_ms": 2625
+    },
+    {
+      "url": "https://docs.anthropic.com/en/agents-and-tools/tool-use/bash-tool",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-agents-and-tools-tool-use-bash-tool.md",
+      "size": 18328,
+      "duration_ms": 2795
+    },
+    {
+      "url": "https://docs.anthropic.com/en/agents-and-tools/tool-use/computer-use-tool",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-agents-and-tools-tool-use-computer-use-tool.md",
+      "size": 41526,
+      "duration_ms": 2877
+    },
+    {
+      "url": "https://docs.anthropic.com/en/agents-and-tools/mcp-connector",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-agents-and-tools-mcp-connector.md",
+      "size": 25888,
+      "duration_ms": 3987
+    },
+    {
+      "url": "https://docs.anthropic.com/en/agents-and-tools/tool-use/overview",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-agents-and-tools-tool-use-overview.md",
+      "size": 20778,
+      "duration_ms": 3180
+    },
+    {
+      "url": "https://docs.anthropic.com/en/agents-and-tools/tool-use/text-editor-tool",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-agents-and-tools-tool-use-text-editor-tool.md",
+      "size": 22579,
+      "duration_ms": 3624
+    },
+    {
+      "url": "https://docs.anthropic.com/en/agents-and-tools/tool-use/fine-grained-tool-streaming",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-agents-and-tools-tool-use-fine-grained-tool-str.md",
+      "size": 14283,
+      "duration_ms": 5343
+    },
+    {
+      "url": "https://docs.anthropic.com/en/agents-and-tools/tool-use/memory-tool",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-agents-and-tools-tool-use-memory-tool.md",
+      "size": 26769,
+      "duration_ms": 4785
+    },
+    {
+      "url": "https://docs.anthropic.com/en/agents-and-tools/tool-use/programmatic-tool-calling",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-agents-and-tools-tool-use-programmatic-tool-cal.md",
+      "size": 37133,
+      "duration_ms": 4246
+    },
+    {
+      "url": "https://docs.anthropic.com/en/agents-and-tools/tool-use/implement-tool-use",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-agents-and-tools-tool-use-implement-tool-use.md",
+      "size": 32195,
+      "duration_ms": 5943
+    },
+    {
+      "url": "https://docs.anthropic.com/en/agents-and-tools/tool-use/web-search-tool",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-agents-and-tools-tool-use-web-search-tool.md",
+      "size": 23701,
+      "duration_ms": 2034
+    },
+    {
+      "url": "https://docs.anthropic.com/en/agents-and-tools/tool-use/web-fetch-tool",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-agents-and-tools-tool-use-web-fetch-tool.md",
+      "size": 25784,
+      "duration_ms": 2074
+    },
+    {
+      "url": "https://docs.anthropic.com/en/agents-and-tools/tool-use/tool-search-tool",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-agents-and-tools-tool-use-tool-search-tool.md",
+      "size": 29027,
+      "duration_ms": 3975
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/admin",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-admin.md",
+      "size": 17616,
+      "duration_ms": 2593
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/admin/api_keys/retrieve",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-admin-api_keys-retrieve.md",
+      "size": 6901,
+      "duration_ms": 1869
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/admin/api_keys/list",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-admin-api_keys-list.md",
+      "size": 8239,
+      "duration_ms": 3019
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/admin/api_keys/update",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-admin-api_keys-update.md",
+      "size": 7227,
+      "duration_ms": 1700
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/admin/cost_report/retrieve",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-admin-cost_report-retrieve.md",
+      "size": 9418,
+      "duration_ms": 2041
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/admin/invites/delete",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-admin-invites-delete.md",
+      "size": 5632,
+      "duration_ms": 1712
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/admin/invites/create",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-admin-invites-create.md",
+      "size": 6905,
+      "duration_ms": 2501
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/admin/invites/list",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-admin-invites-list.md",
+      "size": 7576,
+      "duration_ms": 2233
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/admin/invites/retrieve",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-admin-invites-retrieve.md",
+      "size": 6564,
+      "duration_ms": 2213
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/admin/organizations/me",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-admin-organizations-me.md",
+      "size": 5630,
+      "duration_ms": 1890
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/admin/usage_report/retrieve_claude_code",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-admin-usage_report-retrieve_claude_code.md",
+      "size": 13113,
+      "duration_ms": 2441
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/admin/usage_report/retrieve_messages",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-admin-usage_report-retrieve_messages.md",
+      "size": 11029,
+      "duration_ms": 2317
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/admin/users/delete",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-admin-users-delete.md",
+      "size": 5574,
+      "duration_ms": 2180
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/admin/users/list",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-admin-users-list.md",
+      "size": 7233,
+      "duration_ms": 2137
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/admin/users/retrieve",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-admin-users-retrieve.md",
+      "size": 6163,
+      "duration_ms": 2347
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/admin/users/update",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-admin-users-update.md",
+      "size": 6510,
+      "duration_ms": 2375
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/admin/workspaces/archive",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-admin-workspaces-archive.md",
+      "size": 6541,
+      "duration_ms": 1833
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/admin/workspaces/members/create",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-admin-workspaces-members-create.md",
+      "size": 7264,
+      "duration_ms": 1638
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/admin/workspaces/list",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-admin-workspaces-list.md",
+      "size": 7597,
+      "duration_ms": 1702
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/admin/workspaces/members/delete",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-admin-workspaces-members-delete.md",
+      "size": 6473,
+      "duration_ms": 1606
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/admin/workspaces/members/list",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-admin-workspaces-members-list.md",
+      "size": 7851,
+      "duration_ms": 1660
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/admin/workspaces/create",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-admin-workspaces-create.md",
+      "size": 6592,
+      "duration_ms": 3014
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/admin/workspaces/members/update",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-admin-workspaces-members-update.md",
+      "size": 7239,
+      "duration_ms": 1496
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/admin/workspaces/members/retrieve",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-admin-workspaces-members-retrieve.md",
+      "size": 6808,
+      "duration_ms": 2641
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/admin/workspaces/retrieve",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-admin-workspaces-retrieve.md",
+      "size": 6492,
+      "duration_ms": 2116
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/admin/workspaces/update",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-admin-workspaces-update.md",
+      "size": 6705,
+      "duration_ms": 3034
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/beta-headers",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-beta-headers.md",
+      "size": 7406,
+      "duration_ms": 3038
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/beta/files/delete",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-beta-files-delete.md",
+      "size": 6657,
+      "duration_ms": 3894
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/beta/files/download",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-beta-files-download.md",
+      "size": 6257,
+      "duration_ms": 3365
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/beta/files/retrieve_metadata",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-beta-files-retrieve_metadata.md",
+      "size": 7372,
+      "duration_ms": 2089
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/beta/files/upload",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-beta-files-upload.md",
+      "size": 7318,
+      "duration_ms": 2840
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/beta/files/list",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-beta-files-list.md",
+      "size": 8307,
+      "duration_ms": 4891
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/beta",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-beta.md",
+      "size": 544866,
+      "duration_ms": 6652
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/beta/skills/delete",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-beta-skills-delete.md",
+      "size": 6679,
+      "duration_ms": 2208
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/beta/skills/list",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-beta-skills-list.md",
+      "size": 8802,
+      "duration_ms": 2161
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/beta/skills/create",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-beta-skills-create.md",
+      "size": 7542,
+      "duration_ms": 2538
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/beta/skills/retrieve",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-beta-skills-retrieve.md",
+      "size": 7680,
+      "duration_ms": 2053
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/client-sdks",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-client-sdks.md",
+      "size": 7910,
+      "duration_ms": 1987
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/errors",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-errors.md",
+      "size": 9578,
+      "duration_ms": 1855
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/completions/create",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-completions-create.md",
+      "size": 14434,
+      "duration_ms": 2663
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/completions",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-completions.md",
+      "size": 7440,
+      "duration_ms": 3333
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/ip-addresses",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-ip-addresses.md",
+      "size": 5842,
+      "duration_ms": 3146
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/messages/batches/cancel",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-messages-batches-cancel.md",
+      "size": 10317,
+      "duration_ms": 2296
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/messages/batches/create",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-messages-batches-create.md",
+      "size": 61506,
+      "duration_ms": 2967
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/messages/batches/delete",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-messages-batches-delete.md",
+      "size": 6302,
+      "duration_ms": 2317
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/messages/batches/list",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-messages-batches-list.md",
+      "size": 10940,
+      "duration_ms": 2162
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/messages/batches/retrieve",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-messages-batches-retrieve.md",
+      "size": 9984,
+      "duration_ms": 1863
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/messages",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-messages.md",
+      "size": 244471,
+      "duration_ms": 5190
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/messages/batches/results",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-messages-batches-results.md",
+      "size": 18575,
+      "duration_ms": 3036
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/models",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-models.md",
+      "size": 5272,
+      "duration_ms": 1503
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/models/retrieve",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-models-retrieve.md",
+      "size": 6888,
+      "duration_ms": 1391
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/messages/count_tokens",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-messages-count_tokens.md",
+      "size": 53188,
+      "duration_ms": 3053
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/models/list",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-models-list.md",
+      "size": 7888,
+      "duration_ms": 2487
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/messages/create",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-messages-create.md",
+      "size": 68074,
+      "duration_ms": 3184
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/openai-sdk",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-openai-sdk.md",
+      "size": 12943,
+      "duration_ms": 2241
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/overview",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-overview.md",
+      "size": 13782,
+      "duration_ms": 2232
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/versioning",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-versioning.md",
+      "size": 6585,
+      "duration_ms": 1654
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/rate-limits",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-rate-limits.md",
+      "size": 19633,
+      "duration_ms": 2376
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/service-tiers",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-service-tiers.md",
+      "size": 10754,
+      "duration_ms": 2088
+    },
+    {
+      "url": "https://docs.anthropic.com/en/api/supported-regions",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-api-supported-regions.md",
+      "size": 7493,
+      "duration_ms": 2516
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/administration-api",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-administration-api.md",
+      "size": 19676,
+      "duration_ms": 2036
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/batch-processing",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-batch-processing.md",
+      "size": 30454,
+      "duration_ms": 2049
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/citations",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-citations.md",
+      "size": 24575,
+      "duration_ms": 1740
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/claude-code-analytics-api",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-claude-code-analytics-api.md",
+      "size": 22447,
+      "duration_ms": 1873
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/claude-on-amazon-bedrock",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-claude-on-amazon-bedrock.md",
+      "size": 19233,
+      "duration_ms": 1893
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/claude-in-microsoft-foundry",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-claude-in-microsoft-foundry.md",
+      "size": 23018,
+      "duration_ms": 2771
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/claude-on-vertex-ai",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-claude-on-vertex-ai.md",
+      "size": 16664,
+      "duration_ms": 2346
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/context-windows",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-context-windows.md",
+      "size": 22684,
+      "duration_ms": 1772
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/effort",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-effort.md",
+      "size": 15121,
+      "duration_ms": 2437
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/context-editing",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-context-editing.md",
+      "size": 35551,
+      "duration_ms": 3575
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/embeddings",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-embeddings.md",
+      "size": 19742,
+      "duration_ms": 2273
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/files",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-files.md",
+      "size": 20048,
+      "duration_ms": 2670
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/multilingual-support",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-multilingual-support.md",
+      "size": 13509,
+      "duration_ms": 1520
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/extended-thinking",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-extended-thinking.md",
+      "size": 43728,
+      "duration_ms": 3641
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/handling-stop-reasons",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-handling-stop-reasons.md",
+      "size": 27250,
+      "duration_ms": 3248
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/overview",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-overview.md",
+      "size": 17625,
+      "duration_ms": 2473
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/pdf-support",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-pdf-support.md",
+      "size": 23605,
+      "duration_ms": 2607
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/prompt-engineering/be-clear-and-direct",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-prompt-engineering-be-clear-a.md",
+      "size": 12200,
+      "duration_ms": 1570
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/prompt-caching",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-prompt-caching.md",
+      "size": 36112,
+      "duration_ms": 2320
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/prompt-engineering/chain-of-thought",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-prompt-engineering-chain-of-t.md",
+      "size": 13097,
+      "duration_ms": 1859
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/prompt-engineering/chain-prompts",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-prompt-engineering-chain-prom.md",
+      "size": 13295,
+      "duration_ms": 2494
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/prompt-engineering/extended-thinking-tips",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-prompt-engineering-extended-t.md",
+      "size": 19594,
+      "duration_ms": 1968
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/prompt-engineering/claude-4-best-practices",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-prompt-engineering-claude-4-b.md",
+      "size": 37526,
+      "duration_ms": 2257
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/prompt-engineering/long-context-tips",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-prompt-engineering-long-conte.md",
+      "size": 11756,
+      "duration_ms": 2363
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/prompt-engineering/multishot-prompting",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-prompt-engineering-multishot-.md",
+      "size": 12179,
+      "duration_ms": 2418
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/prompt-engineering/overview",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-prompt-engineering-overview.md",
+      "size": 12862,
+      "duration_ms": 2642
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/prompt-engineering/prefill-claudes-response",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-prompt-engineering-prefill-cl.md",
+      "size": 13371,
+      "duration_ms": 2182
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/prompt-engineering/prompt-generator",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-prompt-engineering-prompt-gen.md",
+      "size": 11736,
+      "duration_ms": 2864
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/prompt-engineering/system-prompts",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-prompt-engineering-system-pro.md",
+      "size": 13143,
+      "duration_ms": 1826
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/prompt-engineering/prompt-improver",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-prompt-engineering-prompt-imp.md",
+      "size": 14404,
+      "duration_ms": 2984
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/prompt-engineering/prompt-templates-and-variables",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-prompt-engineering-prompt-tem.md",
+      "size": 13285,
+      "duration_ms": 2631
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/search-results",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-search-results.md",
+      "size": 29132,
+      "duration_ms": 2333
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/prompt-engineering/use-xml-tags",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-prompt-engineering-use-xml-ta.md",
+      "size": 12357,
+      "duration_ms": 3246
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/text-generation",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-text-generation.md",
+      "size": 12800,
+      "duration_ms": 1804
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/skills-guide",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-skills-guide.md",
+      "size": 34886,
+      "duration_ms": 2188
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/streaming",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-streaming.md",
+      "size": 31978,
+      "duration_ms": 2055
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/structured-outputs",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-structured-outputs.md",
+      "size": 27629,
+      "duration_ms": 3316
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/token-counting",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-token-counting.md",
+      "size": 17203,
+      "duration_ms": 2198
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/workspaces",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-workspaces.md",
+      "size": 20941,
+      "duration_ms": 1949
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/usage-cost-api",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-usage-cost-api.md",
+      "size": 21368,
+      "duration_ms": 2218
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/vision",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-vision.md",
+      "size": 21880,
+      "duration_ms": 2203
+    },
+    {
+      "url": "https://docs.anthropic.com/en/build-with-claude/working-with-messages",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-build-with-claude-working-with-messages.md",
+      "size": 16890,
+      "duration_ms": 2781
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/overview",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-overview.md",
+      "size": 6245,
+      "duration_ms": 1767
+    },
+    {
+      "url": "https://docs.anthropic.com/en/intro",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-intro.md",
+      "size": 12203,
+      "duration_ms": 2505
+    },
+    {
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-release-notes-overview.md",
+      "size": 37174,
+      "duration_ms": 2578
+    },
+    {
+      "url": "https://docs.anthropic.com/en/get-started",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-get-started.md",
+      "size": 10591,
+      "duration_ms": 3724
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/adaptive-editor",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-adaptive-editor.md",
+      "size": 10908,
+      "duration_ms": 2429
+    },
+    {
+      "url": "https://docs.anthropic.com/en/release-notes/system-prompts",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-release-notes-system-prompts.md",
+      "size": 5818,
+      "duration_ms": 3527
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/airport-code-analyst",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-airport-code-analyst.md",
+      "size": 10512,
+      "duration_ms": 1968
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/alien-anthropologist",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-alien-anthropologist.md",
+      "size": 11386,
+      "duration_ms": 2332
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/alliteration-alchemist",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-alliteration-alchemist.md",
+      "size": 11141,
+      "duration_ms": 2626
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/career-coach",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-career-coach.md",
+      "size": 11936,
+      "duration_ms": 1889
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/babels-broadcasts",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-babels-broadcasts.md",
+      "size": 11534,
+      "duration_ms": 2595
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/cite-your-sources",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-cite-your-sources.md",
+      "size": 12117,
+      "duration_ms": 1784
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/code-clarifier",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-code-clarifier.md",
+      "size": 13992,
+      "duration_ms": 1588
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/brand-builder",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-brand-builder.md",
+      "size": 15381,
+      "duration_ms": 2795
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/code-consultant",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-code-consultant.md",
+      "size": 10233,
+      "duration_ms": 1655
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/corporate-clairvoyant",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-corporate-clairvoyant.md",
+      "size": 12229,
+      "duration_ms": 1641
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/csv-converter",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-csv-converter.md",
+      "size": 12031,
+      "duration_ms": 1791
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/cosmic-keystrokes",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-cosmic-keystrokes.md",
+      "size": 18274,
+      "duration_ms": 2142
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/culinary-creator",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-culinary-creator.md",
+      "size": 11948,
+      "duration_ms": 2346
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/data-organizer",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-data-organizer.md",
+      "size": 13346,
+      "duration_ms": 2615
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/dream-interpreter",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-dream-interpreter.md",
+      "size": 11853,
+      "duration_ms": 1937
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/direction-decoder",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-direction-decoder.md",
+      "size": 12134,
+      "duration_ms": 2479
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/efficiency-estimator",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-efficiency-estimator.md",
+      "size": 12520,
+      "duration_ms": 2369
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/email-extractor",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-email-extractor.md",
+      "size": 11110,
+      "duration_ms": 2067
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/ethical-dilemma-navigator",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-ethical-dilemma-naviga.md",
+      "size": 11987,
+      "duration_ms": 1890
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/excel-formula-expert",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-excel-formula-expert.md",
+      "size": 12039,
+      "duration_ms": 1604
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/emoji-encoder",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-emoji-encoder.md",
+      "size": 9825,
+      "duration_ms": 2562
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/function-fabricator",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-function-fabricator.md",
+      "size": 11891,
+      "duration_ms": 2123
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/futuristic-fashion-advisor",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-futuristic-fashion-adv.md",
+      "size": 14024,
+      "duration_ms": 1863
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/git-gud",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-git-gud.md",
+      "size": 10524,
+      "duration_ms": 2055
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/google-apps-scripter",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-google-apps-scripter.md",
+      "size": 12631,
+      "duration_ms": 2433
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/grammar-genie",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-grammar-genie.md",
+      "size": 9542,
+      "duration_ms": 2701
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/hal-the-humorous-helper",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-hal-the-humorous-helpe.md",
+      "size": 11963,
+      "duration_ms": 2919
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/grading-guru",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-grading-guru.md",
+      "size": 12181,
+      "duration_ms": 3749
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/latex-legend",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-latex-legend.md",
+      "size": 11433,
+      "duration_ms": 2709
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/idiom-illuminator",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-idiom-illuminator.md",
+      "size": 10620,
+      "duration_ms": 4164
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/library",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-library.md",
+      "size": 18298,
+      "duration_ms": 1492
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/lesson-planner",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-lesson-planner.md",
+      "size": 14514,
+      "duration_ms": 2532
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/interview-question-crafter",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-interview-question-cra.md",
+      "size": 11551,
+      "duration_ms": 4671
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/master-moderator",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-master-moderator.md",
+      "size": 10417,
+      "duration_ms": 2181
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/meeting-scribe",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-meeting-scribe.md",
+      "size": 14728,
+      "duration_ms": 1561
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/memo-maestro",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-memo-maestro.md",
+      "size": 12936,
+      "duration_ms": 2245
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/perspectives-ponderer",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-perspectives-ponderer.md",
+      "size": 11817,
+      "duration_ms": 1437
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/neologism-creator",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-neologism-creator.md",
+      "size": 9991,
+      "duration_ms": 2074
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/mindfulness-mentor",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-mindfulness-mentor.md",
+      "size": 11875,
+      "duration_ms": 3010
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/mood-colorizer",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-mood-colorizer.md",
+      "size": 10103,
+      "duration_ms": 2992
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/philosophical-musings",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-philosophical-musings.md",
+      "size": 11991,
+      "duration_ms": 1418
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/motivational-muse",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-motivational-muse.md",
+      "size": 12485,
+      "duration_ms": 3417
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/pii-purifier",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-pii-purifier.md",
+      "size": 10084,
+      "duration_ms": 2102
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/product-naming-pro",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-product-naming-pro.md",
+      "size": 11034,
+      "duration_ms": 2074
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/pun-dit",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-pun-dit.md",
+      "size": 10249,
+      "duration_ms": 1823
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/portmanteau-poet",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-portmanteau-poet.md",
+      "size": 11170,
+      "duration_ms": 2962
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/python-bug-buster",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-python-bug-buster.md",
+      "size": 10308,
+      "duration_ms": 1265
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/prose-polisher",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-prose-polisher.md",
+      "size": 13228,
+      "duration_ms": 2660
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/polyglot-superpowers",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-polyglot-superpowers.md",
+      "size": 10516,
+      "duration_ms": 3556
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/review-classifier",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-review-classifier.md",
+      "size": 15413,
+      "duration_ms": 1909
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/riddle-me-this",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-riddle-me-this.md",
+      "size": 10407,
+      "duration_ms": 2190
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/simile-savant",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-simile-savant.md",
+      "size": 9504,
+      "duration_ms": 1915
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/second-grade-simplifier",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-second-grade-simplifie.md",
+      "size": 10356,
+      "duration_ms": 2454
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/socratic-sage",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-socratic-sage.md",
+      "size": 10620,
+      "duration_ms": 2328
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/sci-fi-scenario-simulator",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-sci-fi-scenario-simula.md",
+      "size": 12453,
+      "duration_ms": 2963
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/spreadsheet-sorcerer",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-spreadsheet-sorcerer.md",
+      "size": 11973,
+      "duration_ms": 2194
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/storytelling-sidekick",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-storytelling-sidekick.md",
+      "size": 11218,
+      "duration_ms": 2394
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/trivia-generator",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-trivia-generator.md",
+      "size": 11189,
+      "duration_ms": 1680
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/sql-sorcerer",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-sql-sorcerer.md",
+      "size": 11126,
+      "duration_ms": 2517
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/tweet-tone-detector",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-tweet-tone-detector.md",
+      "size": 10826,
+      "duration_ms": 1979
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/time-travel-consultant",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-time-travel-consultant.md",
+      "size": 11686,
+      "duration_ms": 2782
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/tongue-twister",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-tongue-twister.md",
+      "size": 9841,
+      "duration_ms": 2692
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/website-wizard",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-website-wizard.md",
+      "size": 18225,
+      "duration_ms": 1677
+    },
+    {
+      "url": "https://docs.anthropic.com/en/resources/prompt-library/vr-fitness-innovator",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-resources-prompt-library-vr-fitness-innovator.md",
+      "size": 11323,
+      "duration_ms": 2401
+    },
+    {
+      "url": "https://docs.anthropic.com/en/test-and-evaluate/strengthen-guardrails/handle-streaming-refusals",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-test-and-evaluate-strengthen-guardrails-handle-.md",
+      "size": 13749,
+      "duration_ms": 1734
+    },
+    {
+      "url": "https://docs.anthropic.com/en/test-and-evaluate/develop-tests",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-test-and-evaluate-develop-tests.md",
+      "size": 13327,
+      "duration_ms": 2172
+    },
+    {
+      "url": "https://docs.anthropic.com/en/test-and-evaluate/define-success",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-test-and-evaluate-define-success.md",
+      "size": 12317,
+      "duration_ms": 3195
+    },
+    {
+      "url": "https://docs.anthropic.com/en/test-and-evaluate/strengthen-guardrails/increase-consistency",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-test-and-evaluate-strengthen-guardrails-increas.md",
+      "size": 11753,
+      "duration_ms": 1621
+    },
+    {
+      "url": "https://docs.anthropic.com/en/test-and-evaluate/eval-tool",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-test-and-evaluate-eval-tool.md",
+      "size": 13936,
+      "duration_ms": 3067
+    },
+    {
+      "url": "https://docs.anthropic.com/en/test-and-evaluate/strengthen-guardrails/keep-claude-in-character",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-test-and-evaluate-strengthen-guardrails-keep-cl.md",
+      "size": 10813,
+      "duration_ms": 2016
+    },
+    {
+      "url": "https://docs.anthropic.com/en/test-and-evaluate/strengthen-guardrails/mitigate-jailbreaks",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-test-and-evaluate-strengthen-guardrails-mitigat.md",
+      "size": 12023,
+      "duration_ms": 2041
+    },
+    {
+      "url": "https://docs.anthropic.com/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-test-and-evaluate-strengthen-guardrails-reduce-.md",
+      "size": 12095,
+      "duration_ms": 2797
+    },
+    {
+      "url": "https://docs.anthropic.com/en/test-and-evaluate/strengthen-guardrails/reduce-latency",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-test-and-evaluate-strengthen-guardrails-reduce-.md",
+      "size": 15199,
+      "duration_ms": 2681
+    },
+    {
+      "url": "https://docs.anthropic.com/en/test-and-evaluate/strengthen-guardrails/reduce-prompt-leak",
+      "success": true,
+      "method": "bright_data",
+      "file": "/tmp/anthropic-docs/en-test-and-evaluate-strengthen-guardrails-reduce-.md",
+      "size": 11816,
+      "duration_ms": 3066
+    }
+  ]
+}

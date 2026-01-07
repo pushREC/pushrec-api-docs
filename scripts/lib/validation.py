@@ -14,7 +14,10 @@ import os
 import re
 from datetime import datetime, timedelta
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional, Tuple
+
+# Import shared config
+from config import load_config, get_sources, get_setting, ConfigError
 
 
 def parse_frontmatter(content: str) -> Optional[Dict[str, str]]:
@@ -37,9 +40,13 @@ def parse_frontmatter(content: str) -> Optional[Dict[str, str]]:
         return None
 
 
-def validate_file(file_path: Path) -> Tuple[bool, List[str]]:
+def validate_file(file_path: Path, min_content_length: int = 500) -> Tuple[bool, List[str]]:
     """
     Validate a single documentation file.
+
+    Args:
+        file_path: Path to file to validate
+        min_content_length: Minimum content length (from config)
 
     Returns:
         Tuple of (is_valid, list of issues)
@@ -49,12 +56,18 @@ def validate_file(file_path: Path) -> Tuple[bool, List[str]]:
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             content = f.read()
+    except FileNotFoundError:
+        return False, [f"File not found: {file_path}"]
+    except PermissionError:
+        return False, [f"Permission denied: {file_path}"]
+    except UnicodeDecodeError:
+        return False, [f"Invalid encoding in file: {file_path}"]
     except Exception as e:
         return False, [f"Cannot read file: {e}"]
 
-    # Check minimum content length
-    if len(content) < 500:
-        issues.append("Content too short (<500 chars)")
+    # Check minimum content length (configurable)
+    if len(content) < min_content_length:
+        issues.append(f"Content too short (<{min_content_length} chars)")
 
     # Check frontmatter
     frontmatter = parse_frontmatter(content)
@@ -95,9 +108,11 @@ def count_files(source_dir: Path) -> Tuple[int, int]:
     return total, deprecated
 
 
-def generate_status(repo: Path) -> None:
+def generate_status(repo: Path, config: Dict) -> None:
     """Generate and print status report."""
-    sources = ["claude-code", "claude-api", "agent-sdk"]
+    sources = get_sources(config)
+    staleness_days = get_setting(config, "staleness_days", 30)
+    min_content_length = get_setting(config, "min_content_length", 500)
 
     print("=" * 60)
     print("API DOCUMENTATION STATUS")
@@ -128,10 +143,10 @@ def generate_status(repo: Path) -> None:
                 continue
 
             age = get_file_age(md_file)
-            if age > 30:
+            if age > staleness_days:
                 stale += 1
 
-            is_valid, _ = validate_file(md_file)
+            is_valid, _ = validate_file(md_file, min_content_length)
             if not is_valid:
                 issues += 1
 
@@ -142,7 +157,7 @@ def generate_status(repo: Path) -> None:
         print(f"{source}:")
         print(f"  Files: {files}")
         print(f"  Deprecated: {deprecated}")
-        print(f"  Stale (>30 days): {stale}")
+        print(f"  Stale (>{staleness_days} days): {stale}")
         print(f"  Issues: {issues}")
         print(f"  Status: {status}")
         print()
@@ -165,11 +180,13 @@ def generate_status(repo: Path) -> None:
     print(f"\nOverall Status: {overall}")
 
 
-def full_validation(repo: Path) -> None:
+def full_validation(repo: Path, config: Dict) -> None:
     """Run full validation on all files."""
-    sources = ["claude-code", "claude-api", "agent-sdk"]
+    sources = get_sources(config)
+    min_content_length = get_setting(config, "min_content_length", 500)
 
     print("Running full validation...")
+    print(f"(min_content_length={min_content_length})")
     print()
 
     all_valid = True
@@ -186,7 +203,7 @@ def full_validation(repo: Path) -> None:
                 continue
 
             relative_path = md_file.relative_to(source_dir)
-            is_valid, issues = validate_file(md_file)
+            is_valid, issues = validate_file(md_file, min_content_length)
 
             if is_valid:
                 print(f"  [OK] {relative_path}")
@@ -213,12 +230,19 @@ def main():
 
     repo = Path(args.repo)
 
+    # Load config (no hardcoding)
+    try:
+        config = load_config()
+    except ConfigError as e:
+        print(e)
+        return
+
     if args.status:
-        generate_status(repo)
+        generate_status(repo, config)
     elif args.full:
-        full_validation(repo)
+        full_validation(repo, config)
     else:
-        generate_status(repo)
+        generate_status(repo, config)
 
 
 if __name__ == "__main__":
