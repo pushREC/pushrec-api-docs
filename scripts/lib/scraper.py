@@ -9,6 +9,11 @@ The scraper:
 1. Loads source configuration from sources.yaml
 2. Generates scraping prompts for each source
 3. Outputs instructions for the Claude session to execute
+
+IMPORTANT: Model Optimization
+- Use 'haiku' for scraping tasks (fast, cheap)
+- Use 'sonnet' for synthesis tasks
+- NEVER use 'opus' unless absolutely required
 """
 
 import argparse
@@ -17,6 +22,30 @@ import os
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional
+
+# Model selection for cost optimization
+# Task tool accepts: "haiku", "sonnet", "opus"
+TASK_MODEL_MAP = {
+    "scrape": "haiku",      # Fast extraction, high volume
+    "validate": "haiku",    # Quick checks, pass/fail
+    "hash": "haiku",        # Mechanical operation
+    "deprecate": "haiku",   # Simple file edits
+    "index": "sonnet",      # Keyword matching, categorization
+    "synthesize": "sonnet", # Pattern recognition, complex
+}
+
+
+def get_recommended_model(task_type: str) -> str:
+    """
+    Get recommended model for a task type.
+
+    Args:
+        task_type: One of 'scrape', 'validate', 'hash', 'deprecate', 'index', 'synthesize'
+
+    Returns:
+        Model string: 'haiku' or 'sonnet'
+    """
+    return TASK_MODEL_MAP.get(task_type, "haiku")  # Default to haiku for cost
 
 try:
     import yaml
@@ -72,11 +101,23 @@ def generate_scrape_instructions(source: str, config: Dict, output_dir: Path) ->
 SCRAPING INSTRUCTIONS: {source_config['name']}
 ================================================================================
 
+COST OPTIMIZATION: Use model="haiku" for all scraping Task tool calls
+                   (50x cheaper than Opus, sufficient for extraction)
+
 To scrape this source, run the following in your Claude Code session:
 
 1. Invoke the api-docs-finder skill in HARVEST mode:
 
    /api-docs-finder HARVEST {source_config['base_url']}
+
+   OR use Task tool with model optimization:
+
+   Task(
+     description="Scrape {source} docs",
+     prompt="Fetch all pages from {source_config['base_url']}...",
+     subagent_type="general-purpose",
+     model="haiku"  # <-- CRITICAL: Use haiku for cost savings
+   )
 
 2. Save output to: {output_dir}/{source_config['output_dir']}/
 
@@ -87,6 +128,11 @@ To scrape this source, run the following in your Claude Code session:
    ---
 
 4. Organize files according to the section structure in sources.yaml
+
+MODEL GUIDANCE:
+- Scraping/fetching: model="haiku" (fast, cheap)
+- Validation: model="haiku"
+- Synthesis/indexing: model="sonnet" (only when needed)
 
 ================================================================================
 """
