@@ -104,16 +104,24 @@ Completion: Same-day harvest (4-5 hours total)
 
 ---
 
-### Compute (22 files) - ✅ CLEANED
+### Compute (22 files) - ⚠️ PARTIAL (OpenAPI Available)
 
 **Original Harvest:** 69 files
 **After Deduplication:** 22 files (47 corrupted files removed)
 
 **Issue:** 47 files contained API token scope documentation instead of compute content (scraping error)
 **Action:** All corrupted files deleted
-**Remaining:** Valid droplet and GPU documentation
+**Remaining:** Valid droplet and GPU documentation (bare metal, GPU details)
 
-**Note:** This category requires re-scraping to recover the 47 legitimate droplet/GPU docs that were incorrectly harvested.
+**OpenAPI Spec Available (Added 2026-01-08):**
+- File: `openapi.yaml` (73,177 lines)
+- Source: https://api-engineering.nyc3.cdn.digitaloceanspaces.com/spec-ci/DigitalOcean-public.v2.yaml
+- Contains: Complete API reference for all compute endpoints
+- Use: `python spec_to_docs.py --spec openapi.yaml` to generate endpoint docs
+
+**To Complete Coverage:**
+1. Option A: Re-scrape 47 docs.digitalocean.com compute URLs
+2. Option B: Generate from OpenAPI spec (already downloaded)
 
 **Reports Generated:**
 - HARVEST-REPORT.md

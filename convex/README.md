@@ -1,68 +1,32 @@
-# Convex Management API Documentation
+---
+created: 2026-01-08
+tags: [type/api-reference, api/rest]
+api_name: Convex Management API
+api_version: 1.0.0
+base_url: https://api.convex.dev/v1
+endpoint_count: 9
+discovery_tier: OPENAPI_SPEC
+verified: true
+---
 
-> **Status:** Spec Complete
-> **Last Updated:** 2026-01-07
+# Convex Management API
 
-## Quick Start
+> Management API for provisioning and managing Convex projects and deployments.
 
-```bash
-# View spec structure
-head -100 openapi.json | jq .
+## Overview
 
-# List all endpoints
-jq '.paths | keys' openapi.json
-```
+| Property | Value |
+|----------|-------|
+| **Base URL** | `https://api.convex.dev/v1` |
+| **Version** | 1.0.0 |
+| **Total Endpoints** | 9 |
+| **Categories** | 1 |
 
-## Contents
+## Categories
 
-| File | Description |
-|------|-------------|
-| `openapi.json` | Full OpenAPI 3.1.0 spec (715 lines, 9 endpoints) |
-| `SOURCES.md` | Source URLs and scrape history |
-| `COVERAGE.md` | Coverage report |
+- [[general|General]] - 9 endpoints
 
-## API Endpoints
+---
 
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/teams/{team_id}/create_project` | POST | Create a new project |
-| `/projects` | GET | List projects |
-| `/projects/{project_id}` | GET | Get project details |
-| `/deployments` | GET | List deployments |
-| `/deployments/{deployment_id}` | GET | Get deployment details |
-| ... | ... | See spec for complete list |
-
-## Important Notes
-
-1. **This is the Management API** - For creating/managing projects and deployments
-2. **Data API is different** - Use `npx convex function-spec --prod` to generate spec for your functions
-3. **Authentication varies**:
-   - Management API: OAuth or Team tokens from dashboard
-   - Functions API: Deploy key (`Authorization: Convex <key>`)
-
-## Authentication
-
-```bash
-# For Management API (OAuth or Team token)
-curl -H "Authorization: Bearer $CONVEX_TOKEN" \
-  https://api.convex.dev/v1/projects
-
-# For Function calls (Deploy key)
-curl -H "Authorization: Convex $CONVEX_DEPLOY_KEY" \
-  https://your-deployment.convex.site/api/query \
-  -d '{"path": "functions:myFunction", "args": {}}'
-```
-
-## Spec Source
-
-```bash
-# Refresh spec
-curl -s "https://api.convex.dev/v1/openapi.json" -o openapi.json
-```
-
-## Additional Resources
-
-- [Management API Docs](https://docs.convex.dev/management-api)
-- [HTTP API Docs](https://docs.convex.dev/http-api/)
-- [OpenAPI & Other Languages](https://docs.convex.dev/client/open-api)
-- [GitHub](https://github.com/get-convex)
+*Generated from OpenAPI Specification*
+*Last updated: 2026-01-08*
