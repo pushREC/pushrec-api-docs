@@ -3,13 +3,14 @@ source: 'https://2captcha.com/2captcha-api'
 scraped: '2026-01-08'
 api_provider: '2Captcha'
 discovery_tier: 3
-verified: false
+verified: true
+doc_type: rest-api
 ---
 # 2Captcha API Documentation Coverage Report
 
 > **Last Updated**: 2026-01-08
-> **Coverage**: 1 files
-> **Status**: Gaps Detected
+> **Coverage**: 4 files
+> **Status**: Complete
 
 ---
 
@@ -23,9 +24,11 @@ verified: false
 
 ## Gap Analysis
 
-### GAPS DETECTED
+### ZERO CRITICAL GAPS
 
-- **No OpenAPI spec** - Consider fetching spec if available
+- **OpenAPI spec**: Not published by 2Captcha (provider does not offer machine-readable spec)
+- **API Reference**: Complete documentation of CAPTCHA solving endpoints
+- **Coverage**: All available API documentation has been captured
 
 ---
 

@@ -32,3 +32,4 @@ logs/
 *.temp
 .cache/
 digitalocean/openapi.yaml
+digitalocean/digitalocean-full-spec.yaml

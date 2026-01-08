@@ -1,54 +1,120 @@
 # Notion API Documentation
 
-> **Status:** Partial (Unofficial Spec)
-> **Last Updated:** 2026-01-08
-> **Source:** api.notion.com
+> **Source**: https://developers.notion.com/reference
+> **Scraped**: 2026-01-08
+> **Version**: API version 2025-09-03 (latest)
+> **Coverage**: 100% (70 pages)
 
-## Contents
+## Overview
 
-| Type | Description |
-|------|-------------|
-| `openapi-unofficial.yaml` | Community OpenAPI spec |
-| `SOURCES.md` | Source tracking |
-| `COVERAGE.md` | Coverage report |
+This documentation covers the complete Notion API reference, including endpoints for pages, databases, data sources, blocks, users, comments, search, and file uploads.
 
-## Quick Start
+## Quick Reference
 
-```bash
-# Set API key
-export NOTION_API_KEY="secret_xxxxxxxxxx"
+| Category | Endpoints | Documentation |
+|----------|-----------|---------------|
+| Authentication | 5 | `authentication/` |
+| Blocks | 5 | `blocks/` |
+| Pages | 6 | `pages/` |
+| Databases | 8 | `databases/` |
+| Data Sources | 8 | `data-sources/` |
+| Comments | 3 | `comments/` |
+| File Uploads | 5 | `file-uploads/` |
+| Search | 2 | `search/` |
+| Users | 3 | `users/` |
+| Objects | 17 | `objects/` |
+| Webhooks | 2 | `webhooks/` |
+| Getting Started | 6 | `getting-started/` |
 
-# Search pages
-curl -X POST "https://api.notion.com/v1/search" \
-  -H "Authorization: Bearer $NOTION_API_KEY" \
-  -H "Notion-Version: 2022-06-28" \
-  -H "Content-Type: application/json" \
-  -d '{"query": "Meeting Notes"}'
+## Base URL
+
 ```
-
-## Key Endpoints
-
-| Category | Endpoint | Description |
-|----------|----------|-------------|
-| **Search** | `POST /v1/search` | Search pages and databases |
-| **Pages** | `GET /v1/pages/{id}` | Get page |
-| **Pages** | `POST /v1/pages` | Create page |
-| **Databases** | `POST /v1/databases/{id}/query` | Query database |
-| **Blocks** | `GET /v1/blocks/{id}/children` | Get block children |
+https://api.notion.com/v1/
+```
 
 ## Authentication
 
-- **Type:** Bearer Token (Integration Token)
-- **Header:** `Authorization: Bearer {secret_token}`
-- **Version Header:** `Notion-Version: 2022-06-28`
-- **Get Token:** https://www.notion.so/my-integrations
+All requests require:
+- `Authorization: Bearer {token}` header
+- `Notion-Version: 2022-06-28` header (or later)
+
+## Key Concepts
+
+### Data Model (2025-09-03+)
+
+```
+Workspace
+  └── Database
+       └── Data Source(s)
+            └── Page(s)
+                 └── Block(s)
+```
+
+### Object Types
+
+| Object | Description |
+|--------|-------------|
+| Page | Container for content with properties |
+| Database | Container for data sources |
+| Data Source | Table with schema and pages |
+| Block | Content unit (paragraph, heading, list, etc.) |
+| User | Person or bot in workspace |
+| Comment | Remark on page or block |
+
+## Usage
+
+### JavaScript SDK
+
+```javascript
+const { Client } = require('@notionhq/client');
+
+const notion = new Client({
+  auth: process.env.NOTION_API_KEY
+});
+
+// Query a data source
+const response = await notion.dataSources.query({
+  data_source_id: 'your-data-source-id'
+});
+```
+
+### cURL
+
+```bash
+curl 'https://api.notion.com/v1/pages/{page_id}' \
+  -H 'Authorization: Bearer '"$NOTION_API_KEY"'' \
+  -H 'Notion-Version: 2022-06-28'
+```
+
+## Rate Limits
+
+- Average of 3 requests per second per integration
+- Burst requests permitted above average
+- HTTP 429 returned when rate limited (check `Retry-After` header)
+
+## Directory Structure
+
+```
+notion/
+├── README.md
+├── SOURCES.md
+├── COVERAGE.md
+├── getting-started/
+├── objects/
+├── authentication/
+├── blocks/
+├── pages/
+├── databases/
+├── data-sources/
+├── comments/
+├── file-uploads/
+├── search/
+├── users/
+└── webhooks/
+```
 
 ## Resources
 
 - [API Docs](https://developers.notion.com)
 - [API Reference](https://developers.notion.com/reference)
 - [JavaScript SDK](https://github.com/makenotion/notion-sdk-js)
-
-## Note
-
-Notion does not provide an official OpenAPI spec. The included spec is community-maintained and covers core endpoints (search, pages, databases).
