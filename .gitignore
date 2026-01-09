@@ -33,3 +33,4 @@ logs/
 .cache/
 digitalocean/openapi.yaml
 digitalocean/digitalocean-full-spec.yaml
+slack/spec.json

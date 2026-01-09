@@ -1,0 +1,97 @@
+{
+  "info": {
+    "_postman_id": "47a47f0d-f673-4e1a-818d-0e541441292b",
+    "name": "FAL.ai API",
+    "description": "Postman collection for FAL.ai API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "V1",
+      "item": [
+        {
+          "name": "Usage API",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{apiToken}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/models/usage",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "models",
+                "usage"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Pricing API",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{apiToken}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/v1/models/pricing",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "v1",
+                "models",
+                "pricing"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Webhook",
+      "item": [
+        {
+          "name": "POST /webhook",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{apiToken}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/webhook",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "webhook"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://fal.run"
+    },
+    {
+      "key": "apiToken",
+      "value": ""
+    }
+  ]
+}
