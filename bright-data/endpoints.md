@@ -1,7 +1,8 @@
 # Bright Data Web Scraper API - Endpoints Reference
 
-> **Last Updated:** 2026-01-08
+> **Last Updated:** 2026-01-10
 > **Base URL:** `https://api.brightdata.com`
+> **Critical Update:** Added undocumented "starting" status + API architecture clarification
 
 ## Authentication
 
@@ -13,6 +14,36 @@ Content-Type: application/json
 ```
 
 Get your API key from: https://brightdata.com/cp/api_tokens
+
+---
+
+## ⚠️ IMPORTANT: Two Distinct Products
+
+Bright Data provides **two separate API products** with different endpoints:
+
+### Web Unlocker (`/request` endpoint)
+
+- **Purpose:** General web scraping with anti-bot bypass
+- **Use Case:** Any URL (example.com, news sites, generic websites)
+- **Mode:** Synchronous (immediate response)
+- **Returns:** Raw HTML, markdown, or screenshot
+- **Polling:** Not required
+- **Speed:** 1-2 seconds
+- **Endpoint:** `POST /request`
+
+### Datasets API (`/datasets/v3/*` endpoints)
+
+- **Purpose:** Platform-specific scrapers with structured data
+- **Use Case:** YouTube, Instagram, LinkedIn, Amazon, Reddit, Twitter
+- **Mode:** Asynchronous (trigger → poll → download)
+- **Returns:** Parsed JSON with structured fields
+- **Polling:** Required via snapshot_id
+- **Speed:** 5 seconds to 10+ minutes
+- **Endpoints:** `/datasets/v3/trigger`, `/datasets/v3/progress`, `/datasets/v3/snapshot`
+
+**Rule of Thumb:**
+- Generic website? → Use Web Unlocker `/request`
+- Known platform (social media, e-commerce)? → Use Datasets API `/datasets/v3/*`
 
 ---
 
@@ -125,11 +156,14 @@ GET /datasets/v3/progress/{snapshot_id}
 
 **Status Values:**
 
-| Status | Description |
-|--------|-------------|
-| `running` | Collection in progress |
-| `ready` | Collection complete, results available |
-| `failed` | Collection failed |
+| Status | Description | Documented? |
+|--------|-------------|-------------|
+| `starting` | Job initialization (0-5 seconds) - **UNDOCUMENTED** but real | ❌ Found via error logs |
+| `running` | Collection in progress | ✅ Official |
+| `ready` | Collection complete, results available | ✅ Official |
+| `failed` | Collection failed | ✅ Official |
+
+**⚠️ CRITICAL:** The `starting` status is NOT documented by Bright Data but IS returned by the API during job initialization. Polling implementations MUST handle this status to avoid premature failures. Common on platforms with anti-bot measures (LinkedIn, Reddit, Twitter).
 
 **Example:**
 
