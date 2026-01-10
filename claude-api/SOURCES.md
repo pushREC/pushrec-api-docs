@@ -1,15 +1,15 @@
 ---
-source: https://docs.anthropic.com
-scraped: '2026-01-07'
+source: https://platform.claude.com/docs/en/
+scraped: '2026-01-10'
 api_provider: Anthropic
 discovery_tier: 3
 verified: true
 ---
 # Claude API Documentation Sources
 
-> **Source:** https://docs.anthropic.com
-> **Total Files:** 209
-> **Discovered:** 2026-01-07
+> **Source:** https://platform.claude.com/docs/en/ (NEW: docs moved from docs.anthropic.com)
+> **Total Files:** 211 (+2 refreshed release notes, model deprecations)
+> **Discovered:** 2026-01-07, Updated: 2026-01-10
 > **Coverage:** 100% (Complete)
 
 ---
