@@ -1,11 +1,11 @@
 ---
-generated: 2026-01-10T04:20:23.106794
+generated: 2026-01-10T04:59:03.547887
 staleness_threshold: 30
 ---
 
 # API Documentation Status Dashboard
 
-> **Generated:** 2026-01-10 04:20
+> **Generated:** 2026-01-10 04:59
 > **Threshold:** 30 days = STALE, 60 days = CRITICAL
 
 ---
