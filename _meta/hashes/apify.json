@@ -1,0 +1,117 @@
+{
+  "api": "apify",
+  "file_count": 22,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "5b5f7d1240a182b517caa4a87018a177",
+      "mtime": "2026-01-09T07:30:14.195855",
+      "size": 401
+    },
+    "README.md": {
+      "hash": "e0de668548ccc7998d6094362c68eaa6",
+      "mtime": "2026-01-09T07:30:14.193648",
+      "size": 18793
+    },
+    "SOURCES.md": {
+      "hash": "a974fa74e8fd8910689d6f53e1b0a6e6",
+      "mtime": "2026-01-09T07:30:14.195763",
+      "size": 366
+    },
+    "actor-builds.md": {
+      "hash": "54efa60c0a8ef28fc5f02bfd30a0e769",
+      "mtime": "2026-01-09T07:30:14.194655",
+      "size": 5119
+    },
+    "actor-runs.md": {
+      "hash": "a74699e7b6a949785c6a4ee312830c28",
+      "mtime": "2026-01-09T07:30:14.194566",
+      "size": 11770
+    },
+    "actor-tasks.md": {
+      "hash": "4ddc105eb22ca0a55d76e739b40ef9ec",
+      "mtime": "2026-01-09T07:30:14.194463",
+      "size": 23734
+    },
+    "actors-actor-builds.md": {
+      "hash": "205fd77a7dfd40436ff9933d65c7b30b",
+      "mtime": "2026-01-09T07:30:14.194173",
+      "size": 6487
+    },
+    "actors-actor-runs.md": {
+      "hash": "d9f946fff7a3ac1042c6e69a41b8ee2d",
+      "mtime": "2026-01-09T07:30:14.194323",
+      "size": 23150
+    },
+    "actors-actor-versions.md": {
+      "hash": "937eeb545f7f7c8081260c03d56a6155",
+      "mtime": "2026-01-09T07:30:14.193968",
+      "size": 9493
+    },
+    "actors-webhook-collection.md": {
+      "hash": "cb13477073d84b3679798bcd8389b5db",
+      "mtime": "2026-01-09T07:30:14.194071",
+      "size": 1334
+    },
+    "actors.md": {
+      "hash": "6bb3e50fd82303bbe5411ac8cf4429c2",
+      "mtime": "2026-01-09T07:30:14.193825",
+      "size": 4943
+    },
+    "logs.md": {
+      "hash": "025837d51ae48fb423d213179584fe4c",
+      "mtime": "2026-01-09T07:30:14.195601",
+      "size": 852
+    },
+    "schedules.md": {
+      "hash": "51460019490c358e05aa6c6b5e061707",
+      "mtime": "2026-01-09T07:30:14.195428",
+      "size": 3801
+    },
+    "storage-datasets.md": {
+      "hash": "ad5eced5d82042e965bfdcff2dbd6983",
+      "mtime": "2026-01-09T07:30:14.194872",
+      "size": 12534
+    },
+    "storage-key-value-stores.md": {
+      "hash": "987f1a91dd46cdc9369be26af00ef444",
+      "mtime": "2026-01-09T07:30:14.194758",
+      "size": 8493
+    },
+    "storage-request-queues-requests-locks.md": {
+      "hash": "c4ff05d4256282ec3bda700c880c745c",
+      "mtime": "2026-01-09T07:30:14.195071",
+      "size": 4927
+    },
+    "storage-request-queues-requests.md": {
+      "hash": "442ff229528239604b726ae8454369ed",
+      "mtime": "2026-01-09T07:30:14.195164",
+      "size": 3797
+    },
+    "storage-request-queues.md": {
+      "hash": "9194884f4599c1cb1cb246c76678e8e4",
+      "mtime": "2026-01-09T07:30:14.194971",
+      "size": 5926
+    },
+    "store.md": {
+      "hash": "b608ab16f5b56196a2c301f1e3c8e159",
+      "mtime": "2026-01-09T07:30:14.195520",
+      "size": 1573
+    },
+    "users.md": {
+      "hash": "074246671a041aa6e37f0a99862b26ec",
+      "mtime": "2026-01-09T07:30:14.195686",
+      "size": 2801
+    },
+    "webhooks-webhook-dispatches.md": {
+      "hash": "a88a3bd4a4418fd3082c25026d8e18a4",
+      "mtime": "2026-01-09T07:30:14.195343",
+      "size": 1575
+    },
+    "webhooks-webhooks.md": {
+      "hash": "ef5af727cd91efc250e74967247cde57",
+      "mtime": "2026-01-09T07:30:14.195258",
+      "size": 5938
+    }
+  },
+  "generated_at": "2026-01-10T04:20:16.851932"
+}

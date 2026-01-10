@@ -1,1 +1,52 @@
-{}
+{
+  "api": "agent-sdk",
+  "file_count": 9,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "72bc0d3d0291c30c4b914a4dfca32c64",
+      "mtime": "2026-01-08T21:50:46.727975",
+      "size": 1765
+    },
+    "README.md": {
+      "hash": "8fb1eb0714a78925d7971fc072a1dedc",
+      "mtime": "2026-01-07T23:23:37.406632",
+      "size": 1189
+    },
+    "SOURCES.md": {
+      "hash": "c3833196d7236e28dd547cdaed68ffc4",
+      "mtime": "2026-01-07T22:10:54.389843",
+      "size": 737
+    },
+    "en-agent-sdk-migration-guide.md": {
+      "hash": "b271997dba1141597fba9fbde7de9c7a",
+      "mtime": "2026-01-07T16:52:50.003271",
+      "size": 18129
+    },
+    "en-agent-sdk-overview.md": {
+      "hash": "fc2f2dbce5d29a4c1b2263ac14919e34",
+      "mtime": "2026-01-07T16:52:49.999417",
+      "size": 17010
+    },
+    "en-agent-sdk-python.md": {
+      "hash": "a9ae098ccaf48c9be16c561b288b1e56",
+      "mtime": "2026-01-07T16:52:50.000878",
+      "size": 73195
+    },
+    "en-agent-sdk-quickstart.md": {
+      "hash": "dd42809fb1770e99a6c12d09f54eb27f",
+      "mtime": "2026-01-07T16:52:50.000094",
+      "size": 20021
+    },
+    "en-agent-sdk-typescript-v2-preview.md": {
+      "hash": "57969ec4e3f8afe5968601a4652ef938",
+      "mtime": "2026-01-07T16:52:50.001629",
+      "size": 21902
+    },
+    "en-agent-sdk-typescript.md": {
+      "hash": "f96109138b24c5e197db24ec91662a04",
+      "mtime": "2026-01-07T16:52:50.002534",
+      "size": 64372
+    }
+  },
+  "generated_at": "2026-01-10T04:20:16.847722"
+}

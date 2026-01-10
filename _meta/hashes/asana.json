@@ -1,0 +1,232 @@
+{
+  "api": "asana",
+  "file_count": 45,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "0492bfe95a25179241a47ac0a8090add",
+      "mtime": "2026-01-09T07:36:10.158021",
+      "size": 393
+    },
+    "README.md": {
+      "hash": "4e8ae39065e2afa4fa9a68af110d1c4b",
+      "mtime": "2026-01-09T07:36:10.153223",
+      "size": 2603
+    },
+    "SOURCES.md": {
+      "hash": "9091244cf0b2ed44a31cd6fb9af57a5e",
+      "mtime": "2026-01-09T07:36:10.157924",
+      "size": 357
+    },
+    "access-requests.md": {
+      "hash": "20906601b6fc13b5f159ea1d62349204",
+      "mtime": "2026-01-09T07:36:10.153423",
+      "size": 1933
+    },
+    "allocations.md": {
+      "hash": "80d0f7bfd4cb00e9d2ada550001b1ed0",
+      "mtime": "2026-01-09T07:36:10.153576",
+      "size": 2932
+    },
+    "attachments.md": {
+      "hash": "52f3655c0fa48cba3193fab9bc309481",
+      "mtime": "2026-01-09T07:36:10.153693",
+      "size": 4587
+    },
+    "audit-log-api.md": {
+      "hash": "c98bee671d4994870440180a948dfc8c",
+      "mtime": "2026-01-09T07:36:10.153812",
+      "size": 2589
+    },
+    "batch-api.md": {
+      "hash": "a970493176784c75b6834bab369647c8",
+      "mtime": "2026-01-09T07:36:10.153922",
+      "size": 602
+    },
+    "budgets.md": {
+      "hash": "ad64d8e4e133f7e87f1182de85a071d5",
+      "mtime": "2026-01-09T07:36:10.154032",
+      "size": 2181
+    },
+    "custom-field-settings.md": {
+      "hash": "17f8a644c5057a83acd825637dc8fe15",
+      "mtime": "2026-01-09T07:36:10.154148",
+      "size": 3238
+    },
+    "custom-fields.md": {
+      "hash": "095fef0700bada60f28e1a473c0b4019",
+      "mtime": "2026-01-09T07:36:10.154248",
+      "size": 6577
+    },
+    "custom-types.md": {
+      "hash": "d7cec6aa188965317272e9cd4fed96ae",
+      "mtime": "2026-01-09T07:36:10.154355",
+      "size": 1483
+    },
+    "events.md": {
+      "hash": "ff9f39b30038c0e3082a4f5080da3987",
+      "mtime": "2026-01-09T07:36:10.154452",
+      "size": 1223
+    },
+    "exports.md": {
+      "hash": "1485afcb5f015bfceca4e8ab3edf29b0",
+      "mtime": "2026-01-09T07:36:10.154556",
+      "size": 5505
+    },
+    "goal-relationships.md": {
+      "hash": "d2ccb892a04da57cf2f906a38fa9922c",
+      "mtime": "2026-01-09T07:36:10.154683",
+      "size": 3085
+    },
+    "goals.md": {
+      "hash": "67d11f1466bbea6b24037a73ff73cffc",
+      "mtime": "2026-01-09T07:36:10.154791",
+      "size": 7230
+    },
+    "jobs.md": {
+      "hash": "737deae84c7d5cd3d763430a4955a11a",
+      "mtime": "2026-01-09T07:36:10.154886",
+      "size": 578
+    },
+    "memberships.md": {
+      "hash": "f69410af89532bca1fc4d780c6a034d7",
+      "mtime": "2026-01-09T07:36:10.154988",
+      "size": 2766
+    },
+    "organization-exports.md": {
+      "hash": "eb1a5002d0d4b2247a4e4a530b144279",
+      "mtime": "2026-01-09T07:36:10.155088",
+      "size": 1286
+    },
+    "portfolio-memberships.md": {
+      "hash": "318d3b4e25fc7747f2b58ca49e03e9e9",
+      "mtime": "2026-01-09T07:36:10.155190",
+      "size": 1838
+    },
+    "portfolios.md": {
+      "hash": "f83aa40a9bad367f26d685121ac02d19",
+      "mtime": "2026-01-09T07:36:10.155289",
+      "size": 6664
+    },
+    "project-briefs.md": {
+      "hash": "062fd92eb7bcd299fd2f6126521aaeee",
+      "mtime": "2026-01-09T07:36:10.155391",
+      "size": 2174
+    },
+    "project-memberships.md": {
+      "hash": "a43a06996b1ff37f75ec98d1eb6ffab8",
+      "mtime": "2026-01-09T07:36:10.155492",
+      "size": 1240
+    },
+    "project-statuses.md": {
+      "hash": "3fa86cf87176de29d56cbf5a73cb2a85",
+      "mtime": "2026-01-09T07:36:10.155598",
+      "size": 2536
+    },
+    "project-templates.md": {
+      "hash": "3a70b33999ed2605a3bd2ea7be07c68e",
+      "mtime": "2026-01-09T07:36:10.155705",
+      "size": 3624
+    },
+    "projects.md": {
+      "hash": "2c0a18810442066e054ace85921fdb67",
+      "mtime": "2026-01-09T07:36:10.155825",
+      "size": 13191
+    },
+    "rates.md": {
+      "hash": "692f248a6b951d8e9f3f938084469d3c",
+      "mtime": "2026-01-09T07:36:10.155929",
+      "size": 2801
+    },
+    "reactions.md": {
+      "hash": "f4fc29a874db327fd87839d3540191cf",
+      "mtime": "2026-01-09T07:36:10.156024",
+      "size": 745
+    },
+    "rules.md": {
+      "hash": "4a0297014e55524cb8bf038f51c92853",
+      "mtime": "2026-01-09T07:36:10.156117",
+      "size": 482
+    },
+    "sections.md": {
+      "hash": "1b0c01bf20c79e546bdbab9b111e8f27",
+      "mtime": "2026-01-09T07:36:10.156219",
+      "size": 3997
+    },
+    "status-updates.md": {
+      "hash": "1cc929da6edbca50ce853723846b4964",
+      "mtime": "2026-01-09T07:36:10.156317",
+      "size": 2123
+    },
+    "stories.md": {
+      "hash": "01b388b467b26ffab31f919667d7357e",
+      "mtime": "2026-01-09T07:36:10.156421",
+      "size": 3202
+    },
+    "tags.md": {
+      "hash": "19451ac52dce6ebfc71210a01a0516a3",
+      "mtime": "2026-01-09T07:36:10.156515",
+      "size": 5079
+    },
+    "task-templates.md": {
+      "hash": "f4f01c932cadaae9103f90b3e2644b29",
+      "mtime": "2026-01-09T07:36:10.156614",
+      "size": 2379
+    },
+    "tasks.md": {
+      "hash": "66fbdb48c9e316e0611fb3aaf4aa0ce7",
+      "mtime": "2026-01-09T07:36:10.156828",
+      "size": 20424
+    },
+    "team-memberships.md": {
+      "hash": "19ea55dfdad95e9fbf0b48735be02147",
+      "mtime": "2026-01-09T07:36:10.156943",
+      "size": 2842
+    },
+    "teams.md": {
+      "hash": "7e6f1530d7e956930f44a3b1f68de204",
+      "mtime": "2026-01-09T07:36:10.157055",
+      "size": 3496
+    },
+    "time-periods.md": {
+      "hash": "af1a3527e589a16151645656e22ce1ef",
+      "mtime": "2026-01-09T07:36:10.157161",
+      "size": 1269
+    },
+    "time-tracking-entries.md": {
+      "hash": "38d91933383c92fc3a8b03f20db6d7e7",
+      "mtime": "2026-01-09T07:36:10.157256",
+      "size": 4627
+    },
+    "typeahead.md": {
+      "hash": "9d66925781bb4a1d086c3ec12e6f08d4",
+      "mtime": "2026-01-09T07:36:10.157354",
+      "size": 2496
+    },
+    "user-task-lists.md": {
+      "hash": "8fbffe15804696e4909885cf43492f09",
+      "mtime": "2026-01-09T07:36:10.157452",
+      "size": 1235
+    },
+    "users.md": {
+      "hash": "37ddc55895783fa821c0781a06c75895",
+      "mtime": "2026-01-09T07:36:10.157537",
+      "size": 5280
+    },
+    "webhooks.md": {
+      "hash": "46fdbb8efa5cb0e557639b475ab207af",
+      "mtime": "2026-01-09T07:36:10.157628",
+      "size": 4953
+    },
+    "workspace-memberships.md": {
+      "hash": "aa934bdd842bf302f19a9b7780f09e91",
+      "mtime": "2026-01-09T07:36:10.157737",
+      "size": 1802
+    },
+    "workspaces.md": {
+      "hash": "8b4c6b743ab17047e769248bafd31389",
+      "mtime": "2026-01-09T07:36:10.157825",
+      "size": 4473
+    }
+  },
+  "generated_at": "2026-01-10T04:20:16.858807"
+}

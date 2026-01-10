@@ -1,0 +1,62 @@
+{
+  "api": "obsidian",
+  "file_count": 11,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "c07de3b13718323085528d4b34c7c699",
+      "mtime": "2026-01-08T21:55:07.082778",
+      "size": 1768
+    },
+    "README.md": {
+      "hash": "b605384353eb91c17925d862dac2c7e8",
+      "mtime": "2026-01-07T23:08:12.358430",
+      "size": 1742
+    },
+    "SOURCES.md": {
+      "hash": "8467d2e318e6686bcb629cafaaa05e43",
+      "mtime": "2026-01-07T23:07:51.474706",
+      "size": 880
+    },
+    "automation-api.md": {
+      "hash": "f00c18bd2380a80f5b205f77723af0f8",
+      "mtime": "2026-01-07T23:07:42.619381",
+      "size": 23227
+    },
+    "canvas-api.md": {
+      "hash": "70933a6a007da834647f775c4461dd60",
+      "mtime": "2026-01-07T23:07:43.601376",
+      "size": 41729
+    },
+    "editor-markdown-api.md": {
+      "hash": "3baace5d3142427e2bd28a8741616c40",
+      "mtime": "2026-01-07T23:07:43.603248",
+      "size": 45941
+    },
+    "embed-api.md": {
+      "hash": "82caa6f0cec76e8a415696a533acd4e9",
+      "mtime": "2026-01-07T23:07:43.606385",
+      "size": 43286
+    },
+    "menu-api.md": {
+      "hash": "1ff878a54f8c44a15bafa3d31b53e6c5",
+      "mtime": "2026-01-07T23:07:43.611807",
+      "size": 48504
+    },
+    "mobile-apis.md": {
+      "hash": "c09cd22d39da5dc613ddd51a9e058b64",
+      "mtime": "2026-01-07T23:07:43.618946",
+      "size": 54800
+    },
+    "rest-api-plugin.md": {
+      "hash": "b3320b9898d4f68a1437ab78066799a9",
+      "mtime": "2026-01-07T23:07:43.619731",
+      "size": 18844
+    },
+    "typescript-api.md": {
+      "hash": "dd332d98385a5c5541916defa952b75a",
+      "mtime": "2026-01-07T23:07:43.620513",
+      "size": 66635
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.367113"
+}

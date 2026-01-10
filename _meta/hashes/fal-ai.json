@@ -1,0 +1,107 @@
+{
+  "api": "fal-ai",
+  "file_count": 20,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "3de50857dfe742fda2a9703bc6efce87",
+      "mtime": "2026-01-09T07:30:44.720336",
+      "size": 899
+    },
+    "README.md": {
+      "hash": "d9af51eb07792a66afaef916bd243a58",
+      "mtime": "2026-01-09T07:30:44.720896",
+      "size": 4462
+    },
+    "SOURCES.md": {
+      "hash": "dd1b68605149e10cb5d1b408d3be1bfd",
+      "mtime": "2026-01-09T07:30:44.721307",
+      "size": 834
+    },
+    "briefings/KNOWLEDGE-MAP.md": {
+      "hash": "b8b3e80eafd6828cfc38392d0cc38691",
+      "mtime": "2026-01-09T07:30:44.722339",
+      "size": 29539
+    },
+    "briefings/MASTER-FAL-AI-DOCUMENTATION.md": {
+      "hash": "9d6a11e1cd72616ca30512f6cc925273",
+      "mtime": "2026-01-09T07:30:44.722697",
+      "size": 18830
+    },
+    "briefings/QUICK-REFERENCE.md": {
+      "hash": "eda6f02f9450345fbac6b35eb82eef7b",
+      "mtime": "2026-01-09T07:30:44.721940",
+      "size": 10570
+    },
+    "round-1/agent-01-core-api.md": {
+      "hash": "ef03101958aed4f001a72865de06a1b6",
+      "mtime": "2026-01-09T07:30:44.725092",
+      "size": 26585
+    },
+    "round-1/agent-02-javascript-sdk.md": {
+      "hash": "8ca141d27955e1a73f52f840fea109a2",
+      "mtime": "2026-01-09T07:30:44.725587",
+      "size": 60747
+    },
+    "round-1/agent-03-python-sdk.md": {
+      "hash": "3558e75f5af2cfeb7021f4d576c8fa12",
+      "mtime": "2026-01-09T07:30:44.727005",
+      "size": 73107
+    },
+    "round-1/agent-04-image-models.md": {
+      "hash": "dcbd45a2fadc388eb65bda9c7ed340b0",
+      "mtime": "2026-01-09T07:30:44.726657",
+      "size": 25867
+    },
+    "round-1/agent-05-video-models.md": {
+      "hash": "0a541bd32360f0824ce2b3202b50582a",
+      "mtime": "2026-01-09T07:30:44.725910",
+      "size": 20548
+    },
+    "round-1/agent-06-streaming-queues.md": {
+      "hash": "2ceb921c3744a533312735d8a384cf17",
+      "mtime": "2026-01-09T07:30:44.727327",
+      "size": 72812
+    },
+    "round-1/agent-07-finetuning-training.md": {
+      "hash": "45fde4732ee1c636d1875d4753667d1c",
+      "mtime": "2026-01-09T07:30:44.726287",
+      "size": 29449
+    },
+    "round-1/agent-08-billing-usage.md": {
+      "hash": "87b310f76315a97f3398027b71bac164",
+      "mtime": "2026-01-09T07:30:44.727971",
+      "size": 16955
+    },
+    "round-1/agent-09-advanced-features.md": {
+      "hash": "d5ad84f6b2a26d27637e513f28dd86a3",
+      "mtime": "2026-01-09T07:30:44.727651",
+      "size": 71351
+    },
+    "round-2/agent-10-audio-models.md": {
+      "hash": "140267240806789d0b62e6f2f5477fee",
+      "mtime": "2026-01-09T07:30:44.728892",
+      "size": 40528
+    },
+    "round-2/agent-11-3d-models.md": {
+      "hash": "7595e0dfcd1b8ff518e68a2cbad084af",
+      "mtime": "2026-01-09T07:30:44.729243",
+      "size": 30375
+    },
+    "round-2/agent-12-serverless.md": {
+      "hash": "48b97272fbae45131002306bf5521a05",
+      "mtime": "2026-01-09T07:30:44.729546",
+      "size": 28604
+    },
+    "round-2/agent-13-errors.md": {
+      "hash": "a22e14ac8da6faca217712970714cce1",
+      "mtime": "2026-01-09T07:30:44.728541",
+      "size": 17130
+    },
+    "round-2/agent-14-enterprise.md": {
+      "hash": "76ca68a531e5892118fe2a846409e586",
+      "mtime": "2026-01-09T07:30:44.729899",
+      "size": 13966
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.302866"
+}

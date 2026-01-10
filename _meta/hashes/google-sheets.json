@@ -1,0 +1,22 @@
+{
+  "api": "google-sheets",
+  "file_count": 3,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "820b7339a615d320c5ed2dd335a60a28",
+      "mtime": "2026-01-08T00:36:41.833707",
+      "size": 1271
+    },
+    "README.md": {
+      "hash": "cba2904ce3343ed9701549661c0bc384",
+      "mtime": "2026-01-08T00:36:41.831198",
+      "size": 1502
+    },
+    "SOURCES.md": {
+      "hash": "9b5d2fd2474e878613e94a33d44cbabf",
+      "mtime": "2026-01-08T00:36:41.833137",
+      "size": 1058
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.310917"
+}

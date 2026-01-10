@@ -1,0 +1,162 @@
+{
+  "api": "vercel",
+  "file_count": 31,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "4ebe70a97cf35154834723a1247de35d",
+      "mtime": "2026-01-08T21:54:51.987150",
+      "size": 403
+    },
+    "README.md": {
+      "hash": "216ac7cf8bb991b054317677ce7753d4",
+      "mtime": "2026-01-08T21:54:51.982567",
+      "size": 1775
+    },
+    "SOURCES.md": {
+      "hash": "c7436500fe9291886aabbda945be61f3",
+      "mtime": "2026-01-08T21:54:51.987063",
+      "size": 374
+    },
+    "access-groups.md": {
+      "hash": "79d7d69994429d2db38d6bbbb9cbe216",
+      "mtime": "2026-01-08T21:54:53.527614",
+      "size": 7810
+    },
+    "aliases.md": {
+      "hash": "5f0baa8c809a9403957499ce33d6eee3",
+      "mtime": "2026-01-08T21:54:53.563433",
+      "size": 5386
+    },
+    "artifacts.md": {
+      "hash": "39a785dfd2da7b7dbce59df340eb7d3c",
+      "mtime": "2026-01-08T21:54:53.528937",
+      "size": 5325
+    },
+    "authentication.md": {
+      "hash": "ea52d0057ce33ebb35e1d90ad166a0d1",
+      "mtime": "2026-01-08T21:54:53.551863",
+      "size": 3060
+    },
+    "bulk-redirects.md": {
+      "hash": "e668f7f631742d33070e5071b7966fe5",
+      "mtime": "2026-01-08T21:54:53.529932",
+      "size": 5020
+    },
+    "certs.md": {
+      "hash": "2994397a428d455286991687135aad52",
+      "mtime": "2026-01-08T21:54:53.564609",
+      "size": 2129
+    },
+    "checks.md": {
+      "hash": "8447d5033795825c59d962ca0ace9b42",
+      "mtime": "2026-01-08T21:54:53.530912",
+      "size": 3776
+    },
+    "connect.md": {
+      "hash": "2497543f1261470589b1db6d12d877c8",
+      "mtime": "2026-01-08T21:54:53.554792",
+      "size": 853
+    },
+    "deployments.md": {
+      "hash": "5eada27d7cf9afaeb94ddd4b4b2f950d",
+      "mtime": "2026-01-08T21:54:53.534412",
+      "size": 10411
+    },
+    "dns.md": {
+      "hash": "9b45b53d90879ae19a874547373b7488",
+      "mtime": "2026-01-08T21:54:53.536805",
+      "size": 2993
+    },
+    "domains-registrar.md": {
+      "hash": "5aa2ee0e2cc72c5920edae09f3292169",
+      "mtime": "2026-01-08T21:54:53.538164",
+      "size": 8067
+    },
+    "domains.md": {
+      "hash": "638ed498c4de3fbf0bd46a61758a8cee",
+      "mtime": "2026-01-08T21:54:53.535722",
+      "size": 6588
+    },
+    "drains.md": {
+      "hash": "793e77c902e5a0b28e8cbfab2243de0e",
+      "mtime": "2026-01-08T21:54:53.542798",
+      "size": 3514
+    },
+    "edge-cache.md": {
+      "hash": "9fa4e223791926f0b57a955a221c1e37",
+      "mtime": "2026-01-08T21:54:53.544295",
+      "size": 3640
+    },
+    "edge-config.md": {
+      "hash": "21bc7cee4b34239f957290b3f16d3cb6",
+      "mtime": "2026-01-08T21:54:53.545440",
+      "size": 10444
+    },
+    "environment.md": {
+      "hash": "20434df027c06e4057cef6a10dec7aad",
+      "mtime": "2026-01-08T21:54:53.546764",
+      "size": 8400
+    },
+    "general.md": {
+      "hash": "dd527745dbb7a5b999db4f1a1dd9ea7a",
+      "mtime": "2026-01-08T21:54:53.532131",
+      "size": 818
+    },
+    "integrations.md": {
+      "hash": "95e26be86f5b18c306d18fab4752e503",
+      "mtime": "2026-01-08T21:54:53.549513",
+      "size": 10471
+    },
+    "logdrains.md": {
+      "hash": "f35bcb65285bdb9b46117658c496b44b",
+      "mtime": "2026-01-08T21:54:53.539363",
+      "size": 5339
+    },
+    "logs.md": {
+      "hash": "61fa58574f8616f8b0a06cbf7f17c83c",
+      "mtime": "2026-01-08T21:54:53.552811",
+      "size": 871
+    },
+    "marketplace.md": {
+      "hash": "d6e0d25651789d3b5dfad3673fced0e6",
+      "mtime": "2026-01-08T21:54:53.550827",
+      "size": 16175
+    },
+    "projectmembers.md": {
+      "hash": "8e1c6656ca55af57090bf8aede880c31",
+      "mtime": "2026-01-08T21:54:53.553819",
+      "size": 2442
+    },
+    "projects.md": {
+      "hash": "fd51e8ee77b9c0c2a780259d66757e3d",
+      "mtime": "2026-01-08T21:54:53.533395",
+      "size": 23580
+    },
+    "rolling-release.md": {
+      "hash": "82b9bbc377e0c5e528e12f1e31280802",
+      "mtime": "2026-01-08T21:54:53.555915",
+      "size": 6339
+    },
+    "security.md": {
+      "hash": "fbc15ce9a87bc03bce9d235099efd412",
+      "mtime": "2026-01-08T21:54:53.557909",
+      "size": 5920
+    },
+    "teams.md": {
+      "hash": "23a8391031bd326363488e732eaac827",
+      "mtime": "2026-01-08T21:54:53.560637",
+      "size": 7740
+    },
+    "user.md": {
+      "hash": "33ae257ed7732d02b6612813727ab5f5",
+      "mtime": "2026-01-08T21:54:53.548113",
+      "size": 2269
+    },
+    "webhooks.md": {
+      "hash": "dc1c0e5d27e3b1f934330f04d96b9b5d",
+      "mtime": "2026-01-08T21:54:53.562176",
+      "size": 2201
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.422368"
+}

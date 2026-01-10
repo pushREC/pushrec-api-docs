@@ -1,0 +1,27 @@
+{
+  "api": "discord",
+  "file_count": 4,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "48cd1f95509f4b37b7ed244994df77cd",
+      "mtime": "2026-01-09T07:35:10.469374",
+      "size": 434
+    },
+    "README.md": {
+      "hash": "0e5617c823e97e847dbbafa5b32e3221",
+      "mtime": "2026-01-09T07:35:10.468782",
+      "size": 667
+    },
+    "SOURCES.md": {
+      "hash": "14d80db19cba5ada42b1b09922c10273",
+      "mtime": "2026-01-09T07:35:10.469250",
+      "size": 418
+    },
+    "general.md": {
+      "hash": "4a7c6ab77a8e7d616ca5ef4da26d7ece",
+      "mtime": "2026-01-09T07:35:10.469122",
+      "size": 53144
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.295959"
+}

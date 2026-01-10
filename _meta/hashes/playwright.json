@@ -1,0 +1,32 @@
+{
+  "api": "playwright",
+  "file_count": 5,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "1e48978edb38c50a0c42f5678b90f566",
+      "mtime": "2026-01-08T22:06:41.843554",
+      "size": 1133
+    },
+    "README.md": {
+      "hash": "3cd341c24aed7cf04554aa42e8b57f90",
+      "mtime": "2026-01-07T23:08:59.364566",
+      "size": 1397
+    },
+    "SOURCES.md": {
+      "hash": "6654ed602b8f89040ddc5a99a1226b48",
+      "mtime": "2026-01-07T23:08:43.380468",
+      "size": 718
+    },
+    "api-surface.md": {
+      "hash": "69d5385d60143a3a446162fb365001b8",
+      "mtime": "2026-01-07T23:08:36.516330",
+      "size": 35592
+    },
+    "tool-use-api.md": {
+      "hash": "110475583bbccd66c0fc211d18ec627c",
+      "mtime": "2026-01-07T23:08:36.517570",
+      "size": 34540
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.405404"
+}

@@ -1,0 +1,317 @@
+{
+  "api": "ngrok",
+  "file_count": 62,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "962c03bd753d1fef1665b352e67e15bb",
+      "mtime": "2026-01-09T07:26:29.664475",
+      "size": 409
+    },
+    "README.md": {
+      "hash": "8741fe15f65ee4e0fd74a7cc6c1eb9cb",
+      "mtime": "2026-01-09T07:26:29.658828",
+      "size": 3970
+    },
+    "SOURCES.md": {
+      "hash": "d8a1ccaf9f86921e6d4163cbbdbbc079",
+      "mtime": "2026-01-09T07:26:29.664395",
+      "size": 383
+    },
+    "abusereports.md": {
+      "hash": "d1f6a6a949cc7715a601f37a305b1dbd",
+      "mtime": "2026-01-09T07:26:29.659045",
+      "size": 1102
+    },
+    "agentingresses.md": {
+      "hash": "1d345161d6eb3bbd830d5257c23d3757",
+      "mtime": "2026-01-09T07:26:29.659178",
+      "size": 2346
+    },
+    "apikeys.md": {
+      "hash": "d22b58a11bc08a6a3d6f61acfb73c4b6",
+      "mtime": "2026-01-09T07:26:29.659289",
+      "size": 2178
+    },
+    "applicationsessions.md": {
+      "hash": "9a0cf2f04b2742f251ba0658af376497",
+      "mtime": "2026-01-09T07:26:29.659394",
+      "size": 1455
+    },
+    "applicationusers.md": {
+      "hash": "5ce286569725be6405ae1045a298379e",
+      "mtime": "2026-01-09T07:26:29.659507",
+      "size": 1419
+    },
+    "botusers.md": {
+      "hash": "307683661f83a06d75ab960103268057",
+      "mtime": "2026-01-09T07:26:29.660195",
+      "size": 2081
+    },
+    "certificateauthorities.md": {
+      "hash": "2233aae7099938db6bf5a1a7201fc309",
+      "mtime": "2026-01-09T07:26:29.660296",
+      "size": 2362
+    },
+    "credentials.md": {
+      "hash": "217cedf28a4950ede21eca2fb658fee1",
+      "mtime": "2026-01-09T07:26:29.660384",
+      "size": 2465
+    },
+    "edgeroutebackendmodule.md": {
+      "hash": "11486853b3a49d50f9a9c5837690d56a",
+      "mtime": "2026-01-09T07:26:29.660836",
+      "size": 1661
+    },
+    "edgeroutecircuitbreakermodule.md": {
+      "hash": "6e1001d01f9c235f3c70be7147d25c29",
+      "mtime": "2026-01-09T07:26:29.661272",
+      "size": 1730
+    },
+    "edgeroutecompressionmodule.md": {
+      "hash": "09a4907249f2e0d9056061c9a51e362f",
+      "mtime": "2026-01-09T07:26:29.661186",
+      "size": 1697
+    },
+    "edgerouteiprestrictionmodule.md": {
+      "hash": "14f991a1d7fede5aef99139ae523d565",
+      "mtime": "2026-01-09T07:26:29.660921",
+      "size": 1721
+    },
+    "edgerouteoauthmodule.md": {
+      "hash": "515c89d1e8d17921582d6a752c849806",
+      "mtime": "2026-01-09T07:26:29.661435",
+      "size": 1643
+    },
+    "edgerouteoidcmodule.md": {
+      "hash": "cb1783a0882840b704f669a73380ebec",
+      "mtime": "2026-01-09T07:26:29.661612",
+      "size": 1634
+    },
+    "edgerouterequestheadersmodule.md": {
+      "hash": "4878102c5e2da50e1309ea5d21468467",
+      "mtime": "2026-01-09T07:26:29.661010",
+      "size": 1730
+    },
+    "edgerouteresponseheadersmodule.md": {
+      "hash": "cc7fd0db0d7673069a3a841ee28d445b",
+      "mtime": "2026-01-09T07:26:29.661093",
+      "size": 1739
+    },
+    "edgeroutesamlmodule.md": {
+      "hash": "cd43af597ebb849eeecb8265e54085e7",
+      "mtime": "2026-01-09T07:26:29.661530",
+      "size": 1634
+    },
+    "edgeroutetrafficpolicymodule.md": {
+      "hash": "4237227f65afd080518194837c42ad17",
+      "mtime": "2026-01-09T07:26:29.661877",
+      "size": 1721
+    },
+    "edgerouteuseragentfiltermodule.md": {
+      "hash": "6e16bb8e785cdec5594b4e26bbf73d7b",
+      "mtime": "2026-01-09T07:26:29.661793",
+      "size": 1745
+    },
+    "edgeroutewebhookverificationmodule.md": {
+      "hash": "fd7d975946743f7210dfe3ec4644570d",
+      "mtime": "2026-01-09T07:26:29.661354",
+      "size": 1775
+    },
+    "edgeroutewebsockettcpconvertermodule.md": {
+      "hash": "cc83344a7f6ec3c8b57c5a75befa6cad",
+      "mtime": "2026-01-09T07:26:29.661707",
+      "size": 1799
+    },
+    "edgeshttps.md": {
+      "hash": "8befc801a54c2e5cfe5ddc43e72208a8",
+      "mtime": "2026-01-09T07:26:29.660565",
+      "size": 2391
+    },
+    "edgeshttpsroutes.md": {
+      "hash": "61ecfcae8f67c93a2e05e930b1dcd6dc",
+      "mtime": "2026-01-09T07:26:29.660475",
+      "size": 2461
+    },
+    "edgestcp.md": {
+      "hash": "3a211f30b218b0ca2e41b00f037c4479",
+      "mtime": "2026-01-09T07:26:29.661964",
+      "size": 2351
+    },
+    "edgestls.md": {
+      "hash": "f1eb3dc031f722e4f233cb606f567cab",
+      "mtime": "2026-01-09T07:26:29.662336",
+      "size": 2351
+    },
+    "endpoints.md": {
+      "hash": "080612ddff000694d0633df5877a71a5",
+      "mtime": "2026-01-09T07:26:29.662836",
+      "size": 2351
+    },
+    "eventdestinations.md": {
+      "hash": "dde3ae4e03f879792238ed3ee9aa0aca",
+      "mtime": "2026-01-09T07:26:29.662926",
+      "size": 2484
+    },
+    "eventsources.md": {
+      "hash": "c4feffde0ef0d4ab68d98b98ddcfa3a3",
+      "mtime": "2026-01-09T07:26:29.663100",
+      "size": 3162
+    },
+    "eventsubscriptions.md": {
+      "hash": "b7396b341fc66b02b654ab35060a877a",
+      "mtime": "2026-01-09T07:26:29.663013",
+      "size": 2302
+    },
+    "failoverbackends.md": {
+      "hash": "0878ac91985ea8b42e3a26cdc129337c",
+      "mtime": "2026-01-09T07:26:29.659699",
+      "size": 2219
+    },
+    "httpresponsebackends.md": {
+      "hash": "6b3b89eb13c246de54a218b5fa5a9c51",
+      "mtime": "2026-01-09T07:26:29.659802",
+      "size": 2079
+    },
+    "httpsedgemutualtlsmodule.md": {
+      "hash": "5f0d6954c01697bc37e79f400daa39c7",
+      "mtime": "2026-01-09T07:26:29.660654",
+      "size": 1374
+    },
+    "httpsedgetlsterminationmodule.md": {
+      "hash": "68e2b52abafd996d8f881be704c33929",
+      "mtime": "2026-01-09T07:26:29.660740",
+      "size": 1419
+    },
+    "ippolicies.md": {
+      "hash": "cd9d1238ee75f7e91187d9ef00c95682",
+      "mtime": "2026-01-09T07:26:29.663189",
+      "size": 2438
+    },
+    "ippolicyrules.md": {
+      "hash": "cc364e9222acca47346715447ef2fee4",
+      "mtime": "2026-01-09T07:26:29.663277",
+      "size": 2258
+    },
+    "iprestrictions.md": {
+      "hash": "3984be00df2f1913fa70b9d9017838ad",
+      "mtime": "2026-01-09T07:26:29.663360",
+      "size": 2227
+    },
+    "reservedaddrs.md": {
+      "hash": "2e6bdfac04bc4658c3d7827e6b6165f4",
+      "mtime": "2026-01-09T07:26:29.663443",
+      "size": 2213
+    },
+    "reserveddomains.md": {
+      "hash": "14a03a50558102c03d457ec0637559ab",
+      "mtime": "2026-01-09T07:26:29.663536",
+      "size": 3241
+    },
+    "secrets.md": {
+      "hash": "01a438c0cf82fb3970e0383fb1f242fc",
+      "mtime": "2026-01-09T07:26:29.663619",
+      "size": 2141
+    },
+    "serviceusers.md": {
+      "hash": "056f490199ca0624e92ce56345b959bf",
+      "mtime": "2026-01-09T07:26:29.663704",
+      "size": 2187
+    },
+    "sshcertificateauthorities.md": {
+      "hash": "d594848334839d2b78f0885f24cc09c2",
+      "mtime": "2026-01-09T07:26:29.663797",
+      "size": 2416
+    },
+    "sshcredentials.md": {
+      "hash": "cbbc08a7eff914c6b2ae78ffe67a17fd",
+      "mtime": "2026-01-09T07:26:29.663879",
+      "size": 2344
+    },
+    "sshhostcertificates.md": {
+      "hash": "67df3f172e31779f9059638b3e7a6f99",
+      "mtime": "2026-01-09T07:26:29.663970",
+      "size": 2281
+    },
+    "sshusercertificates.md": {
+      "hash": "35eb4fc8b4db1667520aa143e2484da1",
+      "mtime": "2026-01-09T07:26:29.664055",
+      "size": 2281
+    },
+    "staticbackends.md": {
+      "hash": "d3e25c4f215a3d97b2aed2e11e1517de",
+      "mtime": "2026-01-09T07:26:29.659902",
+      "size": 2183
+    },
+    "tcpedgebackendmodule.md": {
+      "hash": "61f493d239e1cf7a9292d00e96529dd6",
+      "mtime": "2026-01-09T07:26:29.662063",
+      "size": 1332
+    },
+    "tcpedgeiprestrictionmodule.md": {
+      "hash": "5b4334e41654fd73dc8a5aca835a6f60",
+      "mtime": "2026-01-09T07:26:29.662157",
+      "size": 1392
+    },
+    "tcpedgetrafficpolicymodule.md": {
+      "hash": "31bb685f9f48138524ef11325292371f",
+      "mtime": "2026-01-09T07:26:29.662243",
+      "size": 1392
+    },
+    "tlscertificates.md": {
+      "hash": "a961616b163cd25f7ec5c2e7ce9c0a5b",
+      "mtime": "2026-01-09T07:26:29.664143",
+      "size": 2242
+    },
+    "tlsedgebackendmodule.md": {
+      "hash": "94127c6f0d4f4f4523d309dcacd0cc0d",
+      "mtime": "2026-01-09T07:26:29.662418",
+      "size": 1332
+    },
+    "tlsedgeiprestrictionmodule.md": {
+      "hash": "39f13706651b0f9a8c5efa36f18a5367",
+      "mtime": "2026-01-09T07:26:29.662502",
+      "size": 1392
+    },
+    "tlsedgemutualtlsmodule.md": {
+      "hash": "4576f8da977cb85f9e9066ade87078f1",
+      "mtime": "2026-01-09T07:26:29.662581",
+      "size": 1356
+    },
+    "tlsedgetlsterminationmodule.md": {
+      "hash": "2551e8f6fa3850758ea8ae1b2bb72744",
+      "mtime": "2026-01-09T07:26:29.662664",
+      "size": 1401
+    },
+    "tlsedgetrafficpolicymodule.md": {
+      "hash": "c60083acabbae42e2cdeef93a5c5e6b4",
+      "mtime": "2026-01-09T07:26:29.662751",
+      "size": 1392
+    },
+    "tunnelgroupbackends.md": {
+      "hash": "69671d38ff35ec46e4daef15e069055c",
+      "mtime": "2026-01-09T07:26:29.659992",
+      "size": 2283
+    },
+    "tunnels.md": {
+      "hash": "342b5f4b5b0a822d69de14f9e7d30429",
+      "mtime": "2026-01-09T07:26:29.664221",
+      "size": 999
+    },
+    "tunnelsessions.md": {
+      "hash": "6117df7b75040deb566fc51a1bc0a45b",
+      "mtime": "2026-01-09T07:26:29.659606",
+      "size": 3501
+    },
+    "vaults.md": {
+      "hash": "d9e931f2406fa289f10c104e19f66e1e",
+      "mtime": "2026-01-09T07:26:29.664313",
+      "size": 2545
+    },
+    "weightedbackends.md": {
+      "hash": "b97fd041629477dfac5170bbcb6da953",
+      "mtime": "2026-01-09T07:26:29.660085",
+      "size": 2219
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.350040"
+}

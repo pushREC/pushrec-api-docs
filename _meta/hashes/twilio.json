@@ -1,0 +1,22 @@
+{
+  "api": "twilio",
+  "file_count": 3,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "95dd095bbf798de40eb7b0d4c4a6d0fa",
+      "mtime": "2026-01-08T00:37:15.996638",
+      "size": 1509
+    },
+    "README.md": {
+      "hash": "e385387082dfd71dae388f2411e0d6ba",
+      "mtime": "2026-01-08T00:37:15.993833",
+      "size": 1479
+    },
+    "SOURCES.md": {
+      "hash": "739fbcdf84749b29431598d5bdaddd6f",
+      "mtime": "2026-01-08T00:37:15.995119",
+      "size": 1061
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.417747"
+}

@@ -1,0 +1,517 @@
+{
+  "api": "jira",
+  "file_count": 102,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "880f012d3732aa750ffa362768df95e0",
+      "mtime": "2026-01-09T07:36:33.488651",
+      "size": 447
+    },
+    "README.md": {
+      "hash": "7656362ba2513886ce44fbdb8e537cb8",
+      "mtime": "2026-01-09T07:36:33.477494",
+      "size": 6225
+    },
+    "SOURCES.md": {
+      "hash": "b3de1be2f8cf53c3402fb36117f3a827",
+      "mtime": "2026-01-09T07:36:33.488555",
+      "size": 494
+    },
+    "announcement-banner.md": {
+      "hash": "583f9e8535093744975b32d2262f00ff",
+      "mtime": "2026-01-09T07:36:33.477692",
+      "size": 1086
+    },
+    "app-data-policies.md": {
+      "hash": "4a54b4a55c2aa5290abd17506b673755",
+      "mtime": "2026-01-09T07:36:33.479774",
+      "size": 999
+    },
+    "app-migration.md": {
+      "hash": "d3d168dd700f54ece8e65c90bd5a1483",
+      "mtime": "2026-01-09T07:36:33.488219",
+      "size": 2239
+    },
+    "app-properties.md": {
+      "hash": "5ea25e578e47f02b2e2def910dde4420",
+      "mtime": "2026-01-09T07:36:33.488036",
+      "size": 7310
+    },
+    "application-roles.md": {
+      "hash": "812128cfb7ae6aec529dda81b6c5b93c",
+      "mtime": "2026-01-09T07:36:33.478154",
+      "size": 1333
+    },
+    "audit-records.md": {
+      "hash": "f709eaefeccec21a2d5193c3f9dc6984",
+      "mtime": "2026-01-09T07:36:33.478371",
+      "size": 1822
+    },
+    "avatars.md": {
+      "hash": "14614c41e19e249cb9c04d68466257b8",
+      "mtime": "2026-01-09T07:36:33.478537",
+      "size": 8215
+    },
+    "classification-levels.md": {
+      "hash": "2e62a0dc859016ea66509e2e079e7d51",
+      "mtime": "2026-01-09T07:36:33.478908",
+      "size": 859
+    },
+    "dashboards.md": {
+      "hash": "5ca987960868d37e6b9784679a2e4faa",
+      "mtime": "2026-01-09T07:36:33.479689",
+      "size": 15606
+    },
+    "dynamic-modules.md": {
+      "hash": "dec085530e9b6752e7e528c9fd60ac04",
+      "mtime": "2026-01-09T07:36:33.488127",
+      "size": 1582
+    },
+    "field-schemes.md": {
+      "hash": "4e197fd5ade3a5b9940a5c4c89ea14b5",
+      "mtime": "2026-01-09T07:36:33.479347",
+      "size": 9439
+    },
+    "filter-sharing.md": {
+      "hash": "7b92d0d51f6ee3a7ae11a8d4b2ee8310",
+      "mtime": "2026-01-09T07:36:33.480772",
+      "size": 4769
+    },
+    "filters.md": {
+      "hash": "b67cb07e07be4d823426c54b7e87cafb",
+      "mtime": "2026-01-09T07:36:33.480683",
+      "size": 13452
+    },
+    "general.md": {
+      "hash": "a5fc48ac5a59d6139b3f170a8827cb6a",
+      "mtime": "2026-01-09T07:36:33.488467",
+      "size": 956
+    },
+    "group-and-user-picker.md": {
+      "hash": "be980c259efd6a0969c3a43865879d09",
+      "mtime": "2026-01-09T07:36:33.480967",
+      "size": 3280
+    },
+    "groups.md": {
+      "hash": "45e33e1e178f5915cb7d5684b6f14fb3",
+      "mtime": "2026-01-09T07:36:33.480873",
+      "size": 8008
+    },
+    "issue-attachments.md": {
+      "hash": "bdf3b8d05c0e9dfada9741c1854c009e",
+      "mtime": "2026-01-09T07:36:33.478274",
+      "size": 14305
+    },
+    "issue-bulk-operations.md": {
+      "hash": "cfbfafb33263e4eabb75632cc73645bd",
+      "mtime": "2026-01-09T07:36:33.478648",
+      "size": 13140
+    },
+    "issue-comment-properties.md": {
+      "hash": "1fbfefa7ce9d942688274547920b1734",
+      "mtime": "2026-01-09T07:36:33.479093",
+      "size": 4230
+    },
+    "issue-comments.md": {
+      "hash": "4114118330c4ce6d49864d81b6bbe803",
+      "mtime": "2026-01-09T07:36:33.479005",
+      "size": 7329
+    },
+    "issue-custom-field-associations.md": {
+      "hash": "81fc39cf577babd9f85b547b60cb6649",
+      "mtime": "2026-01-09T07:36:33.480120",
+      "size": 2421
+    },
+    "issue-custom-field-configuration-(apps).md": {
+      "hash": "b60f5e152fc8dd631c783a618b37f15c",
+      "mtime": "2026-01-09T07:36:33.477832",
+      "size": 4786
+    },
+    "issue-custom-field-contexts.md": {
+      "hash": "3b477536943fbb58a594f6d6f6f7f9f1",
+      "mtime": "2026-01-09T07:36:33.480232",
+      "size": 19331
+    },
+    "issue-custom-field-options-(apps).md": {
+      "hash": "36b97295111cc90c0a1e776d331f7f72",
+      "mtime": "2026-01-09T07:36:33.480471",
+      "size": 10504
+    },
+    "issue-custom-field-options.md": {
+      "hash": "b722f2caeeeed6c55423af4817c2f1b5",
+      "mtime": "2026-01-09T07:36:33.479571",
+      "size": 8932
+    },
+    "issue-custom-field-values-(apps).md": {
+      "hash": "324eaa871496c171f8fdb77619421d1f",
+      "mtime": "2026-01-09T07:36:33.477947",
+      "size": 2800
+    },
+    "issue-field-configurations.md": {
+      "hash": "f8e35a3164be9f67d5442decab2e8d15",
+      "mtime": "2026-01-09T07:36:33.480577",
+      "size": 12823
+    },
+    "issue-fields.md": {
+      "hash": "d259ba6731b2b411efe5bcb6bc4ca6e0",
+      "mtime": "2026-01-09T07:36:33.480032",
+      "size": 8945
+    },
+    "issue-link-types.md": {
+      "hash": "3e1fb258744538cf7fd36481b7d0cc7c",
+      "mtime": "2026-01-09T07:36:33.482269",
+      "size": 3625
+    },
+    "issue-links.md": {
+      "hash": "9d5a5de9360c006e15e8a3e552a605b2",
+      "mtime": "2026-01-09T07:36:33.482169",
+      "size": 3345
+    },
+    "issue-navigator-settings.md": {
+      "hash": "274a54d635b0c151d3df566a0ab6b5f2",
+      "mtime": "2026-01-09T07:36:33.486096",
+      "size": 1606
+    },
+    "issue-notification-schemes.md": {
+      "hash": "f0066a1ebef5b851a6d7b10cd5e5f18a",
+      "mtime": "2026-01-09T07:36:33.483531",
+      "size": 7021
+    },
+    "issue-priorities.md": {
+      "hash": "d7047a81b8f9767bf8662260e904ab43",
+      "mtime": "2026-01-09T07:36:33.483946",
+      "size": 5340
+    },
+    "issue-properties.md": {
+      "hash": "b3a3ac4871f62f256f986e420902175c",
+      "mtime": "2026-01-09T07:36:33.481446",
+      "size": 10938
+    },
+    "issue-redaction.md": {
+      "hash": "e0684a3a1388fab0184e5314163bd2fe",
+      "mtime": "2026-01-09T07:36:33.485537",
+      "size": 1271
+    },
+    "issue-remote-links.md": {
+      "hash": "6ce0e2edc484ab8af27baeb9526fc14a",
+      "mtime": "2026-01-09T07:36:33.481735",
+      "size": 7217
+    },
+    "issue-resolutions.md": {
+      "hash": "83b6503c69e47657378b0aeafcca8c81",
+      "mtime": "2026-01-09T07:36:33.485624",
+      "size": 4663
+    },
+    "issue-search.md": {
+      "hash": "ff1e55a72040a16f418f2015e62cef1e",
+      "mtime": "2026-01-09T07:36:33.481192",
+      "size": 9188
+    },
+    "issue-security-level.md": {
+      "hash": "3cfd5df12a25d237ba0c5954661c4eb3",
+      "mtime": "2026-01-09T07:36:33.482492",
+      "size": 2116
+    },
+    "issue-security-schemes.md": {
+      "hash": "649eddb14304e4e5e83ee81cba9151e7",
+      "mtime": "2026-01-09T07:36:33.482384",
+      "size": 13459
+    },
+    "issue-type-properties.md": {
+      "hash": "929a49a1574ad5ba1632fefe776e027f",
+      "mtime": "2026-01-09T07:36:33.482673",
+      "size": 4409
+    },
+    "issue-type-schemes.md": {
+      "hash": "d9f73329973acac43759944f893ef31a",
+      "mtime": "2026-01-09T07:36:33.482821",
+      "size": 8283
+    },
+    "issue-type-screen-schemes.md": {
+      "hash": "56ac63bcd5cd6ecf670c8efd76b2c6eb",
+      "mtime": "2026-01-09T07:36:33.482996",
+      "size": 8837
+    },
+    "issue-types.md": {
+      "hash": "371fbaded757fd3ede5b2abd501467a1",
+      "mtime": "2026-01-09T07:36:33.482584",
+      "size": 7037
+    },
+    "issue-votes.md": {
+      "hash": "8c663446454d5ee9e546685274102631",
+      "mtime": "2026-01-09T07:36:33.481845",
+      "size": 3565
+    },
+    "issue-watchers.md": {
+      "hash": "2e97923d6e99c43a4fb311ec4b5e4381",
+      "mtime": "2026-01-09T07:36:33.481611",
+      "size": 5050
+    },
+    "issue-worklog-properties.md": {
+      "hash": "11d88fa38a9a46c149f8fdb68d3aff93",
+      "mtime": "2026-01-09T07:36:33.482075",
+      "size": 5113
+    },
+    "issue-worklogs.md": {
+      "hash": "0f5e6bed5457bed712b187d6780be0ef",
+      "mtime": "2026-01-09T07:36:33.481979",
+      "size": 14883
+    },
+    "issues.md": {
+      "hash": "86fe36e27d556bb9e6fcf27375efb167",
+      "mtime": "2026-01-09T07:36:33.478807",
+      "size": 30275
+    },
+    "jira-expressions.md": {
+      "hash": "2e0e1561004377f444669f8de0dd3fa0",
+      "mtime": "2026-01-09T07:36:33.479893",
+      "size": 10436
+    },
+    "jira-settings.md": {
+      "hash": "285d9e4334b0553bec9c2c0af8526a57",
+      "mtime": "2026-01-09T07:36:33.478053",
+      "size": 7478
+    },
+    "jql-functions-(apps).md": {
+      "hash": "40bf6732c01d9d4c707ac220e54d3cb0",
+      "mtime": "2026-01-09T07:36:33.483186",
+      "size": 3323
+    },
+    "jql.md": {
+      "hash": "1ea27893491b3627d68e1dbc7367d87b",
+      "mtime": "2026-01-09T07:36:33.483087",
+      "size": 6343
+    },
+    "labels.md": {
+      "hash": "d6b379a165b288c79a2345fa3b638e89",
+      "mtime": "2026-01-09T07:36:33.483268",
+      "size": 750
+    },
+    "license-metrics.md": {
+      "hash": "66a9506f9eab8c6cd74644225eb83923",
+      "mtime": "2026-01-09T07:36:33.481053",
+      "size": 1936
+    },
+    "migration-of-connect-modules-to-forge.md": {
+      "hash": "5bc6797eb879e2de733c203b997635b7",
+      "mtime": "2026-01-09T07:36:33.488304",
+      "size": 1825
+    },
+    "myself.md": {
+      "hash": "78c8193be0a291bb5834953ebd301b5b",
+      "mtime": "2026-01-09T07:36:33.483434",
+      "size": 6861
+    },
+    "permission-schemes.md": {
+      "hash": "b7bfb1ac3200d159ed8ff854dd916eaa",
+      "mtime": "2026-01-09T07:36:33.483672",
+      "size": 11333
+    },
+    "permissions.md": {
+      "hash": "a03ed12884ac7f604901378f17fd4dcf",
+      "mtime": "2026-01-09T07:36:33.483352",
+      "size": 5544
+    },
+    "plans.md": {
+      "hash": "bfbfb758fa20ffa72d031e454bb12820",
+      "mtime": "2026-01-09T07:36:33.483765",
+      "size": 5854
+    },
+    "priority-schemes.md": {
+      "hash": "9efaf2255c55fcf75a5580b0b039096c",
+      "mtime": "2026-01-09T07:36:33.484045",
+      "size": 6257
+    },
+    "project-avatars.md": {
+      "hash": "b0ff9556981193e3303f0537504f29b0",
+      "mtime": "2026-01-09T07:36:33.484462",
+      "size": 4438
+    },
+    "project-categories.md": {
+      "hash": "9f5ed2e4fccb1710431d3bccbeecf745",
+      "mtime": "2026-01-09T07:36:33.485359",
+      "size": 2536
+    },
+    "project-classification-levels.md": {
+      "hash": "61309cfd4cfaba09a3734ec929779709",
+      "mtime": "2026-01-09T07:36:33.484582",
+      "size": 2869
+    },
+    "project-components.md": {
+      "hash": "0b225e9f6fe2a69f2f02e5e43f1d1c7a",
+      "mtime": "2026-01-09T07:36:33.479186",
+      "size": 7539
+    },
+    "project-email.md": {
+      "hash": "91671631bfeabe456362470088c16b4b",
+      "mtime": "2026-01-09T07:36:33.485175",
+      "size": 1662
+    },
+    "project-features.md": {
+      "hash": "8976043db433a8a6f70d86bc92e092bb",
+      "mtime": "2026-01-09T07:36:33.484673",
+      "size": 1329
+    },
+    "project-key-and-name-validation.md": {
+      "hash": "9be3ae99f9c3fe235d631b9eba58b7d5",
+      "mtime": "2026-01-09T07:36:33.485452",
+      "size": 2152
+    },
+    "project-permission-schemes.md": {
+      "hash": "ba1d03f5ec484e1fc32b47e494d9f6de",
+      "mtime": "2026-01-09T07:36:33.485265",
+      "size": 3796
+    },
+    "project-properties.md": {
+      "hash": "195309c43f96d7bf3c7f3294f12915d5",
+      "mtime": "2026-01-09T07:36:33.484751",
+      "size": 4411
+    },
+    "project-role-actors.md": {
+      "hash": "4806ff2b73ef84d32490bd493b8f1f03",
+      "mtime": "2026-01-09T07:36:33.484981",
+      "size": 6091
+    },
+    "project-roles.md": {
+      "hash": "5f8179e04e6efa4373762467d2b0c23f",
+      "mtime": "2026-01-09T07:36:33.484892",
+      "size": 9242
+    },
+    "project-templates.md": {
+      "hash": "9b36b2c172ff26419bbd4935b592a644",
+      "mtime": "2026-01-09T07:36:33.484258",
+      "size": 3409
+    },
+    "project-types.md": {
+      "hash": "21b11ccc2fe77e435f3ef53bac8cc450",
+      "mtime": "2026-01-09T07:36:33.484366",
+      "size": 2225
+    },
+    "project-versions.md": {
+      "hash": "99e4b400f3427c6ed64497813af6dbfc",
+      "mtime": "2026-01-09T07:36:33.485088",
+      "size": 13746
+    },
+    "projects.md": {
+      "hash": "b58de894d25683a50a25cd203122ea17",
+      "mtime": "2026-01-09T07:36:33.484158",
+      "size": 15740
+    },
+    "screen-schemes.md": {
+      "hash": "56a3f4d82a43d7a0d89f307a72940d1d",
+      "mtime": "2026-01-09T07:36:33.485919",
+      "size": 3051
+    },
+    "screen-tab-fields.md": {
+      "hash": "90c67f75520c573c037bb0cef55e1848",
+      "mtime": "2026-01-09T07:36:33.485822",
+      "size": 3395
+    },
+    "screen-tabs.md": {
+      "hash": "8685404ffb062a75e52e02e65a1a7334",
+      "mtime": "2026-01-09T07:36:33.485722",
+      "size": 4489
+    },
+    "screens.md": {
+      "hash": "fdcf4be142eb2bbca258eee77cf70973",
+      "mtime": "2026-01-09T07:36:33.480328",
+      "size": 4868
+    },
+    "server-info.md": {
+      "hash": "633701f53188929f503537688473de13",
+      "mtime": "2026-01-09T07:36:33.486007",
+      "size": 581
+    },
+    "service-registry.md": {
+      "hash": "b2f49fdce5c8c2ef534b52a9299bf5b5",
+      "mtime": "2026-01-09T07:36:33.488383",
+      "size": 918
+    },
+    "status.md": {
+      "hash": "46a09559edfd8cf1d758f3e630392d5f",
+      "mtime": "2026-01-09T07:36:33.486358",
+      "size": 6647
+    },
+    "tasks.md": {
+      "hash": "aa203ce5aee33ccebb00987191ed2475",
+      "mtime": "2026-01-09T07:36:33.486444",
+      "size": 1797
+    },
+    "teams-in-plan.md": {
+      "hash": "cd65145da11a03adf2bd4105151ed25f",
+      "mtime": "2026-01-09T07:36:33.483858",
+      "size": 7237
+    },
+    "time-tracking.md": {
+      "hash": "f93e85803a9292362c547cd8f6321434",
+      "mtime": "2026-01-09T07:36:33.479434",
+      "size": 2972
+    },
+    "ui-modifications-(apps).md": {
+      "hash": "dfa64e1ed9ef6956ee955a31707379af",
+      "mtime": "2026-01-09T07:36:33.486530",
+      "size": 5185
+    },
+    "user-properties.md": {
+      "hash": "40b51803fcce44080f355f5df4db2c8b",
+      "mtime": "2026-01-09T07:36:33.486951",
+      "size": 4729
+    },
+    "user-search.md": {
+      "hash": "23e9839ca6c219511f4f28b802ef410b",
+      "mtime": "2026-01-09T07:36:33.486857",
+      "size": 18973
+    },
+    "users.md": {
+      "hash": "e110a979d2caf395ace1c17ce8d343bc",
+      "mtime": "2026-01-09T07:36:33.486730",
+      "size": 12024
+    },
+    "webhooks.md": {
+      "hash": "a7a984f0b5b20935c962372ce49a5009",
+      "mtime": "2026-01-09T07:36:33.487049",
+      "size": 4003
+    },
+    "workflow-scheme-drafts.md": {
+      "hash": "db6bf0e5f2ac54590f2f484b3640a20c",
+      "mtime": "2026-01-09T07:36:33.487944",
+      "size": 11550
+    },
+    "workflow-scheme-project-associations.md": {
+      "hash": "757d5bef4dc8dfffeb3f7eb93b060274",
+      "mtime": "2026-01-09T07:36:33.487761",
+      "size": 1854
+    },
+    "workflow-schemes.md": {
+      "hash": "a8daced0dc8d4ab48ca9273f3f88e37c",
+      "mtime": "2026-01-09T07:36:33.487673",
+      "size": 16032
+    },
+    "workflow-status-categories.md": {
+      "hash": "8301cd70d5a1a714c5306d41c6f02fa5",
+      "mtime": "2026-01-09T07:36:33.486264",
+      "size": 1225
+    },
+    "workflow-statuses.md": {
+      "hash": "561743b5590e6be97a0abcd90f8fdd3e",
+      "mtime": "2026-01-09T07:36:33.486181",
+      "size": 1591
+    },
+    "workflow-transition-properties.md": {
+      "hash": "c3d161636bac65912b92afa6d8766f2a",
+      "mtime": "2026-01-09T07:36:33.487416",
+      "size": 6622
+    },
+    "workflow-transition-rules.md": {
+      "hash": "f66ad0cc965bb8baa8fe1c3a3a33e509",
+      "mtime": "2026-01-09T07:36:33.487323",
+      "size": 4592
+    },
+    "workflows.md": {
+      "hash": "61a18c21afbe7e25aae935325f85e7f7",
+      "mtime": "2026-01-09T07:36:33.487233",
+      "size": 55866
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.330786"
+}

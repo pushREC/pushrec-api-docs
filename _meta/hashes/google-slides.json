@@ -1,0 +1,27 @@
+{
+  "api": "google-slides",
+  "file_count": 4,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "799283bb7b6523564ac33ce131cc9bb2",
+      "mtime": "2026-01-09T07:35:18.644677",
+      "size": 940
+    },
+    "README.md": {
+      "hash": "c12e6d225f19510c52e9673f15b5f5a7",
+      "mtime": "2026-01-09T07:35:18.644179",
+      "size": 1601
+    },
+    "SOURCES.md": {
+      "hash": "4aaeddd12654ab39cf33c7ffb2213d67",
+      "mtime": "2026-01-09T07:35:18.644539",
+      "size": 783
+    },
+    "presentations.md": {
+      "hash": "7be9ce6f72898de89c5c24c9c8ba6074",
+      "mtime": "2026-01-09T07:35:18.644380",
+      "size": 5461
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.311707"
+}

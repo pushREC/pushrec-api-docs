@@ -1,0 +1,297 @@
+{
+  "api": "slack",
+  "file_count": 58,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "c58ca1e72a192b16ef4734c64ef23a5b",
+      "mtime": "2026-01-09T07:35:10.658670",
+      "size": 409
+    },
+    "README.md": {
+      "hash": "d66151246645656530da0c0f6f96672c",
+      "mtime": "2026-01-09T07:35:10.651709",
+      "size": 3273
+    },
+    "SOURCES.md": {
+      "hash": "337fd1185c169b18377d21220521a6d1",
+      "mtime": "2026-01-09T07:35:10.658556",
+      "size": 383
+    },
+    "admin.apps.approved.md": {
+      "hash": "632d3fdc7a2a0f826f86ffe95afbaf40",
+      "mtime": "2026-01-09T07:35:10.652059",
+      "size": 874
+    },
+    "admin.apps.md": {
+      "hash": "1a7fa8af82d98a200901130458a9d6c9",
+      "mtime": "2026-01-09T07:35:10.651908",
+      "size": 1353
+    },
+    "admin.apps.requests.md": {
+      "hash": "ff0d1db2144e505308ce4b1b23775e5e",
+      "mtime": "2026-01-09T07:35:10.652185",
+      "size": 825
+    },
+    "admin.apps.restricted.md": {
+      "hash": "82f5cb98e89c28dd167cf605c2533439",
+      "mtime": "2026-01-09T07:35:10.652319",
+      "size": 886
+    },
+    "admin.conversations.ekm.md": {
+      "hash": "2915f6f56becb701fc39a6ad3d318cad",
+      "mtime": "2026-01-09T07:35:10.652829",
+      "size": 1192
+    },
+    "admin.conversations.md": {
+      "hash": "6063220d9fa2c207edcbd02d0b24858c",
+      "mtime": "2026-01-09T07:35:10.652639",
+      "size": 8389
+    },
+    "admin.conversations.restrictaccess.md": {
+      "hash": "69707e2ecea15ddf5ca20a6283632c77",
+      "mtime": "2026-01-09T07:35:10.652970",
+      "size": 2268
+    },
+    "admin.emoji.md": {
+      "hash": "456844ee1eed7b4f80c38bbd8de4c6e6",
+      "mtime": "2026-01-09T07:35:10.653106",
+      "size": 2801
+    },
+    "admin.inviterequests.approved.md": {
+      "hash": "17811af0a99288297e4985c2a3ab096e",
+      "mtime": "2026-01-09T07:35:10.653353",
+      "size": 931
+    },
+    "admin.inviterequests.denied.md": {
+      "hash": "726dbabf59451faeedf53ca3e92a0a94",
+      "mtime": "2026-01-09T07:35:10.653468",
+      "size": 919
+    },
+    "admin.inviterequests.md": {
+      "hash": "90fc0c9a9077f701d6833c9b5fd5ffbd",
+      "mtime": "2026-01-09T07:35:10.653231",
+      "size": 2008
+    },
+    "admin.teams.admins.md": {
+      "hash": "203f1f6c28a5478dded1f9cf7cfef9bf",
+      "mtime": "2026-01-09T07:35:10.653579",
+      "size": 814
+    },
+    "admin.teams.md": {
+      "hash": "ab977813e6081725225e073f02acf83c",
+      "mtime": "2026-01-09T07:35:10.653694",
+      "size": 1479
+    },
+    "admin.teams.owners.md": {
+      "hash": "1ed78616072b2de6818d98669b33cc2d",
+      "mtime": "2026-01-09T07:35:10.653807",
+      "size": 826
+    },
+    "admin.teams.settings.md": {
+      "hash": "d077b20ae46ede5747d8b682e44a7f79",
+      "mtime": "2026-01-09T07:35:10.653937",
+      "size": 3580
+    },
+    "admin.usergroups.md": {
+      "hash": "bf3131041d467ce7c8f434f9b0f02799",
+      "mtime": "2026-01-09T07:35:10.654075",
+      "size": 2865
+    },
+    "admin.users.md": {
+      "hash": "af9f1648f70386e324b012d2f0aedb77",
+      "mtime": "2026-01-09T07:35:10.654197",
+      "size": 5724
+    },
+    "admin.users.session.md": {
+      "hash": "41656a8edeb1252c4ad9a12ccc250704",
+      "mtime": "2026-01-09T07:35:10.654314",
+      "size": 1434
+    },
+    "api.md": {
+      "hash": "49cec380e16f169cac58a72a1a31369b",
+      "mtime": "2026-01-09T07:35:10.654426",
+      "size": 550
+    },
+    "apps.event.authorizations.md": {
+      "hash": "1ecbcba471c189c8397ac71eec3e0543",
+      "mtime": "2026-01-09T07:35:10.654535",
+      "size": 861
+    },
+    "apps.md": {
+      "hash": "ecc6388111a5ee1a2edaddd7be69ddae",
+      "mtime": "2026-01-09T07:35:10.655087",
+      "size": 705
+    },
+    "apps.permissions.md": {
+      "hash": "d46c49bac9aa99cd0a99c207dc65ef7e",
+      "mtime": "2026-01-09T07:35:10.654644",
+      "size": 1154
+    },
+    "apps.permissions.resources.md": {
+      "hash": "b8f30eb0a94cc8202d9ccb0ec07b14d2",
+      "mtime": "2026-01-09T07:35:10.654753",
+      "size": 819
+    },
+    "apps.permissions.scopes.md": {
+      "hash": "a97bfe02210c7ba3d02a1297af0ad7ce",
+      "mtime": "2026-01-09T07:35:10.654865",
+      "size": 632
+    },
+    "apps.permissions.users.md": {
+      "hash": "2ac19321a99649645f6f9113e4a36422",
+      "mtime": "2026-01-09T07:35:10.654977",
+      "size": 1509
+    },
+    "auth.md": {
+      "hash": "ae4e95bdc90f7d19fe68d3ab33380e0f",
+      "mtime": "2026-01-09T07:35:10.655196",
+      "size": 942
+    },
+    "bots.md": {
+      "hash": "c16f79aa4dff6ede2fce7c3c796e916c",
+      "mtime": "2026-01-09T07:35:10.655304",
+      "size": 589
+    },
+    "calls.md": {
+      "hash": "915c533aab420e3ca1d40dbe42716920",
+      "mtime": "2026-01-09T07:35:10.655424",
+      "size": 2891
+    },
+    "calls.participants.md": {
+      "hash": "90157b1a3b3da70a2673ebab7f33b933",
+      "mtime": "2026-01-09T07:35:10.655541",
+      "size": 1364
+    },
+    "chat.md": {
+      "hash": "a1e1a0448d7ca31b377e09b1d34853ce",
+      "mtime": "2026-01-09T07:35:10.655673",
+      "size": 9295
+    },
+    "chat.scheduledmessages.md": {
+      "hash": "a8445fc3c8bf8d5a187383d516a5548f",
+      "mtime": "2026-01-09T07:35:10.655783",
+      "size": 1040
+    },
+    "conversations.md": {
+      "hash": "9c613836261419a2d6c81f970eadd0f0",
+      "mtime": "2026-01-09T07:35:10.655902",
+      "size": 10773
+    },
+    "dialog.md": {
+      "hash": "c16e8d81ab727b6072f7083f9192dd75",
+      "mtime": "2026-01-09T07:35:10.656006",
+      "size": 698
+    },
+    "dnd.md": {
+      "hash": "2b224e459112083b15a385c62c8c9673",
+      "mtime": "2026-01-09T07:35:10.656120",
+      "size": 2347
+    },
+    "emoji.md": {
+      "hash": "ea3d4f75f6212ee28a7e1d8423e7fa4a",
+      "mtime": "2026-01-09T07:35:10.656229",
+      "size": 532
+    },
+    "files.comments.md": {
+      "hash": "f3055eb3fb6cf30d7b12b8d2611e77ee",
+      "mtime": "2026-01-09T07:35:10.656336",
+      "size": 719
+    },
+    "files.md": {
+      "hash": "a7ba250efb7e9af56c0ee2a1cc543803",
+      "mtime": "2026-01-09T07:35:10.656427",
+      "size": 4152
+    },
+    "files.remote.md": {
+      "hash": "0dea2c430513ff04eb67114e76ecb12a",
+      "mtime": "2026-01-09T07:35:10.656523",
+      "size": 4487
+    },
+    "migration.md": {
+      "hash": "2a1b7e688dddeaa62c19c801795f2daf",
+      "mtime": "2026-01-09T07:35:10.656630",
+      "size": 864
+    },
+    "oauth.md": {
+      "hash": "57d00343751eee211e5d90cdd9564336",
+      "mtime": "2026-01-09T07:35:10.656739",
+      "size": 1663
+    },
+    "oauth.v2.md": {
+      "hash": "d6d79084caba410f3464f5f689cfe912",
+      "mtime": "2026-01-09T07:35:10.656844",
+      "size": 843
+    },
+    "pins.md": {
+      "hash": "64fb1896155cda1970d5172b77fbefc7",
+      "mtime": "2026-01-09T07:35:10.656956",
+      "size": 1603
+    },
+    "reactions.md": {
+      "hash": "e3d0972e9e45cff49c5ffb442a1a8a72",
+      "mtime": "2026-01-09T07:35:10.657080",
+      "size": 3089
+    },
+    "reminders.md": {
+      "hash": "fe99e347a4e8847cf4774349d8d946eb",
+      "mtime": "2026-01-09T07:35:10.657193",
+      "size": 2460
+    },
+    "rtm.md": {
+      "hash": "ee13e1fe79670ed6e3b82795fb45e8d7",
+      "mtime": "2026-01-09T07:35:10.657293",
+      "size": 731
+    },
+    "search.md": {
+      "hash": "2734e1f5a69fecd8c0e2da96a8358ef7",
+      "mtime": "2026-01-09T07:35:10.657397",
+      "size": 995
+    },
+    "stars.md": {
+      "hash": "4800db246b50c36a5aaa2deb20e50150",
+      "mtime": "2026-01-09T07:35:10.657522",
+      "size": 2104
+    },
+    "team.md": {
+      "hash": "0b98e42f5c67e0e286faa86929be5716",
+      "mtime": "2026-01-09T07:35:10.657645",
+      "size": 2431
+    },
+    "team.profile.md": {
+      "hash": "24cb38fbda9ca278d797439962b7dd93",
+      "mtime": "2026-01-09T07:35:10.657750",
+      "size": 624
+    },
+    "usergroups.md": {
+      "hash": "5f311c04b01393db64ab46e8c93e9547",
+      "mtime": "2026-01-09T07:35:10.657868",
+      "size": 3618
+    },
+    "usergroups.users.md": {
+      "hash": "3a5bea94d8808afd0a44d1c6532807c8",
+      "mtime": "2026-01-09T07:35:10.657980",
+      "size": 1430
+    },
+    "users.md": {
+      "hash": "269e296becd951a6a86be43e0141975f",
+      "mtime": "2026-01-09T07:35:10.658088",
+      "size": 5263
+    },
+    "users.profile.md": {
+      "hash": "a8d6aaa5b9cabee393ead0c13891d9a8",
+      "mtime": "2026-01-09T07:35:10.658212",
+      "size": 1479
+    },
+    "views.md": {
+      "hash": "b923473b28acb5350cff13b0afcd0a2f",
+      "mtime": "2026-01-09T07:35:10.658329",
+      "size": 2520
+    },
+    "workflows.md": {
+      "hash": "d5b76520b50fe56a9e561382e78717ed",
+      "mtime": "2026-01-09T07:35:10.658440",
+      "size": 2257
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.414067"
+}

@@ -1,0 +1,22 @@
+{
+  "api": "gemini",
+  "file_count": 3,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "b554d952630d872e26aad23b6a554216",
+      "mtime": "2026-01-07T23:54:14.695979",
+      "size": 1556
+    },
+    "README.md": {
+      "hash": "9dcf0437b3cb0c01dd8a079f5d2b2836",
+      "mtime": "2026-01-07T23:54:13.703824",
+      "size": 1665
+    },
+    "SOURCES.md": {
+      "hash": "ff82c3c672d909e3a58ea0896b1d575a",
+      "mtime": "2026-01-07T23:54:13.706464",
+      "size": 1250
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.303637"
+}

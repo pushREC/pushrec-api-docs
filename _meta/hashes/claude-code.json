@@ -1,4 +1,287 @@
 {
-  "README.md": "e1aa826369bb9e32035e8a66b7561d10e335bac64b64f3efef223dda55239f6c",
-  "getting-started/overview.md": "ec6a7a226954561773c22ae4c9c804a4376d00b874e194af088ea9ede7d4d2a9"
+  "api": "claude-code",
+  "file_count": 56,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "9467ab30a3448ee916079353e48a0137",
+      "mtime": "2026-01-07T22:06:23.912575",
+      "size": 2443
+    },
+    "README.md": {
+      "hash": "c861a4cbcac634ad3e54be8162106cba",
+      "mtime": "2026-01-07T16:52:49.980285",
+      "size": 500
+    },
+    "SOURCES.md": {
+      "hash": "006dcddc7227048e76a3f4498788efb4",
+      "mtime": "2026-01-10T03:58:48.981072",
+      "size": 3868
+    },
+    "amazon-bedrock.md": {
+      "hash": "c45641e62db686bdd0230d20aee86e74",
+      "mtime": "2026-01-07T16:52:49.988464",
+      "size": 14029
+    },
+    "analytics.md": {
+      "hash": "b463a85f4dda5d71f5e70add48e06d90",
+      "mtime": "2026-01-07T16:52:49.978957",
+      "size": 7008
+    },
+    "build/hooks.md": {
+      "hash": "dd35594fe7c47305ff0d54a1f8eedce5",
+      "mtime": "2026-01-07T16:52:49.997677",
+      "size": 33563
+    },
+    "build/old-feature.md": {
+      "hash": "c25d5e83b873399f4b09779d0f0ba08f",
+      "mtime": "2026-01-07T16:52:49.996890",
+      "size": 702
+    },
+    "changelog.md": {
+      "hash": "bfadba99a00898442370e686e3cb151b",
+      "mtime": "2026-01-10T04:01:17.385159",
+      "size": 65255
+    },
+    "checkpointing.md": {
+      "hash": "fabc8e680e42e80f99a3ff9fa62b2ac2",
+      "mtime": "2026-01-07T16:52:49.973091",
+      "size": 7211
+    },
+    "chrome.md": {
+      "hash": "9a7058a3a1aaa9f7d9e042a60678ab5d",
+      "mtime": "2026-01-07T16:52:49.978310",
+      "size": 15494
+    },
+    "claude-code-on-the-web.md": {
+      "hash": "0362d4484c0ceed4f35b911d5cddda93",
+      "mtime": "2026-01-07T16:52:49.968323",
+      "size": 23650
+    },
+    "cli-reference.md": {
+      "hash": "4921f1574597a8c630c6ab6db799560b",
+      "mtime": "2026-01-10T03:52:09.662701",
+      "size": 10976
+    },
+    "common-workflows.md": {
+      "hash": "fe6dc05933aaf8ee3f406ebf9db3ac70",
+      "mtime": "2026-01-07T16:52:49.964393",
+      "size": 34143
+    },
+    "costs.md": {
+      "hash": "66b244d77a1b9e5f8b712616c54aaabc",
+      "mtime": "2026-01-07T16:52:49.960993",
+      "size": 11199
+    },
+    "data-usage.md": {
+      "hash": "adf093892c819c0361daf142b4b60274",
+      "mtime": "2026-01-07T16:52:49.992473",
+      "size": 12986
+    },
+    "desktop.md": {
+      "hash": "deacd4151a352cb962bbb81e91858e25",
+      "mtime": "2026-01-09T04:20:11.035757",
+      "size": 5010
+    },
+    "devcontainer.md": {
+      "hash": "9f0c04cfa821b2a85be87aac1b4a9a7c",
+      "mtime": "2026-01-07T16:52:49.979693",
+      "size": 8960
+    },
+    "discover-plugins.md": {
+      "hash": "ac8bbd72a0c9ee2651d2f55b69c7dc76",
+      "mtime": "2026-01-07T16:52:49.993208",
+      "size": 19934
+    },
+    "getting-started/overview.md": {
+      "hash": "bc4f70495100248d7414c6db5eb1d814",
+      "mtime": "2026-01-07T16:52:49.996268",
+      "size": 4416
+    },
+    "github-actions.md": {
+      "hash": "614251232120eb46a079b5d42955afcd",
+      "mtime": "2026-01-07T16:52:49.989825",
+      "size": 32850
+    },
+    "gitlab-ci-cd.md": {
+      "hash": "4ab8dc2dd119593787b680f277527d8a",
+      "mtime": "2026-01-07T16:52:49.974558",
+      "size": 24974
+    },
+    "google-vertex-ai.md": {
+      "hash": "a9c3090e89441d0a23d4113516408e9f",
+      "mtime": "2026-01-07T16:52:49.987734",
+      "size": 11047
+    },
+    "headless.md": {
+      "hash": "6bbb09ca107ac9f0f317296539a6439b",
+      "mtime": "2026-01-07T16:52:49.986103",
+      "size": 10280
+    },
+    "hooks-guide.md": {
+      "hash": "5b4697157d33767f0c4baf2954d35170",
+      "mtime": "2026-01-07T16:52:49.977376",
+      "size": 15329
+    },
+    "hooks.md": {
+      "hash": "1b96d39f5ff9f7243956933dee1d51e9",
+      "mtime": "2026-01-07T16:52:49.986958",
+      "size": 45513
+    },
+    "iam.md": {
+      "hash": "5cc19c3dcadeed9bc17ac866d8b35f6e",
+      "mtime": "2026-01-07T16:52:49.983940",
+      "size": 15349
+    },
+    "interactive-mode.md": {
+      "hash": "06bf3f732abb3b1a633e5f3dbc9b5d0f",
+      "mtime": "2026-01-07T16:52:49.976638",
+      "size": 10757
+    },
+    "jetbrains.md": {
+      "hash": "88e6321f08f3a6e3e76aa2cfd03dcc0e",
+      "mtime": "2026-01-07T16:52:49.993734",
+      "size": 11209
+    },
+    "legal-and-compliance.md": {
+      "hash": "ef95fd92bb6e92582538dbd024ef3d8f",
+      "mtime": "2026-01-07T16:52:49.963028",
+      "size": 5307
+    },
+    "llm-gateway.md": {
+      "hash": "9f3373a085d51a98e26b4c20a108130c",
+      "mtime": "2026-01-07T16:52:49.967580",
+      "size": 10102
+    },
+    "mcp.md": {
+      "hash": "032d4ac2ea34cab24fd7538c80f49c12",
+      "mtime": "2026-01-07T16:52:49.968930",
+      "size": 38478
+    },
+    "memory.md": {
+      "hash": "471d7d780560655a5308a69b24a67b67",
+      "mtime": "2026-01-07T16:52:49.983173",
+      "size": 13542
+    },
+    "microsoft-foundry.md": {
+      "hash": "4da8cf6485fe8e1cb8116fe404e32b65",
+      "mtime": "2026-01-07T16:52:49.991738",
+      "size": 8375
+    },
+    "model-config.md": {
+      "hash": "aa9ed7086ca3f94675d4e1bfc03c20d4",
+      "mtime": "2026-01-07T16:52:49.989214",
+      "size": 9565
+    },
+    "monitoring-usage.md": {
+      "hash": "b8605d0cf5187b15fd00e4634a6187d0",
+      "mtime": "2026-01-07T16:52:49.980872",
+      "size": 27088
+    },
+    "network-config.md": {
+      "hash": "340f5cd6a539bb166f2e52ecd894ed0f",
+      "mtime": "2026-01-07T16:52:49.962453",
+      "size": 7501
+    },
+    "output-styles.md": {
+      "hash": "171c57a522a8df1736df06da5458352c",
+      "mtime": "2026-01-07T16:52:49.991199",
+      "size": 8831
+    },
+    "overview.md": {
+      "hash": "87b1f0c19e0e222f0a02a1f6e614055d",
+      "mtime": "2026-01-10T03:50:20.254101",
+      "size": 4674
+    },
+    "plugin-marketplaces.md": {
+      "hash": "028bdc1c87d8347ca3c4674c77b75df4",
+      "mtime": "2026-01-07T16:52:49.975176",
+      "size": 25354
+    },
+    "plugins-reference.md": {
+      "hash": "2fa451f859ac60ebf3f54728c0d98592",
+      "mtime": "2026-01-07T16:52:49.971802",
+      "size": 31926
+    },
+    "plugins.md": {
+      "hash": "2b398f5852775c2ba7fd6dbf30d5d28f",
+      "mtime": "2026-01-07T16:52:49.985319",
+      "size": 20469
+    },
+    "quickstart.md": {
+      "hash": "9f6bc4613b7bafdeecffaac254ec65f7",
+      "mtime": "2026-01-10T03:52:40.395579",
+      "size": 7924
+    },
+    "reference/cli-reference.md": {
+      "hash": "67c0e228efcef916d758e3cc3b07a554",
+      "mtime": "2026-01-07T16:52:49.998312",
+      "size": 7796
+    },
+    "sandboxing.md": {
+      "hash": "0e78042211a9b1cb87daaa1642e49c3b",
+      "mtime": "2026-01-07T16:52:49.972555",
+      "size": 17757
+    },
+    "security.md": {
+      "hash": "c61316bf06099361a433eb755473c347",
+      "mtime": "2026-01-07T16:52:49.995201",
+      "size": 13928
+    },
+    "settings.md": {
+      "hash": "8d94d963387ab5e7d734391fdea78396",
+      "mtime": "2026-01-07T16:52:49.963815",
+      "size": 46979
+    },
+    "setup.md": {
+      "hash": "fa7f89d431eca3c7fd299f05a597feae",
+      "mtime": "2026-01-07T16:52:49.970292",
+      "size": 14165
+    },
+    "skills.md": {
+      "hash": "f427ba3058b7106ee18c36193723ab89",
+      "mtime": "2026-01-07T16:52:49.984521",
+      "size": 26571
+    },
+    "slack.md": {
+      "hash": "1d8e3554627c667ceba0ab3d35f7f9ca",
+      "mtime": "2026-01-07T16:52:49.970911",
+      "size": 15941
+    },
+    "slash-commands.md": {
+      "hash": "321ad524b173ec02091cd20cfb9e1abd",
+      "mtime": "2026-01-07T16:52:49.961727",
+      "size": 24171
+    },
+    "statusline.md": {
+      "hash": "148dbe71d77ba26caebc9ff0d67ce9d6",
+      "mtime": "2026-01-07T16:52:49.981593",
+      "size": 12541
+    },
+    "sub-agents.md": {
+      "hash": "a1d37fab348ff59139aa909a8184b1c3",
+      "mtime": "2026-01-07T16:52:49.994344",
+      "size": 28051
+    },
+    "terminal-config.md": {
+      "hash": "33fa9c265bb9b1ce3bed5e023d3e9ade",
+      "mtime": "2026-01-07T16:52:49.982286",
+      "size": 7085
+    },
+    "third-party-integrations.md": {
+      "hash": "015b40dcc4b66c4ee87c9f1bbee76167",
+      "mtime": "2026-01-07T16:52:49.966032",
+      "size": 14410
+    },
+    "troubleshooting.md": {
+      "hash": "5414e593a3440f1e4556bea32278b736",
+      "mtime": "2026-01-07T16:52:49.969559",
+      "size": 21504
+    },
+    "vs-code.md": {
+      "hash": "f6cb288989226770243899cdefbd58f1",
+      "mtime": "2026-01-07T16:52:49.966798",
+      "size": 20109
+    }
+  },
+  "generated_at": "2026-01-10T04:20:16.919557"
 }

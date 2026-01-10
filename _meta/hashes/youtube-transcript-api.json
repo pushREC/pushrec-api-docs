@@ -1,0 +1,37 @@
+{
+  "api": "youtube-transcript-api",
+  "file_count": 6,
+  "files": {
+    "API-REFERENCE.md": {
+      "hash": "b81b88837d1f5c640ace35e8e554aaf2",
+      "mtime": "2026-01-08T20:31:27.467716",
+      "size": 11158
+    },
+    "CLI-REFERENCE.md": {
+      "hash": "d76715d09b7b0869f0c29fcee541c02c",
+      "mtime": "2026-01-08T20:32:52.469707",
+      "size": 4674
+    },
+    "COVERAGE.md": {
+      "hash": "3f673a606ae7507e1e7b06e210092da2",
+      "mtime": "2026-01-08T23:27:31.001329",
+      "size": 1423
+    },
+    "EXAMPLES.md": {
+      "hash": "c39968e917a52693eb230acd3dd26cee",
+      "mtime": "2026-01-08T20:32:27.467930",
+      "size": 13205
+    },
+    "README.md": {
+      "hash": "e2f7e22b34f07794171e54f832034726",
+      "mtime": "2026-01-08T20:30:37.535491",
+      "size": 3562
+    },
+    "SOURCES.md": {
+      "hash": "add88cbc703ca7cbf96c62435c0abaa2",
+      "mtime": "2026-01-08T23:27:31.002807",
+      "size": 981
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.442741"
+}

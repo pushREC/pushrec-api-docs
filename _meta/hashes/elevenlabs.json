@@ -1,0 +1,27 @@
+{
+  "api": "elevenlabs",
+  "file_count": 4,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "aef2a19a541ba8240c29e106876a46c2",
+      "mtime": "2026-01-07T23:52:16.745311",
+      "size": 1270
+    },
+    "README.md": {
+      "hash": "d0208cafc6a5b88d02824f09afb22b5f",
+      "mtime": "2026-01-07T23:52:16.739301",
+      "size": 1275
+    },
+    "SKILL-GAP-ANALYSIS.md": {
+      "hash": "44cde6fd310623a81f75eb8f5e2645b5",
+      "mtime": "2026-01-08T05:02:16.683305",
+      "size": 18065
+    },
+    "SOURCES.md": {
+      "hash": "177be60c6f1e602a862cf56c686c837e",
+      "mtime": "2026-01-07T23:52:16.743535",
+      "size": 822
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.297104"
+}

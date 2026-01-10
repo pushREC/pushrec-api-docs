@@ -1,0 +1,27 @@
+{
+  "api": "replicate",
+  "file_count": 4,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "7bceedce9b78b985b2d3c92cf4f278a4",
+      "mtime": "2026-01-09T07:35:11.215879",
+      "size": 417
+    },
+    "README.md": {
+      "hash": "e17868e1cbc75e6f4d11595e930a5077",
+      "mtime": "2026-01-09T07:35:11.215324",
+      "size": 596
+    },
+    "SOURCES.md": {
+      "hash": "8228f05ea49cf6e0f0ebd534bc7bf10c",
+      "mtime": "2026-01-09T07:35:11.215749",
+      "size": 400
+    },
+    "general.md": {
+      "hash": "22cf48ee5922d92047316d09b40746bb",
+      "mtime": "2026-01-09T07:35:11.215608",
+      "size": 48831
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.406584"
+}

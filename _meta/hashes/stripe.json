@@ -1,0 +1,22 @@
+{
+  "api": "stripe",
+  "file_count": 3,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "b0432da396b11f3b47e38b54c842c9fc",
+      "mtime": "2026-01-07T23:25:25.499290",
+      "size": 1122
+    },
+    "README.md": {
+      "hash": "d9e0b18e955b060a644380bc4d7c7d14",
+      "mtime": "2026-01-07T17:05:18.189591",
+      "size": 1453
+    },
+    "SOURCES.md": {
+      "hash": "f0d599df38658a1e4a9f081bfe40258d",
+      "mtime": "2026-01-07T23:41:53.330582",
+      "size": 854
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.417253"
+}

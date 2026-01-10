@@ -1,0 +1,737 @@
+{
+  "api": "openrouter",
+  "file_count": 146,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "fb8e79221e868ec872a7d6369d1d4114",
+      "mtime": "2026-01-08T18:54:06.158357",
+      "size": 2396
+    },
+    "README.md": {
+      "hash": "80d8ad137a53a4f246b0db693ec4cf31",
+      "mtime": "2026-01-08T18:54:06.144877",
+      "size": 2666
+    },
+    "SOURCES.md": {
+      "hash": "5075206c27b4451a4160337f28ca91f9",
+      "mtime": "2026-01-08T18:54:06.149862",
+      "size": 16123
+    },
+    "api-endpoints/analytics-get-activity.md": {
+      "hash": "7848b912fe896511ef7e9ec017ea63e1",
+      "mtime": "2026-01-08T05:25:11.847593",
+      "size": 3744
+    },
+    "api-endpoints/api-keys-create.md": {
+      "hash": "40185f2c2a31ddb66e0457906bee6582",
+      "mtime": "2026-01-08T05:25:13.842973",
+      "size": 5583
+    },
+    "api-endpoints/api-keys-delete.md": {
+      "hash": "abffe52cfde6da75eff72a421f82953a",
+      "mtime": "2026-01-08T05:25:13.844934",
+      "size": 2681
+    },
+    "api-endpoints/api-keys-get-current.md": {
+      "hash": "6405e63e2d1b98a4ff22acee2fec2f01",
+      "mtime": "2026-01-08T05:25:13.848036",
+      "size": 4194
+    },
+    "api-endpoints/api-keys-get.md": {
+      "hash": "16c029ceb74568b2532966647d7d1a22",
+      "mtime": "2026-01-08T05:25:13.844041",
+      "size": 4065
+    },
+    "api-endpoints/api-keys-list.md": {
+      "hash": "7fc8cb092aea7c95608655bfcd1bf88a",
+      "mtime": "2026-01-08T05:25:13.819001",
+      "size": 3672
+    },
+    "api-endpoints/api-keys-update.md": {
+      "hash": "1b57c2fffa8cb71c654445948a7f8f14",
+      "mtime": "2026-01-08T05:25:13.846777",
+      "size": 5295
+    },
+    "api-endpoints/chat-completions.md": {
+      "hash": "e76e0b94d265ea95ba737d07a0d1d42b",
+      "mtime": "2026-01-08T05:25:13.849200",
+      "size": 8732
+    },
+    "api-endpoints/completions-create.md": {
+      "hash": "0ff461b3df2b4e00f14bd02dd546f797",
+      "mtime": "2026-01-08T05:25:13.850198",
+      "size": 6904
+    },
+    "api-endpoints/create-responses.md": {
+      "hash": "45654976d8fadcb4db3faf6c0dc223e6",
+      "mtime": "2026-01-08T05:25:11.844640",
+      "size": 7034
+    },
+    "api-endpoints/credits-coinbase-charge.md": {
+      "hash": "1e6e58bea74a53be83b03a8b13b05fff",
+      "mtime": "2026-01-08T05:25:11.850254",
+      "size": 7159
+    },
+    "api-endpoints/credits-get.md": {
+      "hash": "2ada205c3b8b81ec1016465c0d2cd1d8",
+      "mtime": "2026-01-08T05:25:11.848999",
+      "size": 3710
+    },
+    "api-endpoints/embeddings-create.md": {
+      "hash": "b9f250469d98dc2dc25f601034783f95",
+      "mtime": "2026-01-08T05:25:12.736588",
+      "size": 7510
+    },
+    "api-endpoints/embeddings-list-models.md": {
+      "hash": "5149893d20e8de17ad5f410ddd4349fc",
+      "mtime": "2026-01-08T05:25:12.737369",
+      "size": 5755
+    },
+    "api-endpoints/endpoints-list-zdr.md": {
+      "hash": "e38d548349a49c5775c290dc1a4ab7fe",
+      "mtime": "2026-01-08T05:25:13.815363",
+      "size": 3973
+    },
+    "api-endpoints/endpoints-list.md": {
+      "hash": "9a4c603bb0307df316d273c90257cb44",
+      "mtime": "2026-01-08T05:25:13.814807",
+      "size": 3717
+    },
+    "api-endpoints/generations-get.md": {
+      "hash": "f11a606ff47eec1bd98978bf91c48163",
+      "mtime": "2026-01-08T05:25:12.737879",
+      "size": 5638
+    },
+    "api-endpoints/models-get.md": {
+      "hash": "c105f576aa7098016e6f3eb2a4fe86db",
+      "mtime": "2026-01-08T05:25:12.741475",
+      "size": 7001
+    },
+    "api-endpoints/models-list-count.md": {
+      "hash": "0506413283bbb70de7bb4ac112167c93",
+      "mtime": "2026-01-08T05:25:12.738772",
+      "size": 3669
+    },
+    "api-endpoints/models-list-user.md": {
+      "hash": "4b0b99cf202b932f0e8cecad67038def",
+      "mtime": "2026-01-08T05:25:13.813936",
+      "size": 3312
+    },
+    "api-endpoints/oauth-create-auth-keys.md": {
+      "hash": "92166e88c932042db58a492866715b1c",
+      "mtime": "2026-01-08T05:25:11.846922",
+      "size": 4544
+    },
+    "api-endpoints/oauth-exchange-code.md": {
+      "hash": "cab58d72e718bac1a7f3f038084f8a43",
+      "mtime": "2026-01-08T05:25:11.845976",
+      "size": 3643
+    },
+    "api-endpoints/parameters-get.md": {
+      "hash": "67812b396fdf6910720910974975b86e",
+      "mtime": "2026-01-08T05:25:13.815916",
+      "size": 3498
+    },
+    "api-endpoints/providers-list.md": {
+      "hash": "c5510d5336656a9becd1774977e027b9",
+      "mtime": "2026-01-08T05:25:13.816415",
+      "size": 2983
+    },
+    "api-reference/authentication.md": {
+      "hash": "675b8ad29291bc6dcbfbbf76db81e9c9",
+      "mtime": "2026-01-08T05:22:22.976445",
+      "size": 4175
+    },
+    "api-reference/embeddings.md": {
+      "hash": "39390c8f9e35861051de478947689513",
+      "mtime": "2026-01-08T05:22:22.964119",
+      "size": 3702
+    },
+    "api-reference/errors-and-debugging.md": {
+      "hash": "cca3c672b1d681833e34fdd33153d98f",
+      "mtime": "2026-01-08T05:22:23.831641",
+      "size": 6386
+    },
+    "api-reference/limits.md": {
+      "hash": "838f71bb4287eb2a33528ce780355ba7",
+      "mtime": "2026-01-08T05:22:22.970240",
+      "size": 3740
+    },
+    "api-reference/overview.md": {
+      "hash": "63e4f943ad81bb7b807f601ee54e0dc7",
+      "mtime": "2026-01-08T05:22:22.950804",
+      "size": 2955
+    },
+    "api-reference/parameters.md": {
+      "hash": "ce37521f41444c41b510f7821fd97ca8",
+      "mtime": "2026-01-08T05:22:23.828166",
+      "size": 5185
+    },
+    "api-reference/streaming.md": {
+      "hash": "80359dd817d5f359d1998c271cbf62aa",
+      "mtime": "2026-01-08T05:22:22.956747",
+      "size": 5007
+    },
+    "auth/byok.md": {
+      "hash": "9d613d06c0240b8c8b96e5eaa17dc1e0",
+      "mtime": "2026-01-08T05:21:15.969018",
+      "size": 1676
+    },
+    "auth/oauth.md": {
+      "hash": "596223f5ba54e9e007f608d7611d8e7e",
+      "mtime": "2026-01-08T05:21:15.965865",
+      "size": 1473
+    },
+    "auth/provisioning-api-keys.md": {
+      "hash": "fae5e11052eb5ebf6b4f277c1ab04885",
+      "mtime": "2026-01-08T05:21:15.966493",
+      "size": 1728
+    },
+    "best-practices/latency-and-performance.md": {
+      "hash": "4a8c934ac415e92ba788080a1f68cfc1",
+      "mtime": "2026-01-08T05:21:08.839066",
+      "size": 1513
+    },
+    "best-practices/prompt-caching.md": {
+      "hash": "934bc86cdaba03aaccdaebfae26e136e",
+      "mtime": "2026-01-08T05:21:08.840837",
+      "size": 1876
+    },
+    "best-practices/reasoning-tokens.md": {
+      "hash": "4ce30ccfe75a954a25d128ca6a518f4f",
+      "mtime": "2026-01-08T05:21:08.843512",
+      "size": 2341
+    },
+    "best-practices/uptime-optimization.md": {
+      "hash": "02973a96b8da36acf87c5bc68a86880d",
+      "mtime": "2026-01-08T05:21:08.842617",
+      "size": 1296
+    },
+    "broadcast/braintrust.md": {
+      "hash": "b9ac7625fa067bb46b0890d65719224b",
+      "mtime": "2026-01-08T05:21:08.813590",
+      "size": 1289
+    },
+    "broadcast/datadog.md": {
+      "hash": "53a682e9ed360170cd5297344b00bf23",
+      "mtime": "2026-01-08T05:21:08.813223",
+      "size": 1372
+    },
+    "broadcast/langfuse.md": {
+      "hash": "5b5084bb1edc49a595a855c1fc81a4f4",
+      "mtime": "2026-01-08T05:21:08.812422",
+      "size": 1517
+    },
+    "broadcast/langsmith.md": {
+      "hash": "1b45288742e1b57fc3828caec4780978",
+      "mtime": "2026-01-08T05:21:08.812844",
+      "size": 1428
+    },
+    "broadcast/overview.md": {
+      "hash": "db78805ae145916b6065b550d0ea4eba",
+      "mtime": "2026-01-08T05:21:08.811774",
+      "size": 1733
+    },
+    "broadcast/weave.md": {
+      "hash": "862fcbf86ed15e953836a14fa38ed288",
+      "mtime": "2026-01-08T05:21:08.814518",
+      "size": 1202
+    },
+    "call-model-sdk/api-reference.md": {
+      "hash": "2921048cb1271c1f4539e814cc0f83d6",
+      "mtime": "2026-01-08T05:21:56.824203",
+      "size": 4471
+    },
+    "call-model-sdk/devtools.md": {
+      "hash": "250f3932dba5b33ca102b250f5c9a455",
+      "mtime": "2026-01-08T05:25:16.913954",
+      "size": 5691
+    },
+    "call-model-sdk/dynamic-parameters.md": {
+      "hash": "9f9fc1920e4b4fdf89e1651543342663",
+      "mtime": "2026-01-08T05:21:56.825732",
+      "size": 4367
+    },
+    "call-model-sdk/examples-skills-loader.md": {
+      "hash": "65c9ae7e7f2519f097c1e91652a4f62e",
+      "mtime": "2026-01-08T05:25:15.975882",
+      "size": 11381
+    },
+    "call-model-sdk/examples-weather-tool.md": {
+      "hash": "e1177e7bfefd834cdd147ac5b0a9a5f9",
+      "mtime": "2026-01-08T05:25:15.975235",
+      "size": 12073
+    },
+    "call-model-sdk/message-formats.md": {
+      "hash": "994f07414bd78c375243d2da55db3068",
+      "mtime": "2026-01-08T05:25:15.973531",
+      "size": 7617
+    },
+    "call-model-sdk/next-turn-params.md": {
+      "hash": "87920821758cf1a6cc1f94232828dcf0",
+      "mtime": "2026-01-08T05:21:56.827289",
+      "size": 6308
+    },
+    "call-model-sdk/overview.md": {
+      "hash": "edd712eeb317feb10a6a1febbb12a4f2",
+      "mtime": "2026-01-08T05:20:10.866298",
+      "size": 2141
+    },
+    "call-model-sdk/stop-conditions.md": {
+      "hash": "79942d1cf712b163a53305de449f94d2",
+      "mtime": "2026-01-08T05:21:57.801330",
+      "size": 5409
+    },
+    "call-model-sdk/streaming.md": {
+      "hash": "dd3d25ab21eb42b788eb70eefe5d6905",
+      "mtime": "2026-01-08T05:21:57.801997",
+      "size": 6313
+    },
+    "call-model-sdk/text-generation.md": {
+      "hash": "883fca0dd68435522325efb092df0ed9",
+      "mtime": "2026-01-08T05:25:15.970665",
+      "size": 6616
+    },
+    "call-model-sdk/tools.md": {
+      "hash": "832a1a97f3061c0df0d43a2e9ea33881",
+      "mtime": "2026-01-08T05:25:15.974417",
+      "size": 10533
+    },
+    "community/arize.md": {
+      "hash": "2c740b69177e0f13f1cfa790aa47f6bc",
+      "mtime": "2026-01-08T05:20:47.795746",
+      "size": 2121
+    },
+    "community/effect-ai-sdk.md": {
+      "hash": "69d710a9b4434345630c5cfe6d7fcf16",
+      "mtime": "2026-01-08T05:20:47.794554",
+      "size": 1492
+    },
+    "community/frameworks-overview.md": {
+      "hash": "6ebc5b3ddb70426e27e9fa3e55bdf9e8",
+      "mtime": "2026-01-08T05:20:47.792583",
+      "size": 1177
+    },
+    "community/langchain.md": {
+      "hash": "af42bf910ae82653df5549219c9da399",
+      "mtime": "2026-01-08T05:20:47.798768",
+      "size": 2751
+    },
+    "community/langfuse.md": {
+      "hash": "3aa0ecaca6bb469040cc1aa232f35570",
+      "mtime": "2026-01-08T05:20:47.800147",
+      "size": 2684
+    },
+    "community/livekit.md": {
+      "hash": "cc6f5cfb5ab01911b3047154eaab23f6",
+      "mtime": "2026-01-08T05:20:47.799432",
+      "size": 2275
+    },
+    "community/mastra.md": {
+      "hash": "39f68a4c5845a4f6c89c71f51dee35a7",
+      "mtime": "2026-01-08T05:22:34.809614",
+      "size": 2307
+    },
+    "community/openai-sdk.md": {
+      "hash": "0ee5603b1c7aa4e92eb9454612d4b0e2",
+      "mtime": "2026-01-08T05:22:34.810594",
+      "size": 3934
+    },
+    "community/pydantic-ai.md": {
+      "hash": "0ac33383ad67c2c1d0e646228248811a",
+      "mtime": "2026-01-08T05:22:34.811265",
+      "size": 3300
+    },
+    "community/vercel-ai-sdk.md": {
+      "hash": "50abcc58b6bfed3ad5ecb0aacd57d64f",
+      "mtime": "2026-01-08T05:22:34.811862",
+      "size": 4198
+    },
+    "community/xcode.md": {
+      "hash": "a25b4a2335cc7cfa9f0180ec043baad8",
+      "mtime": "2026-01-08T05:22:34.812349",
+      "size": 3029
+    },
+    "community/zapier.md": {
+      "hash": "a9f9de6923a4be9f678bdc6b4daebc00",
+      "mtime": "2026-01-08T05:22:34.815265",
+      "size": 3920
+    },
+    "features/message-transforms.md": {
+      "hash": "8e00fa4dd4e872bba20ab93904cc2ec9",
+      "mtime": "2026-01-08T05:21:21.808288",
+      "size": 1657
+    },
+    "features/presets.md": {
+      "hash": "fe2776d27e165c560c88dd3774c31b70",
+      "mtime": "2026-01-08T05:21:21.798185",
+      "size": 1545
+    },
+    "features/structured-outputs.md": {
+      "hash": "17c86424ba7b86e4dd0a91d816237d6d",
+      "mtime": "2026-01-08T05:21:21.802207",
+      "size": 2131
+    },
+    "features/tool-calling.md": {
+      "hash": "c70b9133b15269e96b7cb5d2a6a5bcb1",
+      "mtime": "2026-01-08T05:21:21.799475",
+      "size": 3855
+    },
+    "features/zdr.md": {
+      "hash": "725abd76d3af0f728b98222ad37087da",
+      "mtime": "2026-01-08T05:21:22.809677",
+      "size": 1859
+    },
+    "features/zero-completion-insurance.md": {
+      "hash": "e62d4c2ca00a41bb73e28c8bdad27b03",
+      "mtime": "2026-01-08T05:21:21.808920",
+      "size": 1596
+    },
+    "getting-started/faq.md": {
+      "hash": "240a461904098d477cbd5dd065e0ef67",
+      "mtime": "2026-01-08T05:21:40.838584",
+      "size": 2462
+    },
+    "getting-started/models.md": {
+      "hash": "7873fad9d8d105cd09efe815c33927fe",
+      "mtime": "2026-01-08T05:21:40.819654",
+      "size": 2560
+    },
+    "getting-started/principles.md": {
+      "hash": "968713794e47362d949b0e7b137dc34c",
+      "mtime": "2026-01-08T05:21:40.819025",
+      "size": 1309
+    },
+    "getting-started/quickstart.md": {
+      "hash": "497918b2ab94b3201118991a7a9612a6",
+      "mtime": "2026-01-08T05:21:40.818377",
+      "size": 1466
+    },
+    "guides/activity-export.md": {
+      "hash": "c36b59c950e05d27c70074e3f0f4b365",
+      "mtime": "2026-01-08T05:21:26.810186",
+      "size": 1485
+    },
+    "guides/app-attribution.md": {
+      "hash": "4b4b2606a5e4ffb9159f2c1907c8e8f5",
+      "mtime": "2026-01-08T05:21:26.813458",
+      "size": 1696
+    },
+    "guides/claude-code-integration.md": {
+      "hash": "314ae4e8c36fa997e91b718394a1877f",
+      "mtime": "2026-01-08T05:21:26.808345",
+      "size": 2218
+    },
+    "guides/crypto-api.md": {
+      "hash": "db4f6cbc88e2a9801743326f49f9a1c2",
+      "mtime": "2026-01-08T05:21:26.806237",
+      "size": 1785
+    },
+    "guides/distillation.md": {
+      "hash": "0acf0c0730018642ecdccd86e6b76459",
+      "mtime": "2026-01-08T05:21:26.811534",
+      "size": 1699
+    },
+    "guides/for-providers.md": {
+      "hash": "ed93be4d38f70c3cb5861d36937d6b50",
+      "mtime": "2026-01-08T05:21:26.809000",
+      "size": 1864
+    },
+    "guides/mcp-servers.md": {
+      "hash": "83938a1e2702159553b314247e1462e7",
+      "mtime": "2026-01-08T05:21:26.807597",
+      "size": 6288
+    },
+    "guides/usage-accounting.md": {
+      "hash": "8ec3574767bf88ecaae8ef2869e1e047",
+      "mtime": "2026-01-08T05:21:26.809628",
+      "size": 1506
+    },
+    "guides/user-tracking.md": {
+      "hash": "c67239a0ca98fefcfc61b12b9761771e",
+      "mtime": "2026-01-08T05:21:26.810916",
+      "size": 1313
+    },
+    "multimodal/audio.md": {
+      "hash": "a3d151db409f52204bb4832ad3da3f39",
+      "mtime": "2026-01-08T05:21:40.845284",
+      "size": 2748
+    },
+    "multimodal/image-generation.md": {
+      "hash": "acc27bcc692cc46e1d2582e9d6f6b391",
+      "mtime": "2026-01-08T05:21:40.855216",
+      "size": 3090
+    },
+    "multimodal/images.md": {
+      "hash": "29018940b13e8c1ef775f64ea7d64f86",
+      "mtime": "2026-01-08T05:21:40.842707",
+      "size": 2498
+    },
+    "multimodal/overview.md": {
+      "hash": "4e2b915b784b25e1175e70ceae0403ff",
+      "mtime": "2026-01-08T05:21:40.841739",
+      "size": 1814
+    },
+    "multimodal/pdfs.md": {
+      "hash": "81bcd4900d21448b04ab33499996f926",
+      "mtime": "2026-01-08T05:21:40.843554",
+      "size": 1919
+    },
+    "multimodal/videos.md": {
+      "hash": "aec85302085c301969dcda24248e253b",
+      "mtime": "2026-01-08T05:21:40.854336",
+      "size": 2459
+    },
+    "plugins/overview.md": {
+      "hash": "c5be2aadf41def90405cd033040ea820",
+      "mtime": "2026-01-08T05:21:22.810410",
+      "size": 1939
+    },
+    "plugins/response-healing.md": {
+      "hash": "993bf2051728d8efda862f9ac1c02115",
+      "mtime": "2026-01-08T05:21:22.843649",
+      "size": 2742
+    },
+    "plugins/web-search.md": {
+      "hash": "37dc4886bce0cd7bb208a0431a50c7fc",
+      "mtime": "2026-01-08T05:21:22.811563",
+      "size": 2089
+    },
+    "privacy/data-collection.md": {
+      "hash": "c7b6c7a53f894178c6799514d26fda60",
+      "mtime": "2026-01-08T05:21:08.835210",
+      "size": 1160
+    },
+    "privacy/logging.md": {
+      "hash": "ab9476686948bfc24620cc8565bc95db",
+      "mtime": "2026-01-08T05:21:08.837780",
+      "size": 1306
+    },
+    "python-sdk/analytics.md": {
+      "hash": "d5cbe91a371dd6004bcbd1a9602ab4f4",
+      "mtime": "2026-01-08T05:20:53.803314",
+      "size": 1418
+    },
+    "python-sdk/apikeys.md": {
+      "hash": "4b1c64975364233c6aa27b6b51d40844",
+      "mtime": "2026-01-08T05:20:53.804573",
+      "size": 3039
+    },
+    "python-sdk/chat.md": {
+      "hash": "60b0ca382b99ee2db6d8ae28239707c8",
+      "mtime": "2026-01-08T05:20:53.805614",
+      "size": 2416
+    },
+    "python-sdk/completions.md": {
+      "hash": "fbaf81710fa725cc4400c6db446deeaa",
+      "mtime": "2026-01-08T05:20:53.806162",
+      "size": 2263
+    },
+    "python-sdk/credits.md": {
+      "hash": "91723c053bf67157011344859dd0bc8a",
+      "mtime": "2026-01-08T05:20:54.806531",
+      "size": 2329
+    },
+    "python-sdk/embeddings.md": {
+      "hash": "0d9c3dd5d5868ce8f5fbe32431d0a7d3",
+      "mtime": "2026-01-08T05:20:54.807387",
+      "size": 2436
+    },
+    "python-sdk/endpoints.md": {
+      "hash": "cd96765a2d82bcac947f5e5f363ec1ec",
+      "mtime": "2026-01-08T05:21:56.819757",
+      "size": 2124
+    },
+    "python-sdk/generations.md": {
+      "hash": "5460d286c9aa40329fd8c14304abeac3",
+      "mtime": "2026-01-08T05:21:56.820632",
+      "size": 1651
+    },
+    "python-sdk/models.md": {
+      "hash": "d3a1478e457fac8bba1d10df04dbf7f8",
+      "mtime": "2026-01-08T05:21:56.822130",
+      "size": 3029
+    },
+    "python-sdk/oauth.md": {
+      "hash": "985467d7d91572a12fadde59c09e58f2",
+      "mtime": "2026-01-08T05:21:56.822977",
+      "size": 3045
+    },
+    "python-sdk/overview.md": {
+      "hash": "1e28f133fd707fdeefd3626fbded921e",
+      "mtime": "2026-01-08T05:20:53.802247",
+      "size": 1873
+    },
+    "python-sdk/parameters.md": {
+      "hash": "8bebe92faeed0722240970bedc15ee49",
+      "mtime": "2026-01-08T05:21:56.824980",
+      "size": 1687
+    },
+    "python-sdk/providers.md": {
+      "hash": "77832fedde9bbf79d4590a9489c3fcef",
+      "mtime": "2026-01-08T05:21:56.826515",
+      "size": 1234
+    },
+    "python-sdk/responses.md": {
+      "hash": "6f1c8a458aab43eeeca6d06149969c9c",
+      "mtime": "2026-01-08T05:21:57.800763",
+      "size": 3750
+    },
+    "responses-api/basic-usage.md": {
+      "hash": "4d6b01755c05ba55eea0526f6cfd8fbd",
+      "mtime": "2026-01-08T05:25:37.701719",
+      "size": 6972
+    },
+    "responses-api/error-handling.md": {
+      "hash": "b6fd5bbb78d4f342b68062f17236356f",
+      "mtime": "2026-01-08T05:25:37.705530",
+      "size": 8669
+    },
+    "responses-api/overview.md": {
+      "hash": "fdba65b3bacca5b2793e7ecf48c14c66",
+      "mtime": "2026-01-08T05:25:37.700960",
+      "size": 3046
+    },
+    "responses-api/reasoning.md": {
+      "hash": "fccb84993bd37656a55b07e28e8945c2",
+      "mtime": "2026-01-08T05:25:37.702453",
+      "size": 6838
+    },
+    "responses-api/tool-calling.md": {
+      "hash": "974e0305a6e8a8ee7652dcb804624b76",
+      "mtime": "2026-01-08T05:25:37.703426",
+      "size": 9454
+    },
+    "responses-api/web-search.md": {
+      "hash": "6f7a2cfe8f4232d7bb67b06046b17195",
+      "mtime": "2026-01-08T05:25:37.704361",
+      "size": 8572
+    },
+    "routing/auto-router.md": {
+      "hash": "eb6e627f61c072d18c406a1f5f2eda3f",
+      "mtime": "2026-01-08T05:21:17.035274",
+      "size": 1589
+    },
+    "routing/body-builder.md": {
+      "hash": "ccf72bae28129226537fff59d5174352",
+      "mtime": "2026-01-08T05:21:17.050924",
+      "size": 1665
+    },
+    "routing/model-fallbacks.md": {
+      "hash": "9d644e763dea140d88c6548b60e7fe21",
+      "mtime": "2026-01-08T05:21:15.969462",
+      "size": 1502
+    },
+    "routing/model-variants-exacto.md": {
+      "hash": "e5db364bd4eb2141d1059d24fc14beee",
+      "mtime": "2026-01-08T05:21:17.009177",
+      "size": 1435
+    },
+    "routing/model-variants-extended.md": {
+      "hash": "6d968b2196afcf0da3009592b5c1b221",
+      "mtime": "2026-01-08T05:21:16.988230",
+      "size": 746
+    },
+    "routing/model-variants-free.md": {
+      "hash": "e4eb99d80f5f3b1592944ebfc427c31f",
+      "mtime": "2026-01-08T05:21:16.981423",
+      "size": 780
+    },
+    "routing/model-variants-nitro.md": {
+      "hash": "ee28ecbf9c154261c3589e5b83754571",
+      "mtime": "2026-01-08T05:21:17.027659",
+      "size": 749
+    },
+    "routing/model-variants-online.md": {
+      "hash": "16f9ea86a9c8a4709bd2e939109d851e",
+      "mtime": "2026-01-08T05:21:17.022734",
+      "size": 1194
+    },
+    "routing/model-variants-thinking.md": {
+      "hash": "1eeb6f6227e377805f3536c9ee4a541d",
+      "mtime": "2026-01-08T05:21:17.016389",
+      "size": 868
+    },
+    "routing/provider-selection.md": {
+      "hash": "f564e3e937d56fdd73fcde6d9decb5d6",
+      "mtime": "2026-01-08T05:21:15.970034",
+      "size": 2914
+    },
+    "typescript-sdk/analytics.md": {
+      "hash": "98c44a74fbc95eee6a4d17c91c7ac542",
+      "mtime": "2026-01-08T05:20:38.801076",
+      "size": 2015
+    },
+    "typescript-sdk/apikeys.md": {
+      "hash": "7eacc3a9c25f5341113e9fe8d0fd3701",
+      "mtime": "2026-01-08T05:20:38.802074",
+      "size": 2248
+    },
+    "typescript-sdk/chat.md": {
+      "hash": "8688a07525bd760cbc93dc1fb80314cf",
+      "mtime": "2026-01-08T05:20:38.803003",
+      "size": 1640
+    },
+    "typescript-sdk/completions.md": {
+      "hash": "a392ad7a16648fc4331645e269ce0382",
+      "mtime": "2026-01-08T05:20:38.804072",
+      "size": 1557
+    },
+    "typescript-sdk/credits.md": {
+      "hash": "28e6bfe9245afefbe9831f75a473ff57",
+      "mtime": "2026-01-08T05:20:38.805088",
+      "size": 3012
+    },
+    "typescript-sdk/embeddings.md": {
+      "hash": "6d75469a401facc0e837fb7370d29990",
+      "mtime": "2026-01-08T05:20:38.806423",
+      "size": 2513
+    },
+    "typescript-sdk/endpoints.md": {
+      "hash": "66bfdf459abe1150d37ded3daa776468",
+      "mtime": "2026-01-08T05:21:43.795056",
+      "size": 2895
+    },
+    "typescript-sdk/generations.md": {
+      "hash": "a406796177f57739c0ab5f6705c46c6c",
+      "mtime": "2026-01-08T05:21:43.795822",
+      "size": 1962
+    },
+    "typescript-sdk/models.md": {
+      "hash": "6f8bbab154dd44bdfa5f8555a68dda31",
+      "mtime": "2026-01-08T05:21:43.796510",
+      "size": 3695
+    },
+    "typescript-sdk/oauth.md": {
+      "hash": "7a47f6d8c0d1178de57cbc6ef6817153",
+      "mtime": "2026-01-08T05:21:43.797086",
+      "size": 3384
+    },
+    "typescript-sdk/overview.md": {
+      "hash": "273d71395d9670d96e1b3358ccbb909a",
+      "mtime": "2026-01-08T05:20:38.800023",
+      "size": 1683
+    },
+    "typescript-sdk/parameters.md": {
+      "hash": "7855d07498d322bf7ea0c4659836c0a7",
+      "mtime": "2026-01-08T05:21:43.798445",
+      "size": 2632
+    },
+    "typescript-sdk/providers.md": {
+      "hash": "ee197e4570f43e62630be970860c1906",
+      "mtime": "2026-01-08T05:21:43.799230",
+      "size": 2049
+    },
+    "typescript-sdk/responses.md": {
+      "hash": "91fc601513ddb5b2db6720caecdfc9e4",
+      "mtime": "2026-01-08T05:21:43.800287",
+      "size": 2000
+    },
+    "use-cases/organization-management.md": {
+      "hash": "184018b42216568578f61261b28c36ea",
+      "mtime": "2026-01-08T05:21:26.814960",
+      "size": 1830
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.401963"
+}

@@ -1,0 +1,22 @@
+{
+  "api": "gmail",
+  "file_count": 3,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "92968b75f781ea0b46e2c25a8de8b6b1",
+      "mtime": "2026-01-08T00:36:16.887405",
+      "size": 1354
+    },
+    "README.md": {
+      "hash": "3b84d2d2ee55b599f95acf4f75593938",
+      "mtime": "2026-01-08T00:36:16.882770",
+      "size": 1451
+    },
+    "SOURCES.md": {
+      "hash": "c662a2b2451995d56d5079299c9166b8",
+      "mtime": "2026-01-08T00:36:16.885781",
+      "size": 1028
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.305459"
+}

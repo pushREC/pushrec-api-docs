@@ -1,0 +1,22 @@
+{
+  "api": "airtable",
+  "file_count": 3,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "3190885d0a660160024232cc33a7024e",
+      "mtime": "2026-01-08T00:38:30.857093",
+      "size": 1585
+    },
+    "README.md": {
+      "hash": "aa9d0921f98c012bc1888032ec338d56",
+      "mtime": "2026-01-08T00:38:30.854150",
+      "size": 1853
+    },
+    "SOURCES.md": {
+      "hash": "c9f1cff8a0917abde4b964cc650eba02",
+      "mtime": "2026-01-08T00:38:30.855652",
+      "size": 1263
+    }
+  },
+  "generated_at": "2026-01-10T04:20:16.848668"
+}

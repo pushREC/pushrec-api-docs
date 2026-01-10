@@ -1,0 +1,42 @@
+{
+  "api": "bright-data",
+  "file_count": 7,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "c55d0dc2e09bb298506252f1be15e4ed",
+      "mtime": "2026-01-08T20:36:07.351899",
+      "size": 3378
+    },
+    "README.md": {
+      "hash": "89cb2b29cde15a9034d4f61b03fe5fbd",
+      "mtime": "2026-01-08T20:33:48.892421",
+      "size": 3977
+    },
+    "SOURCES.md": {
+      "hash": "ae5e81330c8a3dbaa84e66722d03830f",
+      "mtime": "2026-01-08T20:36:33.197084",
+      "size": 4008
+    },
+    "authentication.md": {
+      "hash": "8e8f373be7cbef31a8d30794bce32c0c",
+      "mtime": "2026-01-08T20:35:15.510548",
+      "size": 3543
+    },
+    "endpoints.md": {
+      "hash": "313ea8b2cba19e241a41de4559bd70b4",
+      "mtime": "2026-01-10T02:10:58.380553",
+      "size": 7253
+    },
+    "pricing.md": {
+      "hash": "837b2ee3100e8d92203f18372fb976c9",
+      "mtime": "2026-01-08T20:35:45.575435",
+      "size": 4066
+    },
+    "youtube-scrapers.md": {
+      "hash": "28c58e2aeadf779ab7ed9d010af823cf",
+      "mtime": "2026-01-08T20:34:55.620531",
+      "size": 5901
+    }
+  },
+  "generated_at": "2026-01-10T04:20:16.866217"
+}

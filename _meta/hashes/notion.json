@@ -1,0 +1,372 @@
+{
+  "api": "notion",
+  "file_count": 73,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "65de27867053f8a8fb359aaf6e9ef45b",
+      "mtime": "2026-01-08T23:03:23.952419",
+      "size": 5033
+    },
+    "README.md": {
+      "hash": "8bd850813187f5543506ceeea858a355",
+      "mtime": "2026-01-08T23:03:23.129857",
+      "size": 2728
+    },
+    "SOURCES.md": {
+      "hash": "823e49b5c7493d699117d37bf72e6fb6",
+      "mtime": "2026-01-08T23:03:23.402898",
+      "size": 8449
+    },
+    "authentication/authentication.md": {
+      "hash": "622150cf3aa07b570cbac5e8e165ab87",
+      "mtime": "2026-01-08T22:46:36.507079",
+      "size": 1337
+    },
+    "authentication/create-a-token.md": {
+      "hash": "00c7076e9fa5d237b06f0dc34905fb4a",
+      "mtime": "2026-01-08T22:46:36.508345",
+      "size": 1884
+    },
+    "authentication/introspect-token.md": {
+      "hash": "065fea44713c186f4cc7f60e556f061a",
+      "mtime": "2026-01-08T22:46:36.513098",
+      "size": 1626
+    },
+    "authentication/refresh-a-token.md": {
+      "hash": "94000cc6a4baf26f509df451cb611c28",
+      "mtime": "2026-01-08T22:46:37.415020",
+      "size": 1608
+    },
+    "authentication/revoke-token.md": {
+      "hash": "8053f511a43be686fd46c4ee4deb6002",
+      "mtime": "2026-01-08T22:46:37.413516",
+      "size": 985
+    },
+    "blocks/append-block-children.md": {
+      "hash": "4b1946f064e1921ae0f1cbfee3756d3c",
+      "mtime": "2026-01-08T22:55:26.040345",
+      "size": 1592
+    },
+    "blocks/delete-a-block.md": {
+      "hash": "b3a5194beb58817df30196de8b59b43f",
+      "mtime": "2026-01-08T22:55:26.994523",
+      "size": 1311
+    },
+    "blocks/retrieve-a-block.md": {
+      "hash": "e1789c8e6007769bd9c7f9af498c3c12",
+      "mtime": "2026-01-08T22:55:26.041359",
+      "size": 1075
+    },
+    "blocks/retrieve-block-children.md": {
+      "hash": "ef5a25b56657025f4658a727e0c40e15",
+      "mtime": "2026-01-08T22:55:26.042237",
+      "size": 1603
+    },
+    "blocks/update-a-block.md": {
+      "hash": "44fc91d7c4a65791c65a4c30586f9317",
+      "mtime": "2026-01-08T22:55:26.993274",
+      "size": 1635
+    },
+    "comments/create-a-comment.md": {
+      "hash": "4c5ab23ce165f16923f8545b3255ec6a",
+      "mtime": "2026-01-08T23:01:13.007381",
+      "size": 1522
+    },
+    "comments/list-comments.md": {
+      "hash": "ac59de674d3d9e720af8c6f7d7875c0f",
+      "mtime": "2026-01-08T23:01:13.991906",
+      "size": 1050
+    },
+    "comments/retrieve-a-comment.md": {
+      "hash": "0e4c283eff7032535a088975367196c9",
+      "mtime": "2026-01-08T23:01:13.990687",
+      "size": 941
+    },
+    "data-sources/create-a-data-source.md": {
+      "hash": "40a61575a5aba3a8dd86802080ad959c",
+      "mtime": "2026-01-08T22:59:37.009340",
+      "size": 1453
+    },
+    "data-sources/filter-data-source-entries.md": {
+      "hash": "404ace82f04792dc77dff131a831c516",
+      "mtime": "2026-01-08T22:59:37.013299",
+      "size": 2338
+    },
+    "data-sources/list-data-source-templates.md": {
+      "hash": "cd98d81fe945571869a977574e9a5a8a",
+      "mtime": "2026-01-08T22:59:37.015456",
+      "size": 1709
+    },
+    "data-sources/query-a-data-source.md": {
+      "hash": "a031dcecdf95826d6cf55b8a940ad643",
+      "mtime": "2026-01-08T22:59:37.012796",
+      "size": 2405
+    },
+    "data-sources/retrieve-a-data-source.md": {
+      "hash": "055b7bb921519064f7582d2ac2368e66",
+      "mtime": "2026-01-08T22:59:37.012098",
+      "size": 1372
+    },
+    "data-sources/sort-data-source-entries.md": {
+      "hash": "a6fa27b59c87a697565a2f23d3264c51",
+      "mtime": "2026-01-08T22:59:37.014286",
+      "size": 1486
+    },
+    "data-sources/update-a-data-source.md": {
+      "hash": "75ad0682433216f1975430ce203a4bca",
+      "mtime": "2026-01-08T22:59:37.010433",
+      "size": 2009
+    },
+    "data-sources/update-data-source-properties.md": {
+      "hash": "9310dd3e15b4bf63c21f0c559ef386d4",
+      "mtime": "2026-01-08T22:59:37.011248",
+      "size": 1768
+    },
+    "databases/create-a-database.md": {
+      "hash": "5f0a7e0ba44fe5d8558dadc28ffaa53a",
+      "mtime": "2026-01-08T22:58:07.049174",
+      "size": 1789
+    },
+    "databases/filter-database-entries.md": {
+      "hash": "e72458fe1d2c435c1f364d68bf1e18cb",
+      "mtime": "2026-01-08T22:58:07.052326",
+      "size": 3027
+    },
+    "databases/list-databases-deprecated.md": {
+      "hash": "871963ebd36992523c2a2f09887e0697",
+      "mtime": "2026-01-08T22:58:07.055106",
+      "size": 1561
+    },
+    "databases/query-a-database-deprecated.md": {
+      "hash": "21ec7ecbe05f8a4cb54bb792324b52a1",
+      "mtime": "2026-01-08T22:58:07.051649",
+      "size": 2024
+    },
+    "databases/retrieve-a-database.md": {
+      "hash": "8ff610fe7143a410a38cb6694fcdcb65",
+      "mtime": "2026-01-08T22:58:07.051196",
+      "size": 1150
+    },
+    "databases/sort-database-entries.md": {
+      "hash": "fa889a6ac5f85468620a3785485761cb",
+      "mtime": "2026-01-08T22:58:07.053211",
+      "size": 1694
+    },
+    "databases/update-a-database.md": {
+      "hash": "9db87ba1c1916e0658748e9c6f152a26",
+      "mtime": "2026-01-08T22:58:07.050470",
+      "size": 1191
+    },
+    "databases/update-property-schema-deprecated.md": {
+      "hash": "d77e34e6cc43eb3db03f380eaa878641",
+      "mtime": "2026-01-08T22:58:07.054172",
+      "size": 1790
+    },
+    "file-uploads/complete-a-file-upload.md": {
+      "hash": "06d9b46356415343b5eb70a315e3382b",
+      "mtime": "2026-01-08T23:01:15.000037",
+      "size": 1003
+    },
+    "file-uploads/create-a-file-upload.md": {
+      "hash": "8be28c4c9da5b97d704773e38884c6a3",
+      "mtime": "2026-01-08T23:01:13.992903",
+      "size": 1049
+    },
+    "file-uploads/list-file-uploads.md": {
+      "hash": "614032fb36849ce399f07864183ad260",
+      "mtime": "2026-01-08T23:01:16.060395",
+      "size": 704
+    },
+    "file-uploads/retrieve-a-file-upload.md": {
+      "hash": "f971342a338e606681453e7698a2349c",
+      "mtime": "2026-01-08T23:01:15.000543",
+      "size": 961
+    },
+    "file-uploads/send-a-file-upload.md": {
+      "hash": "dde82a6eae262ac7d79d51f6d4897956",
+      "mtime": "2026-01-08T23:01:14.997675",
+      "size": 1370
+    },
+    "getting-started/capabilities.md": {
+      "hash": "cc0bbf584029ce27228fa3ab77605978",
+      "mtime": "2026-01-08T22:10:00.573590",
+      "size": 2220
+    },
+    "getting-started/changes-by-version.md": {
+      "hash": "785eb46136f5cc8b3a9fa649f59b29cf",
+      "mtime": "2026-01-08T22:10:01.580222",
+      "size": 1687
+    },
+    "getting-started/intro.md": {
+      "hash": "53e3e9207892feb17b0f104e022fe950",
+      "mtime": "2026-01-08T22:10:00.572928",
+      "size": 1813
+    },
+    "getting-started/request-limits.md": {
+      "hash": "3b807281955d308f57f19bf557e466cc",
+      "mtime": "2026-01-08T22:10:00.575387",
+      "size": 2031
+    },
+    "getting-started/status-codes.md": {
+      "hash": "9f9facdf74b4696e3fa12661389583c5",
+      "mtime": "2026-01-08T22:10:01.578833",
+      "size": 2004
+    },
+    "getting-started/versioning.md": {
+      "hash": "fb7ae94b55edda1ce943f45fa49e650d",
+      "mtime": "2026-01-08T22:10:01.579631",
+      "size": 1377
+    },
+    "objects/block.md": {
+      "hash": "8ee29ada6490072743972e2f75f64b0f",
+      "mtime": "2026-01-08T22:12:52.645757",
+      "size": 2431
+    },
+    "objects/comment-attachment.md": {
+      "hash": "81fdd92cd4270b4f0f38b7637134a86b",
+      "mtime": "2026-01-08T22:14:27.595990",
+      "size": 1647
+    },
+    "objects/comment-display-name.md": {
+      "hash": "fa494c46029dd280e3b2e3613437dd65",
+      "mtime": "2026-01-08T22:14:27.597102",
+      "size": 1555
+    },
+    "objects/comment-object.md": {
+      "hash": "e3210e3926e98864bed4310371434977",
+      "mtime": "2026-01-08T22:14:27.594664",
+      "size": 1463
+    },
+    "objects/data-source.md": {
+      "hash": "5a1567b442ee6c9ac9aa5b66254b0476",
+      "mtime": "2026-01-08T22:12:53.567370",
+      "size": 1926
+    },
+    "objects/database.md": {
+      "hash": "375e56029c41a5f776581cd332522f1b",
+      "mtime": "2026-01-08T22:12:53.566916",
+      "size": 1906
+    },
+    "objects/emoji-object.md": {
+      "hash": "7fd96986dfdc102b33946ac41fb9066f",
+      "mtime": "2026-01-08T22:14:27.602429",
+      "size": 1806
+    },
+    "objects/file-object.md": {
+      "hash": "add804d6f10cf04bb7a52e3408459625",
+      "mtime": "2026-01-08T22:14:27.598106",
+      "size": 2522
+    },
+    "objects/file-upload.md": {
+      "hash": "97f43c3fcdda90b90c15858d8daca831",
+      "mtime": "2026-01-08T22:14:27.599453",
+      "size": 1585
+    },
+    "objects/page-property-values.md": {
+      "hash": "009e6bf2cb5a90b746773587252b680e",
+      "mtime": "2026-01-08T22:12:53.565985",
+      "size": 4787
+    },
+    "objects/page.md": {
+      "hash": "7ae8e58dc6ac18623954f084ca402f9d",
+      "mtime": "2026-01-08T22:12:53.565403",
+      "size": 1743
+    },
+    "objects/parent-object.md": {
+      "hash": "7cf4ef246a524a0fb0dcf08a52312627",
+      "mtime": "2026-01-08T22:14:27.601580",
+      "size": 1849
+    },
+    "objects/property-item-object.md": {
+      "hash": "7ba2a80bfd75f19fb9417fb5c329aacb",
+      "mtime": "2026-01-08T22:12:53.566489",
+      "size": 2781
+    },
+    "objects/property-object.md": {
+      "hash": "e9d4245aee6db6c887fcf6a10501bf7a",
+      "mtime": "2026-01-08T22:12:53.568032",
+      "size": 2453
+    },
+    "objects/rich-text.md": {
+      "hash": "ac1b1cb1f49b154b6a5bff8da9133f02",
+      "mtime": "2026-01-08T22:12:52.646501",
+      "size": 2349
+    },
+    "objects/unfurl-attribute-object.md": {
+      "hash": "bea0ea4781c0c3e4d1fd9a4aafcabb94",
+      "mtime": "2026-01-08T22:14:28.588349",
+      "size": 2801
+    },
+    "objects/user.md": {
+      "hash": "cd619b1dd556dbf3368aeb5db27fe775",
+      "mtime": "2026-01-08T22:14:27.600534",
+      "size": 1831
+    },
+    "pages/create-a-page.md": {
+      "hash": "d73050a3d0b31a2ce7880f4c1236acae",
+      "mtime": "2026-01-08T22:56:20.994299",
+      "size": 2030
+    },
+    "pages/move-page.md": {
+      "hash": "22312b19748c27496f47f61a1b42b71f",
+      "mtime": "2026-01-08T22:56:20.998968",
+      "size": 1618
+    },
+    "pages/retrieve-a-page-property.md": {
+      "hash": "530f697295e74ee93725a2f324184d0c",
+      "mtime": "2026-01-08T22:56:20.996152",
+      "size": 2114
+    },
+    "pages/retrieve-a-page.md": {
+      "hash": "2408d8792e013676f6f59ab10f311c3c",
+      "mtime": "2026-01-08T22:56:20.995315",
+      "size": 1707
+    },
+    "pages/trash-a-page.md": {
+      "hash": "c55e8f97bdf7131f906b491c94db62a2",
+      "mtime": "2026-01-08T22:56:20.998199",
+      "size": 1542
+    },
+    "pages/update-page.md": {
+      "hash": "e5f26e1a146c774091e6b78b9c9d70bf",
+      "mtime": "2026-01-08T22:56:20.996915",
+      "size": 2026
+    },
+    "search/search-by-title.md": {
+      "hash": "5fc5a4b5b3b7f328ba90fd858a5740ed",
+      "mtime": "2026-01-08T23:01:16.061730",
+      "size": 1419
+    },
+    "search/search-optimizations-and-limitations.md": {
+      "hash": "653acaca0c85a2e01c48f165f2fee707",
+      "mtime": "2026-01-08T23:01:16.990284",
+      "size": 1434
+    },
+    "users/list-all-users.md": {
+      "hash": "4e4dec1289ff7b5671149d656063d842",
+      "mtime": "2026-01-08T23:01:16.991341",
+      "size": 946
+    },
+    "users/retrieve-a-user.md": {
+      "hash": "e9cc330604a785d16040ba0c7caf9c06",
+      "mtime": "2026-01-08T23:01:16.992271",
+      "size": 726
+    },
+    "users/retrieve-bot-user.md": {
+      "hash": "821e023c2da5601eefc2f34d2a366572",
+      "mtime": "2026-01-08T23:01:17.982829",
+      "size": 1242
+    },
+    "webhooks/events-delivery.md": {
+      "hash": "16926f92b90ccf0c91c2ac2206960fba",
+      "mtime": "2026-01-08T22:10:00.574791",
+      "size": 5261
+    },
+    "webhooks/webhooks.md": {
+      "hash": "a37f46e6271bc1056ad24bceacb942e4",
+      "mtime": "2026-01-08T23:06:13.269979",
+      "size": 3562
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.364024"
+}

@@ -1,0 +1,137 @@
+{
+  "api": "bitbucket",
+  "file_count": 26,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "ee010329e2d16da7cba0e2ca27400b81",
+      "mtime": "2026-01-09T07:36:33.851142",
+      "size": 409
+    },
+    "README.md": {
+      "hash": "4d3f690eade8e456be1abb96dec7db14",
+      "mtime": "2026-01-09T07:36:33.847832",
+      "size": 1579
+    },
+    "SOURCES.md": {
+      "hash": "79ccedede129409735cba9bb5d14e833",
+      "mtime": "2026-01-09T07:36:33.851049",
+      "size": 381
+    },
+    "addon.md": {
+      "hash": "540abfebdbf9dc742ebe4eefb08c3ef0",
+      "mtime": "2026-01-09T07:36:33.848030",
+      "size": 6124
+    },
+    "branch-restrictions.md": {
+      "hash": "67d1e36f121db3e6b6cf8ba33d83ccb6",
+      "mtime": "2026-01-09T07:36:33.848463",
+      "size": 4900
+    },
+    "branching-model.md": {
+      "hash": "3271d0d08e59d2dc885ed02c7dfcee45",
+      "mtime": "2026-01-09T07:36:33.848650",
+      "size": 9978
+    },
+    "commit-statuses.md": {
+      "hash": "e1ef13569e78c04dc19211f5e182ce7c",
+      "mtime": "2026-01-09T07:36:33.849352",
+      "size": 4003
+    },
+    "commits.md": {
+      "hash": "76e9aa1ec8fdef420e25bc78d12608fe",
+      "mtime": "2026-01-09T07:36:33.848790",
+      "size": 15010
+    },
+    "deployments.md": {
+      "hash": "233cf255a8e89b79e5e9821470c56ae7",
+      "mtime": "2026-01-09T07:36:33.849652",
+      "size": 8977
+    },
+    "downloads.md": {
+      "hash": "adabf10d72d8b0168bd1f5ec535f823b",
+      "mtime": "2026-01-09T07:36:33.849975",
+      "size": 1917
+    },
+    "gpg.md": {
+      "hash": "e96193ea027c0d4f63c9f5bff2cb52bd",
+      "mtime": "2026-01-09T07:36:33.850770",
+      "size": 1897
+    },
+    "issue-tracker.md": {
+      "hash": "d7aed26eab88cc687b60dbc03eaf2239",
+      "mtime": "2026-01-09T07:36:33.849477",
+      "size": 18474
+    },
+    "pipelines.md": {
+      "hash": "3f659c5718eb043975e80497fc4c2d18",
+      "mtime": "2026-01-09T07:36:33.849875",
+      "size": 46177
+    },
+    "projects.md": {
+      "hash": "e3f300bb16c6ecf1b6c72a00fe4c3cb0",
+      "mtime": "2026-01-09T07:36:33.850962",
+      "size": 10394
+    },
+    "properties.md": {
+      "hash": "33d655f17bbf7f67d464844ad930902f",
+      "mtime": "2026-01-09T07:36:33.848982",
+      "size": 10414
+    },
+    "pullrequests.md": {
+      "hash": "c07b2f3e55b9076638ab9549996e6d0f",
+      "mtime": "2026-01-09T07:36:33.849128",
+      "size": 43715
+    },
+    "refs.md": {
+      "hash": "4446fb614f24fa975857ff31b8ef62ff",
+      "mtime": "2026-01-09T07:36:33.850272",
+      "size": 11585
+    },
+    "reports.md": {
+      "hash": "9f6089f24b138d22043df7a029f6cb78",
+      "mtime": "2026-01-09T07:36:33.849247",
+      "size": 13740
+    },
+    "repositories.md": {
+      "hash": "86f34b9e492c8c6000ef8b9000c8c0f9",
+      "mtime": "2026-01-09T07:36:33.848351",
+      "size": 18053
+    },
+    "search.md": {
+      "hash": "969c45efe75336b08c8b52317370473a",
+      "mtime": "2026-01-09T07:36:33.850486",
+      "size": 4075
+    },
+    "snippets.md": {
+      "hash": "00e11286c24ee583a9465acc720065e6",
+      "mtime": "2026-01-09T07:36:33.850393",
+      "size": 31016
+    },
+    "source.md": {
+      "hash": "894986d0a21e22d84122d79681dd6afd",
+      "mtime": "2026-01-09T07:36:33.850075",
+      "size": 16311
+    },
+    "ssh.md": {
+      "hash": "d58d454eaa9577d5baf80b6a5c97c8de",
+      "mtime": "2026-01-09T07:36:33.850857",
+      "size": 2534
+    },
+    "users.md": {
+      "hash": "6cc5c1a40ace9fcbda5d87bed2bd0594",
+      "mtime": "2026-01-09T07:36:33.850580",
+      "size": 1553
+    },
+    "webhooks.md": {
+      "hash": "b3812720455594d6f3ff2ca922a368ff",
+      "mtime": "2026-01-09T07:36:33.848162",
+      "size": 1370
+    },
+    "workspaces.md": {
+      "hash": "cf3260053c88063d8ce1fe522681ab06",
+      "mtime": "2026-01-09T07:36:33.850685",
+      "size": 12623
+    }
+  },
+  "generated_at": "2026-01-10T04:20:16.864409"
+}

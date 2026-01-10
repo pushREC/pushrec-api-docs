@@ -1,0 +1,32 @@
+{
+  "api": "huggingface",
+  "file_count": 5,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "58126d6583412b2df22ffdbaea413a9c",
+      "mtime": "2026-01-09T07:36:47.753817",
+      "size": 889
+    },
+    "SOURCES.md": {
+      "hash": "3a7499e569462e22b7c1650dca5e16f2",
+      "mtime": "2026-01-09T07:36:47.753700",
+      "size": 735
+    },
+    "api-inference.md": {
+      "hash": "af287981a1dba21f282a9d94ef65a6d0",
+      "mtime": "2026-01-09T07:35:28.150897",
+      "size": 23388
+    },
+    "inference-endpoints.md": {
+      "hash": "c31605202fc3aada40f9905cf1c2a740",
+      "mtime": "2026-01-09T07:35:29.566813",
+      "size": 7731
+    },
+    "models.md": {
+      "hash": "913e5a0163c3e911ec374b27228c4bcb",
+      "mtime": "2026-01-09T07:35:30.982027",
+      "size": 1363
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.316277"
+}

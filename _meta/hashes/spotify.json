@@ -1,0 +1,92 @@
+{
+  "api": "spotify",
+  "file_count": 17,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "b78e52575fd00eaebf7b5951c496cd8a",
+      "mtime": "2026-01-09T07:35:11.048220",
+      "size": 412
+    },
+    "README.md": {
+      "hash": "1625bc23bbf9621ab65e258e33619b84",
+      "mtime": "2026-01-09T07:35:11.046277",
+      "size": 1894
+    },
+    "SOURCES.md": {
+      "hash": "509d9e6c1e51fee8eaaf961dff222c9d",
+      "mtime": "2026-01-09T07:35:11.048102",
+      "size": 389
+    },
+    "albums.md": {
+      "hash": "fb0d6ec58897efdec5f3f0654903569c",
+      "mtime": "2026-01-09T07:35:11.046471",
+      "size": 3724
+    },
+    "artists.md": {
+      "hash": "284c029e88514e745dfa21ac5600f510",
+      "mtime": "2026-01-09T07:35:11.046612",
+      "size": 2467
+    },
+    "audiobooks.md": {
+      "hash": "0f58e1697921151e02cadd6687ce75f5",
+      "mtime": "2026-01-09T07:35:11.046990",
+      "size": 3546
+    },
+    "categories.md": {
+      "hash": "c24d8145687f25a5e8564e3bb86ed17d",
+      "mtime": "2026-01-09T07:35:11.047672",
+      "size": 1249
+    },
+    "chapters.md": {
+      "hash": "b601c8a01bfca60636be10125c6ec80e",
+      "mtime": "2026-01-09T07:35:11.047098",
+      "size": 1245
+    },
+    "episodes.md": {
+      "hash": "c10d0a36267d12345bf66a51ef357d6e",
+      "mtime": "2026-01-09T07:35:11.046867",
+      "size": 3785
+    },
+    "genres.md": {
+      "hash": "e4c4288a12943b4852485fcb0bf7dbdf",
+      "mtime": "2026-01-09T07:35:11.047776",
+      "size": 558
+    },
+    "markets.md": {
+      "hash": "c4a473ce29e708f6731a83b794512a0d",
+      "mtime": "2026-01-09T07:35:11.047996",
+      "size": 414
+    },
+    "player.md": {
+      "hash": "602f2ed5d2a024a8d97c05c5f6e8bc3e",
+      "mtime": "2026-01-09T07:35:11.047885",
+      "size": 7698
+    },
+    "playlists.md": {
+      "hash": "eb954e4128496eb72645dbfd3b61c4a4",
+      "mtime": "2026-01-09T07:35:11.047554",
+      "size": 6976
+    },
+    "search.md": {
+      "hash": "cf11f6474931c0fa333f5c28c4cbd308",
+      "mtime": "2026-01-09T07:35:11.047325",
+      "size": 922
+    },
+    "shows.md": {
+      "hash": "f61e44d4dadcaf29a76f584c424c09a3",
+      "mtime": "2026-01-09T07:35:11.046744",
+      "size": 3277
+    },
+    "tracks.md": {
+      "hash": "40c8479f3313ce73b8242252e44fe729",
+      "mtime": "2026-01-09T07:35:11.047217",
+      "size": 6767
+    },
+    "users.md": {
+      "hash": "3e2d42e296f688d380656a978981e4fc",
+      "mtime": "2026-01-09T07:35:11.047429",
+      "size": 4490
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.416517"
+}

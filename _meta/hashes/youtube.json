@@ -1,0 +1,817 @@
+{
+  "api": "youtube",
+  "file_count": 162,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "533ac4d4c27f98a56a2ca5a1ac9a80c9",
+      "mtime": "2026-01-07T16:52:50.008331",
+      "size": 3845
+    },
+    "GAP-ANALYSIS-FINAL.md": {
+      "hash": "9948f246ff00e6d5deb90d860b079884",
+      "mtime": "2026-01-07T16:52:50.007331",
+      "size": 13221
+    },
+    "QUICK-START.md": {
+      "hash": "c1dfb66357367023064355ae9bb77f35",
+      "mtime": "2026-01-07T16:52:50.006257",
+      "size": 9328
+    },
+    "README.md": {
+      "hash": "3e4540092d9fd2b3ba5ec20d89ce0f3e",
+      "mtime": "2026-01-07T16:52:50.007877",
+      "size": 21734
+    },
+    "SOURCES.md": {
+      "hash": "8a8bae246f4655b9c1eef424f0adf392",
+      "mtime": "2026-01-07T16:52:50.005086",
+      "size": 20376
+    },
+    "VALIDATION.md": {
+      "hash": "99f483b9ff36c4aeb1798e4442251a6a",
+      "mtime": "2026-01-07T16:52:50.005591",
+      "size": 2425
+    },
+    "analytics-api/overview/api-reference.md": {
+      "hash": "67f2343fba3c55526da65f3a0e7ef0eb",
+      "mtime": "2026-01-07T16:52:50.111502",
+      "size": 2729
+    },
+    "analytics-api/overview/data-model.md": {
+      "hash": "2462a58c89c3806fbf5860ad95c25214",
+      "mtime": "2026-01-07T16:52:50.110832",
+      "size": 2547
+    },
+    "analytics-api/overview/getting-started.md": {
+      "hash": "86a31bc84f2ade734e0dca5ce9b8199d",
+      "mtime": "2026-01-07T16:52:50.109643",
+      "size": 2055
+    },
+    "analytics-api/overview/overview.md": {
+      "hash": "dd00d5dd32e96f0261cecf651e5ad14c",
+      "mtime": "2026-01-07T16:52:50.109066",
+      "size": 1750
+    },
+    "analytics-api/overview/sample-requests.md": {
+      "hash": "f34b5cee62339c26c50e47af02e9f7ce",
+      "mtime": "2026-01-07T16:52:50.110245",
+      "size": 6037
+    },
+    "analytics-api/reference/ad-reports.md": {
+      "hash": "14c57acbfe6044302d1bf4582bc6c7ec",
+      "mtime": "2026-01-07T16:52:50.112237",
+      "size": 6513
+    },
+    "analytics-api/reference/audience-retention.md": {
+      "hash": "e4e9e4a93a8be1ae0a0975ed92886d41",
+      "mtime": "2026-01-07T16:52:50.115285",
+      "size": 4812
+    },
+    "analytics-api/reference/dimensions.md": {
+      "hash": "92e585445b796ef5025804af3bd87c63",
+      "mtime": "2026-01-07T16:52:50.114347",
+      "size": 6566
+    },
+    "analytics-api/reference/errors.md": {
+      "hash": "13860f50cec31ee9c648d3d1e5c78d80",
+      "mtime": "2026-01-07T16:52:50.113381",
+      "size": 5851
+    },
+    "analytics-api/reference/metrics.md": {
+      "hash": "4cf700d2ecb5c539305ecefdd952afa4",
+      "mtime": "2026-01-07T16:52:50.114814",
+      "size": 7743
+    },
+    "analytics-api/reference/quotas.md": {
+      "hash": "37b95b199f57e1dda782db59860bc4c0",
+      "mtime": "2026-01-07T16:52:50.112788",
+      "size": 5686
+    },
+    "analytics-api/reference/revenue-reports.md": {
+      "hash": "560895c5beeee4773a0bd270633243ee",
+      "mtime": "2026-01-07T16:52:50.113868",
+      "size": 6167
+    },
+    "analytics-api/reference/revision-history.md": {
+      "hash": "df5af8aee3e7e14761e8228fc4731d69",
+      "mtime": "2026-01-07T16:52:50.115844",
+      "size": 5096
+    },
+    "analytics-api/reports/channel-reports.md": {
+      "hash": "00e9acff4081038642ff45181587e4a9",
+      "mtime": "2026-01-07T16:52:50.116647",
+      "size": 6179
+    },
+    "analytics-api/reports/content-owner-reports.md": {
+      "hash": "890e3273930e723661142ec23331f928",
+      "mtime": "2026-01-07T16:52:50.122756",
+      "size": 8036
+    },
+    "analytics-api/reports/group-items.md": {
+      "hash": "9a3b46a35284a155019312dbd7d728b5",
+      "mtime": "2026-01-07T16:52:50.119498",
+      "size": 4193
+    },
+    "analytics-api/reports/groups-delete.md": {
+      "hash": "9949daf21a50721289d1aeefd232df43",
+      "mtime": "2026-01-07T16:52:50.122015",
+      "size": 2045
+    },
+    "analytics-api/reports/groups-insert.md": {
+      "hash": "ad197399dcf33becb08ea72bf6fdbf1a",
+      "mtime": "2026-01-07T16:52:50.118011",
+      "size": 2539
+    },
+    "analytics-api/reports/groups-list.md": {
+      "hash": "a6c73443c9194b8eeef0d7ed5438a446",
+      "mtime": "2026-01-07T16:52:50.120206",
+      "size": 3350
+    },
+    "analytics-api/reports/groups-update.md": {
+      "hash": "3c06e344fc1a7f786e875ac124331cf8",
+      "mtime": "2026-01-07T16:52:50.121540",
+      "size": 2520
+    },
+    "analytics-api/reports/groups.md": {
+      "hash": "caa9661b2d794f6123d4d5a85c61f8af",
+      "mtime": "2026-01-07T16:52:50.120952",
+      "size": 3261
+    },
+    "analytics-api/reports/reports-query.md": {
+      "hash": "dc1ad1f7b1648a9c54ac889ec674060a",
+      "mtime": "2026-01-07T16:52:50.117262",
+      "size": 4666
+    },
+    "analytics-api/reports/reports-reference.md": {
+      "hash": "c63ef1e62f081191ca2999d8b83dc0b5",
+      "mtime": "2026-01-07T16:52:50.118736",
+      "size": 3790
+    },
+    "data-api-v3/compliance/branding-guidelines.md": {
+      "hash": "7fc26828de1cbc97503515e2fd114a14",
+      "mtime": "2026-01-07T16:52:50.079417",
+      "size": 1772
+    },
+    "data-api-v3/compliance/developer-policies.md": {
+      "hash": "84e1c70805f1e22dde4ee4569cbd9694",
+      "mtime": "2026-01-07T16:52:50.080646",
+      "size": 6070
+    },
+    "data-api-v3/compliance/minimum-functionality.md": {
+      "hash": "89ff6297518f31437c62eddc973c5f3a",
+      "mtime": "2026-01-07T16:52:50.080011",
+      "size": 3677
+    },
+    "data-api-v3/guides/auth-client-side.md": {
+      "hash": "4519674d4688750e4396f21341e32cea",
+      "mtime": "2026-01-07T16:52:50.094922",
+      "size": 12405
+    },
+    "data-api-v3/guides/auth-client-web.md": {
+      "hash": "32fb1ded1810e4f1c6d70ae5aceabf98",
+      "mtime": "2026-01-07T16:52:50.093467",
+      "size": 6526
+    },
+    "data-api-v3/guides/auth-devices.md": {
+      "hash": "5a81dacddcb336c8e7504e5220411c26",
+      "mtime": "2026-01-07T16:52:50.088676",
+      "size": 8061
+    },
+    "data-api-v3/guides/auth-installed-apps.md": {
+      "hash": "c8ab5efc90628cbd96ff797fe3e4049c",
+      "mtime": "2026-01-07T16:52:50.099985",
+      "size": 13038
+    },
+    "data-api-v3/guides/auth-server-side.md": {
+      "hash": "36ceb993f2b8113d57f80a43c349331d",
+      "mtime": "2026-01-07T16:52:50.089506",
+      "size": 23687
+    },
+    "data-api-v3/guides/batch-requests.md": {
+      "hash": "049346e6ddde9f5016cd2e6090212a59",
+      "mtime": "2026-01-07T16:52:50.091176",
+      "size": 12880
+    },
+    "data-api-v3/guides/best-practices.md": {
+      "hash": "cd849d8446bc8454f5bd2fe6ec3d62ab",
+      "mtime": "2026-01-07T16:52:50.087887",
+      "size": 18880
+    },
+    "data-api-v3/guides/channel-ids.md": {
+      "hash": "11acf88a8ebacfb68666b52b1addb191",
+      "mtime": "2026-01-07T16:52:50.092727",
+      "size": 11065
+    },
+    "data-api-v3/guides/etags.md": {
+      "hash": "005c18aab08a87b0b7a896d2f9d88edf",
+      "mtime": "2026-01-07T16:52:50.084147",
+      "size": 12605
+    },
+    "data-api-v3/guides/impl-comments.md": {
+      "hash": "15450ecd8b2d37a4687f5423a4fc5a6f",
+      "mtime": "2026-01-07T16:52:50.097549",
+      "size": 15369
+    },
+    "data-api-v3/guides/impl-playlists.md": {
+      "hash": "91464d615d0982bbf1994331bd2aab88",
+      "mtime": "2026-01-07T16:52:50.096657",
+      "size": 10634
+    },
+    "data-api-v3/guides/impl-ratings.md": {
+      "hash": "00703680293a7aea1f6d17485d2a19ba",
+      "mtime": "2026-01-07T16:52:50.099276",
+      "size": 10409
+    },
+    "data-api-v3/guides/impl-search.md": {
+      "hash": "dc1da09dd9ad70932a82464a3937b4e0",
+      "mtime": "2026-01-07T16:52:50.086102",
+      "size": 9493
+    },
+    "data-api-v3/guides/impl-subscriptions.md": {
+      "hash": "bb113e6558f668018f79306cf42d21d4",
+      "mtime": "2026-01-07T16:52:50.087022",
+      "size": 10194
+    },
+    "data-api-v3/guides/impl-videos.md": {
+      "hash": "d74a47352bf6d97d32a95496293f47b1",
+      "mtime": "2026-01-07T16:52:50.090269",
+      "size": 10388
+    },
+    "data-api-v3/guides/pagination.md": {
+      "hash": "309205301b1201e1a55e437671e2e122",
+      "mtime": "2026-01-07T16:52:50.091967",
+      "size": 8799
+    },
+    "data-api-v3/guides/partial-responses.md": {
+      "hash": "f98f5e45c8cfe563bf7222f3b64ddb0b",
+      "mtime": "2026-01-07T16:52:50.085475",
+      "size": 4729
+    },
+    "data-api-v3/guides/performance.md": {
+      "hash": "e11dd523aef55532f5903ed7eba424b7",
+      "mtime": "2026-01-07T16:52:50.095803",
+      "size": 18230
+    },
+    "data-api-v3/guides/push-notifications.md": {
+      "hash": "e288e2fdf257c6a3d7c0cba6d12b82d1",
+      "mtime": "2026-01-07T16:52:50.084737",
+      "size": 15564
+    },
+    "data-api-v3/guides/resumable-upload.md": {
+      "hash": "58bd27a75bbcfe40d1e9874ca951ee68",
+      "mtime": "2026-01-07T16:52:50.094220",
+      "size": 8516
+    },
+    "data-api-v3/guides/standard-parameters.md": {
+      "hash": "8713a8f8c83f4d4c60667e2513b887aa",
+      "mtime": "2026-01-07T16:52:50.098428",
+      "size": 8500
+    },
+    "data-api-v3/guides/uploading-video.md": {
+      "hash": "2b24fe1f0c0d67e4461af56031aee9e7",
+      "mtime": "2026-01-07T16:52:50.100582",
+      "size": 10505
+    },
+    "data-api-v3/guides/videos-guide.md": {
+      "hash": "a380e55cca657c7a8f02eff18d1b0603",
+      "mtime": "2026-01-07T16:52:50.101205",
+      "size": 3773
+    },
+    "data-api-v3/live-streaming/dash-encoding.md": {
+      "hash": "41e400390c2529b381f52ea9a43f2f4e",
+      "mtime": "2026-01-07T16:52:50.082663",
+      "size": 7581
+    },
+    "data-api-v3/live-streaming/getting-started.md": {
+      "hash": "72770717e68c02ee92fa43bdfcbb1bbf",
+      "mtime": "2026-01-07T16:52:50.081182",
+      "size": 3818
+    },
+    "data-api-v3/live-streaming/hls-ingestion.md": {
+      "hash": "726a543ffd9db440e521261608c0b685",
+      "mtime": "2026-01-07T16:52:50.081891",
+      "size": 3629
+    },
+    "data-api-v3/overview/api-reference.md": {
+      "hash": "7e6b938394a80991308998b6ee50dde1",
+      "mtime": "2026-01-07T16:52:50.107583",
+      "size": 8043
+    },
+    "data-api-v3/overview/client-libraries.md": {
+      "hash": "d253c2f52b3426840b1edfebc07ad96b",
+      "mtime": "2026-01-07T16:52:50.104511",
+      "size": 2362
+    },
+    "data-api-v3/overview/errors.md": {
+      "hash": "eba91700d843e5f441d5b9226c8d63b4",
+      "mtime": "2026-01-07T16:52:50.103234",
+      "size": 4443
+    },
+    "data-api-v3/overview/getting-started.md": {
+      "hash": "250826381e70deb1f0b8e32c4ba9d832",
+      "mtime": "2026-01-07T16:52:50.103776",
+      "size": 3946
+    },
+    "data-api-v3/overview/overview.md": {
+      "hash": "f40fdd61fa444c272b7d4c6fcf44fb97",
+      "mtime": "2026-01-07T16:52:50.101914",
+      "size": 1673
+    },
+    "data-api-v3/overview/quickstart.md": {
+      "hash": "f2321229a1159311dca6ad3a3077af6e",
+      "mtime": "2026-01-07T16:52:50.102654",
+      "size": 5227
+    },
+    "data-api-v3/overview/quota-costs.md": {
+      "hash": "c3e047dc80f9f3ad7ff1eb2df7a33c0b",
+      "mtime": "2026-01-07T16:52:50.108322",
+      "size": 2396
+    },
+    "data-api-v3/overview/revision-history.md": {
+      "hash": "147beffeb1009653923d01571482ba5e",
+      "mtime": "2026-01-07T16:52:50.106745",
+      "size": 3956
+    },
+    "data-api-v3/overview/support.md": {
+      "hash": "3bad5f6476e56c0bb787330e9173d1b5",
+      "mtime": "2026-01-07T16:52:50.105253",
+      "size": 1749
+    },
+    "data-api-v3/overview/terms-of-service.md": {
+      "hash": "59ed87afb23b5c8d5271d651966cbb7a",
+      "mtime": "2026-01-07T16:52:50.106037",
+      "size": 5907
+    },
+    "data-api-v3/resources/activities-list.md": {
+      "hash": "4ed259cca9516d74e02ee6228060a930",
+      "mtime": "2026-01-07T16:52:50.029361",
+      "size": 3241
+    },
+    "data-api-v3/resources/activities.md": {
+      "hash": "3d06f0c5f5e91118723c9fd610b062a7",
+      "mtime": "2026-01-07T16:52:50.063857",
+      "size": 4480
+    },
+    "data-api-v3/resources/captions-delete.md": {
+      "hash": "1409aecb9753b60781d57b4498e90417",
+      "mtime": "2026-01-07T16:52:50.064578",
+      "size": 1764
+    },
+    "data-api-v3/resources/captions-download.md": {
+      "hash": "a0da5c05a4d0b627d34e244b57908b3a",
+      "mtime": "2026-01-07T16:52:50.054511",
+      "size": 2872
+    },
+    "data-api-v3/resources/captions-insert.md": {
+      "hash": "002a44a8fe0282c0cd8e0aa08f028d17",
+      "mtime": "2026-01-07T16:52:50.021390",
+      "size": 2808
+    },
+    "data-api-v3/resources/captions-list.md": {
+      "hash": "1368c5a0619e0b3f523c613551382448",
+      "mtime": "2026-01-07T16:52:50.049844",
+      "size": 2440
+    },
+    "data-api-v3/resources/captions-update.md": {
+      "hash": "46212093f43357984c8e30a726545de0",
+      "mtime": "2026-01-07T16:52:50.062611",
+      "size": 2987
+    },
+    "data-api-v3/resources/captions.md": {
+      "hash": "f270a0958b3c5d9d2dbbc0fce477bd4c",
+      "mtime": "2026-01-07T16:52:50.022885",
+      "size": 3696
+    },
+    "data-api-v3/resources/channel-banners-insert.md": {
+      "hash": "f948599147241a3847ea92f0f93d3c76",
+      "mtime": "2026-01-07T16:52:50.057921",
+      "size": 2415
+    },
+    "data-api-v3/resources/channel-banners.md": {
+      "hash": "57a1478dc0271df37c2fd07db41ddad8",
+      "mtime": "2026-01-07T16:52:50.074973",
+      "size": 1856
+    },
+    "data-api-v3/resources/channel-sections-delete.md": {
+      "hash": "29899ce49308de96e839bead144689e1",
+      "mtime": "2026-01-07T16:52:50.027606",
+      "size": 1972
+    },
+    "data-api-v3/resources/channel-sections-insert.md": {
+      "hash": "b3805815d60cae573bbf872dabf4c867",
+      "mtime": "2026-01-07T16:52:50.066200",
+      "size": 2959
+    },
+    "data-api-v3/resources/channel-sections-list.md": {
+      "hash": "41062d66974359ffd7ca34f15881c65e",
+      "mtime": "2026-01-07T16:52:50.022168",
+      "size": 2815
+    },
+    "data-api-v3/resources/channel-sections-update.md": {
+      "hash": "ec661b5446a3aba3caeadbf181ac76df",
+      "mtime": "2026-01-07T16:52:50.025672",
+      "size": 3033
+    },
+    "data-api-v3/resources/channel-sections.md": {
+      "hash": "06c35731ca33562ef08807f9ec0d7c24",
+      "mtime": "2026-01-07T16:52:50.066710",
+      "size": 3191
+    },
+    "data-api-v3/resources/channels-list.md": {
+      "hash": "a9de3578face0a9979d0653e16fd03da",
+      "mtime": "2026-01-07T16:52:50.042862",
+      "size": 3974
+    },
+    "data-api-v3/resources/channels-update.md": {
+      "hash": "ad96335f6eefbbeece407578ba8598d8",
+      "mtime": "2026-01-07T16:52:50.073698",
+      "size": 4508
+    },
+    "data-api-v3/resources/channels.md": {
+      "hash": "800ca3b390b318b12398154e5af90086",
+      "mtime": "2026-01-07T16:52:50.053810",
+      "size": 9411
+    },
+    "data-api-v3/resources/comment-threads-insert.md": {
+      "hash": "e6d2ada0d5ae3d8bde815f978d2a5557",
+      "mtime": "2026-01-07T16:52:50.050352",
+      "size": 3422
+    },
+    "data-api-v3/resources/comment-threads-list.md": {
+      "hash": "bb49ddd651230ea913b61097fda1a221",
+      "mtime": "2026-01-07T16:52:50.058515",
+      "size": 4355
+    },
+    "data-api-v3/resources/comment-threads.md": {
+      "hash": "f752503f7d2bc1e47c2072dfa4c9d867",
+      "mtime": "2026-01-07T16:52:50.030088",
+      "size": 2997
+    },
+    "data-api-v3/resources/comments-delete.md": {
+      "hash": "508d3a5a43f99aa343a3b058dc8aad98",
+      "mtime": "2026-01-07T16:52:50.071276",
+      "size": 1714
+    },
+    "data-api-v3/resources/comments-insert.md": {
+      "hash": "cebf18ab6ec186329d1d163ba625d35a",
+      "mtime": "2026-01-07T16:52:50.055804",
+      "size": 2200
+    },
+    "data-api-v3/resources/comments-list.md": {
+      "hash": "c5e92c08fd67132505aca9379e70d259",
+      "mtime": "2026-01-07T16:52:50.059062",
+      "size": 3030
+    },
+    "data-api-v3/resources/comments-moderation.md": {
+      "hash": "064dcd7c8b507b3ed496adef3d12122f",
+      "mtime": "2026-01-07T16:52:50.047516",
+      "size": 2984
+    },
+    "data-api-v3/resources/comments-update.md": {
+      "hash": "96ad0523ad917daa65f7ee4c48af44b3",
+      "mtime": "2026-01-07T16:52:50.070690",
+      "size": 2267
+    },
+    "data-api-v3/resources/comments.md": {
+      "hash": "1e5fed372bd648f07336a144825b7074",
+      "mtime": "2026-01-07T16:52:50.051724",
+      "size": 3843
+    },
+    "data-api-v3/resources/i18n-languages-list.md": {
+      "hash": "f93b924ddcbd9ca9fc749e917f6ab8c6",
+      "mtime": "2026-01-07T16:52:50.072873",
+      "size": 1693
+    },
+    "data-api-v3/resources/i18n-languages.md": {
+      "hash": "5362f2b5fc4386f64fc41e6359282fd8",
+      "mtime": "2026-01-07T16:52:50.069580",
+      "size": 1488
+    },
+    "data-api-v3/resources/i18n-regions-list.md": {
+      "hash": "ffe74df8864c5d7f307cd7610450b9f8",
+      "mtime": "2026-01-07T16:52:50.056606",
+      "size": 1799
+    },
+    "data-api-v3/resources/i18n-regions.md": {
+      "hash": "4b3fb71185bc86d748f43fefa2a900d9",
+      "mtime": "2026-01-07T16:52:50.057290",
+      "size": 1561
+    },
+    "data-api-v3/resources/members-list.md": {
+      "hash": "bc793fd27ff5a7cbfeb9e5d15d0db4aa",
+      "mtime": "2026-01-07T16:52:50.078672",
+      "size": 3378
+    },
+    "data-api-v3/resources/members.md": {
+      "hash": "c1c75d56da477cf4bf53692e4fa46657",
+      "mtime": "2026-01-07T16:52:50.060915",
+      "size": 3452
+    },
+    "data-api-v3/resources/memberships-levels-list.md": {
+      "hash": "8c5d2ba93d560f7221bb6fd900a52094",
+      "mtime": "2026-01-07T16:52:50.043604",
+      "size": 2273
+    },
+    "data-api-v3/resources/memberships-levels.md": {
+      "hash": "b6bdd04a99cff3b5a2b813eff9a17628",
+      "mtime": "2026-01-07T16:52:50.072028",
+      "size": 1824
+    },
+    "data-api-v3/resources/playlist-images-delete.md": {
+      "hash": "ad859cf00c73fd647b616dac94fa5a02",
+      "mtime": "2026-01-07T16:52:50.045323",
+      "size": 1641
+    },
+    "data-api-v3/resources/playlist-images-insert.md": {
+      "hash": "c444d275845ad0876f1050cd9f77eea3",
+      "mtime": "2026-01-07T16:52:50.061569",
+      "size": 2233
+    },
+    "data-api-v3/resources/playlist-images-list.md": {
+      "hash": "72a0e9bf040c3e945e978fd601fef3f5",
+      "mtime": "2026-01-07T16:52:50.067235",
+      "size": 3178
+    },
+    "data-api-v3/resources/playlist-images-update.md": {
+      "hash": "775177c2f4729a27223061de30e32f2b",
+      "mtime": "2026-01-07T16:52:50.044286",
+      "size": 2106
+    },
+    "data-api-v3/resources/playlist-images.md": {
+      "hash": "bb148dbf67fdcbbbb1c47fd22aa100fa",
+      "mtime": "2026-01-07T16:52:50.068857",
+      "size": 1894
+    },
+    "data-api-v3/resources/playlist-items-delete.md": {
+      "hash": "532249a90d775083f1119358ac0846ee",
+      "mtime": "2026-01-07T16:52:50.046957",
+      "size": 1910
+    },
+    "data-api-v3/resources/playlist-items-insert.md": {
+      "hash": "e13aa5424f071e7ec9f091b4a53fc5b5",
+      "mtime": "2026-01-07T16:52:50.074308",
+      "size": 3115
+    },
+    "data-api-v3/resources/playlist-items-list.md": {
+      "hash": "0e5ecee087300d1f8887e393ca489b9e",
+      "mtime": "2026-01-07T16:52:50.048623",
+      "size": 10218
+    },
+    "data-api-v3/resources/playlist-items-update.md": {
+      "hash": "1ecf86f6f398c8ad2e49e3eeae33d8ef",
+      "mtime": "2026-01-07T16:52:50.048018",
+      "size": 2947
+    },
+    "data-api-v3/resources/playlist-items.md": {
+      "hash": "7c32b74405c72dfebe5040e79a7c2723",
+      "mtime": "2026-01-07T16:52:50.020654",
+      "size": 4873
+    },
+    "data-api-v3/resources/playlists-delete.md": {
+      "hash": "9b0e607e200169f8a3832259ea125cf5",
+      "mtime": "2026-01-07T16:52:50.053003",
+      "size": 1997
+    },
+    "data-api-v3/resources/playlists-insert.md": {
+      "hash": "52a19eca4508802bedd9a71a8a849876",
+      "mtime": "2026-01-07T16:52:50.070099",
+      "size": 2714
+    },
+    "data-api-v3/resources/playlists-list.md": {
+      "hash": "088f9c32b2912898e4c50ecdd73255f0",
+      "mtime": "2026-01-07T16:52:50.068386",
+      "size": 4026
+    },
+    "data-api-v3/resources/playlists-update.md": {
+      "hash": "b3982d04adc67d19c93de331cfcc9dcd",
+      "mtime": "2026-01-07T16:52:50.052465",
+      "size": 2621
+    },
+    "data-api-v3/resources/playlists.md": {
+      "hash": "c8b95eff581746aeec04f348eed85e80",
+      "mtime": "2026-01-07T16:52:50.076203",
+      "size": 3739
+    },
+    "data-api-v3/resources/search-list.md": {
+      "hash": "ac50115f6ad28961f729daa761bf6c19",
+      "mtime": "2026-01-07T16:52:50.034114",
+      "size": 14365
+    },
+    "data-api-v3/resources/search.md": {
+      "hash": "4f9a6e9f60268b3c16bbb3bdaab5be01",
+      "mtime": "2026-01-07T16:52:50.027050",
+      "size": 3242
+    },
+    "data-api-v3/resources/subscriptions-delete.md": {
+      "hash": "1a58f5b0b12f86135d67f050339be5f8",
+      "mtime": "2026-01-07T16:52:50.077952",
+      "size": 2227
+    },
+    "data-api-v3/resources/subscriptions-insert.md": {
+      "hash": "e7c6aa6ebdbbfb2e3ba386ae5cad62da",
+      "mtime": "2026-01-07T16:52:50.049290",
+      "size": 2773
+    },
+    "data-api-v3/resources/subscriptions-list.md": {
+      "hash": "bf85875182ce2906a3c68d9d2e09d062",
+      "mtime": "2026-01-07T16:52:50.059646",
+      "size": 4393
+    },
+    "data-api-v3/resources/subscriptions.md": {
+      "hash": "d5aa381b8e3bc71bf4b3214f828957b9",
+      "mtime": "2026-01-07T16:52:50.077373",
+      "size": 4338
+    },
+    "data-api-v3/resources/thumbnails-set.md": {
+      "hash": "e698375904712b66944eefffe3236578",
+      "mtime": "2026-01-07T16:52:50.023701",
+      "size": 2662
+    },
+    "data-api-v3/resources/thumbnails.md": {
+      "hash": "992bc560e6c1bfef602c1cb0dfd6235a",
+      "mtime": "2026-01-07T16:52:50.046270",
+      "size": 3198
+    },
+    "data-api-v3/resources/video-abuse-report-reasons-list.md": {
+      "hash": "b1adeab0ccb9e84852f94e92dcdf5d2f",
+      "mtime": "2026-01-07T16:52:50.044839",
+      "size": 2008
+    },
+    "data-api-v3/resources/video-abuse-report-reasons.md": {
+      "hash": "adfe659d2ec709fb60f48e27d5a60e82",
+      "mtime": "2026-01-07T16:52:50.045813",
+      "size": 2045
+    },
+    "data-api-v3/resources/video-categories-list.md": {
+      "hash": "aeb3f72c46471c3e0b292ea58511d46a",
+      "mtime": "2026-01-07T16:52:50.062062",
+      "size": 2242
+    },
+    "data-api-v3/resources/video-categories.md": {
+      "hash": "a2d78d6a1f3f632c11c29a814462fce8",
+      "mtime": "2026-01-07T16:52:50.026260",
+      "size": 1709
+    },
+    "data-api-v3/resources/videos-delete.md": {
+      "hash": "165ca5a17be6ff4e491b4bebbf8c6e16",
+      "mtime": "2026-01-07T16:52:50.065087",
+      "size": 1852
+    },
+    "data-api-v3/resources/videos-get-rating.md": {
+      "hash": "764ce914acc6d432d17c7a487a2b3618",
+      "mtime": "2026-01-07T16:52:50.055276",
+      "size": 2371
+    },
+    "data-api-v3/resources/videos-insert.md": {
+      "hash": "66eafaa89be11e2d4ec6c2e6efcf6daa",
+      "mtime": "2026-01-07T16:52:50.028601",
+      "size": 10960
+    },
+    "data-api-v3/resources/videos-list.md": {
+      "hash": "797c0158aed6f0f91c1f6fa7bfaf122f",
+      "mtime": "2026-01-07T16:52:50.063303",
+      "size": 3990
+    },
+    "data-api-v3/resources/videos-rate.md": {
+      "hash": "16a15bacc001a98f8b6cb6c17ff7b55e",
+      "mtime": "2026-01-07T16:52:50.067786",
+      "size": 1893
+    },
+    "data-api-v3/resources/videos-report-abuse.md": {
+      "hash": "29025d0667e06bf695134e0099681f6f",
+      "mtime": "2026-01-07T16:52:50.075531",
+      "size": 2516
+    },
+    "data-api-v3/resources/videos-update.md": {
+      "hash": "95ad0894b229a68cf67637ad36022c5b",
+      "mtime": "2026-01-07T16:52:50.065637",
+      "size": 3941
+    },
+    "data-api-v3/resources/videos.md": {
+      "hash": "693edff10322ab103d90f1f115b4a889",
+      "mtime": "2026-01-07T16:52:50.051135",
+      "size": 6518
+    },
+    "data-api-v3/resources/watermarks-set.md": {
+      "hash": "822d3c03a25adf916985a300af520c3a",
+      "mtime": "2026-01-07T16:52:50.035308",
+      "size": 2166
+    },
+    "data-api-v3/resources/watermarks-unset.md": {
+      "hash": "0ebb3c0fc6829c8f010fed345827820c",
+      "mtime": "2026-01-07T16:52:50.060305",
+      "size": 1605
+    },
+    "data-api-v3/resources/watermarks.md": {
+      "hash": "4e82f5edbae8f38379248e4467a35323",
+      "mtime": "2026-01-07T16:52:50.076745",
+      "size": 2343
+    },
+    "data-api-v3/samples/code-samples.md": {
+      "hash": "6b11ec6f6c4c1ab8c969c533249f2b25",
+      "mtime": "2026-01-07T16:52:50.083364",
+      "size": 3606
+    },
+    "reporting-api/overview/api-reference.md": {
+      "hash": "ebf3c4f0b41ef634f8c83148459a2ffa",
+      "mtime": "2026-01-07T16:52:50.012329",
+      "size": 2490
+    },
+    "reporting-api/overview/authorization.md": {
+      "hash": "25bdc2fd40b489506f62440fc20acbcb",
+      "mtime": "2026-01-07T16:52:50.009715",
+      "size": 2424
+    },
+    "reporting-api/overview/getting-started.md": {
+      "hash": "fc5bb9ed7ddc489e0864d0967062396e",
+      "mtime": "2026-01-07T16:52:50.011163",
+      "size": 4975
+    },
+    "reporting-api/overview/overview.md": {
+      "hash": "28c564792ac992863238567db4d8fba4",
+      "mtime": "2026-01-07T16:52:50.009125",
+      "size": 2743
+    },
+    "reporting-api/overview/quotas.md": {
+      "hash": "49544cd8abe823b12d38cc4c2f57dfd3",
+      "mtime": "2026-01-07T16:52:50.010376",
+      "size": 3479
+    },
+    "reporting-api/overview/revision-history.md": {
+      "hash": "a74a4dfeb1515ebe258231b18ebcf8b7",
+      "mtime": "2026-01-07T16:52:50.011822",
+      "size": 2585
+    },
+    "reporting-api/reports/channel-reports.md": {
+      "hash": "eeacd012db05c1c0679d0541b42dac1b",
+      "mtime": "2026-01-07T16:52:50.014216",
+      "size": 3945
+    },
+    "reporting-api/reports/content-owner-reports.md": {
+      "hash": "cae08d36d750173387bf1188df86dbdf",
+      "mtime": "2026-01-07T16:52:50.019592",
+      "size": 3506
+    },
+    "reporting-api/reports/dimensions.md": {
+      "hash": "7f72f43f31ff8baad264a51bc8155576",
+      "mtime": "2026-01-07T16:52:50.017551",
+      "size": 5661
+    },
+    "reporting-api/reports/jobs-create.md": {
+      "hash": "365b00cae23e52165c41242c6bb3a844",
+      "mtime": "2026-01-07T16:52:50.015410",
+      "size": 3961
+    },
+    "reporting-api/reports/jobs-delete.md": {
+      "hash": "98404b2c6e352c62f72e5a49e7d087a7",
+      "mtime": "2026-01-07T16:52:50.015882",
+      "size": 3247
+    },
+    "reporting-api/reports/jobs-get.md": {
+      "hash": "f6826e2d50230a35e80720b6eb54463f",
+      "mtime": "2026-01-07T16:52:50.018036",
+      "size": 3417
+    },
+    "reporting-api/reports/jobs-list.md": {
+      "hash": "86ee198b8580f123a440196a8ed297b6",
+      "mtime": "2026-01-07T16:52:50.019084",
+      "size": 3456
+    },
+    "reporting-api/reports/jobs-reports-list.md": {
+      "hash": "669fc9681e209db11a6cffe76ffb1c6f",
+      "mtime": "2026-01-07T16:52:50.017059",
+      "size": 5024
+    },
+    "reporting-api/reports/jobs-reports.md": {
+      "hash": "cf705c15c5036e90765175d898f2442b",
+      "mtime": "2026-01-07T16:52:50.014920",
+      "size": 4005
+    },
+    "reporting-api/reports/jobs.md": {
+      "hash": "33363835a74bdf8aaab50e1ae48920d7",
+      "mtime": "2026-01-07T16:52:50.013027",
+      "size": 2836
+    },
+    "reporting-api/reports/metrics.md": {
+      "hash": "47537c7c310dd767a13cebe7211fae2b",
+      "mtime": "2026-01-07T16:52:50.018575",
+      "size": 6091
+    },
+    "reporting-api/reports/report-types.md": {
+      "hash": "30ba8167a31f1ddbadfb8df9647f3ba0",
+      "mtime": "2026-01-07T16:52:50.020073",
+      "size": 5542
+    },
+    "reporting-api/reports/reports-overview.md": {
+      "hash": "c2baca13bcbd76275597480f54559a01",
+      "mtime": "2026-01-07T16:52:50.016378",
+      "size": 3386
+    },
+    "reporting-api/reports/system-managed.md": {
+      "hash": "5241de1bf0b3cc81c31754165ff739f6",
+      "mtime": "2026-01-07T16:52:50.013717",
+      "size": 2917
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.440741"
+}

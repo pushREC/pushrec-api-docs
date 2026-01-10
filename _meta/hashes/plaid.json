@@ -1,0 +1,27 @@
+{
+  "api": "plaid",
+  "file_count": 4,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "38b64e17826428083274dd62424c3ea5",
+      "mtime": "2026-01-09T07:36:12.811771",
+      "size": 408
+    },
+    "README.md": {
+      "hash": "1e699b048da0e5453ac37412da3bec30",
+      "mtime": "2026-01-09T07:36:12.810815",
+      "size": 638
+    },
+    "SOURCES.md": {
+      "hash": "608b040c304ac78ba6e95bc91f0483dc",
+      "mtime": "2026-01-09T07:36:12.811654",
+      "size": 395
+    },
+    "plaid.md": {
+      "hash": "b79cd6658ad6c4db4c059ec53fb5b34e",
+      "mtime": "2026-01-09T07:36:12.811513",
+      "size": 212894
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.404352"
+}

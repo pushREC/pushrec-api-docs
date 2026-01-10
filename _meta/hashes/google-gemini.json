@@ -1,0 +1,37 @@
+{
+  "api": "google-gemini",
+  "file_count": 6,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "805211d274853137779a7a3a3c6e22d3",
+      "mtime": "2026-01-08T20:59:33.463788",
+      "size": 3716
+    },
+    "README.md": {
+      "hash": "d9ba2f5b862f8ec5842bee89b17f8e88",
+      "mtime": "2026-01-08T20:57:00.644288",
+      "size": 4561
+    },
+    "SOURCES.md": {
+      "hash": "357f50c5598fa2c91c33163c2fde62ca",
+      "mtime": "2026-01-08T20:59:07.592074",
+      "size": 2417
+    },
+    "authentication.md": {
+      "hash": "8d1431e459d2b488a536b2c98c0c32fc",
+      "mtime": "2026-01-08T20:58:07.466320",
+      "size": 5143
+    },
+    "endpoints.md": {
+      "hash": "7357d62ae21ef36fbb4e642ba19bebe4",
+      "mtime": "2026-01-08T20:57:36.588308",
+      "size": 6871
+    },
+    "pricing.md": {
+      "hash": "dcbaed9790206aec374d0c0fa4a965a8",
+      "mtime": "2026-01-08T20:58:47.597889",
+      "size": 5874
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.310404"
+}

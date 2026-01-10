@@ -1,0 +1,22 @@
+{
+  "api": "google-calendar",
+  "file_count": 3,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "3f0b54e4c3719dbab1c5485ad2792a76",
+      "mtime": "2026-01-08T00:36:42.838534",
+      "size": 1331
+    },
+    "README.md": {
+      "hash": "579d94c99f3e4181ddec512d73e28045",
+      "mtime": "2026-01-08T00:36:42.835317",
+      "size": 1458
+    },
+    "SOURCES.md": {
+      "hash": "06a90017700b744ac03c44a76b22459a",
+      "mtime": "2026-01-08T00:36:42.837013",
+      "size": 1057
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.306158"
+}

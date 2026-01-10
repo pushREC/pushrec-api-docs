@@ -1,1 +1,1072 @@
-{}
+{
+  "api": "claude-api",
+  "file_count": 213,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "c4cbcdd27761d679ec731976d0769039",
+      "mtime": "2026-01-07T22:05:55.330021",
+      "size": 2549
+    },
+    "README.md": {
+      "hash": "c26d72e9f2690c3ed8b074319921ee73",
+      "mtime": "2026-01-07T23:23:37.408879",
+      "size": 1725
+    },
+    "SOURCES.md": {
+      "hash": "941d5a1340cb0727ed175ac83b267cce",
+      "mtime": "2026-01-10T03:58:38.221676",
+      "size": 3364
+    },
+    "en-about-claude-glossary.md": {
+      "hash": "ef2f4f69edafb1b6f4d0d1ced32d8793",
+      "mtime": "2026-01-07T16:52:49.950946",
+      "size": 13389
+    },
+    "en-about-claude-model-deprecations.md": {
+      "hash": "7048dc39059087be119f64d56a330932",
+      "mtime": "2026-01-10T03:55:09.179449",
+      "size": 7666
+    },
+    "en-about-claude-models-choosing-a-model.md": {
+      "hash": "82daf9809b7aa6b21073305cdec59cba",
+      "mtime": "2026-01-07T16:52:49.883224",
+      "size": 14731
+    },
+    "en-about-claude-models-migrating-to-claude-4.md": {
+      "hash": "c74cfc67509075e1800cbe1f1a713d9d",
+      "mtime": "2026-01-07T16:52:49.900157",
+      "size": 27930
+    },
+    "en-about-claude-models-overview.md": {
+      "hash": "39a362aab7bd8e02c01cb05e6b62571f",
+      "mtime": "2026-01-07T16:52:49.902753",
+      "size": 16255
+    },
+    "en-about-claude-models-whats-new-claude-4-5.md": {
+      "hash": "fd6a5083600ce78d1e30770c59a7bbe1",
+      "mtime": "2026-01-07T16:52:49.855095",
+      "size": 39459
+    },
+    "en-about-claude-pricing.md": {
+      "hash": "38e9b34de38bcf3e876e4f2c046aa32d",
+      "mtime": "2026-01-07T16:52:49.891277",
+      "size": 28193
+    },
+    "en-about-claude-use-case-guides-content-moderation.md": {
+      "hash": "592e0fd3a066e1daba653974df00aeda",
+      "mtime": "2026-01-07T16:52:49.934761",
+      "size": 29532
+    },
+    "en-about-claude-use-case-guides-customer-support-c.md": {
+      "hash": "09f0150c6e6dfb4a1eb67d2f811b4306",
+      "mtime": "2026-01-07T16:52:49.906058",
+      "size": 36069
+    },
+    "en-about-claude-use-case-guides-legal-summarizatio.md": {
+      "hash": "fc1f58238b2478923665e0ca138f6494",
+      "mtime": "2026-01-07T16:52:49.841100",
+      "size": 23379
+    },
+    "en-about-claude-use-case-guides-overview.md": {
+      "hash": "b79db909be75c559b2d58f286aaa2989",
+      "mtime": "2026-01-07T16:52:49.952715",
+      "size": 5524
+    },
+    "en-about-claude-use-case-guides-ticket-routing.md": {
+      "hash": "64b4df48221333bd882cf67be3c98d0e",
+      "mtime": "2026-01-07T16:52:49.909007",
+      "size": 25461
+    },
+    "en-agents-and-tools-agent-skills-best-practices.md": {
+      "hash": "20a609f7f31dbf9a0f1346213b495d04",
+      "mtime": "2026-01-07T16:52:49.852954",
+      "size": 55114
+    },
+    "en-agents-and-tools-agent-skills-overview.md": {
+      "hash": "95b59589b12b2853e833b7507415e046",
+      "mtime": "2026-01-07T16:52:49.838397",
+      "size": 28907
+    },
+    "en-agents-and-tools-agent-skills-quickstart.md": {
+      "hash": "0f2ed6716b1021ff45321d170ca0eba7",
+      "mtime": "2026-01-07T16:52:49.911798",
+      "size": 18326
+    },
+    "en-agents-and-tools-mcp-connector.md": {
+      "hash": "747a5f58da818996d2b49fa56d630ba0",
+      "mtime": "2026-01-07T16:52:49.865670",
+      "size": 26083
+    },
+    "en-agents-and-tools-remote-mcp-servers.md": {
+      "hash": "aa8ffe9b19977a336ecdb685409ac690",
+      "mtime": "2026-01-07T16:52:49.883855",
+      "size": 11444
+    },
+    "en-agents-and-tools-tool-use-bash-tool.md": {
+      "hash": "fcf8f13bf7bec2c16f1c9b7dcffb735e",
+      "mtime": "2026-01-07T16:52:49.859771",
+      "size": 18528
+    },
+    "en-agents-and-tools-tool-use-code-execution-tool.md": {
+      "hash": "e46f6fb8321f89dae9bc870bbc970864",
+      "mtime": "2026-01-07T16:52:49.925636",
+      "size": 33631
+    },
+    "en-agents-and-tools-tool-use-computer-use-tool.md": {
+      "hash": "4e6575a0024a9bf846bd12fb342d2109",
+      "mtime": "2026-01-07T16:52:49.855931",
+      "size": 41734
+    },
+    "en-agents-and-tools-tool-use-fine-grained-tool-str.md": {
+      "hash": "b2261ecc951f20373b0627d1c8effb18",
+      "mtime": "2026-01-07T16:52:49.896316",
+      "size": 14503
+    },
+    "en-agents-and-tools-tool-use-implement-tool-use.md": {
+      "hash": "e474fb8c6422795fac29732895c51b09",
+      "mtime": "2026-01-07T16:52:49.835722",
+      "size": 32410
+    },
+    "en-agents-and-tools-tool-use-memory-tool.md": {
+      "hash": "e7516e9b90089a74f213ad76c50acb71",
+      "mtime": "2026-01-07T16:52:49.956834",
+      "size": 26975
+    },
+    "en-agents-and-tools-tool-use-overview.md": {
+      "hash": "21216be9f852a73a5d2c6900e0d2bba9",
+      "mtime": "2026-01-07T16:52:49.939183",
+      "size": 20981
+    },
+    "en-agents-and-tools-tool-use-programmatic-tool-cal.md": {
+      "hash": "382f175302afccba287b7fa8eb929874",
+      "mtime": "2026-01-07T16:52:49.844732",
+      "size": 37357
+    },
+    "en-agents-and-tools-tool-use-text-editor-tool.md": {
+      "hash": "5ac28be5a76da2bfd7633201638daa03",
+      "mtime": "2026-01-07T16:52:49.832338",
+      "size": 22786
+    },
+    "en-agents-and-tools-tool-use-tool-search-tool.md": {
+      "hash": "5df03244f2e16a91ec354830ab4e0198",
+      "mtime": "2026-01-07T16:52:49.953324",
+      "size": 29240
+    },
+    "en-agents-and-tools-tool-use-web-fetch-tool.md": {
+      "hash": "40e9db1668889268abcc3a98c36d062c",
+      "mtime": "2026-01-07T16:52:49.877012",
+      "size": 25991
+    },
+    "en-agents-and-tools-tool-use-web-search-tool.md": {
+      "hash": "374b9bfe75b75c665b3c39fe47fc0f98",
+      "mtime": "2026-01-07T16:52:49.842421",
+      "size": 23909
+    },
+    "en-api-admin-api_keys-list.md": {
+      "hash": "d2fc8a08ba2af9810af9de35028c1a2c",
+      "mtime": "2026-01-07T16:52:49.836839",
+      "size": 8427
+    },
+    "en-api-admin-api_keys-retrieve.md": {
+      "hash": "17f85b3e1cf06e68c03fd0f14450c5b1",
+      "mtime": "2026-01-07T16:52:49.821026",
+      "size": 7093
+    },
+    "en-api-admin-api_keys-update.md": {
+      "hash": "de46685dd676b606d2e87c425d42b477",
+      "mtime": "2026-01-07T16:52:49.900852",
+      "size": 7417
+    },
+    "en-api-admin-cost_report-retrieve.md": {
+      "hash": "d6f1d7406b756b7520261ba4cdc43575",
+      "mtime": "2026-01-07T16:52:49.845348",
+      "size": 9613
+    },
+    "en-api-admin-invites-create.md": {
+      "hash": "60df52686822ce1748631908872c19db",
+      "mtime": "2026-01-07T16:52:49.938104",
+      "size": 7097
+    },
+    "en-api-admin-invites-delete.md": {
+      "hash": "6ca1bb2da4552e033f8dacea6d25d6b1",
+      "mtime": "2026-01-07T16:52:49.949764",
+      "size": 5821
+    },
+    "en-api-admin-invites-list.md": {
+      "hash": "b3f19c9a35145f345405e0d236700728",
+      "mtime": "2026-01-07T16:52:49.955564",
+      "size": 7765
+    },
+    "en-api-admin-invites-retrieve.md": {
+      "hash": "72dc40fafde65595e484e853ac97dd31",
+      "mtime": "2026-01-07T16:52:49.951530",
+      "size": 6757
+    },
+    "en-api-admin-organizations-me.md": {
+      "hash": "21958cff8b7c5a7977a16314a2bc58df",
+      "mtime": "2026-01-07T16:52:49.947264",
+      "size": 5821
+    },
+    "en-api-admin-usage_report-retrieve_claude_code.md": {
+      "hash": "1a2c6ef64b5714e51f7fc6dcd5e3c018",
+      "mtime": "2026-01-07T16:52:49.925034",
+      "size": 13323
+    },
+    "en-api-admin-usage_report-retrieve_messages.md": {
+      "hash": "c3b2ee42bbc58ca4576b62215d4f31c6",
+      "mtime": "2026-01-07T16:52:49.898698",
+      "size": 11240
+    },
+    "en-api-admin-users-delete.md": {
+      "hash": "0f5eb547652bfa025c4541c4380f9056",
+      "mtime": "2026-01-07T16:52:49.888789",
+      "size": 5761
+    },
+    "en-api-admin-users-list.md": {
+      "hash": "12a19aee9f7db575c4dadc5303d419b7",
+      "mtime": "2026-01-07T16:52:49.923782",
+      "size": 7420
+    },
+    "en-api-admin-users-retrieve.md": {
+      "hash": "58de13a8786a31278d73286cb16a1369",
+      "mtime": "2026-01-07T16:52:49.861124",
+      "size": 6354
+    },
+    "en-api-admin-users-update.md": {
+      "hash": "0ef34120a551b8f9a3350a43900e6b7e",
+      "mtime": "2026-01-07T16:52:49.886700",
+      "size": 6699
+    },
+    "en-api-admin-workspaces-archive.md": {
+      "hash": "b76f137fec903b9249ad378e00745ca8",
+      "mtime": "2026-01-07T16:52:49.879710",
+      "size": 6734
+    },
+    "en-api-admin-workspaces-create.md": {
+      "hash": "b9bbcf78fbccb2852ff796a66dc30084",
+      "mtime": "2026-01-07T16:52:49.936492",
+      "size": 6784
+    },
+    "en-api-admin-workspaces-list.md": {
+      "hash": "8cf296de1ce5251887e1eb761d9e5911",
+      "mtime": "2026-01-07T16:52:49.822329",
+      "size": 7787
+    },
+    "en-api-admin-workspaces-members-create.md": {
+      "hash": "c6090f4f2be4fdecfe33bf19b7a1f628",
+      "mtime": "2026-01-07T16:52:49.959697",
+      "size": 7464
+    },
+    "en-api-admin-workspaces-members-delete.md": {
+      "hash": "5d46f525e2ed4477e8fee8c53ebf2a24",
+      "mtime": "2026-01-07T16:52:49.931996",
+      "size": 6673
+    },
+    "en-api-admin-workspaces-members-list.md": {
+      "hash": "46c8806b0baa104848310bd71bb337db",
+      "mtime": "2026-01-07T16:52:49.821768",
+      "size": 8049
+    },
+    "en-api-admin-workspaces-members-retrieve.md": {
+      "hash": "08edd420d31fc782c27feff0359fb6d3",
+      "mtime": "2026-01-07T16:52:49.862535",
+      "size": 7010
+    },
+    "en-api-admin-workspaces-members-update.md": {
+      "hash": "e85a7223771b2ab7d2ed8c0c67d6729a",
+      "mtime": "2026-01-07T16:52:49.933994",
+      "size": 7439
+    },
+    "en-api-admin-workspaces-retrieve.md": {
+      "hash": "d385e0a2c465e6b58eb603cc55798d05",
+      "mtime": "2026-01-07T16:52:49.840183",
+      "size": 6686
+    },
+    "en-api-admin-workspaces-update.md": {
+      "hash": "01f26ad5df0c5fe4de6204aac060f74a",
+      "mtime": "2026-01-07T16:52:49.957995",
+      "size": 6897
+    },
+    "en-api-admin.md": {
+      "hash": "0d5fe6a33841108e84890b8165ed7625",
+      "mtime": "2026-01-07T16:52:49.857915",
+      "size": 17790
+    },
+    "en-api-beta-files-delete.md": {
+      "hash": "8dc87d276a1f3b172cfa638eacb819ad",
+      "mtime": "2026-01-07T16:52:49.827659",
+      "size": 6843
+    },
+    "en-api-beta-files-download.md": {
+      "hash": "0ea9bfae6e206b32b6b9c9d6f299e30c",
+      "mtime": "2026-01-07T16:52:49.910568",
+      "size": 6445
+    },
+    "en-api-beta-files-list.md": {
+      "hash": "7b9f1180b5c22f7629bc718398a2e795",
+      "mtime": "2026-01-07T16:52:49.937058",
+      "size": 8491
+    },
+    "en-api-beta-files-retrieve_metadata.md": {
+      "hash": "01a936e8244d0246c0a2794b18fe6b56",
+      "mtime": "2026-01-07T16:52:49.926217",
+      "size": 7569
+    },
+    "en-api-beta-files-upload.md": {
+      "hash": "298ac0abf1f5ae5343ed9290175f895b",
+      "mtime": "2026-01-07T16:52:49.848624",
+      "size": 7504
+    },
+    "en-api-beta-headers.md": {
+      "hash": "a0f4dfd0da3554065dae38e121b8916c",
+      "mtime": "2026-01-07T16:52:49.824536",
+      "size": 7587
+    },
+    "en-api-beta-skills-create.md": {
+      "hash": "d8d8e0c5c2e32f969c0f26a42968be98",
+      "mtime": "2026-01-07T16:52:49.864528",
+      "size": 7729
+    },
+    "en-api-beta-skills-delete.md": {
+      "hash": "4fa6af7e339ebcaabb97d7ae7fc0b65f",
+      "mtime": "2026-01-07T16:52:49.880987",
+      "size": 6866
+    },
+    "en-api-beta-skills-list.md": {
+      "hash": "90b8b0f751dfca0bad5e2d6ef7f497a6",
+      "mtime": "2026-01-07T16:52:49.847407",
+      "size": 8987
+    },
+    "en-api-beta-skills-retrieve.md": {
+      "hash": "2e7dd7785e446fa3c514bef57c3481f3",
+      "mtime": "2026-01-07T16:52:49.851842",
+      "size": 7869
+    },
+    "en-api-beta.md": {
+      "hash": "f4fa1c4905280203ab319b67091ced81",
+      "mtime": "2026-01-07T16:52:49.942085",
+      "size": 545043
+    },
+    "en-api-client-sdks.md": {
+      "hash": "1734c6d370be0599d3bfc155217f67de",
+      "mtime": "2026-01-07T16:52:49.920360",
+      "size": 8091
+    },
+    "en-api-completions-create.md": {
+      "hash": "19e7ba89eb5648a72ce1be920525cd3b",
+      "mtime": "2026-01-07T16:52:49.884652",
+      "size": 14623
+    },
+    "en-api-completions.md": {
+      "hash": "d96ba96a73b418209549b07383ec25bf",
+      "mtime": "2026-01-07T16:52:49.950343",
+      "size": 7622
+    },
+    "en-api-errors.md": {
+      "hash": "00e5e7450599d222f1055fe179563867",
+      "mtime": "2026-01-07T16:52:49.870708",
+      "size": 9753
+    },
+    "en-api-ip-addresses.md": {
+      "hash": "c4660aa9f751fd2e63da3a4919bef2c3",
+      "mtime": "2026-01-07T16:52:49.846796",
+      "size": 6023
+    },
+    "en-api-messages-batches-cancel.md": {
+      "hash": "a6d703388a6b4f34858dcdf4d9258d64",
+      "mtime": "2026-01-07T16:52:49.935952",
+      "size": 10509
+    },
+    "en-api-messages-batches-create.md": {
+      "hash": "7fe068e93d5ba94ebef215ce81eed46c",
+      "mtime": "2026-01-07T16:52:49.928057",
+      "size": 61702
+    },
+    "en-api-messages-batches-delete.md": {
+      "hash": "14cb4f0e867ff7509a3feab3c679e7f9",
+      "mtime": "2026-01-07T16:52:49.954390",
+      "size": 6494
+    },
+    "en-api-messages-batches-list.md": {
+      "hash": "a5399a124b56c6620a31a2dc2580f15c",
+      "mtime": "2026-01-07T16:52:49.848027",
+      "size": 11130
+    },
+    "en-api-messages-batches-results.md": {
+      "hash": "8d52f3c7c4bec2b03eab9827ee1ee5f4",
+      "mtime": "2026-01-07T16:52:49.858533",
+      "size": 18768
+    },
+    "en-api-messages-batches-retrieve.md": {
+      "hash": "986343d29a57d0474001cb32e48d209f",
+      "mtime": "2026-01-07T16:52:49.933415",
+      "size": 10178
+    },
+    "en-api-messages-count_tokens.md": {
+      "hash": "b011d82e04b9e7d8a062a186a7aa3c32",
+      "mtime": "2026-01-07T16:52:49.886090",
+      "size": 53382
+    },
+    "en-api-messages-create.md": {
+      "hash": "54fcb7274396a92b4c7e240e14e6e52f",
+      "mtime": "2026-01-07T16:52:49.887252",
+      "size": 68262
+    },
+    "en-api-messages.md": {
+      "hash": "7d22d657e569cf4ca01589ea48c27a8a",
+      "mtime": "2026-01-07T16:52:49.916151",
+      "size": 244652
+    },
+    "en-api-models-list.md": {
+      "hash": "14fd34b504cad7ddf4011ea412b63814",
+      "mtime": "2026-01-07T16:52:49.853550",
+      "size": 8068
+    },
+    "en-api-models-retrieve.md": {
+      "hash": "e755db59d98ba6ecc93797f9ee1a43d5",
+      "mtime": "2026-01-07T16:52:49.874586",
+      "size": 7072
+    },
+    "en-api-models.md": {
+      "hash": "f8c3145fff399cb6db5b019bac0518a7",
+      "mtime": "2026-01-07T16:52:49.918560",
+      "size": 5447
+    },
+    "en-api-openai-sdk.md": {
+      "hash": "a5962d01fa955eae4ab18e5e36cdf9d0",
+      "mtime": "2026-01-07T16:52:49.849394",
+      "size": 13128
+    },
+    "en-api-overview.md": {
+      "hash": "4be14349aba1ca70e0f50589be7c8af1",
+      "mtime": "2026-01-07T16:52:49.908421",
+      "size": 13959
+    },
+    "en-api-rate-limits.md": {
+      "hash": "a3e3fcf382f46a5c847c4fd743302220",
+      "mtime": "2026-01-07T16:52:49.905412",
+      "size": 19825
+    },
+    "en-api-service-tiers.md": {
+      "hash": "1f55d52bde01c3782ff5d80ea9128d79",
+      "mtime": "2026-01-07T16:52:49.868885",
+      "size": 10936
+    },
+    "en-api-supported-regions.md": {
+      "hash": "e58d13663c0a65f24cff84c9e5cf19f7",
+      "mtime": "2026-01-07T16:52:49.917408",
+      "size": 7680
+    },
+    "en-api-versioning.md": {
+      "hash": "7e2538606c3f74519208942d95ad138d",
+      "mtime": "2026-01-07T16:52:49.823943",
+      "size": 6764
+    },
+    "en-build-with-claude-administration-api.md": {
+      "hash": "17f60cbb6c63148360e3d614e7b4deda",
+      "mtime": "2026-01-07T16:52:49.922500",
+      "size": 19882
+    },
+    "en-build-with-claude-batch-processing.md": {
+      "hash": "f0255133dc89ee0a12a739304f47b097",
+      "mtime": "2026-01-07T16:52:49.920837",
+      "size": 30657
+    },
+    "en-build-with-claude-citations.md": {
+      "hash": "04a4a4793c06d24893980ae862622e51",
+      "mtime": "2026-01-07T16:52:49.917969",
+      "size": 24767
+    },
+    "en-build-with-claude-claude-code-analytics-api.md": {
+      "hash": "382cb42bee59a83fc6d2aaea1c421aeb",
+      "mtime": "2026-01-07T16:52:49.902063",
+      "size": 22660
+    },
+    "en-build-with-claude-claude-in-microsoft-foundry.md": {
+      "hash": "53b2c8364df177d1270a4f2d097aab12",
+      "mtime": "2026-01-07T16:52:49.846218",
+      "size": 23230
+    },
+    "en-build-with-claude-claude-on-amazon-bedrock.md": {
+      "hash": "320d45dfee01802d42884143ed804a5d",
+      "mtime": "2026-01-07T16:52:49.912375",
+      "size": 19448
+    },
+    "en-build-with-claude-claude-on-vertex-ai.md": {
+      "hash": "31b236bae0c4b7a27b48f137464edf59",
+      "mtime": "2026-01-07T16:52:49.947858",
+      "size": 16874
+    },
+    "en-build-with-claude-context-editing.md": {
+      "hash": "771f599d1ef6902871c12fc4faa2faa2",
+      "mtime": "2026-01-07T16:52:49.922027",
+      "size": 35751
+    },
+    "en-build-with-claude-context-windows.md": {
+      "hash": "f022f6ea73fb156431d3a03447310e2a",
+      "mtime": "2026-01-07T16:52:49.863854",
+      "size": 22882
+    },
+    "en-build-with-claude-effort.md": {
+      "hash": "bb1fd576241291c463ff20294154c6d4",
+      "mtime": "2026-01-07T16:52:49.942918",
+      "size": 15318
+    },
+    "en-build-with-claude-embeddings.md": {
+      "hash": "d33a329aa70c748dd9df9797a4232419",
+      "mtime": "2026-01-07T16:52:49.893831",
+      "size": 19935
+    },
+    "en-build-with-claude-extended-thinking.md": {
+      "hash": "349ca906e8b5eceebd05f39601638922",
+      "mtime": "2026-01-07T16:52:49.924383",
+      "size": 43938
+    },
+    "en-build-with-claude-files.md": {
+      "hash": "1cf1752219fe0851bac37d2ef7f55d3a",
+      "mtime": "2026-01-07T16:52:49.854143",
+      "size": 20236
+    },
+    "en-build-with-claude-handling-stop-reasons.md": {
+      "hash": "a853a926fd5c94a2878c92e3164e1bcc",
+      "mtime": "2026-01-07T16:52:49.861919",
+      "size": 27454
+    },
+    "en-build-with-claude-multilingual-support.md": {
+      "hash": "4c6ef3a3062a35ae5c35f814b850dbfa",
+      "mtime": "2026-01-07T16:52:49.851246",
+      "size": 13712
+    },
+    "en-build-with-claude-overview.md": {
+      "hash": "fa84bc41e2291962397ec4c47e482227",
+      "mtime": "2026-01-07T16:52:49.892157",
+      "size": 17816
+    },
+    "en-build-with-claude-pdf-support.md": {
+      "hash": "cbec4428a762b4eb4e3cac21fd2ab2a9",
+      "mtime": "2026-01-07T16:52:49.914544",
+      "size": 23800
+    },
+    "en-build-with-claude-prompt-caching.md": {
+      "hash": "bf4c1b666201d87e5b3ff65da7960810",
+      "mtime": "2026-01-07T16:52:49.877873",
+      "size": 36375
+    },
+    "en-build-with-claude-prompt-engineering-be-clear-a.md": {
+      "hash": "9ad4ad034ce49bbbbff25210edda6552",
+      "mtime": "2026-01-07T16:52:49.873137",
+      "size": 12421
+    },
+    "en-build-with-claude-prompt-engineering-chain-of-t.md": {
+      "hash": "f9c4cddc0b20ffcc1f74cb4124f7488d",
+      "mtime": "2026-01-07T16:52:49.837493",
+      "size": 13315
+    },
+    "en-build-with-claude-prompt-engineering-chain-prom.md": {
+      "hash": "b48381e56f223ff5d2a4279fbb525ff3",
+      "mtime": "2026-01-07T16:52:49.828565",
+      "size": 13536
+    },
+    "en-build-with-claude-prompt-engineering-claude-4-b.md": {
+      "hash": "b3e72931a3fe84b8bb9d4761e25d825a",
+      "mtime": "2026-01-07T16:52:49.911200",
+      "size": 37756
+    },
+    "en-build-with-claude-prompt-engineering-extended-t.md": {
+      "hash": "6e88ee53db118f2d234719528d61b776",
+      "mtime": "2026-01-07T16:52:49.857312",
+      "size": 19819
+    },
+    "en-build-with-claude-prompt-engineering-long-conte.md": {
+      "hash": "a76a4ee8123a08dd8143ff3a584032ed",
+      "mtime": "2026-01-07T16:52:49.859154",
+      "size": 11975
+    },
+    "en-build-with-claude-prompt-engineering-multishot-.md": {
+      "hash": "23ec64a628a3043b94205bc445844546",
+      "mtime": "2026-01-07T16:52:49.860365",
+      "size": 12400
+    },
+    "en-build-with-claude-prompt-engineering-overview.md": {
+      "hash": "13a3bf4bced94e4bdf3c4cd239a98ded",
+      "mtime": "2026-01-07T16:52:49.928953",
+      "size": 13072
+    },
+    "en-build-with-claude-prompt-engineering-prefill-cl.md": {
+      "hash": "33a22a3059b69959243f2c8145707fd2",
+      "mtime": "2026-01-07T16:52:49.921445",
+      "size": 13597
+    },
+    "en-build-with-claude-prompt-engineering-prompt-gen.md": {
+      "hash": "3c50dec4e6fb9e2f7cec18c472c0f6c7",
+      "mtime": "2026-01-07T16:52:49.850168",
+      "size": 11954
+    },
+    "en-build-with-claude-prompt-engineering-prompt-imp.md": {
+      "hash": "05eb4ad1bd2f21b037e2b13c6b8274ac",
+      "mtime": "2026-01-07T16:52:49.945563",
+      "size": 14621
+    },
+    "en-build-with-claude-prompt-engineering-prompt-tem.md": {
+      "hash": "ece4b02dc50e925e379d0463e2d27d4b",
+      "mtime": "2026-01-07T16:52:49.899549",
+      "size": 13517
+    },
+    "en-build-with-claude-prompt-engineering-system-pro.md": {
+      "hash": "f6016ab9f8b1d0a4d169782d47d7dd6f",
+      "mtime": "2026-01-07T16:52:49.826123",
+      "size": 13359
+    },
+    "en-build-with-claude-prompt-engineering-use-xml-ta.md": {
+      "hash": "b810f063d487c47ec1beaf26d0fdc547",
+      "mtime": "2026-01-07T16:52:49.956221",
+      "size": 12571
+    },
+    "en-build-with-claude-search-results.md": {
+      "hash": "25176c730b6bf90049654964fd287ffa",
+      "mtime": "2026-01-07T16:52:49.944818",
+      "size": 29329
+    },
+    "en-build-with-claude-skills-guide.md": {
+      "hash": "3e3d63ba1fe1dc463b275251bb860c06",
+      "mtime": "2026-01-07T16:52:49.903321",
+      "size": 35089
+    },
+    "en-build-with-claude-streaming.md": {
+      "hash": "9f21f8137e5cd1e09878c5c7dd705ef1",
+      "mtime": "2026-01-07T16:52:49.892743",
+      "size": 32170
+    },
+    "en-build-with-claude-structured-outputs.md": {
+      "hash": "a11cb8b95039b415e99f52ade7a1c1a1",
+      "mtime": "2026-01-07T16:52:49.880376",
+      "size": 27834
+    },
+    "en-build-with-claude-text-generation.md": {
+      "hash": "c24ef323becd13de4e26c66104f5c997",
+      "mtime": "2026-01-07T16:52:49.943631",
+      "size": 12998
+    },
+    "en-build-with-claude-token-counting.md": {
+      "hash": "3f8733956a69c69336dff6b6ab86aea3",
+      "mtime": "2026-01-07T16:52:49.916757",
+      "size": 17400
+    },
+    "en-build-with-claude-usage-cost-api.md": {
+      "hash": "3dcc23ef26b4a33de0570429b46a303b",
+      "mtime": "2026-01-07T16:52:49.940314",
+      "size": 21571
+    },
+    "en-build-with-claude-vision.md": {
+      "hash": "f8bd2d00a397b4f68239a6603399cdf1",
+      "mtime": "2026-01-07T16:52:49.881617",
+      "size": 22080
+    },
+    "en-build-with-claude-working-with-messages.md": {
+      "hash": "3d1b8e7b34089b376519f9b8c91ac6e1",
+      "mtime": "2026-01-07T16:52:49.957425",
+      "size": 17096
+    },
+    "en-build-with-claude-workspaces.md": {
+      "hash": "2fd06e60932a4e0c0f577540e1e6d804",
+      "mtime": "2026-01-07T16:52:49.830892",
+      "size": 21134
+    },
+    "en-get-started.md": {
+      "hash": "1e4b80d036ac419a75761a1fb774e1c9",
+      "mtime": "2026-01-07T16:52:49.944233",
+      "size": 10767
+    },
+    "en-intro.md": {
+      "hash": "3a5c5e1f2a3b181000efca83b603c780",
+      "mtime": "2026-01-07T16:52:49.919828",
+      "size": 12375
+    },
+    "en-release-notes-api.md": {
+      "hash": "981d39c0257b5f035c309238a94ce98a",
+      "mtime": "2026-01-10T03:56:58.921454",
+      "size": 23262
+    },
+    "en-release-notes-overview.md": {
+      "hash": "e41d7d9522d91d315c94a71d9bee25e9",
+      "mtime": "2026-01-07T16:52:49.872418",
+      "size": 37367
+    },
+    "en-release-notes-system-prompts.md": {
+      "hash": "2e25775bc8afeccba0535f51ab2f16c4",
+      "mtime": "2026-01-07T16:52:49.897393",
+      "size": 6011
+    },
+    "en-resources-overview.md": {
+      "hash": "f93c761b63a5c78615d78df3d281d466",
+      "mtime": "2026-01-07T16:52:49.959142",
+      "size": 6428
+    },
+    "en-resources-prompt-library-adaptive-editor.md": {
+      "hash": "c358d3981694177000111dc9fc23e1d9",
+      "mtime": "2026-01-07T16:52:49.838996",
+      "size": 11113
+    },
+    "en-resources-prompt-library-airport-code-analyst.md": {
+      "hash": "50bf3bb7fc7be8e1a710308134c3122e",
+      "mtime": "2026-01-07T16:52:49.871779",
+      "size": 10722
+    },
+    "en-resources-prompt-library-alien-anthropologist.md": {
+      "hash": "5ed7026d3b13d0a1f1009c2a32832d9d",
+      "mtime": "2026-01-07T16:52:49.882174",
+      "size": 11596
+    },
+    "en-resources-prompt-library-alliteration-alchemist.md": {
+      "hash": "23537fbfe2335746334547e949558c67",
+      "mtime": "2026-01-07T16:52:49.890670",
+      "size": 11353
+    },
+    "en-resources-prompt-library-babels-broadcasts.md": {
+      "hash": "6bebf441f9505be9e0323da4ded32616",
+      "mtime": "2026-01-07T16:52:49.935483",
+      "size": 13099
+    },
+    "en-resources-prompt-library-brand-builder.md": {
+      "hash": "fc8ad4bf4bdea88ef5187fccedb223f8",
+      "mtime": "2026-01-07T16:52:49.888225",
+      "size": 15586
+    },
+    "en-resources-prompt-library-career-coach.md": {
+      "hash": "cab7b8e73cab64180640fc21630fca79",
+      "mtime": "2026-01-07T16:52:49.875504",
+      "size": 12138
+    },
+    "en-resources-prompt-library-cite-your-sources.md": {
+      "hash": "ef26a4a986636a7571eb53666db8fc79",
+      "mtime": "2026-01-07T16:52:49.946210",
+      "size": 12324
+    },
+    "en-resources-prompt-library-code-clarifier.md": {
+      "hash": "32da6954ab3085ecbb5567f491f056ab",
+      "mtime": "2026-01-07T16:52:49.904951",
+      "size": 14196
+    },
+    "en-resources-prompt-library-code-consultant.md": {
+      "hash": "a4710c84f95697ea1706462ba8b721d5",
+      "mtime": "2026-01-07T16:52:49.930421",
+      "size": 10438
+    },
+    "en-resources-prompt-library-corporate-clairvoyant.md": {
+      "hash": "be35e8edeca40273c7b4f6f11f94c829",
+      "mtime": "2026-01-07T16:52:49.919277",
+      "size": 12440
+    },
+    "en-resources-prompt-library-cosmic-keystrokes.md": {
+      "hash": "46e7e822880484d961be70e8e4e3b1b5",
+      "mtime": "2026-01-07T16:52:49.923213",
+      "size": 18481
+    },
+    "en-resources-prompt-library-csv-converter.md": {
+      "hash": "1fa5dfbb54f6d4440f81a614863a1863",
+      "mtime": "2026-01-07T16:52:49.823188",
+      "size": 12240
+    },
+    "en-resources-prompt-library-culinary-creator.md": {
+      "hash": "ef4937ebd82029e5454750b990cf2f2f",
+      "mtime": "2026-01-07T16:52:49.863190",
+      "size": 12157
+    },
+    "en-resources-prompt-library-data-organizer.md": {
+      "hash": "5d446de66a29d8d71c6509828c37a149",
+      "mtime": "2026-01-07T16:52:49.929748",
+      "size": 13550
+    },
+    "en-resources-prompt-library-direction-decoder.md": {
+      "hash": "a228cd0a4e880877e944c6de64142415",
+      "mtime": "2026-01-07T16:52:49.895100",
+      "size": 12341
+    },
+    "en-resources-prompt-library-dream-interpreter.md": {
+      "hash": "b7fbfd127ee4e8abdcde3b24dd6ad02a",
+      "mtime": "2026-01-07T16:52:49.896789",
+      "size": 12060
+    },
+    "en-resources-prompt-library-efficiency-estimator.md": {
+      "hash": "df2f8358f6f465971cf3290058bdfe61",
+      "mtime": "2026-01-07T16:52:49.958569",
+      "size": 12766
+    },
+    "en-resources-prompt-library-email-extractor.md": {
+      "hash": "43155d988c3d4e395ea74320f3f0723e",
+      "mtime": "2026-01-07T16:52:49.870131",
+      "size": 11324
+    },
+    "en-resources-prompt-library-emoji-encoder.md": {
+      "hash": "1c4ad17a20618bd6b9d2661fd4d94420",
+      "mtime": "2026-01-07T16:52:49.939714",
+      "size": 10080
+    },
+    "en-resources-prompt-library-ethical-dilemma-naviga.md": {
+      "hash": "ef9b61573a2315e202f5b3963df75c52",
+      "mtime": "2026-01-07T16:52:49.876307",
+      "size": 12202
+    },
+    "en-resources-prompt-library-excel-formula-expert.md": {
+      "hash": "25a5964f0b378ba186f381a3c1fe71e0",
+      "mtime": "2026-01-07T16:52:49.874011",
+      "size": 12249
+    },
+    "en-resources-prompt-library-function-fabricator.md": {
+      "hash": "aa531ced5604db75743ac6955534a158",
+      "mtime": "2026-01-07T16:52:49.890008",
+      "size": 12100
+    },
+    "en-resources-prompt-library-futuristic-fashion-adv.md": {
+      "hash": "df4ccd71c79902ec3944ef5cb11112ad",
+      "mtime": "2026-01-07T16:52:49.906924",
+      "size": 14240
+    },
+    "en-resources-prompt-library-git-gud.md": {
+      "hash": "7cc7831bcec85844c9dfd779f1a81afa",
+      "mtime": "2026-01-07T16:52:49.903923",
+      "size": 10721
+    },
+    "en-resources-prompt-library-google-apps-scripter.md": {
+      "hash": "52e9db3fd1f7893f0b8253a2360a9213",
+      "mtime": "2026-01-07T16:52:49.856656",
+      "size": 12841
+    },
+    "en-resources-prompt-library-grading-guru.md": {
+      "hash": "5e89ffd6d2419cf4bd0050ddc9ca7694",
+      "mtime": "2026-01-07T16:52:49.889507",
+      "size": 12383
+    },
+    "en-resources-prompt-library-grammar-genie.md": {
+      "hash": "b869d814a44dbc9d8aa5a49a503cef8a",
+      "mtime": "2026-01-07T16:52:49.913378",
+      "size": 9745
+    },
+    "en-resources-prompt-library-hal-the-humorous-helpe.md": {
+      "hash": "9af27120e8ad6bf05c702df93850858d",
+      "mtime": "2026-01-07T16:52:49.909997",
+      "size": 12233
+    },
+    "en-resources-prompt-library-idiom-illuminator.md": {
+      "hash": "5dbce055e7aa49eee8d871efd2a3bf3a",
+      "mtime": "2026-01-07T16:52:49.893224",
+      "size": 10827
+    },
+    "en-resources-prompt-library-interview-question-cra.md": {
+      "hash": "6affc95b1434da4831e1bd247e84856a",
+      "mtime": "2026-01-07T16:52:49.885227",
+      "size": 11767
+    },
+    "en-resources-prompt-library-latex-legend.md": {
+      "hash": "01c6e50e825831f959b73b8f7feed836",
+      "mtime": "2026-01-07T16:52:49.937550",
+      "size": 11635
+    },
+    "en-resources-prompt-library-lesson-planner.md": {
+      "hash": "2ce7c92501ae558f7245e14a921ab910",
+      "mtime": "2026-01-07T16:52:49.829369",
+      "size": 14718
+    },
+    "en-resources-prompt-library-library.md": {
+      "hash": "87787d340d80c1897660de918743c04f",
+      "mtime": "2026-01-07T16:52:49.952136",
+      "size": 18507
+    },
+    "en-resources-prompt-library-master-moderator.md": {
+      "hash": "1e340cf5a69478f42be0b68f28dd7e8d",
+      "mtime": "2026-01-07T16:52:49.834258",
+      "size": 10623
+    },
+    "en-resources-prompt-library-meeting-scribe.md": {
+      "hash": "10da0c2842993a704cf64f10b4a98526",
+      "mtime": "2026-01-07T16:52:49.869571",
+      "size": 14932
+    },
+    "en-resources-prompt-library-memo-maestro.md": {
+      "hash": "e233f597b063835147a2801381e7a28d",
+      "mtime": "2026-01-07T16:52:49.830093",
+      "size": 13138
+    },
+    "en-resources-prompt-library-mindfulness-mentor.md": {
+      "hash": "2d2ae0f929bc62206239a3adf0d79bab",
+      "mtime": "2026-01-07T16:52:49.832948",
+      "size": 12083
+    },
+    "en-resources-prompt-library-mood-colorizer.md": {
+      "hash": "353aa4716264a6e48a4b9b06e960a296",
+      "mtime": "2026-01-07T16:52:49.912883",
+      "size": 10307
+    },
+    "en-resources-prompt-library-motivational-muse.md": {
+      "hash": "2f2ac1e8ee51d10f928fd6a737ebda45",
+      "mtime": "2026-01-07T16:52:49.868155",
+      "size": 12692
+    },
+    "en-resources-prompt-library-neologism-creator.md": {
+      "hash": "d335b8f3c9c7179a324cd21ac93ef3ba",
+      "mtime": "2026-01-07T16:52:49.825295",
+      "size": 10205
+    },
+    "en-resources-prompt-library-perspectives-ponderer.md": {
+      "hash": "f7e1891784d382a0ff854c9de7dcd56c",
+      "mtime": "2026-01-07T16:52:49.826854",
+      "size": 12028
+    },
+    "en-resources-prompt-library-philosophical-musings.md": {
+      "hash": "d0f185ac1117b4a112358ce73d9e81f8",
+      "mtime": "2026-01-07T16:52:49.901484",
+      "size": 12202
+    },
+    "en-resources-prompt-library-pii-purifier.md": {
+      "hash": "95beaa93da7a5966c1fefd0ffa947b67",
+      "mtime": "2026-01-07T16:52:49.926703",
+      "size": 10286
+    },
+    "en-resources-prompt-library-polyglot-superpowers.md": {
+      "hash": "2a7082f688578ccb569f6170f66efc7c",
+      "mtime": "2026-01-07T16:52:49.927189",
+      "size": 10729
+    },
+    "en-resources-prompt-library-portmanteau-poet.md": {
+      "hash": "7805e506be88044ce208f397fdb1663c",
+      "mtime": "2026-01-07T16:52:49.915037",
+      "size": 11376
+    },
+    "en-resources-prompt-library-product-naming-pro.md": {
+      "hash": "1069087a38e7ad70caaa7ac27056d9c6",
+      "mtime": "2026-01-07T16:52:49.930900",
+      "size": 11242
+    },
+    "en-resources-prompt-library-prose-polisher.md": {
+      "hash": "462a45809e04c61d3c16a0527459a332",
+      "mtime": "2026-01-07T16:52:49.866587",
+      "size": 13432
+    },
+    "en-resources-prompt-library-pun-dit.md": {
+      "hash": "490b1fece18f04645364c74318e0ca0c",
+      "mtime": "2026-01-07T16:52:49.904392",
+      "size": 10446
+    },
+    "en-resources-prompt-library-python-bug-buster.md": {
+      "hash": "eb8f16ac38383c0a27ee7d2f0c666665",
+      "mtime": "2026-01-07T16:52:49.948367",
+      "size": 10515
+    },
+    "en-resources-prompt-library-review-classifier.md": {
+      "hash": "86ed0926e71a398678cfd8e399689d57",
+      "mtime": "2026-01-07T16:52:49.894464",
+      "size": 15620
+    },
+    "en-resources-prompt-library-riddle-me-this.md": {
+      "hash": "f3fa8539a5cb3c267ba7dba886e3c171",
+      "mtime": "2026-01-07T16:52:49.839553",
+      "size": 10611
+    },
+    "en-resources-prompt-library-sci-fi-scenario-simula.md": {
+      "hash": "aee8dcc8d0f4784cfa6646d56d984a08",
+      "mtime": "2026-01-07T16:52:49.954986",
+      "size": 12668
+    },
+    "en-resources-prompt-library-second-grade-simplifie.md": {
+      "hash": "e388120b8e7f7edb15029423b919e898",
+      "mtime": "2026-01-07T16:52:49.938595",
+      "size": 10569
+    },
+    "en-resources-prompt-library-simile-savant.md": {
+      "hash": "29a8802546641ce8da65933507daa2cd",
+      "mtime": "2026-01-07T16:52:49.897862",
+      "size": 9707
+    },
+    "en-resources-prompt-library-socratic-sage.md": {
+      "hash": "853ed0b656fb488bf195a6d8e2f65132",
+      "mtime": "2026-01-07T16:52:49.909487",
+      "size": 10823
+    },
+    "en-resources-prompt-library-spreadsheet-sorcerer.md": {
+      "hash": "6e01912c448b070d5244ec9d238178c5",
+      "mtime": "2026-01-07T16:52:49.871181",
+      "size": 12183
+    },
+    "en-resources-prompt-library-sql-sorcerer.md": {
+      "hash": "4476ac5d368b00acaeed3f858e52f5f2",
+      "mtime": "2026-01-07T16:52:49.841633",
+      "size": 11328
+    },
+    "en-resources-prompt-library-storytelling-sidekick.md": {
+      "hash": "5f6ed40d42072a1054af26c6552f3c04",
+      "mtime": "2026-01-07T16:52:49.895576",
+      "size": 11429
+    },
+    "en-resources-prompt-library-time-travel-consultant.md": {
+      "hash": "c0e1a97c732ec3861529b0df616307b4",
+      "mtime": "2026-01-07T16:52:49.831525",
+      "size": 11898
+    },
+    "en-resources-prompt-library-tongue-twister.md": {
+      "hash": "ec5a8bfb3ed7fc116f3e80fd302c3821",
+      "mtime": "2026-01-07T16:52:49.850636",
+      "size": 10045
+    },
+    "en-resources-prompt-library-trivia-generator.md": {
+      "hash": "37424cb514049d59a786df2d3e99201b",
+      "mtime": "2026-01-07T16:52:49.836206",
+      "size": 11395
+    },
+    "en-resources-prompt-library-tweet-tone-detector.md": {
+      "hash": "2d28d1adaa3e99344cccb3c88ef04adb",
+      "mtime": "2026-01-07T16:52:49.843116",
+      "size": 11041
+    },
+    "en-resources-prompt-library-vr-fitness-innovator.md": {
+      "hash": "d55518ab76beabb8d98e278abbefacd8",
+      "mtime": "2026-01-07T16:52:49.865030",
+      "size": 11533
+    },
+    "en-resources-prompt-library-website-wizard.md": {
+      "hash": "6599fdb161704bba6b603ba0f3bdf685",
+      "mtime": "2026-01-07T16:52:49.913969",
+      "size": 18429
+    },
+    "en-test-and-evaluate-define-success.md": {
+      "hash": "df21ce4fabdb464f9358bff8b53a55b8",
+      "mtime": "2026-01-07T16:52:49.867442",
+      "size": 12514
+    },
+    "en-test-and-evaluate-develop-tests.md": {
+      "hash": "66c1c081d7a24b9ccce0463f998d9e3c",
+      "mtime": "2026-01-07T16:52:49.907696",
+      "size": 13523
+    },
+    "en-test-and-evaluate-eval-tool.md": {
+      "hash": "9bd13a3983c47cc540f363f1258877b8",
+      "mtime": "2026-01-07T16:52:49.949139",
+      "size": 14128
+    },
+    "en-test-and-evaluate-strengthen-guardrails-handle-.md": {
+      "hash": "e9a5ebd03e0504d11db2a6e2612b1ae5",
+      "mtime": "2026-01-07T16:52:49.879030",
+      "size": 13979
+    },
+    "en-test-and-evaluate-strengthen-guardrails-increas.md": {
+      "hash": "7ecf32f73cf52347de48eac8eaabed73",
+      "mtime": "2026-01-07T16:52:49.931403",
+      "size": 11978
+    },
+    "en-test-and-evaluate-strengthen-guardrails-keep-cl.md": {
+      "hash": "3d332625fae5b47595fdf31b01276d59",
+      "mtime": "2026-01-07T16:52:49.953825",
+      "size": 11042
+    },
+    "en-test-and-evaluate-strengthen-guardrails-mitigat.md": {
+      "hash": "188712f6c1335b40c2717b048132d7f3",
+      "mtime": "2026-01-07T16:52:49.833604",
+      "size": 12253
+    },
+    "en-test-and-evaluate-strengthen-guardrails-reduce-.md": {
+      "hash": "2857459f8d08255fe761b7b8636bf5fe",
+      "mtime": "2026-01-07T16:52:49.834951",
+      "size": 12043
+    }
+  },
+  "generated_at": "2026-01-10T04:20:16.907760"
+}

@@ -1,0 +1,167 @@
+{
+  "api": "clerk",
+  "file_count": 32,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "7a29f788f6f106cd6d90efcc0eab8c18",
+      "mtime": "2026-01-08T23:45:32.287279",
+      "size": 417
+    },
+    "README.md": {
+      "hash": "ba4ecd5db304daa83177d0c6f22ea462",
+      "mtime": "2026-01-08T23:45:30.764072",
+      "size": 2381
+    },
+    "SOURCES.md": {
+      "hash": "4f33cce2e57797e4d75c63cdc720b20d",
+      "mtime": "2026-01-08T23:45:32.286812",
+      "size": 400
+    },
+    "accountless-applications.md": {
+      "hash": "68e48c0f272cc99f476eb1d105aee5e4",
+      "mtime": "2026-01-08T23:45:32.286236",
+      "size": 831
+    },
+    "actor-tokens.md": {
+      "hash": "5f2a9013f916dea1642b84210e2798eb",
+      "mtime": "2026-01-08T23:45:32.135340",
+      "size": 1022
+    },
+    "allow-list---block-list.md": {
+      "hash": "ee0ce21c07e416ec859ee5303da106e4",
+      "mtime": "2026-01-08T23:45:32.132834",
+      "size": 2536
+    },
+    "beta-features.md": {
+      "hash": "a99e0f9c2763d07de70d533f5ce8cf7f",
+      "mtime": "2026-01-08T23:45:32.133921",
+      "size": 1957
+    },
+    "clients.md": {
+      "hash": "9825273bf6424c78074ffe016692b398",
+      "mtime": "2026-01-08T23:45:30.764378",
+      "size": 1358
+    },
+    "domains.md": {
+      "hash": "eb8a4198a3286a1e4bb7298fce672042",
+      "mtime": "2026-01-08T23:45:32.136048",
+      "size": 2836
+    },
+    "email-&-sms-templates.md": {
+      "hash": "1d38e96562d0d910e8ae4bc1a30c086c",
+      "mtime": "2026-01-08T23:45:30.764699",
+      "size": 3841
+    },
+    "email-addresses.md": {
+      "hash": "cb028e0e43fd61498b346ad247fe4e23",
+      "mtime": "2026-01-08T23:45:30.764452",
+      "size": 1805
+    },
+    "instance-settings.md": {
+      "hash": "4e78c3b41f421ef2f97893ba601d1e16",
+      "mtime": "2026-01-08T23:45:32.136698",
+      "size": 1171
+    },
+    "invitations.md": {
+      "hash": "c3f34364a3c68c801ae0238537108b6a",
+      "mtime": "2026-01-08T23:45:30.764900",
+      "size": 2751
+    },
+    "jwks.md": {
+      "hash": "fc8be05ed392cae8a4f5e7fccb7fbde5",
+      "mtime": "2026-01-08T23:45:30.764292",
+      "size": 417
+    },
+    "jwt-templates.md": {
+      "hash": "dc86025b6f224e3229ca2b7ffd9e1161",
+      "mtime": "2026-01-08T23:45:32.138324",
+      "size": 2020
+    },
+    "miscellaneous.md": {
+      "hash": "2affe237135f76eaa58022d3856a250e",
+      "mtime": "2026-01-08T23:45:30.764216",
+      "size": 1305
+    },
+    "oauth-applications.md": {
+      "hash": "27041680deb7773f19934e635b7f6961",
+      "mtime": "2026-01-08T23:45:32.272984",
+      "size": 3440
+    },
+    "organization-domains.md": {
+      "hash": "68f63b043d55a5d67c1e34c88a842373",
+      "mtime": "2026-01-08T23:45:32.176977",
+      "size": 2693
+    },
+    "organization-invitations.md": {
+      "hash": "d20e86f3371d3d7ee2f1a86ef3aa26cb",
+      "mtime": "2026-01-08T23:45:30.764994",
+      "size": 8496
+    },
+    "organization-memberships.md": {
+      "hash": "4fd3ba78c26179e459ef4f3eaa652906",
+      "mtime": "2026-01-08T23:45:32.141197",
+      "size": 5891
+    },
+    "organizations.md": {
+      "hash": "f5be52eb538a570df77c679e686d2874",
+      "mtime": "2026-01-08T23:45:32.139692",
+      "size": 6263
+    },
+    "phone-numbers.md": {
+      "hash": "342d7e03ecf2b2427e403c2225f95db2",
+      "mtime": "2026-01-08T23:45:30.764527",
+      "size": 1755
+    },
+    "proxy-checks.md": {
+      "hash": "afb870593c05cb3a900be1567a1415f6",
+      "mtime": "2026-01-08T23:45:32.179745",
+      "size": 1072
+    },
+    "redirect-urls.md": {
+      "hash": "c5d5856452bdd8fdd15e8ef5caae6668",
+      "mtime": "2026-01-08T23:45:32.182614",
+      "size": 1702
+    },
+    "saml-connections.md": {
+      "hash": "0691c59575d3ceba4c1293cec8b63a0d",
+      "mtime": "2026-01-08T23:45:32.282460",
+      "size": 2872
+    },
+    "sessions.md": {
+      "hash": "36e5df2b1c6cdaf7cac2e2783ebec716",
+      "mtime": "2026-01-08T23:45:30.764608",
+      "size": 5224
+    },
+    "sign-in-tokens.md": {
+      "hash": "a3ac6f44c60ffb4b8135774fa8c3b370",
+      "mtime": "2026-01-08T23:45:32.187417",
+      "size": 1083
+    },
+    "sign-ups.md": {
+      "hash": "591de23451784a12c61f57ed3376a70b",
+      "mtime": "2026-01-08T23:45:32.271448",
+      "size": 999
+    },
+    "testing-tokens.md": {
+      "hash": "a27241bfe515a608febe0c0aea1fc4de",
+      "mtime": "2026-01-08T23:45:32.284891",
+      "size": 436
+    },
+    "users.md": {
+      "hash": "10cef732d8f013366587b1e3261f06d5",
+      "mtime": "2026-01-08T23:45:30.764833",
+      "size": 17338
+    },
+    "waitlist-entries.md": {
+      "hash": "e0c5aa680c4adbf3bdcb52d8fd545fca",
+      "mtime": "2026-01-08T23:45:32.285563",
+      "size": 1430
+    },
+    "webhooks.md": {
+      "hash": "717dfd6a9a77c80a61a4076414aa8b02",
+      "mtime": "2026-01-08T23:45:32.137371",
+      "size": 966
+    }
+  },
+  "generated_at": "2026-01-10T04:20:16.924711"
+}

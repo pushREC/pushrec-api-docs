@@ -1,0 +1,92 @@
+{
+  "api": "google-drive",
+  "file_count": 17,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "a592f029e9c7d44eab489f6980309a67",
+      "mtime": "2026-01-08T21:52:28.409508",
+      "size": 1447
+    },
+    "README.md": {
+      "hash": "85eb24b86d71ab4faa3749d67d67fca9",
+      "mtime": "2026-01-08T21:52:28.407112",
+      "size": 2106
+    },
+    "SOURCES.md": {
+      "hash": "4f1996252d17dffefc9565331aeb3625",
+      "mtime": "2026-01-08T21:52:28.409291",
+      "size": 1294
+    },
+    "about.md": {
+      "hash": "891dc2e84f36b3521ccc5a5c10c02216",
+      "mtime": "2026-01-08T21:52:29.718325",
+      "size": 975
+    },
+    "accessproposals.md": {
+      "hash": "914505d321c6e7ac9674bb3d80d810b3",
+      "mtime": "2026-01-08T21:52:29.729749",
+      "size": 3189
+    },
+    "approvals.md": {
+      "hash": "e723617d6075c7bf4881a701dd17e06a",
+      "mtime": "2026-01-08T21:52:29.728925",
+      "size": 1840
+    },
+    "apps.md": {
+      "hash": "45afa23fa4cb39070fb4d505fdbad947",
+      "mtime": "2026-01-08T21:52:29.719254",
+      "size": 1813
+    },
+    "changes.md": {
+      "hash": "308042e4ffb0ae94d754d69c6f99ab62",
+      "mtime": "2026-01-08T21:52:29.720288",
+      "size": 5835
+    },
+    "channels.md": {
+      "hash": "388fae3f93725911f235ebbbf304f3c6",
+      "mtime": "2026-01-08T21:52:29.721322",
+      "size": 833
+    },
+    "comments.md": {
+      "hash": "4c8897ab54967df7409579e6d049a31f",
+      "mtime": "2026-01-08T21:52:29.721983",
+      "size": 5280
+    },
+    "drives.md": {
+      "hash": "00f26af0cb28cfe323b5735eccdde259",
+      "mtime": "2026-01-08T21:52:29.723413",
+      "size": 5875
+    },
+    "files.md": {
+      "hash": "bc0c021e98e11e210082bf004b8421a9",
+      "mtime": "2026-01-08T21:52:29.724573",
+      "size": 19585
+    },
+    "operations.md": {
+      "hash": "495c01fca065446bcf4fe43ff987f86c",
+      "mtime": "2026-01-08T21:52:29.717102",
+      "size": 926
+    },
+    "permissions.md": {
+      "hash": "f821cf6091f6053fb6a70f13032bb608",
+      "mtime": "2026-01-08T21:52:29.725474",
+      "size": 7775
+    },
+    "replies.md": {
+      "hash": "5d36840603991f04130ddebcfc087f69",
+      "mtime": "2026-01-08T21:52:29.725955",
+      "size": 4883
+    },
+    "revisions.md": {
+      "hash": "9fbf4f1ed09e7fe92bd2d119e3e13975",
+      "mtime": "2026-01-08T21:52:29.726634",
+      "size": 4495
+    },
+    "teamdrives.md": {
+      "hash": "8dd31f6ad1c2bf8bd786252efca70641",
+      "mtime": "2026-01-08T21:52:29.727941",
+      "size": 3599
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.309212"
+}

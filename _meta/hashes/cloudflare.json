@@ -1,0 +1,22 @@
+{
+  "api": "cloudflare",
+  "file_count": 3,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "7053ebd7eaadec75ff12db24c4ae236f",
+      "mtime": "2026-01-08T00:37:15.992801",
+      "size": 1342
+    },
+    "README.md": {
+      "hash": "d07fcc5bd6f0a64c8445fc016552ab7b",
+      "mtime": "2026-01-08T00:37:15.991534",
+      "size": 1569
+    },
+    "SOURCES.md": {
+      "hash": "2c1884a192c151ea70b73ebbc2a0a3e3",
+      "mtime": "2026-01-08T00:37:15.992361",
+      "size": 1096
+    }
+  },
+  "generated_at": "2026-01-10T04:20:16.926108"
+}

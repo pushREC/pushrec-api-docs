@@ -1,0 +1,22 @@
+{
+  "api": "resend",
+  "file_count": 3,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "253b0e9b4ab6ab8576f4cd94290adf15",
+      "mtime": "2026-01-08T00:37:47.854130",
+      "size": 1188
+    },
+    "README.md": {
+      "hash": "c6ab6b96beb076eaa324e20b0815af48",
+      "mtime": "2026-01-08T00:37:47.852041",
+      "size": 1438
+    },
+    "SOURCES.md": {
+      "hash": "ffb1afc5f6b448965c33c026a03af784",
+      "mtime": "2026-01-08T00:37:47.853096",
+      "size": 1025
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.407900"
+}

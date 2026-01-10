@@ -1,0 +1,32 @@
+{
+  "api": "linear",
+  "file_count": 5,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "6dda7d908a9495f1f4aaac6cdd284e6d",
+      "mtime": "2026-01-09T07:36:47.805387",
+      "size": 874
+    },
+    "SOURCES.md": {
+      "hash": "4542fefca65fc02c74714f58f844bf24",
+      "mtime": "2026-01-09T07:36:47.805241",
+      "size": 713
+    },
+    "basics.md": {
+      "hash": "5f4f3bd5f87d28eaa16c30afd37d7568",
+      "mtime": "2026-01-09T07:35:44.096048",
+      "size": 7543
+    },
+    "getting-started.md": {
+      "hash": "1ae79db93ceffbcf29cd159bc8daf060",
+      "mtime": "2026-01-09T07:35:46.278853",
+      "size": 7548
+    },
+    "working-with-the-graphql-api.md": {
+      "hash": "d644b036d8f67b85d064cb9562cd34d7",
+      "mtime": "2026-01-09T07:35:42.131672",
+      "size": 7565
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.332318"
+}

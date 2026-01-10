@@ -1,0 +1,27 @@
+{
+  "api": "2captcha",
+  "file_count": 4,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "8c956745ff74d7401a4407454e90db99",
+      "mtime": "2026-01-08T22:06:41.591101",
+      "size": 991
+    },
+    "README.md": {
+      "hash": "1fe0a8364ca1164d5335a824bddf7be2",
+      "mtime": "2026-01-08T02:09:17.716480",
+      "size": 974
+    },
+    "SOURCES.md": {
+      "hash": "f9cba5aa502d6af7cd666cdd75a37510",
+      "mtime": "2026-01-08T02:08:59.803605",
+      "size": 660
+    },
+    "api-reference.md": {
+      "hash": "eb6b5598c53947cd5b3a1215cdfec04d",
+      "mtime": "2026-01-08T02:08:32.316733",
+      "size": 907779
+    }
+  },
+  "generated_at": "2026-01-10T04:20:16.845405"
+}

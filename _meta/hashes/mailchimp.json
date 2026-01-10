@@ -1,0 +1,22 @@
+{
+  "api": "mailchimp",
+  "file_count": 3,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "fd751a2023991bbcb63284f297d0e4f5",
+      "mtime": "2026-01-09T07:36:33.652585",
+      "size": 426
+    },
+    "README.md": {
+      "hash": "05cedfcf3799c407c2a48ab72c58f8c7",
+      "mtime": "2026-01-09T07:36:33.652319",
+      "size": 466
+    },
+    "SOURCES.md": {
+      "hash": "dfe7bf2ddff3a804d6434daf1021feaf",
+      "mtime": "2026-01-09T07:36:33.652477",
+      "size": 413
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.332837"
+}

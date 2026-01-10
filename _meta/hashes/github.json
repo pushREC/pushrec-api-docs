@@ -1,0 +1,22 @@
+{
+  "api": "github",
+  "file_count": 3,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "421871d0d55c75ac640a8b1ec6c7efa0",
+      "mtime": "2026-01-07T23:25:25.498391",
+      "size": 1134
+    },
+    "README.md": {
+      "hash": "2ee0ffaee6db08eb5b27f832a6d530ff",
+      "mtime": "2026-01-07T17:05:18.083497",
+      "size": 1489
+    },
+    "SOURCES.md": {
+      "hash": "8ac16cde418706510f5d0ba2dcc3f45a",
+      "mtime": "2026-01-07T23:41:53.291955",
+      "size": 881
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.304735"
+}

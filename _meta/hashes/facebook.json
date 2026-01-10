@@ -1,0 +1,27 @@
+{
+  "api": "facebook",
+  "file_count": 4,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "2f58b6cff41f9e59160508939d26b329",
+      "mtime": "2026-01-08T22:06:41.706529",
+      "size": 1029
+    },
+    "README.md": {
+      "hash": "a95256a6d56335a5c58c27eb11b143d9",
+      "mtime": "2026-01-07T23:08:59.363849",
+      "size": 1302
+    },
+    "SOURCES.md": {
+      "hash": "079001a464bfb7cdc8af5ded02fe61d6",
+      "mtime": "2026-01-07T23:08:43.378371",
+      "size": 698
+    },
+    "graph-api.md": {
+      "hash": "56f55daaf762a98068ff68aa7fd36ccb",
+      "mtime": "2026-01-07T23:08:36.514596",
+      "size": 92498
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.298234"
+}

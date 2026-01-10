@@ -1,0 +1,187 @@
+{
+  "api": "openai",
+  "file_count": 36,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "8ae22961b7f76162915217f3d0477587",
+      "mtime": "2026-01-08T21:52:53.753581",
+      "size": 403
+    },
+    "README.md": {
+      "hash": "67824c94c6ca13cfe563598ae9b521e2",
+      "mtime": "2026-01-08T21:52:53.748747",
+      "size": 2047
+    },
+    "SOURCES.md": {
+      "hash": "616ac48f876ae62e041559e11d34764e",
+      "mtime": "2026-01-08T21:52:53.753485",
+      "size": 374
+    },
+    "assistants.md": {
+      "hash": "9c42965490408183886cb1c9cb7ee5a0",
+      "mtime": "2026-01-08T21:52:55.523094",
+      "size": 12041
+    },
+    "audio.md": {
+      "hash": "51584b2181f8726dc7f3e0ff91eda884",
+      "mtime": "2026-01-08T21:52:55.529517",
+      "size": 3145
+    },
+    "audit-logs.md": {
+      "hash": "7a671026867c2eff093c091c4047a0e4",
+      "mtime": "2026-01-08T21:52:55.550809",
+      "size": 1379
+    },
+    "batch.md": {
+      "hash": "b24e6e0d9ccab00b9bbec2489bf7945b",
+      "mtime": "2026-01-08T21:52:55.530611",
+      "size": 1829
+    },
+    "certificates.md": {
+      "hash": "ff6f6fb8385963d000fbf20c088eddf1",
+      "mtime": "2026-01-08T21:52:55.552125",
+      "size": 5117
+    },
+    "chat.md": {
+      "hash": "872ba74e296dae0bc2383455063fef9d",
+      "mtime": "2026-01-08T21:52:55.531636",
+      "size": 4719
+    },
+    "completions.md": {
+      "hash": "4ffc4a68aae7de311cf7bc6f2b5ba29a",
+      "mtime": "2026-01-08T21:52:55.532847",
+      "size": 428
+    },
+    "conversations.md": {
+      "hash": "2418c5e007bab67b899f17d6791f8027",
+      "mtime": "2026-01-08T21:52:55.535873",
+      "size": 4370
+    },
+    "embeddings.md": {
+      "hash": "9213579659f343984d9db525675072e9",
+      "mtime": "2026-01-08T21:52:55.537056",
+      "size": 419
+    },
+    "evals.md": {
+      "hash": "30e07f414d945b5e8781400431cfda2c",
+      "mtime": "2026-01-08T21:52:55.537993",
+      "size": 7006
+    },
+    "files.md": {
+      "hash": "9942fafe797328214f14305feb4ad652",
+      "mtime": "2026-01-08T21:52:55.539060",
+      "size": 3163
+    },
+    "fine-tuning.md": {
+      "hash": "eedac6cbc08fa4a2d675a91e3ad7eb17",
+      "mtime": "2026-01-08T21:52:55.541540",
+      "size": 7520
+    },
+    "general.md": {
+      "hash": "0ffda7c3d800da48a53894a34ac4f14e",
+      "mtime": "2026-01-08T21:52:55.534379",
+      "size": 9303
+    },
+    "group-organization-role-assignments.md": {
+      "hash": "1c5cedcb981893aa09d7744a90b20700",
+      "mtime": "2026-01-08T21:52:55.559556",
+      "size": 2150
+    },
+    "group-users.md": {
+      "hash": "49f91a2f3ce9ddf912ff68e5c54c4cda",
+      "mtime": "2026-01-08T21:52:55.561246",
+      "size": 1851
+    },
+    "groups.md": {
+      "hash": "8e0167111760a35af329f39193ad4a32",
+      "mtime": "2026-01-08T21:52:55.558071",
+      "size": 1836
+    },
+    "images.md": {
+      "hash": "c630463f721493f46d26431c97c89583",
+      "mtime": "2026-01-08T21:52:55.546036",
+      "size": 1038
+    },
+    "invites.md": {
+      "hash": "c0697b39d2a2ae844e88bd02fbc06f00",
+      "mtime": "2026-01-08T21:52:55.563388",
+      "size": 1910
+    },
+    "models.md": {
+      "hash": "8d6fab672400bcd292602702349e3ab0",
+      "mtime": "2026-01-08T21:52:55.547542",
+      "size": 1378
+    },
+    "moderations.md": {
+      "hash": "38cd8c50f10fc3008eed240bd52945fd",
+      "mtime": "2026-01-08T21:52:55.548835",
+      "size": 522
+    },
+    "project-group-role-assignments.md": {
+      "hash": "b5d00a3e996e831cf5ebea732a608af7",
+      "mtime": "2026-01-08T21:52:55.571425",
+      "size": 2355
+    },
+    "project-groups.md": {
+      "hash": "e5c35bab961535ac9c4c0e1f974b958a",
+      "mtime": "2026-01-08T21:52:55.565717",
+      "size": 1939
+    },
+    "project-user-role-assignments.md": {
+      "hash": "0caffb71701517e8e30ca2d901922e06",
+      "mtime": "2026-01-08T21:52:55.573973",
+      "size": 2330
+    },
+    "projects.md": {
+      "hash": "8917997202e5c423421dddf5674ac3ec",
+      "mtime": "2026-01-08T21:52:55.564655",
+      "size": 10505
+    },
+    "realtime.md": {
+      "hash": "e7e00deb22d337d1800baf34aa199369",
+      "mtime": "2026-01-08T21:52:55.575138",
+      "size": 3846
+    },
+    "responses.md": {
+      "hash": "988dc7966aa746c39b4df7834274a875",
+      "mtime": "2026-01-08T21:52:55.576102",
+      "size": 3703
+    },
+    "roles.md": {
+      "hash": "030b85f82058c7a3a10dd07fb84dd3de",
+      "mtime": "2026-01-08T21:52:55.567208",
+      "size": 4014
+    },
+    "uploads.md": {
+      "hash": "d4138af95fc4fc8d6e4997ba84b8bb02",
+      "mtime": "2026-01-08T21:52:55.577074",
+      "size": 3566
+    },
+    "usage.md": {
+      "hash": "84388bb6070603f29c4e4cf9247df188",
+      "mtime": "2026-01-08T21:52:55.554676",
+      "size": 10694
+    },
+    "user-organization-role-assignments.md": {
+      "hash": "74f8c72050ac9c68c935fdd018416fbd",
+      "mtime": "2026-01-08T21:52:55.570416",
+      "size": 2105
+    },
+    "users.md": {
+      "hash": "4aaef9a9acc3f6bfba8aa5f2c1dbcce2",
+      "mtime": "2026-01-08T21:52:55.569251",
+      "size": 1985
+    },
+    "vector-stores.md": {
+      "hash": "4c16c2b9d63651dc1c2fbc832f2ed94f",
+      "mtime": "2026-01-08T21:52:55.578351",
+      "size": 9777
+    },
+    "videos.md": {
+      "hash": "4d2b86bfae5eb3ae3d4257206c98fba4",
+      "mtime": "2026-01-08T21:52:55.580265",
+      "size": 2562
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.372890"
+}

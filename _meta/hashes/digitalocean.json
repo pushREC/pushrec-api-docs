@@ -1,0 +1,5387 @@
+{
+  "api": "digitalocean",
+  "file_count": 1076,
+  "files": {
+    ".analysis/EXECUTION-LOG.md": {
+      "hash": "509d2c96367b91a36386b0e117519643",
+      "mtime": "2026-01-07T17:15:36.934989",
+      "size": 1058
+    },
+    "COVERAGE.md": {
+      "hash": "6c06a84ca1dde8e018bb81ce00346d7e",
+      "mtime": "2026-01-08T23:04:43.896855",
+      "size": 16608
+    },
+    "README.md": {
+      "hash": "9c67f28d647578adfb66078da50c3fff",
+      "mtime": "2026-01-07T16:52:49.000387",
+      "size": 2583
+    },
+    "SOURCES.md": {
+      "hash": "97c30fdf22a2ede2b0fcf4381069fe3d",
+      "mtime": "2026-01-07T16:52:48.999781",
+      "size": 3595
+    },
+    "api-generated/1-click-applications.md": {
+      "hash": "2f20b20f72a844b81ccbf17eeef684ed",
+      "mtime": "2026-01-08T22:07:01.886219",
+      "size": 1599
+    },
+    "api-generated/COVERAGE.md": {
+      "hash": "c1f0355ad44ab9ebe2826bbbd0b131c1",
+      "mtime": "2026-01-08T22:07:02.741753",
+      "size": 415
+    },
+    "api-generated/README.md": {
+      "hash": "c4cfdbefa9d82f3710c59c58b1c96d75",
+      "mtime": "2026-01-08T22:07:01.884682",
+      "size": 21283
+    },
+    "api-generated/SOURCES.md": {
+      "hash": "b75f140b3b07cd1be2e639bf42be58e3",
+      "mtime": "2026-01-08T22:07:02.739509",
+      "size": 390
+    },
+    "api-generated/account.md": {
+      "hash": "01896e36b6ffb47933d6543e9c095858",
+      "mtime": "2026-01-08T22:07:01.887385",
+      "size": 458
+    },
+    "api-generated/actions.md": {
+      "hash": "7674c9fb1274884347e61054e8195b22",
+      "mtime": "2026-01-08T22:07:01.889817",
+      "size": 1180
+    },
+    "api-generated/add-ons.md": {
+      "hash": "a78ca0ebdfa2a39049dc890bd7848a6e",
+      "mtime": "2026-01-08T22:07:01.892774",
+      "size": 4499
+    },
+    "api-generated/apps.md": {
+      "hash": "f0189d356b7064c2486f8428d76c413d",
+      "mtime": "2026-01-08T22:07:01.894972",
+      "size": 19481
+    },
+    "api-generated/billing.md": {
+      "hash": "c677a0a43238ad2000414defd69b008a",
+      "mtime": "2026-01-08T22:07:01.902609",
+      "size": 4299
+    },
+    "api-generated/block-storage-actions.md": {
+      "hash": "26873cb174161753bed9a3b2b707a5e7",
+      "mtime": "2026-01-08T22:07:02.002464",
+      "size": 6044
+    },
+    "api-generated/block-storage.md": {
+      "hash": "ef68a0ac8c3dd93a9e0cf365fc46fe21",
+      "mtime": "2026-01-08T22:07:01.999794",
+      "size": 6219
+    },
+    "api-generated/byoip-prefixes.md": {
+      "hash": "60e78271f14993a0df225d31a923d511",
+      "mtime": "2026-01-08T22:07:01.980411",
+      "size": 3705
+    },
+    "api-generated/cdn-endpoints.md": {
+      "hash": "46aaedd679604713f2c8430476429503",
+      "mtime": "2026-01-08T22:07:01.897024",
+      "size": 3852
+    },
+    "api-generated/certificates.md": {
+      "hash": "11dd6fc3aba9ebe8c715a18c6c51994c",
+      "mtime": "2026-01-08T22:07:01.900729",
+      "size": 2274
+    },
+    "api-generated/container-registries.md": {
+      "hash": "075e00de5bd03d194f8f2f28fc2d3add",
+      "mtime": "2026-01-08T22:07:01.959236",
+      "size": 16256
+    },
+    "api-generated/container-registry.md": {
+      "hash": "485e550405046fc68c93ac15b735ad02",
+      "mtime": "2026-01-08T22:07:01.962827",
+      "size": 14105
+    },
+    "api-generated/databases.md": {
+      "hash": "a9d3d61ad9bc71b616715ef746169de3",
+      "mtime": "2026-01-08T22:07:01.905657",
+      "size": 51581
+    },
+    "api-generated/domain-records.md": {
+      "hash": "9d82c4994b5e8de46f6d5797c9f9ba39",
+      "mtime": "2026-01-08T22:07:01.914199",
+      "size": 4657
+    },
+    "api-generated/domains.md": {
+      "hash": "edd7cfa141f6154bddfd85d863fa6908",
+      "mtime": "2026-01-08T22:07:01.909641",
+      "size": 1919
+    },
+    "api-generated/droplet-actions.md": {
+      "hash": "e244efdd816099a8fd54fed9e3585350",
+      "mtime": "2026-01-08T22:07:01.919197",
+      "size": 5951
+    },
+    "api-generated/droplet-autoscale-pools.md": {
+      "hash": "cb2bec88eeb154b4c647a5ee970ba0e7",
+      "mtime": "2026-01-08T22:07:01.921282",
+      "size": 5177
+    },
+    "api-generated/droplets.md": {
+      "hash": "5a43008f196f605affbdb69528303cb0",
+      "mtime": "2026-01-08T22:07:01.916300",
+      "size": 15519
+    },
+    "api-generated/firewalls.md": {
+      "hash": "913968be5e59a73d5dcae9f7ce2b509e",
+      "mtime": "2026-01-08T22:07:01.923708",
+      "size": 7568
+    },
+    "api-generated/floating-ip-actions.md": {
+      "hash": "3ee084ddac7cdd9753ae5958f7c869e7",
+      "mtime": "2026-01-08T22:07:01.928958",
+      "size": 2041
+    },
+    "api-generated/floating-ips.md": {
+      "hash": "d80e379ad2a0c2699cb0f47082340b5e",
+      "mtime": "2026-01-08T22:07:01.925946",
+      "size": 2292
+    },
+    "api-generated/functions.md": {
+      "hash": "33a59a9022978ac87b252d51932b7931",
+      "mtime": "2026-01-08T22:07:01.931548",
+      "size": 5515
+    },
+    "api-generated/gradientai-platform.md": {
+      "hash": "6ff045dbd8eb435e14f1dd7ca04199b1",
+      "mtime": "2026-01-08T22:07:02.737797",
+      "size": 44315
+    },
+    "api-generated/image-actions.md": {
+      "hash": "ad758fd2063bc8f1d341fd5a4b4ee77f",
+      "mtime": "2026-01-08T22:07:01.935893",
+      "size": 2060
+    },
+    "api-generated/images.md": {
+      "hash": "8fc78703ed4f27e8a2979a359d15d4c0",
+      "mtime": "2026-01-08T22:07:01.933616",
+      "size": 3628
+    },
+    "api-generated/kubernetes.md": {
+      "hash": "d0f0cc8703167e776bd2fed3cef148af",
+      "mtime": "2026-01-08T22:07:01.937998",
+      "size": 20044
+    },
+    "api-generated/load-balancers.md": {
+      "hash": "550f3932b848b957c23af99fec1e6982",
+      "mtime": "2026-01-08T22:07:01.939794",
+      "size": 7386
+    },
+    "api-generated/monitoring.md": {
+      "hash": "52308015855bef8c158e448437a89157",
+      "mtime": "2026-01-08T22:07:01.945790",
+      "size": 37935
+    },
+    "api-generated/nfs-actions.md": {
+      "hash": "2d2852f470e5ffda938d70b18197cd97",
+      "mtime": "2026-01-08T22:07:01.949661",
+      "size": 1289
+    },
+    "api-generated/nfs.md": {
+      "hash": "48b11d541b5691eb87aaf35bfd179e59",
+      "mtime": "2026-01-08T22:07:01.947887",
+      "size": 3718
+    },
+    "api-generated/partner-network-connect.md": {
+      "hash": "45eacf054c55b2f13fb6c773310cb330",
+      "mtime": "2026-01-08T22:07:01.952262",
+      "size": 5428
+    },
+    "api-generated/project-resources.md": {
+      "hash": "e6423d0250b949993da888fc2fbbce82",
+      "mtime": "2026-01-08T22:07:01.956164",
+      "size": 2588
+    },
+    "api-generated/projects.md": {
+      "hash": "3436d1eb663aca420d0ea41be971e9eb",
+      "mtime": "2026-01-08T22:07:01.954321",
+      "size": 3922
+    },
+    "api-generated/regions.md": {
+      "hash": "e5d97a1b0756497877f2b260fbd13d38",
+      "mtime": "2026-01-08T22:07:01.957986",
+      "size": 814
+    },
+    "api-generated/reserved-ip-actions.md": {
+      "hash": "f7684887cd53aa93ec2edc8df3a8be3a",
+      "mtime": "2026-01-08T22:07:01.968878",
+      "size": 2041
+    },
+    "api-generated/reserved-ips.md": {
+      "hash": "126631c708362dc7231d5f55d1072470",
+      "mtime": "2026-01-08T22:07:01.966479",
+      "size": 2292
+    },
+    "api-generated/reserved-ipv6-actions.md": {
+      "hash": "3be963c39a79bff47346511804c5c8c7",
+      "mtime": "2026-01-08T22:07:01.973417",
+      "size": 984
+    },
+    "api-generated/reserved-ipv6.md": {
+      "hash": "26944f1e9d0ffb9723416c375e1a8be8",
+      "mtime": "2026-01-08T22:07:01.971468",
+      "size": 2167
+    },
+    "api-generated/sizes.md": {
+      "hash": "d9c78d897efeb011b18d8e7096e9faab",
+      "mtime": "2026-01-08T22:07:01.982513",
+      "size": 777
+    },
+    "api-generated/snapshots.md": {
+      "hash": "24cc67d2f69f2af82341239f3f8590f9",
+      "mtime": "2026-01-08T22:07:01.990069",
+      "size": 2608
+    },
+    "api-generated/spaces-keys.md": {
+      "hash": "3a6c0552847cea7c3aace0fda52957e2",
+      "mtime": "2026-01-08T22:07:01.995554",
+      "size": 3437
+    },
+    "api-generated/ssh-keys.md": {
+      "hash": "eb0f65cf6266433b478e00298eca8861",
+      "mtime": "2026-01-08T22:07:01.888892",
+      "size": 3053
+    },
+    "api-generated/tags.md": {
+      "hash": "d2373c8cfd0d27dfd7cb2437fdc30bbd",
+      "mtime": "2026-01-08T22:07:01.997559",
+      "size": 3994
+    },
+    "api-generated/uptime.md": {
+      "hash": "3a25014673572df6d443d3f18b9baf54",
+      "mtime": "2026-01-08T22:07:02.717658",
+      "size": 5635
+    },
+    "api-generated/vpc-nat-gateways.md": {
+      "hash": "30329e92ebcbe6870cd3cad5d8ea0bd2",
+      "mtime": "2026-01-08T22:07:02.708445",
+      "size": 3050
+    },
+    "api-generated/vpc-peerings.md": {
+      "hash": "332252adc3d63c88cc564df08ce1eeec",
+      "mtime": "2026-01-08T22:07:02.681415",
+      "size": 2595
+    },
+    "api-generated/vpcs.md": {
+      "hash": "5ba8e218de7b103e2dca95cdfb0d0920",
+      "mtime": "2026-01-08T22:07:02.678766",
+      "size": 5524
+    },
+    "api-reference/HARVEST-SUMMARY.md": {
+      "hash": "dfd776f077a88654561a60666f0359c9",
+      "mtime": "2026-01-07T16:52:49.162867",
+      "size": 10584
+    },
+    "api-reference/SCRAPE-REPORT.md": {
+      "hash": "0b5e3387008ef16512a9ba05aef9e26b",
+      "mtime": "2026-01-07T16:52:49.161672",
+      "size": 815
+    },
+    "api-reference/create-personal-access-token.md": {
+      "hash": "2e9ce12931ad99560ba8efd749cba03e",
+      "mtime": "2026-01-07T16:52:49.163352",
+      "size": 10563
+    },
+    "api-reference/digitalocean.md": {
+      "hash": "e79cb6ca301a23693e9372916e18c7f1",
+      "mtime": "2026-01-07T16:52:49.165313",
+      "size": 4169
+    },
+    "api-reference/index.md": {
+      "hash": "b1bf68182808c125fdf64bd683578150",
+      "mtime": "2026-01-07T16:52:49.164121",
+      "size": 4574
+    },
+    "api-reference/metadata.md": {
+      "hash": "affd1f3be8383490aeafd2e18eb4ab10",
+      "mtime": "2026-01-07T16:52:49.163785",
+      "size": 4170
+    },
+    "api-reference/oauth.md": {
+      "hash": "2a309d8ff02609b3ce00f68c465419bf",
+      "mtime": "2026-01-07T16:52:49.162359",
+      "size": 14117
+    },
+    "api-reference/scopes.md": {
+      "hash": "eeb766e16748270d85698d30d1954190",
+      "mtime": "2026-01-07T16:52:49.164752",
+      "size": 15287
+    },
+    "api-reference/scopes/account.md": {
+      "hash": "a9de5fc01e03326fbae9359c8f1a0de8",
+      "mtime": "2026-01-07T16:52:49.698630",
+      "size": 6658
+    },
+    "api-reference/scopes/account/read.md": {
+      "hash": "525441263a48001c80f591506df165da",
+      "mtime": "2026-01-07T16:52:49.797197",
+      "size": 6913
+    },
+    "api-reference/scopes/actions.md": {
+      "hash": "9edbedf05eb3b6f996d89985ebad88be",
+      "mtime": "2026-01-07T16:52:49.708897",
+      "size": 6703
+    },
+    "api-reference/scopes/actions/read.md": {
+      "hash": "190e8f55ff7a6fdeb345cd993fee7b32",
+      "mtime": "2026-01-07T16:52:49.784003",
+      "size": 6958
+    },
+    "api-reference/scopes/addon.md": {
+      "hash": "7dd352265486c35819746eead5615fc8",
+      "mtime": "2026-01-07T16:52:49.706339",
+      "size": 7291
+    },
+    "api-reference/scopes/addon/create.md": {
+      "hash": "6c8bb0a5de961a1af4d509f4a37a0677",
+      "mtime": "2026-01-07T16:52:49.790169",
+      "size": 7210
+    },
+    "api-reference/scopes/addon/delete.md": {
+      "hash": "ba9d57c16c8bb4119d35acad9aad91fc",
+      "mtime": "2026-01-07T16:52:49.790734",
+      "size": 7210
+    },
+    "api-reference/scopes/addon/read.md": {
+      "hash": "282272b6b248065064f98649cfe42743",
+      "mtime": "2026-01-07T16:52:49.789619",
+      "size": 7104
+    },
+    "api-reference/scopes/addon/update.md": {
+      "hash": "a32ee62dac8b6a8d287537da36b1668a",
+      "mtime": "2026-01-07T16:52:49.791413",
+      "size": 7210
+    },
+    "api-reference/scopes/api.md": {
+      "hash": "ce163c44496542d252d75829c086f9ac",
+      "mtime": "2026-01-07T16:52:49.695390",
+      "size": 6830
+    },
+    "api-reference/scopes/api/read.md": {
+      "hash": "6f4ad5eea459d44d73e9c3f6f4588835",
+      "mtime": "2026-01-07T16:52:49.791964",
+      "size": 6945
+    },
+    "api-reference/scopes/api/write.md": {
+      "hash": "f30e50944bb4e7828ae194efb2940411",
+      "mtime": "2026-01-07T16:52:49.792655",
+      "size": 6952
+    },
+    "api-reference/scopes/app.md": {
+      "hash": "4c8de09786a61b8337d9e53fddabe3e3",
+      "mtime": "2026-01-07T16:52:49.694187",
+      "size": 7448
+    },
+    "api-reference/scopes/app/access_console.md": {
+      "hash": "75090301dacd5f5cf0f5faca4fd7ad1c",
+      "mtime": "2026-01-07T16:52:49.747453",
+      "size": 7530
+    },
+    "api-reference/scopes/app/create.md": {
+      "hash": "959c824a1d1684a8c90d86dc40f099d3",
+      "mtime": "2026-01-07T16:52:49.748703",
+      "size": 8650
+    },
+    "api-reference/scopes/app/delete.md": {
+      "hash": "a3fab9b6e787a85e154cedeecb5ee2fb",
+      "mtime": "2026-01-07T16:52:49.749479",
+      "size": 7468
+    },
+    "api-reference/scopes/app/read.md": {
+      "hash": "15c642c41a6876e1cb72a8b3b8635a3a",
+      "mtime": "2026-01-07T16:52:49.748156",
+      "size": 8330
+    },
+    "api-reference/scopes/app/update.md": {
+      "hash": "177d61c023c72c4c961ba5fd4ac7a5a6",
+      "mtime": "2026-01-07T16:52:49.750275",
+      "size": 8139
+    },
+    "api-reference/scopes/billing.md": {
+      "hash": "95aa16cea1c408799f5c821cd9a9da97",
+      "mtime": "2026-01-07T16:52:49.701789",
+      "size": 6681
+    },
+    "api-reference/scopes/billing/read.md": {
+      "hash": "108f9e114c578ab75bdc4b41ad884fb0",
+      "mtime": "2026-01-07T16:52:49.813900",
+      "size": 6936
+    },
+    "api-reference/scopes/block_storage.md": {
+      "hash": "3821e0ac7f897419f201b15ae9741684",
+      "mtime": "2026-01-07T16:52:49.710144",
+      "size": 7219
+    },
+    "api-reference/scopes/block_storage/create.md": {
+      "hash": "4fdb468a40108be61dafb0e2f7d1a8e6",
+      "mtime": "2026-01-07T16:52:49.766729",
+      "size": 7598
+    },
+    "api-reference/scopes/block_storage/delete.md": {
+      "hash": "1987ac2e4db56fb2ccd4544d111e54c3",
+      "mtime": "2026-01-07T16:52:49.767426",
+      "size": 7598
+    },
+    "api-reference/scopes/block_storage/read.md": {
+      "hash": "af9a58817bc34335f1421623d4c1b435",
+      "mtime": "2026-01-07T16:52:49.766172",
+      "size": 7506
+    },
+    "api-reference/scopes/block_storage_action.md": {
+      "hash": "57ef10d7bc3a10d729a572fef81cebb0",
+      "mtime": "2026-01-07T16:52:49.694715",
+      "size": 7106
+    },
+    "api-reference/scopes/block_storage_action/create.md": {
+      "hash": "ea3401ec9eabc8b5a606782b83ddf686",
+      "mtime": "2026-01-07T16:52:49.793862",
+      "size": 7713
+    },
+    "api-reference/scopes/block_storage_action/read.md": {
+      "hash": "4faf721f518781a5d59a8214da8c023a",
+      "mtime": "2026-01-07T16:52:49.793195",
+      "size": 7596
+    },
+    "api-reference/scopes/block_storage_snapshot.md": {
+      "hash": "2e1ba60f64203635f1086bd3d74ddb00",
+      "mtime": "2026-01-07T16:52:49.696007",
+      "size": 7427
+    },
+    "api-reference/scopes/block_storage_snapshot/create.md": {
+      "hash": "6eedf08fab92170d7dfdff989aafaccf",
+      "mtime": "2026-01-07T16:52:49.818572",
+      "size": 7845
+    },
+    "api-reference/scopes/block_storage_snapshot/delete.md": {
+      "hash": "e519a5cbb399a38166b69e1c820dc177",
+      "mtime": "2026-01-07T16:52:49.819324",
+      "size": 7845
+    },
+    "api-reference/scopes/block_storage_snapshot/read.md": {
+      "hash": "4a6706a661e1c126f13b338a13a37f48",
+      "mtime": "2026-01-07T16:52:49.817993",
+      "size": 7726
+    },
+    "api-reference/scopes/cdn.md": {
+      "hash": "64de6f2dfe8e1fd29c634831ce64d606",
+      "mtime": "2026-01-07T16:52:49.692909",
+      "size": 7189
+    },
+    "api-reference/scopes/cdn/create.md": {
+      "hash": "29e696d587040d23c7a7e6f2f077e71a",
+      "mtime": "2026-01-07T16:52:49.780025",
+      "size": 7696
+    },
+    "api-reference/scopes/cdn/delete.md": {
+      "hash": "d8ad3f4e3444d2dba0a4492351be0435",
+      "mtime": "2026-01-07T16:52:49.780718",
+      "size": 7451
+    },
+    "api-reference/scopes/cdn/read.md": {
+      "hash": "c0ac882d437b37ca4e3665e607efd498",
+      "mtime": "2026-01-07T16:52:49.779563",
+      "size": 7058
+    },
+    "api-reference/scopes/cdn/update.md": {
+      "hash": "bde7f53af5c925beaccc285dbb8ce704",
+      "mtime": "2026-01-07T16:52:49.781228",
+      "size": 7451
+    },
+    "api-reference/scopes/certificate.md": {
+      "hash": "84ab8f8affe01401bb54c8e74163125a",
+      "mtime": "2026-01-07T16:52:49.704454",
+      "size": 7156
+    },
+    "api-reference/scopes/certificate/create.md": {
+      "hash": "a98a3dc26a090801b32d246dc00f8a6f",
+      "mtime": "2026-01-07T16:52:49.751720",
+      "size": 7846
+    },
+    "api-reference/scopes/certificate/delete.md": {
+      "hash": "ffc2807c4a798c5c2687cb6c5195cfb3",
+      "mtime": "2026-01-07T16:52:49.752659",
+      "size": 7216
+    },
+    "api-reference/scopes/certificate/read.md": {
+      "hash": "c88ae351da35183cbedc1b5a3ccdc802",
+      "mtime": "2026-01-07T16:52:49.750917",
+      "size": 7109
+    },
+    "api-reference/scopes/database.md": {
+      "hash": "23b9ed75c755733f763fae927c2a21ce",
+      "mtime": "2026-01-07T16:52:49.714514",
+      "size": 7582
+    },
+    "api-reference/scopes/database/create.md": {
+      "hash": "73e035bc3339d3f12a3171dbdedd5c0f",
+      "mtime": "2026-01-07T16:52:49.721131",
+      "size": 8147
+    },
+    "api-reference/scopes/database/delete.md": {
+      "hash": "65fca2f6fa842b78d4013055a04025f5",
+      "mtime": "2026-01-07T16:52:49.721802",
+      "size": 7572
+    },
+    "api-reference/scopes/database/read.md": {
+      "hash": "1ae1a42e015544067e55fc2c82ce86ee",
+      "mtime": "2026-01-07T16:52:49.715265",
+      "size": 7494
+    },
+    "api-reference/scopes/database/update.md": {
+      "hash": "5f827029b30fe1956c7b8e0c09d8d56f",
+      "mtime": "2026-01-07T16:52:49.722525",
+      "size": 7572
+    },
+    "api-reference/scopes/database/view_credentials.md": {
+      "hash": "08928cbb0e25f552042b9d073e799234",
+      "mtime": "2026-01-07T16:52:49.715980",
+      "size": 7637
+    },
+    "api-reference/scopes/domain.md": {
+      "hash": "e3fd82f05f876e94257448525f6dfa4f",
+      "mtime": "2026-01-07T16:52:49.703759",
+      "size": 7310
+    },
+    "api-reference/scopes/domain/create.md": {
+      "hash": "24f8e02e10878364bef14940db0ec39a",
+      "mtime": "2026-01-07T16:52:49.807635",
+      "size": 7226
+    },
+    "api-reference/scopes/domain/delete.md": {
+      "hash": "e26b387a43aec95c9074c8bbe8112f5c",
+      "mtime": "2026-01-07T16:52:49.808210",
+      "size": 7226
+    },
+    "api-reference/scopes/domain/read.md": {
+      "hash": "339b246c9d86882900a45cce98997ed3",
+      "mtime": "2026-01-07T16:52:49.806851",
+      "size": 7119
+    },
+    "api-reference/scopes/domain/update.md": {
+      "hash": "c3afc5c098fb59dd1c79983701db2759",
+      "mtime": "2026-01-07T16:52:49.808752",
+      "size": 7226
+    },
+    "api-reference/scopes/droplet.md": {
+      "hash": "d6701908e93ec603802f404b80972e8f",
+      "mtime": "2026-01-07T16:52:49.707550",
+      "size": 7462
+    },
+    "api-reference/scopes/droplet/admin.md": {
+      "hash": "f277c156cbe1d62ec13cc8b367a9d44f",
+      "mtime": "2026-01-07T16:52:49.753263",
+      "size": 7552
+    },
+    "api-reference/scopes/droplet/create.md": {
+      "hash": "690a42d3a7a1a77925ed908553de4ca9",
+      "mtime": "2026-01-07T16:52:49.754845",
+      "size": 8467
+    },
+    "api-reference/scopes/droplet/delete.md": {
+      "hash": "a81843db7a9d7e5be3cd98363c99d0a9",
+      "mtime": "2026-01-07T16:52:49.757462",
+      "size": 7558
+    },
+    "api-reference/scopes/droplet/read.md": {
+      "hash": "f17efecd3c2e2fcfd9efe878d13a62be",
+      "mtime": "2026-01-07T16:52:49.754107",
+      "size": 8417
+    },
+    "api-reference/scopes/droplet/update.md": {
+      "hash": "8e75163076a330194bc81999757575db",
+      "mtime": "2026-01-07T16:52:49.758196",
+      "size": 7558
+    },
+    "api-reference/scopes/firewall.md": {
+      "hash": "37b81b894c8ca95346170a6d13343748",
+      "mtime": "2026-01-07T16:52:49.703054",
+      "size": 7312
+    },
+    "api-reference/scopes/firewall/create.md": {
+      "hash": "cbf9dbf5335b42080d97cff4b8593434",
+      "mtime": "2026-01-07T16:52:49.774280",
+      "size": 7995
+    },
+    "api-reference/scopes/firewall/delete.md": {
+      "hash": "5bdfdb4142d4174818c8a622f1051750",
+      "mtime": "2026-01-07T16:52:49.774976",
+      "size": 7240
+    },
+    "api-reference/scopes/firewall/read.md": {
+      "hash": "43c4deb03a8d95e9ffb5c5aa5454df36",
+      "mtime": "2026-01-07T16:52:49.773716",
+      "size": 7893
+    },
+    "api-reference/scopes/firewall/update.md": {
+      "hash": "55707690710fd5019db2c895775cbf7b",
+      "mtime": "2026-01-07T16:52:49.775693",
+      "size": 7995
+    },
+    "api-reference/scopes/function.md": {
+      "hash": "63db61037a1db7f61d55191064ace8fc",
+      "mtime": "2026-01-07T16:52:49.701257",
+      "size": 7692
+    },
+    "api-reference/scopes/function/admin.md": {
+      "hash": "aa0f36e5f56b50400e3df58a11958b0b",
+      "mtime": "2026-01-07T16:52:49.767974",
+      "size": 7279
+    },
+    "api-reference/scopes/function/create.md": {
+      "hash": "4a460118d8909b28bdd227888496d369",
+      "mtime": "2026-01-07T16:52:49.769326",
+      "size": 7255
+    },
+    "api-reference/scopes/function/delete.md": {
+      "hash": "f2dfbd1874a7061b3cc21ef4818f7804",
+      "mtime": "2026-01-07T16:52:49.770016",
+      "size": 7255
+    },
+    "api-reference/scopes/function/read.md": {
+      "hash": "0e5dff49a09a2310939dee06ca42c3c7",
+      "mtime": "2026-01-07T16:52:49.768678",
+      "size": 7498
+    },
+    "api-reference/scopes/function/update.md": {
+      "hash": "234b0ba08049a43bfadf635e968b82d4",
+      "mtime": "2026-01-07T16:52:49.770558",
+      "size": 7255
+    },
+    "api-reference/scopes/genai.md": {
+      "hash": "286c9fef28c80cbde802c9c5a06a8bcf",
+      "mtime": "2026-01-07T16:52:49.714005",
+      "size": 7259
+    },
+    "api-reference/scopes/genai/create.md": {
+      "hash": "4476a06b3e8ec59864fc27b12a983536",
+      "mtime": "2026-01-07T16:52:49.801108",
+      "size": 7963
+    },
+    "api-reference/scopes/genai/delete.md": {
+      "hash": "46f195f556d709bb3b547f482dca805b",
+      "mtime": "2026-01-07T16:52:49.801893",
+      "size": 7427
+    },
+    "api-reference/scopes/genai/read.md": {
+      "hash": "b4812077736e3dfdd452732d07973e0d",
+      "mtime": "2026-01-07T16:52:49.800357",
+      "size": 7971
+    },
+    "api-reference/scopes/genai/update.md": {
+      "hash": "c0e4ad9e86e121760ef8b4ae34d323d4",
+      "mtime": "2026-01-07T16:52:49.802613",
+      "size": 7427
+    },
+    "api-reference/scopes/image.md": {
+      "hash": "30690abf428a65a16777afe6f9a2596d",
+      "mtime": "2026-01-07T16:52:49.697263",
+      "size": 7207
+    },
+    "api-reference/scopes/image/create.md": {
+      "hash": "7bbdee915a784d11e73ce34560968051",
+      "mtime": "2026-01-07T16:52:49.771810",
+      "size": 7454
+    },
+    "api-reference/scopes/image/delete.md": {
+      "hash": "45a3b86ebb6d1c399a0c1921a8404516",
+      "mtime": "2026-01-07T16:52:49.772380",
+      "size": 7454
+    },
+    "api-reference/scopes/image/read.md": {
+      "hash": "256c1e7d5cf7a0b5ee65c144302dd6d7",
+      "mtime": "2026-01-07T16:52:49.771261",
+      "size": 7393
+    },
+    "api-reference/scopes/image/update.md": {
+      "hash": "4b78f8bf32a883f19537013c3ff3adc2",
+      "mtime": "2026-01-07T16:52:49.772972",
+      "size": 7454
+    },
+    "api-reference/scopes/kubernetes.md": {
+      "hash": "dd3f51c886810a64199658816f43038a",
+      "mtime": "2026-01-07T16:52:49.693497",
+      "size": 7686
+    },
+    "api-reference/scopes/kubernetes/access_cluster.md": {
+      "hash": "056b2ae9774548851a3c6d3a48a4a54e",
+      "mtime": "2026-01-07T16:52:49.806245",
+      "size": 7713
+    },
+    "api-reference/scopes/kubernetes/create.md": {
+      "hash": "30fb32f297b0805e8357abf9d034eebc",
+      "mtime": "2026-01-07T16:52:49.804100",
+      "size": 8339
+    },
+    "api-reference/scopes/kubernetes/delete.md": {
+      "hash": "c3adf53fe1fb5623c3dd3a1935ff0454",
+      "mtime": "2026-01-07T16:52:49.804829",
+      "size": 7640
+    },
+    "api-reference/scopes/kubernetes/read.md": {
+      "hash": "26ef4a6c0aa59236a8f5dc9dd0215f3f",
+      "mtime": "2026-01-07T16:52:49.803295",
+      "size": 8325
+    },
+    "api-reference/scopes/kubernetes/update.md": {
+      "hash": "e84e817451102e4e92a0823ca623d57c",
+      "mtime": "2026-01-07T16:52:49.805604",
+      "size": 8192
+    },
+    "api-reference/scopes/load_balancer.md": {
+      "hash": "9b22e323c8cdb7196046264dfdb21dbf",
+      "mtime": "2026-01-07T16:52:49.713343",
+      "size": 7435
+    },
+    "api-reference/scopes/load_balancer/create.md": {
+      "hash": "82e8e71346e006126ac22a6c80b0cf59",
+      "mtime": "2026-01-07T16:52:49.745308",
+      "size": 7760
+    },
+    "api-reference/scopes/load_balancer/delete.md": {
+      "hash": "397bfd93de058d15a7bf1b7eddf4959b",
+      "mtime": "2026-01-07T16:52:49.746083",
+      "size": 7760
+    },
+    "api-reference/scopes/load_balancer/read.md": {
+      "hash": "5ad2d9862b18481f9df800630b0964e6",
+      "mtime": "2026-01-07T16:52:49.732296",
+      "size": 7675
+    },
+    "api-reference/scopes/load_balancer/update.md": {
+      "hash": "d108de4a174922803cd4a1ac1a805035",
+      "mtime": "2026-01-07T16:52:49.746871",
+      "size": 7760
+    },
+    "api-reference/scopes/monitoring.md": {
+      "hash": "21e9ef9e82cb0eb070a24241a761cd1f",
+      "mtime": "2026-01-07T16:52:49.711938",
+      "size": 7410
+    },
+    "api-reference/scopes/monitoring/create.md": {
+      "hash": "c5c3e07490ed12a2da3a4e547ffa4841",
+      "mtime": "2026-01-07T16:52:49.798428",
+      "size": 7641
+    },
+    "api-reference/scopes/monitoring/delete.md": {
+      "hash": "18c5ea39a7a7cf19b224ee371d1cf357",
+      "mtime": "2026-01-07T16:52:49.798995",
+      "size": 7641
+    },
+    "api-reference/scopes/monitoring/read.md": {
+      "hash": "c605792f07bb10d689f6344b91d26422",
+      "mtime": "2026-01-07T16:52:49.797886",
+      "size": 8250
+    },
+    "api-reference/scopes/monitoring/update.md": {
+      "hash": "163b1dd78e7a2962d14a38ce9f3a6c44",
+      "mtime": "2026-01-07T16:52:49.799560",
+      "size": 7641
+    },
+    "api-reference/scopes/partner_network_connect.md": {
+      "hash": "3e4968ff8798177869ef68935b0964b2",
+      "mtime": "2026-01-07T16:52:49.692194",
+      "size": 8053
+    },
+    "api-reference/scopes/partner_network_connect/create.md": {
+      "hash": "457a1fbd0aeccbf55554aaa426fdac48",
+      "mtime": "2026-01-07T16:52:49.764205",
+      "size": 7943
+    },
+    "api-reference/scopes/partner_network_connect/delete.md": {
+      "hash": "4292d631f351b0a3a474df5a923208d9",
+      "mtime": "2026-01-07T16:52:49.764918",
+      "size": 7943
+    },
+    "api-reference/scopes/partner_network_connect/read.md": {
+      "hash": "b796a0155053e9ad59d8d576f998fa05",
+      "mtime": "2026-01-07T16:52:49.763040",
+      "size": 7829
+    },
+    "api-reference/scopes/partner_network_connect/update.md": {
+      "hash": "fcf7b35ecf169f4fb17246bf4dc9db76",
+      "mtime": "2026-01-07T16:52:49.765477",
+      "size": 7943
+    },
+    "api-reference/scopes/partner_network_connect/view_credentials.md": {
+      "hash": "a62f281fa821bc4ef1c821f79dbbcd8a",
+      "mtime": "2026-01-07T16:52:49.763618",
+      "size": 7618
+    },
+    "api-reference/scopes/project.md": {
+      "hash": "a5d3c1e76c159ed39b9b609092157a17",
+      "mtime": "2026-01-07T16:52:49.699300",
+      "size": 7261
+    },
+    "api-reference/scopes/project/create.md": {
+      "hash": "3b041c01951d3ba05bfc83421c38ff42",
+      "mtime": "2026-01-07T16:52:49.777008",
+      "size": 7208
+    },
+    "api-reference/scopes/project/delete.md": {
+      "hash": "b81b618c561912510df8547372a17081",
+      "mtime": "2026-01-07T16:52:49.777567",
+      "size": 7208
+    },
+    "api-reference/scopes/project/read.md": {
+      "hash": "9cf75742b2f6e08c29770cf5b8f51662",
+      "mtime": "2026-01-07T16:52:49.776464",
+      "size": 8444
+    },
+    "api-reference/scopes/project/update.md": {
+      "hash": "4ba1e1508d57f28665df3096ac6803a8",
+      "mtime": "2026-01-07T16:52:49.778278",
+      "size": 7208
+    },
+    "api-reference/scopes/regions.md": {
+      "hash": "2ed8bf5c7f22932745aa6c045904dea4",
+      "mtime": "2026-01-07T16:52:49.711368",
+      "size": 6657
+    },
+    "api-reference/scopes/regions/read.md": {
+      "hash": "185d31606dd7fae3ca48fcadfc9c90c2",
+      "mtime": "2026-01-07T16:52:49.731418",
+      "size": 7451
+    },
+    "api-reference/scopes/registry.md": {
+      "hash": "832cc1b3ef3e2bc9c5521f5a0c4a42df",
+      "mtime": "2026-01-07T16:52:49.712629",
+      "size": 7332
+    },
+    "api-reference/scopes/registry/create.md": {
+      "hash": "44023196558171820dea6c75b818e816",
+      "mtime": "2026-01-07T16:52:49.787621",
+      "size": 7250
+    },
+    "api-reference/scopes/registry/delete.md": {
+      "hash": "c037ba55cfc632e94132cce8267a5387",
+      "mtime": "2026-01-07T16:52:49.788304",
+      "size": 7250
+    },
+    "api-reference/scopes/registry/read.md": {
+      "hash": "e6271fac5c62ae077ee68a348446916b",
+      "mtime": "2026-01-07T16:52:49.786931",
+      "size": 7145
+    },
+    "api-reference/scopes/registry/update.md": {
+      "hash": "f51379a678e351196b2a0e53a2c2a911",
+      "mtime": "2026-01-07T16:52:49.788944",
+      "size": 7250
+    },
+    "api-reference/scopes/reserved_ip.md": {
+      "hash": "8894e43ea14757f9d74c329cc00aa76e",
+      "mtime": "2026-01-07T16:52:49.705670",
+      "size": 7417
+    },
+    "api-reference/scopes/reserved_ip/create.md": {
+      "hash": "bd480258155c13efc69d83ef6f0aa87b",
+      "mtime": "2026-01-07T16:52:49.785114",
+      "size": 7700
+    },
+    "api-reference/scopes/reserved_ip/delete.md": {
+      "hash": "efcb19b73f0fca8afa68177cd3703715",
+      "mtime": "2026-01-07T16:52:49.785681",
+      "size": 7647
+    },
+    "api-reference/scopes/reserved_ip/read.md": {
+      "hash": "dea3db5478327cb87720e53e7c97e9b5",
+      "mtime": "2026-01-07T16:52:49.784533",
+      "size": 7559
+    },
+    "api-reference/scopes/reserved_ip/update.md": {
+      "hash": "2515aebf94a706d7169844478d1e2e6c",
+      "mtime": "2026-01-07T16:52:49.786245",
+      "size": 7647
+    },
+    "api-reference/scopes/sizes.md": {
+      "hash": "db8508bbf4147e39ce945d045203fcb8",
+      "mtime": "2026-01-07T16:52:49.709604",
+      "size": 6634
+    },
+    "api-reference/scopes/sizes/read.md": {
+      "hash": "09f59aed570acb9929620d442d51c36f",
+      "mtime": "2026-01-07T16:52:49.778990",
+      "size": 7433
+    },
+    "api-reference/scopes/snapshot.md": {
+      "hash": "31022085ab7a9418aa11777cf3f44136",
+      "mtime": "2026-01-07T16:52:49.700513",
+      "size": 6868
+    },
+    "api-reference/scopes/snapshot/delete.md": {
+      "hash": "c335099190d3dcb1a909c6f080bfb87e",
+      "mtime": "2026-01-07T16:52:49.724633",
+      "size": 7466
+    },
+    "api-reference/scopes/snapshot/read.md": {
+      "hash": "b011ac27a68e23983d7092e796ddaf0f",
+      "mtime": "2026-01-07T16:52:49.723201",
+      "size": 7343
+    },
+    "api-reference/scopes/spaces.md": {
+      "hash": "848176c6b32a70649921ad7b7d011a6d",
+      "mtime": "2026-01-07T16:52:49.710842",
+      "size": 6878
+    },
+    "api-reference/scopes/spaces/read.md": {
+      "hash": "a6fd0d4132ee6d8667b7bcc021b96db8",
+      "mtime": "2026-01-07T16:52:49.761717",
+      "size": 8257
+    },
+    "api-reference/scopes/spaces/update.md": {
+      "hash": "e3337ad498633f204322c8d2b72adf27",
+      "mtime": "2026-01-07T16:52:49.762312",
+      "size": 7325
+    },
+    "api-reference/scopes/spaces_key.md": {
+      "hash": "cfd85d7c2592e3f55bb9f7d92120973a",
+      "mtime": "2026-01-07T16:52:49.708104",
+      "size": 7694
+    },
+    "api-reference/scopes/spaces_key/create.md": {
+      "hash": "92394177dff1103b7cb11fd1e5267b07",
+      "mtime": "2026-01-07T16:52:49.815433",
+      "size": 7306
+    },
+    "api-reference/scopes/spaces_key/create_credentials.md": {
+      "hash": "1d4a6cd9b8d3161e71c2f37631ca57c7",
+      "mtime": "2026-01-07T16:52:49.817377",
+      "size": 8375
+    },
+    "api-reference/scopes/spaces_key/delete.md": {
+      "hash": "44df3183f01569f0a5f04b86682457fb",
+      "mtime": "2026-01-07T16:52:49.816193",
+      "size": 8257
+    },
+    "api-reference/scopes/spaces_key/read.md": {
+      "hash": "6dafd44ad7f7b73789b9807dffb06a94",
+      "mtime": "2026-01-07T16:52:49.814555",
+      "size": 7617
+    },
+    "api-reference/scopes/spaces_key/update.md": {
+      "hash": "189909a01373e40dec910250b0c7c319",
+      "mtime": "2026-01-07T16:52:49.816770",
+      "size": 8257
+    },
+    "api-reference/scopes/ssh_key.md": {
+      "hash": "c77ced3ed9d587e23b14b985245ad55c",
+      "mtime": "2026-01-07T16:52:49.706847",
+      "size": 7273
+    },
+    "api-reference/scopes/ssh_key/create.md": {
+      "hash": "896a7b58b92996ededcd7b95714148ed",
+      "mtime": "2026-01-07T16:52:49.759516",
+      "size": 7810
+    },
+    "api-reference/scopes/ssh_key/delete.md": {
+      "hash": "b240ad78a7f2dec7ed05122a757348cc",
+      "mtime": "2026-01-07T16:52:49.760217",
+      "size": 7810
+    },
+    "api-reference/scopes/ssh_key/read.md": {
+      "hash": "d333548c3b3a0c2e15a6fa035ebcf04c",
+      "mtime": "2026-01-07T16:52:49.758802",
+      "size": 7658
+    },
+    "api-reference/scopes/ssh_key/update.md": {
+      "hash": "26813f03104f626bea4b135f08005af7",
+      "mtime": "2026-01-07T16:52:49.760976",
+      "size": 7810
+    },
+    "api-reference/scopes/tag.md": {
+      "hash": "3fc706ba2178f42fc384ed237ca5c411",
+      "mtime": "2026-01-07T16:52:49.699978",
+      "size": 6995
+    },
+    "api-reference/scopes/tag/create.md": {
+      "hash": "53407de1a19bac622439bc6656fd79af",
+      "mtime": "2026-01-07T16:52:49.812320",
+      "size": 8330
+    },
+    "api-reference/scopes/tag/delete.md": {
+      "hash": "2b298013fdb919b6bc1dfe2e80aebd51",
+      "mtime": "2026-01-07T16:52:49.813093",
+      "size": 7082
+    },
+    "api-reference/scopes/tag/read.md": {
+      "hash": "c17d999ae469984d1a7686470be2a1e1",
+      "mtime": "2026-01-07T16:52:49.811717",
+      "size": 8385
+    },
+    "api-reference/scopes/uptime.md": {
+      "hash": "e22757d5e473dcb788eccc5744d5e089",
+      "mtime": "2026-01-07T16:52:49.696708",
+      "size": 7258
+    },
+    "api-reference/scopes/uptime/create.md": {
+      "hash": "74034a4e5c7baeffee6716546a30dfbb",
+      "mtime": "2026-01-07T16:52:49.809841",
+      "size": 7200
+    },
+    "api-reference/scopes/uptime/delete.md": {
+      "hash": "c1f3fda11abc3da3af49f433822d6344",
+      "mtime": "2026-01-07T16:52:49.810493",
+      "size": 7200
+    },
+    "api-reference/scopes/uptime/read.md": {
+      "hash": "76bb61ed6ee965eaa67a27affbed90f9",
+      "mtime": "2026-01-07T16:52:49.809237",
+      "size": 7106
+    },
+    "api-reference/scopes/uptime/update.md": {
+      "hash": "11cee9149d736723d0a112f6c6d8e579",
+      "mtime": "2026-01-07T16:52:49.810966",
+      "size": 7200
+    },
+    "api-reference/scopes/vendor_portal.md": {
+      "hash": "21857472573f3b5f8b66faedf8a1ca7a",
+      "mtime": "2026-01-07T16:52:49.702330",
+      "size": 7506
+    },
+    "api-reference/scopes/vendor_portal/create.md": {
+      "hash": "302c7f274b12fffb7bbf3a5131856ee9",
+      "mtime": "2026-01-07T16:52:49.782319",
+      "size": 7375
+    },
+    "api-reference/scopes/vendor_portal/delete.md": {
+      "hash": "c1ce0d72d55c9d463fb4c14cd55445b7",
+      "mtime": "2026-01-07T16:52:49.782778",
+      "size": 7368
+    },
+    "api-reference/scopes/vendor_portal/read.md": {
+      "hash": "c756abac7424aa3d8bcf672fa3862e33",
+      "mtime": "2026-01-07T16:52:49.781773",
+      "size": 7243
+    },
+    "api-reference/scopes/vendor_portal/update.md": {
+      "hash": "fe9bfa790d69cd76a6ae196bde069056",
+      "mtime": "2026-01-07T16:52:49.783343",
+      "size": 7368
+    },
+    "api-reference/scopes/vpc.md": {
+      "hash": "1e609e2e63f19914177bc74b135f7d56",
+      "mtime": "2026-01-07T16:52:49.704970",
+      "size": 7153
+    },
+    "api-reference/scopes/vpc/create.md": {
+      "hash": "29e407251bbfbdd75922f50560ad5cb8",
+      "mtime": "2026-01-07T16:52:49.795216",
+      "size": 7361
+    },
+    "api-reference/scopes/vpc/delete.md": {
+      "hash": "6ec986ae647b369f9427387dec037400",
+      "mtime": "2026-01-07T16:52:49.795861",
+      "size": 7361
+    },
+    "api-reference/scopes/vpc/read.md": {
+      "hash": "8e56e14f32e5058d2be5443c5c67b5ff",
+      "mtime": "2026-01-07T16:52:49.794550",
+      "size": 8232
+    },
+    "api-reference/scopes/vpc/update.md": {
+      "hash": "f4fdd188649a119d846d5407dcf276c1",
+      "mtime": "2026-01-07T16:52:49.796556",
+      "size": 7361
+    },
+    "api-reference/scopes/vpc_peering.md": {
+      "hash": "7b2c40074d522b860a1e04e2375f4a54",
+      "mtime": "2026-01-07T16:52:49.697958",
+      "size": 7377
+    },
+    "api-reference/scopes/vpc_peering/create.md": {
+      "hash": "776b28e2dc4da11a9bf4d2bc99e10fbc",
+      "mtime": "2026-01-07T16:52:49.726304",
+      "size": 7504
+    },
+    "api-reference/scopes/vpc_peering/delete.md": {
+      "hash": "d4516e1287af481f40b7f98ec067a6e0",
+      "mtime": "2026-01-07T16:52:49.729369",
+      "size": 7504
+    },
+    "api-reference/scopes/vpc_peering/read.md": {
+      "hash": "7be02615be6393699a487eeecebb0376",
+      "mtime": "2026-01-07T16:52:49.725541",
+      "size": 7449
+    },
+    "api-reference/scopes/vpc_peering/update.md": {
+      "hash": "c2506b321ed4aea0b1a7e8361ef06979",
+      "mtime": "2026-01-07T16:52:49.730538",
+      "size": 7504
+    },
+    "api-reference/spaces.md": {
+      "hash": "25843c116fe47d225f2ce6bed36a7857",
+      "mtime": "2026-01-07T16:52:49.166001",
+      "size": 39035
+    },
+    "app-platform/AGENT-01-COMPLETION-REPORT.md": {
+      "hash": "f3ba2177dce7c0a6937a4f09274c2d27",
+      "mtime": "2026-01-07T16:52:49.531188",
+      "size": 9707
+    },
+    "app-platform/EXECUTIVE-SUMMARY.md": {
+      "hash": "580b9a06cca6f1596eb3e6a45a9ca758",
+      "mtime": "2026-01-07T16:52:49.560220",
+      "size": 8390
+    },
+    "app-platform/HARVEST-REPORT.md": {
+      "hash": "ac66d1076e1fbacf6da4fd6afa95883f",
+      "mtime": "2026-01-07T16:52:49.552465",
+      "size": 4519
+    },
+    "app-platform/README.md": {
+      "hash": "6451b0a1cac3d69ddb22c40e1c05200d",
+      "mtime": "2026-01-07T16:52:49.549908",
+      "size": 7887
+    },
+    "app-platform/VALIDATION-REPORT.md": {
+      "hash": "441b787269a1f3bb1789925f87007997",
+      "mtime": "2026-01-07T16:52:49.575259",
+      "size": 4369
+    },
+    "app-platform/concepts-choosing-a-plan.md": {
+      "hash": "f47711a9439ef6f9871d729450fc3702",
+      "mtime": "2026-01-07T16:52:49.537930",
+      "size": 3766
+    },
+    "app-platform/concepts-platform-upgrade-policy.md": {
+      "hash": "b00fb4570476e081f4e4a8ad395805d3",
+      "mtime": "2026-01-07T16:52:49.559847",
+      "size": 3203
+    },
+    "app-platform/concepts.md": {
+      "hash": "d0e94cca76a00208914760ea56684aca",
+      "mtime": "2026-01-07T16:52:49.536639",
+      "size": 1169
+    },
+    "app-platform/details-availability.md": {
+      "hash": "bf84fe4ee15dd52bd82f1f0e84afcd91",
+      "mtime": "2026-01-07T16:52:49.554231",
+      "size": 649
+    },
+    "app-platform/details-features.md": {
+      "hash": "9b455089e4b95223ccf72cfc37b87d06",
+      "mtime": "2026-01-07T16:52:49.553139",
+      "size": 7776
+    },
+    "app-platform/details-intro-faq.md": {
+      "hash": "dcdd24449a52c333d41f7dbc66a8f2a4",
+      "mtime": "2026-01-07T16:52:49.546733",
+      "size": 9917
+    },
+    "app-platform/details-limits.md": {
+      "hash": "de46228882d06642bb69dc081fc82476",
+      "mtime": "2026-01-07T16:52:49.522801",
+      "size": 14583
+    },
+    "app-platform/details-maintenance.md": {
+      "hash": "72ac9138e8622df449a5a98ef2ec8bf8",
+      "mtime": "2026-01-07T16:52:49.582173",
+      "size": 1063
+    },
+    "app-platform/details-pricing.md": {
+      "hash": "72e8d980a850c3f0039b6a142a2045ad",
+      "mtime": "2026-01-07T16:52:49.587261",
+      "size": 6771
+    },
+    "app-platform/details.md": {
+      "hash": "7bad4322db9eec63771f2e5b7aa3d34b",
+      "mtime": "2026-01-07T16:52:49.533068",
+      "size": 1904
+    },
+    "app-platform/getting-started-deploy-etherpad.md": {
+      "hash": "a01c77f5355533e506d185366da4dac1",
+      "mtime": "2026-01-07T16:52:49.529883",
+      "size": 11012
+    },
+    "app-platform/getting-started-deploy-rss-reader.md": {
+      "hash": "940f979b9f6e9a8df935a965ea9b2e11",
+      "mtime": "2026-01-07T16:52:49.578487",
+      "size": 12221
+    },
+    "app-platform/getting-started-deploy-sample-apps.md": {
+      "hash": "8ca2fceba3dfc61d74b00df8759a6d1e",
+      "mtime": "2026-01-07T16:52:49.575823",
+      "size": 11566
+    },
+    "app-platform/getting-started-quickstart.md": {
+      "hash": "be7ea93f76b658e18d4ea439eb1d8106",
+      "mtime": "2026-01-07T16:52:49.586003",
+      "size": 5536
+    },
+    "app-platform/getting-started-sample-apps-aspnet.md": {
+      "hash": "ba606f34593ff37a360577091c72e1ce",
+      "mtime": "2026-01-07T16:52:49.570920",
+      "size": 5931
+    },
+    "app-platform/getting-started-sample-apps-docker.md": {
+      "hash": "6d95e40ac5d3bf0dd72fe3dcdf076858",
+      "mtime": "2026-01-07T16:52:49.551376",
+      "size": 5938
+    },
+    "app-platform/getting-started-sample-apps-express.js.md": {
+      "hash": "9b7c491a128c26a920312fc40478d4ac",
+      "mtime": "2026-01-07T16:52:49.566029",
+      "size": 5804
+    },
+    "app-platform/getting-started-sample-apps-flask.md": {
+      "hash": "233a1253e1a67b6873122145c042e6af",
+      "mtime": "2026-01-07T16:52:49.522165",
+      "size": 6450
+    },
+    "app-platform/getting-started-sample-apps-gatsby.md": {
+      "hash": "05a42d8d9a73544e3c92130d622e11c2",
+      "mtime": "2026-01-07T16:52:49.542948",
+      "size": 6005
+    },
+    "app-platform/getting-started-sample-apps-gin.md": {
+      "hash": "3a3f7b0d8b1b9f6a8a7d6b7c209733bd",
+      "mtime": "2026-01-07T16:52:49.550690",
+      "size": 5803
+    },
+    "app-platform/getting-started-sample-apps-go.md": {
+      "hash": "37ea3be7137ff184a486a6651b49b00b",
+      "mtime": "2026-01-07T16:52:49.580947",
+      "size": 5761
+    },
+    "app-platform/getting-started-sample-apps-hugo.md": {
+      "hash": "595fad674206a48bf2f0876c2d11a9d8",
+      "mtime": "2026-01-07T16:52:49.564703",
+      "size": 6006
+    },
+    "app-platform/getting-started-sample-apps-laravel.md": {
+      "hash": "efd04d1b66f42520d28f71ffb03e9325",
+      "mtime": "2026-01-07T16:52:49.556118",
+      "size": 6049
+    },
+    "app-platform/getting-started-sample-apps-next.js.md": {
+      "hash": "a4c1ed8b0a0eaf05b6fba550664bf867",
+      "mtime": "2026-01-07T16:52:49.572165",
+      "size": 6022
+    },
+    "app-platform/getting-started-sample-apps-node.md": {
+      "hash": "e74419efab5c41e06c091c2adf896fc2",
+      "mtime": "2026-01-07T16:52:49.531759",
+      "size": 5961
+    },
+    "app-platform/getting-started-sample-apps-nuxt.js.md": {
+      "hash": "1fb09f0e0eec3820f76f560cb8e99c2a",
+      "mtime": "2026-01-07T16:52:49.535780",
+      "size": 6014
+    },
+    "app-platform/getting-started-sample-apps-php.md": {
+      "hash": "35f7818ce59788928c5c12d92403c522",
+      "mtime": "2026-01-07T16:52:49.547420",
+      "size": 6481
+    },
+    "app-platform/getting-started-sample-apps-python.md": {
+      "hash": "19504a3a296f9bd4afe185beb3318e37",
+      "mtime": "2026-01-07T16:52:49.537251",
+      "size": 6744
+    },
+    "app-platform/getting-started-sample-apps-react.md": {
+      "hash": "0307627607332d59e0eea9cd0ec21eee",
+      "mtime": "2026-01-07T16:52:49.534451",
+      "size": 6008
+    },
+    "app-platform/getting-started-sample-apps-ruby.md": {
+      "hash": "a832762eeed3fd583f0019e6a7b5876f",
+      "mtime": "2026-01-07T16:52:49.557817",
+      "size": 5880
+    },
+    "app-platform/getting-started-sample-apps-spring-boot.md": {
+      "hash": "582406d9e501720ac08797d9c59f3393",
+      "mtime": "2026-01-07T16:52:49.564002",
+      "size": 5972
+    },
+    "app-platform/getting-started-sample-apps-static-assets.md": {
+      "hash": "23da9799da7785cfb9904bdc92f88c20",
+      "mtime": "2026-01-07T16:52:49.539271",
+      "size": 5887
+    },
+    "app-platform/getting-started-sample-apps.md": {
+      "hash": "6bfcc814974de0791f0dee639fef395d",
+      "mtime": "2026-01-07T16:52:49.558402",
+      "size": 4185
+    },
+    "app-platform/getting-started.md": {
+      "hash": "8ae50ba23ace4ffd3baaf018fba0f70a",
+      "mtime": "2026-01-07T16:52:49.548083",
+      "size": 1746
+    },
+    "app-platform/how-to-add-deploy-do-button.md": {
+      "hash": "3adb930a34b63e1119b1a8b03d3a8245",
+      "mtime": "2026-01-07T16:52:49.571444",
+      "size": 9556
+    },
+    "app-platform/how-to-add-ip-address.md": {
+      "hash": "0af6c142a1f53652db2691ad84375067",
+      "mtime": "2026-01-07T16:52:49.520781",
+      "size": 4657
+    },
+    "app-platform/how-to-archive-restore.md": {
+      "hash": "e847a474315e52da9a557d3481c59874",
+      "mtime": "2026-01-07T16:52:49.577590",
+      "size": 3590
+    },
+    "app-platform/how-to-build-locally.md": {
+      "hash": "f0d19f11a78eb847b5a7aa13bac5200e",
+      "mtime": "2026-01-07T16:52:49.574106",
+      "size": 5993
+    },
+    "app-platform/how-to-build-run-commands.md": {
+      "hash": "5c1a7440199981cfa142d6767e9f36bb",
+      "mtime": "2026-01-07T16:52:49.579059",
+      "size": 4744
+    },
+    "app-platform/how-to-change-region.md": {
+      "hash": "cdd1144bbf89a5ade4d83699b596148c",
+      "mtime": "2026-01-07T16:52:49.544425",
+      "size": 2786
+    },
+    "app-platform/how-to-change-stack.md": {
+      "hash": "e6d39cdc3c9f81aa405cf1f4c4bfc935",
+      "mtime": "2026-01-07T16:52:49.584780",
+      "size": 2448
+    },
+    "app-platform/how-to-clone-app.md": {
+      "hash": "c24dcf88fc09a727261f5a20a85544d6",
+      "mtime": "2026-01-07T16:52:49.587789",
+      "size": 4695
+    },
+    "app-platform/how-to-configure-cors-policies.md": {
+      "hash": "b7f8a36634b3caec79c681821a197f94",
+      "mtime": "2026-01-07T16:52:49.526594",
+      "size": 4623
+    },
+    "app-platform/how-to-configure-edge-settings.md": {
+      "hash": "b997c1b31f779eeaaef3c15080ce63ad",
+      "mtime": "2026-01-07T16:52:49.549410",
+      "size": 6851
+    },
+    "app-platform/how-to-configure-http2.md": {
+      "hash": "a3dd0b37894f69d181037bd6bb5c2da6",
+      "mtime": "2026-01-07T16:52:49.554763",
+      "size": 1801
+    },
+    "app-platform/how-to-configure-termination.md": {
+      "hash": "70352975c96b85bb866f1d5ba6cb9b90",
+      "mtime": "2026-01-07T16:52:49.520108",
+      "size": 2185
+    },
+    "app-platform/how-to-connect-pg-pools.md": {
+      "hash": "6a6988524efeb99dfbbf3716502cf42c",
+      "mtime": "2026-01-07T16:52:49.581500",
+      "size": 6011
+    },
+    "app-platform/how-to-console.md": {
+      "hash": "8d91c7427494cdf4775e3296b2a742c3",
+      "mtime": "2026-01-07T16:52:49.517561",
+      "size": 6797
+    },
+    "app-platform/how-to-create-alerts.md": {
+      "hash": "96150bd24fb246ae184b371e5ae2678f",
+      "mtime": "2026-01-07T16:52:49.529299",
+      "size": 3658
+    },
+    "app-platform/how-to-create-apps.md": {
+      "hash": "cb555c6b34305768eddf31ea4b794f33",
+      "mtime": "2026-01-07T16:52:49.543805",
+      "size": 12519
+    },
+    "app-platform/how-to-deploy-from-container-images.md": {
+      "hash": "16355f44a260c37140f317e8c553472f",
+      "mtime": "2026-01-07T16:52:49.542227",
+      "size": 12915
+    },
+    "app-platform/how-to-deploy-from-github-actions.md": {
+      "hash": "7fe95005dc6b5b03867f0e5ca3c2ca24",
+      "mtime": "2026-01-07T16:52:49.553720",
+      "size": 8150
+    },
+    "app-platform/how-to-deploy-from-monorepo.md": {
+      "hash": "3bf6b41c2baffbbd05943607059980a1",
+      "mtime": "2026-01-07T16:52:49.523334",
+      "size": 5576
+    },
+    "app-platform/how-to-destroy-app.md": {
+      "hash": "b34388388aee71395941de7d110ef3fc",
+      "mtime": "2026-01-07T16:52:49.533766",
+      "size": 3412
+    },
+    "app-platform/how-to-enable-vpc.md": {
+      "hash": "ee5436f56ff655aa7f2a6899be3ac044",
+      "mtime": "2026-01-07T16:52:49.563487",
+      "size": 4198
+    },
+    "app-platform/how-to-forward-logs.md": {
+      "hash": "5edad4bebf6b5831cd8141e0b41f4b7c",
+      "mtime": "2026-01-07T16:52:49.573373",
+      "size": 5132
+    },
+    "app-platform/how-to-maintenance-mode.md": {
+      "hash": "b2e19a5c25918cb1a20d860b1c32314a",
+      "mtime": "2026-01-07T16:52:49.556603",
+      "size": 2887
+    },
+    "app-platform/how-to-manage-components.md": {
+      "hash": "d9aab2894f157d545f249f5782fcc827",
+      "mtime": "2026-01-07T16:52:49.572670",
+      "size": 1601
+    },
+    "app-platform/how-to-manage-data-storage.md": {
+      "hash": "79bc738905e96f91a1b50c4fd727ff58",
+      "mtime": "2026-01-07T16:52:49.527322",
+      "size": 1207
+    },
+    "app-platform/how-to-manage-databases.md": {
+      "hash": "4a0a2b7ccd0170570fce20fc58fe18ec",
+      "mtime": "2026-01-07T16:52:49.586742",
+      "size": 24825
+    },
+    "app-platform/how-to-manage-deployments.md": {
+      "hash": "15e600c4d4d28d18f722ee9dba6d0db5",
+      "mtime": "2026-01-07T16:52:49.576511",
+      "size": 7736
+    },
+    "app-platform/how-to-manage-domains.md": {
+      "hash": "9da742c5106718a7c9b042259070c1e2",
+      "mtime": "2026-01-07T16:52:49.546065",
+      "size": 22674
+    },
+    "app-platform/how-to-manage-functions.md": {
+      "hash": "d3e6f05fde25b12d5906b7dd0515b675",
+      "mtime": "2026-01-07T16:52:49.584253",
+      "size": 24128
+    },
+    "app-platform/how-to-manage-health-checks.md": {
+      "hash": "f4af363367eea78cb61723e3e8dd8e90",
+      "mtime": "2026-01-07T16:52:49.519463",
+      "size": 6060
+    },
+    "app-platform/how-to-manage-internal-routing.md": {
+      "hash": "f394e68613214cee1f78634d35926a3d",
+      "mtime": "2026-01-07T16:52:49.568366",
+      "size": 4142
+    },
+    "app-platform/how-to-manage-jobs.md": {
+      "hash": "6ae0f1d845b117061890d9c459d35e12",
+      "mtime": "2026-01-07T16:52:49.548695",
+      "size": 21975
+    },
+    "app-platform/how-to-manage-networking.md": {
+      "hash": "de0d206fa1b242275250732889af8bf4",
+      "mtime": "2026-01-07T16:52:49.585449",
+      "size": 2276
+    },
+    "app-platform/how-to-manage-observability.md": {
+      "hash": "1043faf20fae59c8038746fa307ff928",
+      "mtime": "2026-01-07T16:52:49.525918",
+      "size": 1644
+    },
+    "app-platform/how-to-manage-services.md": {
+      "hash": "195322b1d8d65e7c07e84be7344ee304",
+      "mtime": "2026-01-07T16:52:49.521508",
+      "size": 22888
+    },
+    "app-platform/how-to-manage-settings.md": {
+      "hash": "b61a9f0d1fe32b8ea90d2d233b633267",
+      "mtime": "2026-01-07T16:52:49.562803",
+      "size": 2388
+    },
+    "app-platform/how-to-manage-source-repo.md": {
+      "hash": "2df0c3201d295f594479489e2d22e6de",
+      "mtime": "2026-01-07T16:52:49.561452",
+      "size": 8775
+    },
+    "app-platform/how-to-manage-static-sites.md": {
+      "hash": "f98b91be0a1b2b4720c7f4658de8efb6",
+      "mtime": "2026-01-07T16:52:49.577089",
+      "size": 20521
+    },
+    "app-platform/how-to-manage-time-zone.md": {
+      "hash": "83b6534c507beaee665260845a5e329f",
+      "mtime": "2026-01-07T16:52:49.569730",
+      "size": 1432
+    },
+    "app-platform/how-to-manage-workers.md": {
+      "hash": "d2f47f07b60961bd59b6882b10de7209",
+      "mtime": "2026-01-07T16:52:49.582985",
+      "size": 19324
+    },
+    "app-platform/how-to-migrate-nodejs-buildpack.md": {
+      "hash": "b64cf348acace9faad779b439e2acf32",
+      "mtime": "2026-01-07T16:52:49.535096",
+      "size": 2906
+    },
+    "app-platform/how-to-restart-rebuild-app.md": {
+      "hash": "64656ea23abe16c58e5b345ec6e14131",
+      "mtime": "2026-01-07T16:52:49.528028",
+      "size": 7812
+    },
+    "app-platform/how-to-scale-app.md": {
+      "hash": "c02cb9982425bc09169a3435ee8f9300",
+      "mtime": "2026-01-07T16:52:49.530655",
+      "size": 19190
+    },
+    "app-platform/how-to-store-data.md": {
+      "hash": "ec88ca2a59613a309c907ea1e015345c",
+      "mtime": "2026-01-07T16:52:49.570201",
+      "size": 3005
+    },
+    "app-platform/how-to-update-app-spec.md": {
+      "hash": "86340b50eb03650acf36746f51af5e2d",
+      "mtime": "2026-01-07T16:52:49.518907",
+      "size": 13613
+    },
+    "app-platform/how-to-upgrade-buildpacks.md": {
+      "hash": "e53149b0fbbbfec5103a933b34d4d058",
+      "mtime": "2026-01-07T16:52:49.565341",
+      "size": 2910
+    },
+    "app-platform/how-to-url-rewrites.md": {
+      "hash": "8e02b0064f59e8fb077fa1f71a7a45aa",
+      "mtime": "2026-01-07T16:52:49.555457",
+      "size": 5390
+    },
+    "app-platform/how-to-use-environment-variables.md": {
+      "hash": "5f59381067953ebc6591af45c8afdb7c",
+      "mtime": "2026-01-07T16:52:49.524587",
+      "size": 11075
+    },
+    "app-platform/how-to-view-insights.md": {
+      "hash": "1cb9b34c5f9668fcf77dc749d694d4aa",
+      "mtime": "2026-01-07T16:52:49.569071",
+      "size": 6158
+    },
+    "app-platform/how-to-view-logs.md": {
+      "hash": "0c9af7aedff6d6d265909ce4e8cb5b2a",
+      "mtime": "2026-01-07T16:52:49.538529",
+      "size": 6896
+    },
+    "app-platform/how-to.md": {
+      "hash": "166f58dd990cd256c898538b0fca2089",
+      "mtime": "2026-01-07T16:52:49.516884",
+      "size": 11716
+    },
+    "app-platform/index.md": {
+      "hash": "66714e7c088f318a19efe58bbac6cbbb",
+      "mtime": "2026-01-07T16:52:49.559078",
+      "size": 7460
+    },
+    "app-platform/reference-app-spec.md": {
+      "hash": "9c724ec0d0bbc0d2a8b5d0ebe37610c2",
+      "mtime": "2026-01-07T16:52:49.545298",
+      "size": 79607
+    },
+    "app-platform/reference-buildpacks-aptfile.md": {
+      "hash": "821090888f3bdce59cb83ec73f8e8239",
+      "mtime": "2026-01-07T16:52:49.541302",
+      "size": 2641
+    },
+    "app-platform/reference-buildpacks-bun.md": {
+      "hash": "620a2a7de752778186f1011632b80b8b",
+      "mtime": "2026-01-07T16:52:49.539943",
+      "size": 3899
+    },
+    "app-platform/reference-buildpacks-go.md": {
+      "hash": "acbb67ef73ab7197e97f74b375bc4ea3",
+      "mtime": "2026-01-07T16:52:49.580395",
+      "size": 4290
+    },
+    "app-platform/reference-buildpacks-hugo.md": {
+      "hash": "9de93845eeefa3b64baad768949f0f56",
+      "mtime": "2026-01-07T16:52:49.518266",
+      "size": 2615
+    },
+    "app-platform/reference-buildpacks-legacy-nodejs.md": {
+      "hash": "7f09d703f31678f2a054e54cd843f46c",
+      "mtime": "2026-01-07T16:52:49.583675",
+      "size": 7164
+    },
+    "app-platform/reference-buildpacks-nodejs.md": {
+      "hash": "e8347bdb9c57a2a56a4221717e22300b",
+      "mtime": "2026-01-07T16:52:49.540529",
+      "size": 700
+    },
+    "app-platform/reference-buildpacks-php.md": {
+      "hash": "0aa1f8044684ac33da8cdad9a465d8a8",
+      "mtime": "2026-01-07T16:52:49.528700",
+      "size": 6202
+    },
+    "app-platform/reference-buildpacks-python.md": {
+      "hash": "80051c921a94fe2cc47faa5e9f1126f2",
+      "mtime": "2026-01-07T16:52:49.557133",
+      "size": 4077
+    },
+    "app-platform/reference-buildpacks-ruby.md": {
+      "hash": "5d9e4e716e4122f660d675cf3433bd4f",
+      "mtime": "2026-01-07T16:52:49.532456",
+      "size": 2698
+    },
+    "app-platform/reference-buildpacks.md": {
+      "hash": "f9334f2ebd2e13050082023111cc282f",
+      "mtime": "2026-01-07T16:52:49.560904",
+      "size": 3937
+    },
+    "app-platform/reference-dev-config.md": {
+      "hash": "ebd73ef689e0c71db5cc8155f4d8efd9",
+      "mtime": "2026-01-07T16:52:49.562102",
+      "size": 2368
+    },
+    "app-platform/reference-dockerfile.md": {
+      "hash": "2a751a99488bbad29890b22171b80ffa",
+      "mtime": "2026-01-07T16:52:49.524028",
+      "size": 5234
+    },
+    "app-platform/reference-error-codes.md": {
+      "hash": "8505701ad5623924949a8c678d7cb40f",
+      "mtime": "2026-01-07T16:52:49.567679",
+      "size": 6848
+    },
+    "app-platform/reference-mcp-use-local-mcp.md": {
+      "hash": "4e93bd999ca3a1160629e6685f99c69b",
+      "mtime": "2026-01-07T16:52:49.574755",
+      "size": 1288
+    },
+    "app-platform/reference-mcp.md": {
+      "hash": "a56d6f60e5828ae650ed73581be73c74",
+      "mtime": "2026-01-07T16:52:49.579687",
+      "size": 2089
+    },
+    "app-platform/reference.md": {
+      "hash": "f3099abb36b3bb7af72d80186c017418",
+      "mtime": "2026-01-07T16:52:49.525249",
+      "size": 3976
+    },
+    "app-platform/support.md": {
+      "hash": "11dfccb305f367c9fafd893d9a76c3fe",
+      "mtime": "2026-01-07T16:52:49.552008",
+      "size": 13973
+    },
+    "compute/HARVEST-REPORT.md": {
+      "hash": "3b3d7518699cbc345a7fb369bd70922d",
+      "mtime": "2026-01-07T16:52:49.212693",
+      "size": 2761
+    },
+    "compute/INDEX.md": {
+      "hash": "e2869cc44aa80ee157a67ea0768b1164",
+      "mtime": "2026-01-07T16:52:49.218902",
+      "size": 2995
+    },
+    "compute/bare-metal-gpus-details-availability.md": {
+      "hash": "ad662cb2cf427a7d7afcce7826b18869",
+      "mtime": "2026-01-07T16:52:49.183001",
+      "size": 3903
+    },
+    "compute/bare-metal-gpus-details-features.md": {
+      "hash": "0205d2ebf52bf27c8755642ca2d5399b",
+      "mtime": "2026-01-07T16:52:49.213289",
+      "size": 6861
+    },
+    "compute/bare-metal-gpus-details-limits.md": {
+      "hash": "a06ad6bb22396b20fa5ea342ed9646f3",
+      "mtime": "2026-01-07T16:52:49.185242",
+      "size": 4598
+    },
+    "compute/bare-metal-gpus-details-pricing.md": {
+      "hash": "39b21194def40b5168c236e11d5e2218",
+      "mtime": "2026-01-07T16:52:49.216728",
+      "size": 4135
+    },
+    "compute/bare-metal-gpus-details.md": {
+      "hash": "3c334b66c39062a14f470cce1cd3ae8a",
+      "mtime": "2026-01-07T16:52:49.227593",
+      "size": 4819
+    },
+    "compute/bare-metal-gpus-how-to-mount-nfs-file-shares.md": {
+      "hash": "ff08b459309be10ed80b3605efc6a4d1",
+      "mtime": "2026-01-07T16:52:49.225924",
+      "size": 9500
+    },
+    "compute/bare-metal-gpus-support-contact.md": {
+      "hash": "0a72524e31308e7bffc877a070c539a0",
+      "mtime": "2026-01-07T16:52:49.192164",
+      "size": 3850
+    },
+    "compute/bare-metal-gpus-support.md": {
+      "hash": "3d0c928cf64ced0b06cc82001c5a0fe3",
+      "mtime": "2026-01-07T16:52:49.194016",
+      "size": 10438
+    },
+    "compute/bare-metal-gpus.md": {
+      "hash": "4cf319e0359831dc6bb4b1c41c9f47f7",
+      "mtime": "2026-01-07T16:52:49.196183",
+      "size": 6079
+    },
+    "compute/droplets-concepts.md": {
+      "hash": "7d7ec283f1dc32a7429d182d228eaf70",
+      "mtime": "2026-01-07T16:52:49.228531",
+      "size": 8600
+    },
+    "compute/droplets-getting-started-recommended-gpu-setup.md": {
+      "hash": "ef602f4d56f55d8a3e88d3ff3ef44c48",
+      "mtime": "2026-01-07T16:52:49.222675",
+      "size": 10746
+    },
+    "compute/droplets-how-to-access-metadata.md": {
+      "hash": "7c79a1d324c3308eb296a38ef93917a7",
+      "mtime": "2026-01-07T16:52:49.232258",
+      "size": 7305
+    },
+    "compute/droplets-how-to-add-ssh-keys-to-existing-droplet.md": {
+      "hash": "bc4a011237be68da07d52261c8e7ca63",
+      "mtime": "2026-01-07T16:52:49.184687",
+      "size": 12702
+    },
+    "compute/droplets-how-to-add-ssh-keys.md": {
+      "hash": "aaba338d9e35a0b5f245c11fb46609f2",
+      "mtime": "2026-01-07T16:52:49.208734",
+      "size": 7524
+    },
+    "compute/droplets-how-to-gpu-configure-multi-node.md": {
+      "hash": "6ed7c3c611b5689ab287d04642444b9f",
+      "mtime": "2026-01-07T16:52:49.225361",
+      "size": 16718
+    },
+    "compute/droplets-how-to-manage-agent.md": {
+      "hash": "33b65b29a6c8365015bc3732ae698b38",
+      "mtime": "2026-01-07T16:52:49.207618",
+      "size": 8091
+    },
+    "compute/droplets-how-to-rebuild.md": {
+      "hash": "06981967519f02459ae714b9fa35b271",
+      "mtime": "2026-01-07T16:52:49.218565",
+      "size": 21055
+    },
+    "compute/droplets-how-to.md": {
+      "hash": "64502a1ab313d214c477a7d95c871fdc",
+      "mtime": "2026-01-07T16:52:49.185802",
+      "size": 7663
+    },
+    "compute/droplets-reference.md": {
+      "hash": "1569f2b6e0bf42187404d58a3b16a37c",
+      "mtime": "2026-01-07T16:52:49.182413",
+      "size": 18885
+    },
+    "compute/gpu-droplets.md": {
+      "hash": "df6023510b9fcc99b3017fdf02b07c2e",
+      "mtime": "2026-01-07T16:52:49.203600",
+      "size": 8316
+    },
+    "containers/HARVEST-REPORT.md": {
+      "hash": "5582a33a9830d576133a822a549c668a",
+      "mtime": "2026-01-07T16:52:49.260680",
+      "size": 3411
+    },
+    "containers/INDEX.md": {
+      "hash": "744c062f85295e90d7a2460ce11a25dd",
+      "mtime": "2026-01-07T16:52:49.266632",
+      "size": 7843
+    },
+    "containers/container-registry-details-availability.md": {
+      "hash": "89283bc9a5315eb214e1409e3a3c04ef",
+      "mtime": "2026-01-07T16:52:49.282009",
+      "size": 4710
+    },
+    "containers/container-registry-details-features.md": {
+      "hash": "c0c39643f3dd65764dde99a031cdafe0",
+      "mtime": "2026-01-07T16:52:49.246498",
+      "size": 5633
+    },
+    "containers/container-registry-details-limits.md": {
+      "hash": "b7fa37be7e92ece7a4836f0ce2bed9d0",
+      "mtime": "2026-01-07T16:52:49.269431",
+      "size": 5695
+    },
+    "containers/container-registry-details-pricing.md": {
+      "hash": "72239b37fce61d5e6b58902b9019c09a",
+      "mtime": "2026-01-07T16:52:49.273554",
+      "size": 6168
+    },
+    "containers/container-registry-details.md": {
+      "hash": "5f88a3de7d26e0d028dc419dc77622c1",
+      "mtime": "2026-01-07T16:52:49.260299",
+      "size": 5253
+    },
+    "containers/container-registry-getting-started-quickstart.md": {
+      "hash": "1c0942d7a6a0279ee1faf68cf82fc9a6",
+      "mtime": "2026-01-07T16:52:49.258166",
+      "size": 7522
+    },
+    "containers/container-registry-getting-started.md": {
+      "hash": "1ef9608f90f7c17dc2b22542ad7d7f40",
+      "mtime": "2026-01-07T16:52:49.276443",
+      "size": 4748
+    },
+    "containers/container-registry-how-to-clean-up-container-registry.md": {
+      "hash": "37b2c2b1d84167770b884459cf87ee1b",
+      "mtime": "2026-01-07T16:52:49.287948",
+      "size": 10926
+    },
+    "containers/container-registry-how-to-create-registry.md": {
+      "hash": "a7760af5068e66a404cc94781b1cb543",
+      "mtime": "2026-01-07T16:52:49.242786",
+      "size": 13167
+    },
+    "containers/container-registry-how-to-enable-push-to-deploy.md": {
+      "hash": "d4cc44fd6bcf04a3e2fa326a93e8b633",
+      "mtime": "2026-01-07T16:52:49.235746",
+      "size": 16165
+    },
+    "containers/container-registry-how-to-set-up-ci-cd.md": {
+      "hash": "f457b76c24793f04303acd0e433327d3",
+      "mtime": "2026-01-07T16:52:49.277158",
+      "size": 7432
+    },
+    "containers/container-registry-how-to-use-registry-docker-kubernetes.md": {
+      "hash": "56a442007d8322eeff52a7f2f27425d7",
+      "mtime": "2026-01-07T16:52:49.253558",
+      "size": 13227
+    },
+    "containers/container-registry-how-to.md": {
+      "hash": "0148f58adb36fd1f9b0ace52322c3f6c",
+      "mtime": "2026-01-07T16:52:49.238652",
+      "size": 5270
+    },
+    "containers/container-registry-reference.md": {
+      "hash": "6afaf20e1ef5235103b341da028a7e7a",
+      "mtime": "2026-01-07T16:52:49.275032",
+      "size": 5530
+    },
+    "containers/container-registry-support.md": {
+      "hash": "4becec0635547ee8639ae90e6f1ffe0b",
+      "mtime": "2026-01-07T16:52:49.244016",
+      "size": 4378
+    },
+    "containers/container-registry.md": {
+      "hash": "2fca851b359a1dc6495f5a45fff6e66a",
+      "mtime": "2026-01-07T16:52:49.275679",
+      "size": 8942
+    },
+    "containers/functions-concepts.md": {
+      "hash": "d22f1d6f9ae6d0be8905867e004d1234",
+      "mtime": "2026-01-07T16:52:49.266142",
+      "size": 6185
+    },
+    "containers/functions-details-availability.md": {
+      "hash": "a0472c6e8632e9b8e08ff30ecb9d9a71",
+      "mtime": "2026-01-07T16:52:49.247059",
+      "size": 5754
+    },
+    "containers/functions-details-features.md": {
+      "hash": "00154e0d67bf94a470bcebad6e7e48ed",
+      "mtime": "2026-01-07T16:52:49.270422",
+      "size": 9152
+    },
+    "containers/functions-details-limits.md": {
+      "hash": "4cc632eae92fb7961b07656f535fee83",
+      "mtime": "2026-01-07T16:52:49.259711",
+      "size": 7203
+    },
+    "containers/functions-details-pricing.md": {
+      "hash": "1d808e1d106ee29ae650d86e9bbb5964",
+      "mtime": "2026-01-07T16:52:49.264653",
+      "size": 6191
+    },
+    "containers/functions-details.md": {
+      "hash": "87caa2d819967e9ffe67476555db6454",
+      "mtime": "2026-01-07T16:52:49.237302",
+      "size": 6315
+    },
+    "containers/functions-getting-started-quickstart.md": {
+      "hash": "c488729f4ec78f58be836f34bcdaa9d9",
+      "mtime": "2026-01-07T16:52:49.258996",
+      "size": 12187
+    },
+    "containers/functions-getting-started-sample-functions.md": {
+      "hash": "957e9589be8b98f4d06902926caa4b50",
+      "mtime": "2026-01-07T16:52:49.263048",
+      "size": 9321
+    },
+    "containers/functions-getting-started-serverless-jamstack-add-functions.md": {
+      "hash": "e705b71f4ac55fc36d86310aa4fb1ec0",
+      "mtime": "2026-01-07T16:52:49.252799",
+      "size": 18198
+    },
+    "containers/functions-getting-started-serverless-jamstack-connect-functions-to-website.md": {
+      "hash": "4bc0383bf2e78b4c6ca9b27b12bcd38f",
+      "mtime": "2026-01-07T16:52:49.281341",
+      "size": 16257
+    },
+    "containers/functions-getting-started-serverless-jamstack-deploy-mongodb.md": {
+      "hash": "de006e61051c0ee4391565d7c7550453",
+      "mtime": "2026-01-07T16:52:49.236734",
+      "size": 13516
+    },
+    "containers/functions-getting-started-serverless-jamstack.md": {
+      "hash": "2912c5aea362c7725aa1e0c0107e9b08",
+      "mtime": "2026-01-07T16:52:49.247877",
+      "size": 10116
+    },
+    "containers/functions-getting-started.md": {
+      "hash": "2f7d0b4876fed1f1f220a97aa9fde3be",
+      "mtime": "2026-01-07T16:52:49.286426",
+      "size": 6451
+    },
+    "containers/functions-how-to-async-functions.md": {
+      "hash": "6173cf64b54419c98d690cd8cc154d0c",
+      "mtime": "2026-01-07T16:52:49.251006",
+      "size": 15820
+    },
+    "containers/functions-how-to-configure-functions.md": {
+      "hash": "9a0be782f1ad73cc66f21573d07a0aed",
+      "mtime": "2026-01-07T16:52:49.254796",
+      "size": 12273
+    },
+    "containers/functions-how-to-create-functions.md": {
+      "hash": "2b900db2c5c96077b6453bddbffecddc",
+      "mtime": "2026-01-07T16:52:49.248787",
+      "size": 12437
+    },
+    "containers/functions-how-to-create-namespaces.md": {
+      "hash": "7748937f98f0f5cb1aab0204334ca1a9",
+      "mtime": "2026-01-07T16:52:49.251862",
+      "size": 7657
+    },
+    "containers/functions-how-to-deploy-to-app-platform.md": {
+      "hash": "b39db8de21d63567fac0876565b03f7d",
+      "mtime": "2026-01-07T16:52:49.256702",
+      "size": 7030
+    },
+    "containers/functions-how-to-destroy-namespaces.md": {
+      "hash": "05cc3630b5ccfe1b2338a8aef0769b67",
+      "mtime": "2026-01-07T16:52:49.262199",
+      "size": 7303
+    },
+    "containers/functions-how-to-destroy.md": {
+      "hash": "d0103bda9913292051a3d59eecf13a56",
+      "mtime": "2026-01-07T16:52:49.267973",
+      "size": 6971
+    },
+    "containers/functions-how-to-develop-functions.md": {
+      "hash": "1d86d7f668bd4053de2fbd17a05c362d",
+      "mtime": "2026-01-07T16:52:49.288572",
+      "size": 17120
+    },
+    "containers/functions-how-to-forward-logs.md": {
+      "hash": "602681d5617d7bf048cb2324531b78c1",
+      "mtime": "2026-01-07T16:52:49.283678",
+      "size": 8198
+    },
+    "containers/functions-how-to-include-files.md": {
+      "hash": "d2318e30d895ba111cc2bf5ae7303250",
+      "mtime": "2026-01-07T16:52:49.287146",
+      "size": 7095
+    },
+    "containers/functions-how-to-schedule-functions.md": {
+      "hash": "5d945ea0bfbd81aeb6864a704fd0dc21",
+      "mtime": "2026-01-07T16:52:49.279772",
+      "size": 14244
+    },
+    "containers/functions-how-to-set-custom-cors-headers.md": {
+      "hash": "6a0762533bc303499d357e8864bae142",
+      "mtime": "2026-01-07T16:52:49.285119",
+      "size": 8916
+    },
+    "containers/functions-how-to-structure-projects.md": {
+      "hash": "d7a8860d722dd944bc25ddfbd5f5a3d9",
+      "mtime": "2026-01-07T16:52:49.272768",
+      "size": 8577
+    },
+    "containers/functions-how-to.md": {
+      "hash": "afc8b4646f890037398667ddb6ae42af",
+      "mtime": "2026-01-07T16:52:49.280502",
+      "size": 9033
+    },
+    "containers/functions-reference-activation-records.md": {
+      "hash": "54463b0e2f5959eb481c8a1d1b9ab372",
+      "mtime": "2026-01-07T16:52:49.263928",
+      "size": 9881
+    },
+    "containers/functions-reference-build-process.md": {
+      "hash": "e72b78075e86e6d65859a760c3798803",
+      "mtime": "2026-01-07T16:52:49.271382",
+      "size": 18380
+    },
+    "containers/functions-reference-http-headers.md": {
+      "hash": "8d80b1903bd88c92086ffcb2688b6d6e",
+      "mtime": "2026-01-07T16:52:49.277919",
+      "size": 7943
+    },
+    "containers/functions-reference-parameters-responses.md": {
+      "hash": "1676a4315da43a6139e36488ed6377bb",
+      "mtime": "2026-01-07T16:52:49.257570",
+      "size": 15896
+    },
+    "containers/functions-reference-project-configuration.md": {
+      "hash": "09614e650239d1a24b4e6c528c4d9986",
+      "mtime": "2026-01-07T16:52:49.282912",
+      "size": 15219
+    },
+    "containers/functions-reference-runtimes-go.md": {
+      "hash": "b27bd5f9d12479307318bf355ad7923e",
+      "mtime": "2026-01-07T16:52:49.255434",
+      "size": 19482
+    },
+    "containers/functions-reference-runtimes-node-js.md": {
+      "hash": "6afc92c9a34c3422ad78e2f771a0f861",
+      "mtime": "2026-01-07T16:52:49.244853",
+      "size": 27307
+    },
+    "containers/functions-reference-runtimes-php.md": {
+      "hash": "1db20deb4a81a4ed93c159e1c7125939",
+      "mtime": "2026-01-07T16:52:49.289216",
+      "size": 18089
+    },
+    "containers/functions-reference-runtimes-python.md": {
+      "hash": "263c33c039f745cc135b86acab72eb6b",
+      "mtime": "2026-01-07T16:52:49.272114",
+      "size": 21208
+    },
+    "containers/functions-reference-runtimes.md": {
+      "hash": "471e6c4681b8cc1f3a04393bf800b5af",
+      "mtime": "2026-01-07T16:52:49.249353",
+      "size": 6719
+    },
+    "containers/functions-reference.md": {
+      "hash": "da733a0c4f320c0118fa1b013db917c3",
+      "mtime": "2026-01-07T16:52:49.245698",
+      "size": 8335
+    },
+    "containers/functions.md": {
+      "hash": "18d2a61fe477443f1c3a02c02ffd4fe6",
+      "mtime": "2026-01-07T16:52:49.267399",
+      "size": 8807
+    },
+    "containers/monitoring-concepts-metrics.md": {
+      "hash": "620082b93f4647f8a29d76dbcb764f75",
+      "mtime": "2026-01-07T16:52:49.265398",
+      "size": 18169
+    },
+    "containers/monitoring-concepts.md": {
+      "hash": "6d476485c3be9919d9c1d643efc59d54",
+      "mtime": "2026-01-07T16:52:49.284327",
+      "size": 4393
+    },
+    "containers/monitoring-details-availability.md": {
+      "hash": "96c442ff267c35a2c4f2a3c801f01485",
+      "mtime": "2026-01-07T16:52:49.241275",
+      "size": 5191
+    },
+    "containers/monitoring-details-features.md": {
+      "hash": "c579851564fc37ee0f8a24a46bcce964",
+      "mtime": "2026-01-07T16:52:49.239325",
+      "size": 6406
+    },
+    "containers/monitoring-details-limits.md": {
+      "hash": "d8372f151e485e59c33e5c17b3679943",
+      "mtime": "2026-01-07T16:52:49.240018",
+      "size": 7489
+    },
+    "containers/monitoring-details-pricing.md": {
+      "hash": "db97f537fb780433e6402b323c24358e",
+      "mtime": "2026-01-07T16:52:49.237898",
+      "size": 4280
+    },
+    "containers/monitoring-details.md": {
+      "hash": "1a844e298b2591adfacfa1c06be15347",
+      "mtime": "2026-01-07T16:52:49.278675",
+      "size": 4906
+    },
+    "containers/monitoring-getting-started-quickstart.md": {
+      "hash": "14fc6e15ca473ab9222eebd11c00c06f",
+      "mtime": "2026-01-07T16:52:49.240679",
+      "size": 12349
+    },
+    "containers/monitoring-getting-started.md": {
+      "hash": "8975836276402df565eecaa825b7d5ef",
+      "mtime": "2026-01-07T16:52:49.256130",
+      "size": 4427
+    },
+    "containers/monitoring-how-to-install-metrics-agent-repository.md": {
+      "hash": "12b31b068f3c036662a7a5b86cb48d94",
+      "mtime": "2026-01-07T16:52:49.234734",
+      "size": 13677
+    },
+    "containers/monitoring-how-to-install-metrics-agent.md": {
+      "hash": "4e47c1b7767f652e8c86e07d3fb56b18",
+      "mtime": "2026-01-07T16:52:49.243422",
+      "size": 13368
+    },
+    "containers/monitoring-how-to-manage-alerts.md": {
+      "hash": "b2cdd4aa9618c7b0c0b9dddf6d89429b",
+      "mtime": "2026-01-07T16:52:49.242021",
+      "size": 21253
+    },
+    "containers/monitoring-how-to-uninstall-metrics-agent.md": {
+      "hash": "d8c44474c5856a7aa897bf45966d2cc9",
+      "mtime": "2026-01-07T16:52:49.274414",
+      "size": 10266
+    },
+    "containers/monitoring-how-to-upgrade-legacy-agent.md": {
+      "hash": "8583c0c2de6382c610334d2eb58398c9",
+      "mtime": "2026-01-07T16:52:49.261475",
+      "size": 7699
+    },
+    "containers/monitoring-how-to.md": {
+      "hash": "cdb778137b9622ab14cadf2de3ee0c9a",
+      "mtime": "2026-01-07T16:52:49.268697",
+      "size": 5620
+    },
+    "containers/monitoring-reference.md": {
+      "hash": "2a8d03b57ebe153964c1033b8064d456",
+      "mtime": "2026-01-07T16:52:49.249929",
+      "size": 5447
+    },
+    "containers/monitoring-support.md": {
+      "hash": "a4a44953df48881e697aee8bbb814505",
+      "mtime": "2026-01-07T16:52:49.254133",
+      "size": 4973
+    },
+    "containers/monitoring.md": {
+      "hash": "955b5a0d374b5192b6b4ee119edd6dc4",
+      "mtime": "2026-01-07T16:52:49.285695",
+      "size": 8393
+    },
+    "databases/COMPLETION-REPORT.md": {
+      "hash": "ba81a30d4b594930c7f9838e6123b3ec",
+      "mtime": "2026-01-07T16:52:49.042902",
+      "size": 7828
+    },
+    "databases/INDEX.md": {
+      "hash": "03bb4742431caf942a587f1c3c84de4e",
+      "mtime": "2026-01-07T16:52:49.093744",
+      "size": 10125
+    },
+    "databases/general-databases.md": {
+      "hash": "901bd3eaae3f762429610f13c9f9c62e",
+      "mtime": "2026-01-07T16:52:49.087497",
+      "size": 18802
+    },
+    "databases/kafka-best-practices.md": {
+      "hash": "10f4fa3775ae895d336ad67e0c28d441",
+      "mtime": "2026-01-07T16:52:49.152934",
+      "size": 7515
+    },
+    "databases/kafka-concepts.md": {
+      "hash": "e76f4d8c527028362e8d2a2472ff09c6",
+      "mtime": "2026-01-07T16:52:49.082676",
+      "size": 5426
+    },
+    "databases/kafka-create-topics.md": {
+      "hash": "7046f1dbc8a3f0f3a2a4c29113ea4e0a",
+      "mtime": "2026-01-07T16:52:49.105501",
+      "size": 7429
+    },
+    "databases/kafka-destroy.md": {
+      "hash": "162c055d1f8b687957ec143345f1e406",
+      "mtime": "2026-01-07T16:52:49.040435",
+      "size": 8866
+    },
+    "databases/kafka-details-availability.md": {
+      "hash": "56863b973b49efb32c7269f1e51b7a4c",
+      "mtime": "2026-01-07T16:52:49.100112",
+      "size": 5347
+    },
+    "databases/kafka-details-features.md": {
+      "hash": "cbbe04d48ecf22ab4e935194f5da0c17",
+      "mtime": "2026-01-07T16:52:49.142933",
+      "size": 5691
+    },
+    "databases/kafka-details-limits.md": {
+      "hash": "9bfc3d9258da16b64629ebc123a2a66f",
+      "mtime": "2026-01-07T16:52:49.136384",
+      "size": 7663
+    },
+    "databases/kafka-details-pricing.md": {
+      "hash": "95ce3779b324fc5de29631d0d24e8f75",
+      "mtime": "2026-01-07T16:52:49.144578",
+      "size": 6223
+    },
+    "databases/kafka-details.md": {
+      "hash": "398e29be3ce22e46d328fd239b8ea7fe",
+      "mtime": "2026-01-07T16:52:49.145778",
+      "size": 6103
+    },
+    "databases/kafka-enable-schema-registry.md": {
+      "hash": "6b74785b4d776f0d509c5ada7e5e652b",
+      "mtime": "2026-01-07T16:52:49.056572",
+      "size": 7317
+    },
+    "databases/kafka-forward-logs.md": {
+      "hash": "9691b7153b563dd4cc75e362ef1cbaee",
+      "mtime": "2026-01-07T16:52:49.009552",
+      "size": 9354
+    },
+    "databases/kafka-getting-started-quickstart.md": {
+      "hash": "8a1228b7a297273fe2c5d9a89627ebf1",
+      "mtime": "2026-01-07T16:52:49.054500",
+      "size": 6784
+    },
+    "databases/kafka-getting-started.md": {
+      "hash": "19e9e742a6c3845aa09ce64a28283736",
+      "mtime": "2026-01-07T16:52:49.096345",
+      "size": 5268
+    },
+    "databases/kafka-how-to-connect.md": {
+      "hash": "aa66e611b969b2c4da07ce0fe3e908b0",
+      "mtime": "2026-01-07T16:52:49.155782",
+      "size": 24915
+    },
+    "databases/kafka-how-to-create.md": {
+      "hash": "a446eaa3caa36691f10a3f0b02aced86",
+      "mtime": "2026-01-07T16:52:49.036083",
+      "size": 15727
+    },
+    "databases/kafka-how-to.md": {
+      "hash": "9615a493ce9abbecd1c80e07cfb88afb",
+      "mtime": "2026-01-07T16:52:49.072254",
+      "size": 8742
+    },
+    "databases/kafka-index.md": {
+      "hash": "988c81f6dd12def2f6871ebd3c296c91",
+      "mtime": "2026-01-07T16:52:49.118062",
+      "size": 9361
+    },
+    "databases/kafka-manage-users-and-privileges.md": {
+      "hash": "75c049039947a41627dd7ff138438670",
+      "mtime": "2026-01-07T16:52:49.034440",
+      "size": 6743
+    },
+    "databases/kafka-monitor-clusters.md": {
+      "hash": "0874452d3451f451b6757dc3d62ed2ee",
+      "mtime": "2026-01-07T16:52:49.116836",
+      "size": 15376
+    },
+    "databases/kafka-monitor-databases.md": {
+      "hash": "3c41d4a62e5e683425e1d7cd064eca7c",
+      "mtime": "2026-01-07T16:52:49.003821",
+      "size": 14801
+    },
+    "databases/kafka-notifications.md": {
+      "hash": "b68d10290bbddba51b5d48b4a3118bf4",
+      "mtime": "2026-01-07T16:52:49.066468",
+      "size": 6678
+    },
+    "databases/kafka-reconfigure.md": {
+      "hash": "fb85069eac62810572e35c03c752be86",
+      "mtime": "2026-01-07T16:52:49.098321",
+      "size": 9174
+    },
+    "databases/kafka-reference.md": {
+      "hash": "1e34d1f493bf3e46a50322ecabf0cab4",
+      "mtime": "2026-01-07T16:52:49.153911",
+      "size": 5975
+    },
+    "databases/kafka-resize.md": {
+      "hash": "5d753dd8d4da99544b87cf4fe8672bf1",
+      "mtime": "2026-01-07T16:52:49.045059",
+      "size": 10856
+    },
+    "databases/kafka-responsibility-model.md": {
+      "hash": "2a6575fe1ccdc186aafb648642c385df",
+      "mtime": "2026-01-07T16:52:49.090491",
+      "size": 6508
+    },
+    "databases/kafka-schedule-updates.md": {
+      "hash": "4d117059eedf018fb38481d2ed0f439f",
+      "mtime": "2026-01-07T16:52:49.121904",
+      "size": 11208
+    },
+    "databases/kafka-secure.md": {
+      "hash": "a00b383480310e553f271a63ef974e73",
+      "mtime": "2026-01-07T16:52:49.080895",
+      "size": 6787
+    },
+    "databases/kafka-set-up-alerts.md": {
+      "hash": "3c0ff8358dc5297c7e4acf76f4c8aa2d",
+      "mtime": "2026-01-07T16:52:49.078161",
+      "size": 8461
+    },
+    "databases/kafka-tag.md": {
+      "hash": "a15f6bed68c18f927010f4dccb092b2d",
+      "mtime": "2026-01-07T16:52:49.058476",
+      "size": 9289
+    },
+    "databases/mongodb-add-standby-nodes.md": {
+      "hash": "2cf1ea9a786683e3b640098cc7fddfc6",
+      "mtime": "2026-01-07T16:52:49.049333",
+      "size": 7261
+    },
+    "databases/mongodb-best-practices.md": {
+      "hash": "69d827c7f7415ee671ca68916dd90660",
+      "mtime": "2026-01-07T16:52:49.148732",
+      "size": 8278
+    },
+    "databases/mongodb-concepts.md": {
+      "hash": "54eaeda371ffc514543d8e65114145d9",
+      "mtime": "2026-01-07T16:52:49.032430",
+      "size": 5837
+    },
+    "databases/mongodb-destroy.md": {
+      "hash": "7e46c112330626efcab9b11ccf146096",
+      "mtime": "2026-01-07T16:52:49.133957",
+      "size": 9300
+    },
+    "databases/mongodb-details-availability.md": {
+      "hash": "f1bcef9a573ab2b4ae2d7b99244aa9c0",
+      "mtime": "2026-01-07T16:52:49.020868",
+      "size": 5752
+    },
+    "databases/mongodb-details-features.md": {
+      "hash": "0e3c904d312f05be41f2d5fa418a72fe",
+      "mtime": "2026-01-07T16:52:49.069702",
+      "size": 6306
+    },
+    "databases/mongodb-details-limits.md": {
+      "hash": "f8cef96efd2785e7406c93e10e679397",
+      "mtime": "2026-01-07T16:52:49.130893",
+      "size": 10146
+    },
+    "databases/mongodb-details-pricing.md": {
+      "hash": "6b2034713a8dcfb18c5a477788829f77",
+      "mtime": "2026-01-07T16:52:49.026966",
+      "size": 6706
+    },
+    "databases/mongodb-details.md": {
+      "hash": "5db0bab82495d1ff5a058753f69e0b3c",
+      "mtime": "2026-01-07T16:52:49.068537",
+      "size": 6533
+    },
+    "databases/mongodb-fork-clusters.md": {
+      "hash": "6c072ca1577e20a6b9fb41f81ff929e5",
+      "mtime": "2026-01-07T16:52:49.051937",
+      "size": 11900
+    },
+    "databases/mongodb-forward-logs.md": {
+      "hash": "00f7a431de9427632d441c26790db5f3",
+      "mtime": "2026-01-07T16:52:49.131498",
+      "size": 8958
+    },
+    "databases/mongodb-getting-started-quickstart.md": {
+      "hash": "4e786aef3e75fff5d66e3f26df0e93d1",
+      "mtime": "2026-01-07T16:52:49.053229",
+      "size": 7307
+    },
+    "databases/mongodb-getting-started.md": {
+      "hash": "ef85c0eab360e9aac4134db3f09b5d09",
+      "mtime": "2026-01-07T16:52:49.050569",
+      "size": 5675
+    },
+    "databases/mongodb-how-to-connect.md": {
+      "hash": "718dce9202d1284e05d01bf075be9b1d",
+      "mtime": "2026-01-07T16:52:49.158519",
+      "size": 17708
+    },
+    "databases/mongodb-how-to-create.md": {
+      "hash": "6b605906fc7b9f45591ae7a372989d46",
+      "mtime": "2026-01-07T16:52:49.135821",
+      "size": 16033
+    },
+    "databases/mongodb-how-to-resize.md": {
+      "hash": "0da2fc685c2f064c4649f0ea9a378419",
+      "mtime": "2026-01-07T16:52:49.072735",
+      "size": 11490
+    },
+    "databases/mongodb-how-to.md": {
+      "hash": "67ca66ece6310d50cbee29bc43007593",
+      "mtime": "2026-01-07T16:52:49.125341",
+      "size": 9879
+    },
+    "databases/mongodb-import-collections.md": {
+      "hash": "c55e191250931f4a88d8065569dd83e3",
+      "mtime": "2026-01-07T16:52:49.059927",
+      "size": 12989
+    },
+    "databases/mongodb-index.md": {
+      "hash": "d469bbeccd0beab62aa9078fcfb52d94",
+      "mtime": "2026-01-07T16:52:49.088180",
+      "size": 10279
+    },
+    "databases/mongodb-manage-users-and-databases.md": {
+      "hash": "6d4d06a2f2f6d836ba458d5f6b1a94b6",
+      "mtime": "2026-01-07T16:52:49.015759",
+      "size": 15546
+    },
+    "databases/mongodb-monitor-clusters.md": {
+      "hash": "772c1eacab25cce305afc8624178431a",
+      "mtime": "2026-01-07T16:52:49.028427",
+      "size": 10105
+    },
+    "databases/mongodb-notifications.md": {
+      "hash": "e9a5c54dd4ae45e0caf58c61adc99429",
+      "mtime": "2026-01-07T16:52:49.075124",
+      "size": 7085
+    },
+    "databases/mongodb-reconfigure.md": {
+      "hash": "efab5001bd792e4cb797c7d6e519f803",
+      "mtime": "2026-01-07T16:52:49.002109",
+      "size": 9560
+    },
+    "databases/mongodb-reference.md": {
+      "hash": "842bc510e8b4670b9195d49fd7060ad3",
+      "mtime": "2026-01-07T16:52:49.067148",
+      "size": 7172
+    },
+    "databases/mongodb-responsibility-model.md": {
+      "hash": "f080eb0e819ff204a9e1ce089c4932e5",
+      "mtime": "2026-01-07T16:52:49.022873",
+      "size": 6905
+    },
+    "databases/mongodb-restore-from-backups.md": {
+      "hash": "2463346b18ef2c2802aa9abf4e724725",
+      "mtime": "2026-01-07T16:52:49.150642",
+      "size": 7609
+    },
+    "databases/mongodb-schedule-updates.md": {
+      "hash": "0a991867f0d6a8d1dbc9c24fa075d478",
+      "mtime": "2026-01-07T16:52:49.057188",
+      "size": 11626
+    },
+    "databases/mongodb-secure.md": {
+      "hash": "fc6cdddca5888e77dbd323e72dcadb00",
+      "mtime": "2026-01-07T16:52:49.036554",
+      "size": 11223
+    },
+    "databases/mongodb-set-up-alerts.md": {
+      "hash": "fe5e7b893759b770dd0cbca9f20bf948",
+      "mtime": "2026-01-07T16:52:49.064414",
+      "size": 8858
+    },
+    "databases/mongodb-support.md": {
+      "hash": "28bc906fef62a184215b1c4bb0b32070",
+      "mtime": "2026-01-07T16:52:49.121177",
+      "size": 7876
+    },
+    "databases/mongodb-tag.md": {
+      "hash": "16db408770c98a2bd3a933fc40e05ce0",
+      "mtime": "2026-01-07T16:52:49.160694",
+      "size": 9718
+    },
+    "databases/mongodb-upgrade.md": {
+      "hash": "e8185e5b2121d979765ac3ac9d913663",
+      "mtime": "2026-01-07T16:52:49.093243",
+      "size": 6765
+    },
+    "databases/mysql-add-read-only-nodes.md": {
+      "hash": "1b3c25de6cf400c2d9368c881be420b5",
+      "mtime": "2026-01-07T16:52:49.060464",
+      "size": 15110
+    },
+    "databases/mysql-add-standby-nodes.md": {
+      "hash": "4bd13fbcbbf1748e7d7d05fd2004bd36",
+      "mtime": "2026-01-07T16:52:49.063760",
+      "size": 10131
+    },
+    "databases/mysql-best-practices.md": {
+      "hash": "51c0dae2156074af70c75008e177075e",
+      "mtime": "2026-01-07T16:52:49.119617",
+      "size": 8846
+    },
+    "databases/mysql-concepts-migration-strategies.md": {
+      "hash": "356eb28a23efbb20a464e8c4ab102d57",
+      "mtime": "2026-01-07T16:52:49.045698",
+      "size": 8750
+    },
+    "databases/mysql-concepts-sort-buffer-size.md": {
+      "hash": "d8458cdec4c063c1b2c430e2cfe14530",
+      "mtime": "2026-01-07T16:52:49.025482",
+      "size": 9834
+    },
+    "databases/mysql-concepts.md": {
+      "hash": "f0917af7bfc36df8b74694e1b448478c",
+      "mtime": "2026-01-07T16:52:49.008179",
+      "size": 6748
+    },
+    "databases/mysql-create-primary-keys.md": {
+      "hash": "74245a83f60a3e73124a7eda19eb6938",
+      "mtime": "2026-01-07T16:52:49.010448",
+      "size": 9746
+    },
+    "databases/mysql-destroy.md": {
+      "hash": "9a44ca5fc3072e28ab4afa1536275a9f",
+      "mtime": "2026-01-07T16:52:49.070890",
+      "size": 9830
+    },
+    "databases/mysql-details-availability.md": {
+      "hash": "20ccaec5aa4e8bb4989ee4a30c6286c1",
+      "mtime": "2026-01-07T16:52:49.006764",
+      "size": 6276
+    },
+    "databases/mysql-details-features.md": {
+      "hash": "d7208a8545a4c339e5605a7142d6d8ba",
+      "mtime": "2026-01-07T16:52:49.085874",
+      "size": 7739
+    },
+    "databases/mysql-details-limits.md": {
+      "hash": "efc1d5fd0a1389d8fe095a766609cc65",
+      "mtime": "2026-01-07T16:52:49.078754",
+      "size": 11524
+    },
+    "databases/mysql-details-pricing.md": {
+      "hash": "989bc32de017300b8a46d650134b12bb",
+      "mtime": "2026-01-07T16:52:49.029464",
+      "size": 7489
+    },
+    "databases/mysql-details.md": {
+      "hash": "baa87efc4545049d40ea7823e91aaa8d",
+      "mtime": "2026-01-07T16:52:49.129827",
+      "size": 7068
+    },
+    "databases/mysql-fork-clusters.md": {
+      "hash": "09a3f4bd6b5314f5ef17cb91c411c25e",
+      "mtime": "2026-01-07T16:52:49.046480",
+      "size": 12426
+    },
+    "databases/mysql-forward-logs.md": {
+      "hash": "13eea63db2c81e0473e1c52e5e4c63f9",
+      "mtime": "2026-01-07T16:52:49.145190",
+      "size": 10282
+    },
+    "databases/mysql-getting-started-quickstart.md": {
+      "hash": "6c71c436ce51b80777dc00e822149ff7",
+      "mtime": "2026-01-07T16:52:49.019118",
+      "size": 8217
+    },
+    "databases/mysql-getting-started.md": {
+      "hash": "3a6c775a7f506e054ecc4d4fd4cd61d8",
+      "mtime": "2026-01-07T16:52:49.047194",
+      "size": 6197
+    },
+    "databases/mysql-how-to-connect.md": {
+      "hash": "3cb4965982d6a8c56777bb3d419891fb",
+      "mtime": "2026-01-07T16:52:49.096954",
+      "size": 23949
+    },
+    "databases/mysql-how-to-create.md": {
+      "hash": "3f9ed349378571430d8dc74c4e2a3fb0",
+      "mtime": "2026-01-07T16:52:49.126083",
+      "size": 16419
+    },
+    "databases/mysql-how-to.md": {
+      "hash": "9de307477dc14fc609cb7095205a2d75",
+      "mtime": "2026-01-07T16:52:49.061074",
+      "size": 11983
+    },
+    "databases/mysql-import-databases.md": {
+      "hash": "084714209d12ab39356e8db90d0a86fa",
+      "mtime": "2026-01-07T16:52:49.109942",
+      "size": 12249
+    },
+    "databases/mysql-index.md": {
+      "hash": "1e8beae38a8d47c82fedad4f85037f80",
+      "mtime": "2026-01-07T16:52:49.048724",
+      "size": 10882
+    },
+    "databases/mysql-manage-users-and-databases.md": {
+      "hash": "6a6dd378b1d39d8af0f6385fb4935505",
+      "mtime": "2026-01-07T16:52:49.053878",
+      "size": 17089
+    },
+    "databases/mysql-migrate.md": {
+      "hash": "3d3179e138ac57bcaf68b807f4c502d4",
+      "mtime": "2026-01-07T16:52:49.097617",
+      "size": 7582
+    },
+    "databases/mysql-modify-user-privileges.md": {
+      "hash": "949cbae92e2a626fc96b722da111373a",
+      "mtime": "2026-01-07T16:52:49.101248",
+      "size": 14953
+    },
+    "databases/mysql-monitor-clusters.md": {
+      "hash": "3844d446eba23a701d3e2a78dddf10b9",
+      "mtime": "2026-01-07T16:52:49.123121",
+      "size": 16343
+    },
+    "databases/mysql-monitor-databases.md": {
+      "hash": "a8e0018ed57c8827feb537fb80fefe7c",
+      "mtime": "2026-01-07T16:52:49.160214",
+      "size": 17793
+    },
+    "databases/mysql-notifications.md": {
+      "hash": "786513b004b03816644361151f3bd504",
+      "mtime": "2026-01-07T16:52:49.088781",
+      "size": 8052
+    },
+    "databases/mysql-reconfigure.md": {
+      "hash": "5b9ea48daf8035e36f53352a5ae90237",
+      "mtime": "2026-01-07T16:52:49.095741",
+      "size": 10082
+    },
+    "databases/mysql-reference.md": {
+      "hash": "3e6c08b0e4d03f2eb645d29c82825eba",
+      "mtime": "2026-01-07T16:52:49.098960",
+      "size": 7848
+    },
+    "databases/mysql-relocate.md": {
+      "hash": "87fc2164cb9c15a3a5e0a99ada13f6bf",
+      "mtime": "2026-01-07T16:52:49.030725",
+      "size": 11046
+    },
+    "databases/mysql-resize.md": {
+      "hash": "2bc9f21a116f530029d3a0e8740f304e",
+      "mtime": "2026-01-07T16:52:49.061826",
+      "size": 11769
+    },
+    "databases/mysql-responsibility-model.md": {
+      "hash": "7cd91acef9dff3ea6b1c5f86e2254d45",
+      "mtime": "2026-01-07T16:52:49.035198",
+      "size": 7436
+    },
+    "databases/mysql-restore-from-backups.md": {
+      "hash": "b63285b43c0c8370282ff6488a53b4b7",
+      "mtime": "2026-01-07T16:52:49.155186",
+      "size": 8654
+    },
+    "databases/mysql-schedule-updates.md": {
+      "hash": "1a10cba430306a6306f5ce4486ded82b",
+      "mtime": "2026-01-07T16:52:49.113285",
+      "size": 12156
+    },
+    "databases/mysql-secure.md": {
+      "hash": "5d5e69410eb7b82580319ab5b7e08545",
+      "mtime": "2026-01-07T16:52:49.106121",
+      "size": 12399
+    },
+    "databases/mysql-set-sql-mode.md": {
+      "hash": "8b3eb42d5660cb2b8275eac207c23ce7",
+      "mtime": "2026-01-07T16:52:49.111233",
+      "size": 12337
+    },
+    "databases/mysql-set-up-alerts.md": {
+      "hash": "441d179e63866f16833603c80614bfc9",
+      "mtime": "2026-01-07T16:52:49.070289",
+      "size": 9399
+    },
+    "databases/mysql-support.md": {
+      "hash": "c2335a2685967b0321721723a283ba82",
+      "mtime": "2026-01-07T16:52:49.063029",
+      "size": 10582
+    },
+    "databases/mysql-tag.md": {
+      "hash": "c58e31d2418333039d138da7eadbeebf",
+      "mtime": "2026-01-07T16:52:49.084886",
+      "size": 10245
+    },
+    "databases/opensearch-best-practices.md": {
+      "hash": "e8786c1f8dc0d9992b199929e8845f56",
+      "mtime": "2026-01-07T16:52:49.153381",
+      "size": 7651
+    },
+    "databases/opensearch-concepts.md": {
+      "hash": "23db3a047b447fe7456d3185528b3f6c",
+      "mtime": "2026-01-07T16:52:49.104387",
+      "size": 5591
+    },
+    "databases/opensearch-destroy.md": {
+      "hash": "fa73dd29ba364729d9270f16b1162a79",
+      "mtime": "2026-01-07T16:52:49.142194",
+      "size": 9624
+    },
+    "databases/opensearch-details-availability.md": {
+      "hash": "13139206633359a28b5dae42abdf1fa9",
+      "mtime": "2026-01-07T16:52:49.002935",
+      "size": 5507
+    },
+    "databases/opensearch-details-features.md": {
+      "hash": "1945dd0779ecd9144b8c03176b7f574e",
+      "mtime": "2026-01-07T16:52:49.037822",
+      "size": 5837
+    },
+    "databases/opensearch-details-limits.md": {
+      "hash": "b3aea879c6f9368ef7748b978b2d40c1",
+      "mtime": "2026-01-07T16:52:49.133481",
+      "size": 8172
+    },
+    "databases/opensearch-details-pricing.md": {
+      "hash": "4ff004e082dcaaac01e5531bf61a4251",
+      "mtime": "2026-01-07T16:52:49.129378",
+      "size": 5874
+    },
+    "databases/opensearch-details.md": {
+      "hash": "08d20982858d51b8242fda2103417db5",
+      "mtime": "2026-01-07T16:52:49.043609",
+      "size": 6570
+    },
+    "databases/opensearch-fork-clusters.md": {
+      "hash": "6579c612629438b016bfad90915becb4",
+      "mtime": "2026-01-07T16:52:49.031185",
+      "size": 11165
+    },
+    "databases/opensearch-getting-started-quickstart.md": {
+      "hash": "a35fa39a28bb4c204ae423a692f1681c",
+      "mtime": "2026-01-07T16:52:49.149959",
+      "size": 12282
+    },
+    "databases/opensearch-getting-started.md": {
+      "hash": "37fd0e96768147183ca32cdb359dd99d",
+      "mtime": "2026-01-07T16:52:49.102015",
+      "size": 5424
+    },
+    "databases/opensearch-how-to-create.md": {
+      "hash": "b3ecfb15a8d3acbf201f6647088b4bd7",
+      "mtime": "2026-01-07T16:52:49.107301",
+      "size": 6485
+    },
+    "databases/opensearch-how-to-forward-logs.md": {
+      "hash": "22e6b2feec0737abee5045bb9935620b",
+      "mtime": "2026-01-07T16:52:49.025020",
+      "size": 7449
+    },
+    "databases/opensearch-how-to.md": {
+      "hash": "21901b7cc91906bb8790d8be655e73fc",
+      "mtime": "2026-01-07T16:52:49.041093",
+      "size": 8842
+    },
+    "databases/opensearch-manage-users.md": {
+      "hash": "b8717ca1bdbe36349d157e931d8b4c5f",
+      "mtime": "2026-01-07T16:52:49.039136",
+      "size": 13265
+    },
+    "databases/opensearch-monitor-clusters.md": {
+      "hash": "b6a246ea00f6fb1239e2d889fc5bf1c7",
+      "mtime": "2026-01-07T16:52:49.062494",
+      "size": 14804
+    },
+    "databases/opensearch-notifications.md": {
+      "hash": "d997ab30eee14f7bfa812b3fa9e22361",
+      "mtime": "2026-01-07T16:52:49.143436",
+      "size": 6812
+    },
+    "databases/opensearch-opensearch.md": {
+      "hash": "608211d7475a513c259e0e4675708aab",
+      "mtime": "2026-01-07T16:52:49.007455",
+      "size": 9588
+    },
+    "databases/opensearch-reconfigure.md": {
+      "hash": "3321638711dabc68300bf1a3ee91e85d",
+      "mtime": "2026-01-07T16:52:49.005258",
+      "size": 9306
+    },
+    "databases/opensearch-reference.md": {
+      "hash": "9ebc8073d72a86a19fddaac72e26f8e8",
+      "mtime": "2026-01-07T16:52:49.118656",
+      "size": 6825
+    },
+    "databases/opensearch-relocate.md": {
+      "hash": "dcb0feee79a2dd71b14b31490afb95ec",
+      "mtime": "2026-01-07T16:52:49.092664",
+      "size": 10255
+    },
+    "databases/opensearch-resize.md": {
+      "hash": "f2fecc6dc28eaebc06fe76d7f600c061",
+      "mtime": "2026-01-07T16:52:49.074662",
+      "size": 10977
+    },
+    "databases/opensearch-responsibility-model.md": {
+      "hash": "ab61284a19174e6df81086b755ba6e76",
+      "mtime": "2026-01-07T16:52:49.037252",
+      "size": 6639
+    },
+    "databases/opensearch-restore-from-backups.md": {
+      "hash": "c4eb78a1c453b9cd72cf45dc96882067",
+      "mtime": "2026-01-07T16:52:49.157412",
+      "size": 7702
+    },
+    "databases/opensearch-schedule-updates.md": {
+      "hash": "fa7cd56e4b2c16a397a01aef359a7bba",
+      "mtime": "2026-01-07T16:52:49.018512",
+      "size": 11344
+    },
+    "databases/opensearch-secure.md": {
+      "hash": "1fa054b8218ca6a40dcc71f5f2af1ce1",
+      "mtime": "2026-01-07T16:52:49.108541",
+      "size": 11479
+    },
+    "databases/opensearch-set-up-alerts.md": {
+      "hash": "f1c0e07c2335aa39f5112c81f760764b",
+      "mtime": "2026-01-07T16:52:49.012485",
+      "size": 8602
+    },
+    "databases/opensearch-supported-plugins.md": {
+      "hash": "1561477e8d9082acd803435a7100205d",
+      "mtime": "2026-01-07T16:52:49.077008",
+      "size": 6787
+    },
+    "databases/opensearch-tag.md": {
+      "hash": "b9a69a60345ecfb279a6604220ce2468",
+      "mtime": "2026-01-07T16:52:49.014502",
+      "size": 9428
+    },
+    "databases/postgresql-add-read-only-nodes.md": {
+      "hash": "93ee538102871ab813a16bc7d3f91965",
+      "mtime": "2026-01-07T16:52:49.144133",
+      "size": 15516
+    },
+    "databases/postgresql-add-standby-nodes.md": {
+      "hash": "b285c9cc7395aa7b112d12727f7bf35d",
+      "mtime": "2026-01-07T16:52:49.135173",
+      "size": 10668
+    },
+    "databases/postgresql-best-practices.md": {
+      "hash": "4b33b92ee522788f7eb1069d726a76f8",
+      "mtime": "2026-01-07T16:52:49.128713",
+      "size": 9821
+    },
+    "databases/postgresql-concepts.md": {
+      "hash": "ac913621296f38395568b7ec491a6f71",
+      "mtime": "2026-01-07T16:52:49.151667",
+      "size": 7278
+    },
+    "databases/postgresql-destroy.md": {
+      "hash": "3c3e2d1fe823d1aa31f54f597fa520bf",
+      "mtime": "2026-01-07T16:52:49.083275",
+      "size": 10232
+    },
+    "databases/postgresql-details-availability.md": {
+      "hash": "384b7b44107595194bf2637300688f4c",
+      "mtime": "2026-01-07T16:52:49.074061",
+      "size": 6694
+    },
+    "databases/postgresql-details-features.md": {
+      "hash": "fd02069cbb40aaaf59dda84d950bb225",
+      "mtime": "2026-01-07T16:52:49.085348",
+      "size": 8212
+    },
+    "databases/postgresql-details-limits.md": {
+      "hash": "8bf48dc67c0212dc14dba1fbacaf0d1d",
+      "mtime": "2026-01-07T16:52:49.149474",
+      "size": 11294
+    },
+    "databases/postgresql-details-pricing.md": {
+      "hash": "de1b2f658b8307025686535216e6e03e",
+      "mtime": "2026-01-07T16:52:49.159612",
+      "size": 7902
+    },
+    "databases/postgresql-details.md": {
+      "hash": "bf083552aef4d1d6802ca00f1df4694c",
+      "mtime": "2026-01-07T16:52:49.029010",
+      "size": 7814
+    },
+    "databases/postgresql-fork-clusters.md": {
+      "hash": "a691a80d0cb778620fede7ca8bf82e83",
+      "mtime": "2026-01-07T16:52:49.156304",
+      "size": 12839
+    },
+    "databases/postgresql-forward-logs.md": {
+      "hash": "feb696cc8a90fea29cf65732b09dd0cc",
+      "mtime": "2026-01-07T16:52:49.095034",
+      "size": 10695
+    },
+    "databases/postgresql-getting-started-quickstart.md": {
+      "hash": "ce0bd0595311e24da1130ee63d1501f2",
+      "mtime": "2026-01-07T16:52:49.013101",
+      "size": 9149
+    },
+    "databases/postgresql-getting-started.md": {
+      "hash": "d893fb9afd70833046656048cd21781c",
+      "mtime": "2026-01-07T16:52:49.076438",
+      "size": 6620
+    },
+    "databases/postgresql-how-to-connect.md": {
+      "hash": "3bfc46e0af2b88c8d201d5803e1b6d1e",
+      "mtime": "2026-01-07T16:52:49.127400",
+      "size": 17896
+    },
+    "databases/postgresql-how-to-create.md": {
+      "hash": "74919c57f923d901ab6b86fa6283b1e4",
+      "mtime": "2026-01-07T16:52:49.071613",
+      "size": 16962
+    },
+    "databases/postgresql-how-to.md": {
+      "hash": "f365758bf7a1e202532e3d5a97f97309",
+      "mtime": "2026-01-07T16:52:49.156813",
+      "size": 12640
+    },
+    "databases/postgresql-import-databases.md": {
+      "hash": "654501573083e32066197829caa7374f",
+      "mtime": "2026-01-07T16:52:49.110715",
+      "size": 14229
+    },
+    "databases/postgresql-index.md": {
+      "hash": "25a5feb624da6559a44950d2ddad2808",
+      "mtime": "2026-01-07T16:52:49.100576",
+      "size": 11470
+    },
+    "databases/postgresql-manage-connection-pools.md": {
+      "hash": "38cc19ef1a2c9551797b62de80c75341",
+      "mtime": "2026-01-07T16:52:49.120618",
+      "size": 17847
+    },
+    "databases/postgresql-manage-users-and-databases.md": {
+      "hash": "4e1b994a68249b02bf85b660f1b27fc9",
+      "mtime": "2026-01-07T16:52:49.049977",
+      "size": 16044
+    },
+    "databases/postgresql-migrate.md": {
+      "hash": "82c802f30beaff89255364203fbe9d89",
+      "mtime": "2026-01-07T16:52:49.059127",
+      "size": 23325
+    },
+    "databases/postgresql-migration-strategies.md": {
+      "hash": "e1655adc89e188cf0d16d129cc90ef59",
+      "mtime": "2026-01-07T16:52:49.103760",
+      "size": 9125
+    },
+    "databases/postgresql-modify-user-privileges.md": {
+      "hash": "e260cd44a0f052fbdce8d9b0f4285265",
+      "mtime": "2026-01-07T16:52:49.119138",
+      "size": 11152
+    },
+    "databases/postgresql-monitor-clusters.md": {
+      "hash": "26b866079117969881536c20315db02f",
+      "mtime": "2026-01-07T16:52:49.123793",
+      "size": 16638
+    },
+    "databases/postgresql-monitor-databases.md": {
+      "hash": "6f1097870992641cfc797a85c76355a5",
+      "mtime": "2026-01-07T16:52:49.042292",
+      "size": 19223
+    },
+    "databases/postgresql-notifications.md": {
+      "hash": "afc0b72a36c6f957d3cb9d0f074f7de4",
+      "mtime": "2026-01-07T16:52:49.023578",
+      "size": 8015
+    },
+    "databases/postgresql-reconfigure.md": {
+      "hash": "538438d7c2a274f28d8eac25de8ffe0f",
+      "mtime": "2026-01-07T16:52:49.138776",
+      "size": 10474
+    },
+    "databases/postgresql-reference.md": {
+      "hash": "54c8ccb43fcd067589109d8a84d40e20",
+      "mtime": "2026-01-07T16:52:49.081500",
+      "size": 8423
+    },
+    "databases/postgresql-relocate.md": {
+      "hash": "3e801ca08c7a2a6e295ef5ee875c7971",
+      "mtime": "2026-01-07T16:52:49.140632",
+      "size": 10461
+    },
+    "databases/postgresql-resize.md": {
+      "hash": "7806f896e8b883c1383f1edab502ff3c",
+      "mtime": "2026-01-07T16:52:49.124766",
+      "size": 12192
+    },
+    "databases/postgresql-responsibility-model.md": {
+      "hash": "bb29c1d4e1a5a87963647bf8994727f4",
+      "mtime": "2026-01-07T16:52:49.044322",
+      "size": 7835
+    },
+    "databases/postgresql-restore-from-backups.md": {
+      "hash": "394c2f33ec6518760b8872f0bbf34186",
+      "mtime": "2026-01-07T16:52:49.084416",
+      "size": 9111
+    },
+    "databases/postgresql-schedule-updates.md": {
+      "hash": "99eabfd896164af8417223a38ff09c57",
+      "mtime": "2026-01-07T16:52:49.112790",
+      "size": 12558
+    },
+    "databases/postgresql-secure.md": {
+      "hash": "506459cf7f38de4e4f0610a61f651cb1",
+      "mtime": "2026-01-07T16:52:49.006138",
+      "size": 13374
+    },
+    "databases/postgresql-set-up-alerts.md": {
+      "hash": "4dc19b269dfafa218bac3ad157cbe9a1",
+      "mtime": "2026-01-07T16:52:49.124281",
+      "size": 9790
+    },
+    "databases/postgresql-shared-buffers.md": {
+      "hash": "c42279f39f924cb6bedf2f0b30bdf513",
+      "mtime": "2026-01-07T16:52:49.080295",
+      "size": 13835
+    },
+    "databases/postgresql-support.md": {
+      "hash": "022f92b2e3287709ea5736f151df5ebb",
+      "mtime": "2026-01-07T16:52:49.091569",
+      "size": 10091
+    },
+    "databases/postgresql-supported-extensions.md": {
+      "hash": "1e2f4b26db2ab014bdebba4114bb079a",
+      "mtime": "2026-01-07T16:52:49.114529",
+      "size": 15368
+    },
+    "databases/postgresql-tag.md": {
+      "hash": "29a32d214b4bcac9e9f5b38962945e9b",
+      "mtime": "2026-01-07T16:52:49.082104",
+      "size": 10654
+    },
+    "databases/postgresql-upgrade-version.md": {
+      "hash": "7ab1f679f80b9f06b288007afb2909c4",
+      "mtime": "2026-01-07T16:52:49.033030",
+      "size": 9073
+    },
+    "databases/redis-best-practices.md": {
+      "hash": "ed8bdefd002c66769f11d8376a22f804",
+      "mtime": "2026-01-07T16:52:49.077691",
+      "size": 8277
+    },
+    "databases/redis-concepts.md": {
+      "hash": "98d805ec65df812564bd8b92c0d259f1",
+      "mtime": "2026-01-07T16:52:49.120108",
+      "size": 5962
+    },
+    "databases/redis-details-availability.md": {
+      "hash": "e90d4ea1f3eaa1d1d7d96f9d1c151599",
+      "mtime": "2026-01-07T16:52:49.113876",
+      "size": 6158
+    },
+    "databases/redis-details-features.md": {
+      "hash": "cd9bfa9abddc47ab261760ff052f53b1",
+      "mtime": "2026-01-07T16:52:49.017815",
+      "size": 6657
+    },
+    "databases/redis-details-limits.md": {
+      "hash": "e18ed8a4b6d246586576bcc8bf8584aa",
+      "mtime": "2026-01-07T16:52:49.115332",
+      "size": 11339
+    },
+    "databases/redis-details-pricing.md": {
+      "hash": "e5770570f502d78d0f13f171775cf3a0",
+      "mtime": "2026-01-07T16:52:49.152250",
+      "size": 6658
+    },
+    "databases/redis-details.md": {
+      "hash": "f37fa2ec25b3c667fb982725c3d7069f",
+      "mtime": "2026-01-07T16:52:49.148237",
+      "size": 4268
+    },
+    "databases/redis-forward-logs.md": {
+      "hash": "5fcabc3826b4ae7d70ddb29c664e9423",
+      "mtime": "2026-01-07T16:52:49.020248",
+      "size": 9699
+    },
+    "databases/redis-getting-started-quickstart.md": {
+      "hash": "535f687b7338e9ac0d80a9dc5eb57f98",
+      "mtime": "2026-01-07T16:52:49.158063",
+      "size": 7583
+    },
+    "databases/redis-getting-started.md": {
+      "hash": "582023f1b28fbf616e6737dcc5805079",
+      "mtime": "2026-01-07T16:52:49.086975",
+      "size": 5597
+    },
+    "databases/redis-how-to-add-standby-nodes.md": {
+      "hash": "c4539ebc202419749a0f378848a93ca1",
+      "mtime": "2026-01-07T16:52:49.108054",
+      "size": 9384
+    },
+    "databases/redis-how-to-choose-eviction-policies.md": {
+      "hash": "abc3d6d6445e9d172ced6b19dec5a7da",
+      "mtime": "2026-01-07T16:52:49.137867",
+      "size": 10118
+    },
+    "databases/redis-how-to-connect.md": {
+      "hash": "0966662d53e61aa499226c724bdf5066",
+      "mtime": "2026-01-07T16:52:49.092202",
+      "size": 13934
+    },
+    "databases/redis-how-to-create.md": {
+      "hash": "e060dd935ff997a2accd5754695acc8c",
+      "mtime": "2026-01-07T16:52:49.116004",
+      "size": 16027
+    },
+    "databases/redis-how-to-destroy.md": {
+      "hash": "62d9ddabaf84d72454ff179cfced990c",
+      "mtime": "2026-01-07T16:52:49.086343",
+      "size": 9249
+    },
+    "databases/redis-how-to-migrate.md": {
+      "hash": "2200617de0e9060e6114915807c96940",
+      "mtime": "2026-01-07T16:52:49.039840",
+      "size": 12087
+    },
+    "databases/redis-how-to-monitor-clusters.md": {
+      "hash": "6d438c38eecfab280de4ab6a3bd94798",
+      "mtime": "2026-01-07T16:52:49.105046",
+      "size": 15255
+    },
+    "databases/redis-how-to-relocate.md": {
+      "hash": "dbfa6b2a731342e5bb72b33e7a19ba60",
+      "mtime": "2026-01-07T16:52:49.112241",
+      "size": 10455
+    },
+    "databases/redis-how-to-resize.md": {
+      "hash": "2503d5ded4889e84f25ec468057a5f11",
+      "mtime": "2026-01-07T16:52:49.019701",
+      "size": 10351
+    },
+    "databases/redis-how-to-schedule-updates.md": {
+      "hash": "1eee7799c299d219a7f9fb2db3a14d73",
+      "mtime": "2026-01-07T16:52:49.140121",
+      "size": 11569
+    },
+    "databases/redis-how-to-secure.md": {
+      "hash": "9269fe6013987f97fb6910ed3b850dd7",
+      "mtime": "2026-01-07T16:52:49.134533",
+      "size": 11300
+    },
+    "databases/redis-how-to-set-up-alerts.md": {
+      "hash": "b30037f355a0ffa125268089e501f810",
+      "mtime": "2026-01-07T16:52:49.103110",
+      "size": 8807
+    },
+    "databases/redis-how-to-tag.md": {
+      "hash": "c6bc722750e5d5c0328726e3d2bb4a10",
+      "mtime": "2026-01-07T16:52:49.022259",
+      "size": 9658
+    },
+    "databases/redis-how-to.md": {
+      "hash": "379163b86d87e5b420df4ddbfdbaa00c",
+      "mtime": "2026-01-07T16:52:49.146423",
+      "size": 9407
+    },
+    "databases/redis-index.md": {
+      "hash": "2ebd3c25a023f66ab1f3170d7b53939a",
+      "mtime": "2026-01-07T16:52:49.075731",
+      "size": 10268
+    },
+    "databases/redis-memory-usage.md": {
+      "hash": "cbdcb9afbb55bb017da13a230627a68f",
+      "mtime": "2026-01-07T16:52:49.004511",
+      "size": 7994
+    },
+    "databases/redis-migration-strategies.md": {
+      "hash": "0cfa89ae1ef3cce7b2982ffdf5b3ee0a",
+      "mtime": "2026-01-07T16:52:49.067831",
+      "size": 8107
+    },
+    "databases/redis-monitor-databases.md": {
+      "hash": "8b5e868b440488b9e74a9e899a1ce59d",
+      "mtime": "2026-01-07T16:52:49.126741",
+      "size": 18280
+    },
+    "databases/redis-notifications.md": {
+      "hash": "d4d3aab75700611daaa5d1492193ed83",
+      "mtime": "2026-01-07T16:52:49.151088",
+      "size": 7009
+    },
+    "databases/redis-reconfigure.md": {
+      "hash": "1152cbe6cd974995da1a7b6e85a1550a",
+      "mtime": "2026-01-07T16:52:49.021574",
+      "size": 8594
+    },
+    "databases/redis-reference.md": {
+      "hash": "a1e54f8e060bece2d4a3b904eece6e7b",
+      "mtime": "2026-01-07T16:52:49.013760",
+      "size": 7766
+    },
+    "databases/redis-responsibility-model.md": {
+      "hash": "06633b774f3a0adb36203d5b7733e820",
+      "mtime": "2026-01-07T16:52:49.079598",
+      "size": 6829
+    },
+    "databases/redis-support.md": {
+      "hash": "5505d3018f1cef8345f4c8f559801ba3",
+      "mtime": "2026-01-07T16:52:49.057856",
+      "size": 7489
+    },
+    "databases/valkey-best-practices.md": {
+      "hash": "c5bcc0a3941a154fee8886a643f69573",
+      "mtime": "2026-01-07T16:52:49.031854",
+      "size": 8344
+    },
+    "databases/valkey-concepts.md": {
+      "hash": "b68869f3c2beb35680ee265c4d0bd057",
+      "mtime": "2026-01-07T16:52:49.069119",
+      "size": 6069
+    },
+    "databases/valkey-create.md": {
+      "hash": "6a87e97973b3414353a7421986a28669",
+      "mtime": "2026-01-07T16:52:49.048051",
+      "size": 15513
+    },
+    "databases/valkey-details-availability.md": {
+      "hash": "35065fa8499e5846c2a0a09a89a8ecdf",
+      "mtime": "2026-01-07T16:52:49.139407",
+      "size": 5779
+    },
+    "databases/valkey-details-features.md": {
+      "hash": "05fcf331fd2377b9d29ce1e6d7257749",
+      "mtime": "2026-01-07T16:52:49.099526",
+      "size": 6766
+    },
+    "databases/valkey-details-limits.md": {
+      "hash": "ec08fad910ced7aee6155b16c13233bb",
+      "mtime": "2026-01-07T16:52:49.011188",
+      "size": 10893
+    },
+    "databases/valkey-details-pricing.md": {
+      "hash": "043f92f993c4a590e7134bbf57923f71",
+      "mtime": "2026-01-07T16:52:49.102613",
+      "size": 6753
+    },
+    "databases/valkey-details.md": {
+      "hash": "909e7cf31aa1b37d8a486ef724c17d86",
+      "mtime": "2026-01-07T16:52:49.055228",
+      "size": 6416
+    },
+    "databases/valkey-forward-logs.md": {
+      "hash": "622c7f4112bb590aff56ba99652f561a",
+      "mtime": "2026-01-07T16:52:49.130309",
+      "size": 9811
+    },
+    "databases/valkey-getting-started-convert.md": {
+      "hash": "a9b1382951d8d7c12fd53ccba7920bb9",
+      "mtime": "2026-01-07T16:52:49.147647",
+      "size": 7374
+    },
+    "databases/valkey-getting-started-quickstart.md": {
+      "hash": "521917a7ca80aec8af8fa1594ab5d81e",
+      "mtime": "2026-01-07T16:52:49.117435",
+      "size": 7682
+    },
+    "databases/valkey-getting-started.md": {
+      "hash": "f395aaaab7306554b80a09ea9c534fa2",
+      "mtime": "2026-01-07T16:52:49.128068",
+      "size": 8011
+    },
+    "databases/valkey-how-to-add-standby-nodes.md": {
+      "hash": "c36fda82d2bf68b7a2e85f1ca20a60f3",
+      "mtime": "2026-01-07T16:52:49.109254",
+      "size": 9489
+    },
+    "databases/valkey-how-to-choose-eviction-policies.md": {
+      "hash": "ffb1cbd26b3ff2a4f5210c1b780d3ed6",
+      "mtime": "2026-01-07T16:52:49.065235",
+      "size": 10208
+    },
+    "databases/valkey-how-to-connect.md": {
+      "hash": "676038f6786842ec9138b3507c29b150",
+      "mtime": "2026-01-07T16:52:49.026242",
+      "size": 13663
+    },
+    "databases/valkey-how-to-destroy.md": {
+      "hash": "f0b3033b07567510c605b2e277227105",
+      "mtime": "2026-01-07T16:52:49.024396",
+      "size": 9349
+    },
+    "databases/valkey-how-to-migrate.md": {
+      "hash": "7004ac2723b3312e440c0386f34b692b",
+      "mtime": "2026-01-07T16:52:49.159019",
+      "size": 12059
+    },
+    "databases/valkey-how-to-monitor-clusters.md": {
+      "hash": "77c5dcf5598227b5cae4c6aaffd4acb1",
+      "mtime": "2026-01-07T16:52:49.055955",
+      "size": 15354
+    },
+    "databases/valkey-how-to-relocate.md": {
+      "hash": "601fdf2a93ac6f974e7a667470d0a364",
+      "mtime": "2026-01-07T16:52:49.154704",
+      "size": 10571
+    },
+    "databases/valkey-how-to-resize.md": {
+      "hash": "f58b0113ce142c2a29915046f7677215",
+      "mtime": "2026-01-07T16:52:49.015214",
+      "size": 10461
+    },
+    "databases/valkey-how-to-schedule-updates.md": {
+      "hash": "67f2928eb1ddcc13d3d124233dad0bbd",
+      "mtime": "2026-01-07T16:52:49.027691",
+      "size": 11673
+    },
+    "databases/valkey-how-to-secure.md": {
+      "hash": "0bd27213bac859d46f91ff22536f508a",
+      "mtime": "2026-01-07T16:52:49.141252",
+      "size": 11398
+    },
+    "databases/valkey-how-to-set-up-alerts.md": {
+      "hash": "982f2f4d25ea2d2c7deecc4f44f59465",
+      "mtime": "2026-01-07T16:52:49.122390",
+      "size": 8913
+    },
+    "databases/valkey-how-to-tag.md": {
+      "hash": "9b368232fddbdb01c5b52111524437f8",
+      "mtime": "2026-01-07T16:52:49.033593",
+      "size": 9764
+    },
+    "databases/valkey-how-to.md": {
+      "hash": "30dc0cf5a8041b6cb597b67d5ec07d92",
+      "mtime": "2026-01-07T16:52:49.132894",
+      "size": 9262
+    },
+    "databases/valkey-migration-strategies.md": {
+      "hash": "8316f4ecc7fd05b597b59ec086c1601c",
+      "mtime": "2026-01-07T16:52:49.011896",
+      "size": 8230
+    },
+    "databases/valkey-monitor-databases.md": {
+      "hash": "9194978d369995fa0a605e1b673eebd5",
+      "mtime": "2026-01-07T16:52:49.016392",
+      "size": 18224
+    },
+    "databases/valkey-reconfigure.md": {
+      "hash": "34c11c3094321006fb588ae855d56f9b",
+      "mtime": "2026-01-07T16:52:49.052584",
+      "size": 9622
+    },
+    "databases/valkey-reference.md": {
+      "hash": "21d5e415de4b14df54d76ecd55582342",
+      "mtime": "2026-01-07T16:52:49.073466",
+      "size": 7931
+    },
+    "databases/valkey-responsibility-model.md": {
+      "hash": "4efdbf6bc3d5371df4ca20cbab53f965",
+      "mtime": "2026-01-07T16:52:49.147035",
+      "size": 6936
+    },
+    "databases/valkey-valkey.md": {
+      "hash": "8ca37dfa059b8132b03166eba4b225ea",
+      "mtime": "2026-01-07T16:52:49.065887",
+      "size": 8860
+    },
+    "kubernetes/1.11.10-do.10.md": {
+      "hash": "e0010c115ec84959b172d706e7770aa5",
+      "mtime": "2026-01-07T16:52:49.294655",
+      "size": 7334
+    },
+    "kubernetes/1.11.10-do.11.md": {
+      "hash": "9cddbb682a3726ae573b5ca5585198a0",
+      "mtime": "2026-01-07T16:52:49.337319",
+      "size": 7335
+    },
+    "kubernetes/1.11.10-do.12.md": {
+      "hash": "862f9e954c5ad4edc5ad31cdf2019ad4",
+      "mtime": "2026-01-07T16:52:49.471857",
+      "size": 7438
+    },
+    "kubernetes/1.11.10-do.13.md": {
+      "hash": "b4d81369b333c8e0b5c2e7e384bb68a5",
+      "mtime": "2026-01-07T16:52:49.485971",
+      "size": 7251
+    },
+    "kubernetes/1.11.10-do.14.md": {
+      "hash": "9569d2f2e457928f8f3a4279e6f1a8bc",
+      "mtime": "2026-01-07T16:52:49.306709",
+      "size": 7252
+    },
+    "kubernetes/1.11.10-do.18.md": {
+      "hash": "e97d19947f780a6fd0217a267bab335c",
+      "mtime": "2026-01-07T16:52:49.406980",
+      "size": 7249
+    },
+    "kubernetes/1.11.10-do.5.md": {
+      "hash": "a79b23be59ddd77b5d1313fd671dec3d",
+      "mtime": "2026-01-07T16:52:49.388294",
+      "size": 7383
+    },
+    "kubernetes/1.11.10-do.6.md": {
+      "hash": "41b81f81633ccd9686c7c6ad0b198e45",
+      "mtime": "2026-01-07T16:52:49.414476",
+      "size": 7326
+    },
+    "kubernetes/1.11.10-do.7.md": {
+      "hash": "4da5e201d07b66522bc41e5638bc0a7a",
+      "mtime": "2026-01-07T16:52:49.435887",
+      "size": 7693
+    },
+    "kubernetes/1.11.10-do.8.md": {
+      "hash": "31ebc793bb45c04871d4fe3b2957b604",
+      "mtime": "2026-01-07T16:52:49.465585",
+      "size": 7431
+    },
+    "kubernetes/1.11.9-do.0.md": {
+      "hash": "6c819892777335792f028e812faa051f",
+      "mtime": "2026-01-07T16:52:49.455138",
+      "size": 7220
+    },
+    "kubernetes/1.11.9-do.1.md": {
+      "hash": "870ed7bca9a63a3fc355f897ca6bd0bc",
+      "mtime": "2026-01-07T16:52:49.493714",
+      "size": 7258
+    },
+    "kubernetes/1.11.9-do.2.md": {
+      "hash": "67ece6c0f3206e72c08aab243746a07c",
+      "mtime": "2026-01-07T16:52:49.302450",
+      "size": 7311
+    },
+    "kubernetes/1.11.9-do.3.md": {
+      "hash": "9174929c223fa2192da950991e5d0e0d",
+      "mtime": "2026-01-07T16:52:49.315964",
+      "size": 7329
+    },
+    "kubernetes/1.12.10-do.0.md": {
+      "hash": "701d0b861599044049cd10f74492d1be",
+      "mtime": "2026-01-07T16:52:49.439662",
+      "size": 7700
+    },
+    "kubernetes/1.12.10-do.1.md": {
+      "hash": "36763ae51b87002e370bc98c36ea7e9f",
+      "mtime": "2026-01-07T16:52:49.393081",
+      "size": 7248
+    },
+    "kubernetes/1.12.10-do.10.md": {
+      "hash": "7c0e530de821f365038641aec58a5c3d",
+      "mtime": "2026-01-07T16:52:49.386998",
+      "size": 7597
+    },
+    "kubernetes/1.12.10-do.11.md": {
+      "hash": "a55a17e2ec19364aedc89b26d7a0547b",
+      "mtime": "2026-01-07T16:52:49.350875",
+      "size": 7335
+    },
+    "kubernetes/1.12.10-do.12.md": {
+      "hash": "88fc8e84077c88d3d611db28026a7bda",
+      "mtime": "2026-01-07T16:52:49.432614",
+      "size": 7438
+    },
+    "kubernetes/1.12.10-do.13.md": {
+      "hash": "0253345742636ed683552093994ce22e",
+      "mtime": "2026-01-07T16:52:49.412347",
+      "size": 7251
+    },
+    "kubernetes/1.12.10-do.14.md": {
+      "hash": "30f976fdb80abda861e9da1e4308aca0",
+      "mtime": "2026-01-07T16:52:49.371084",
+      "size": 7252
+    },
+    "kubernetes/1.12.10-do.18.md": {
+      "hash": "4f32387c29b4e6937a3e91d5c7fcf34e",
+      "mtime": "2026-01-07T16:52:49.492613",
+      "size": 7249
+    },
+    "kubernetes/1.12.10-do.2.md": {
+      "hash": "9b257e5ee5fcd355ac5af41ed8b6d08a",
+      "mtime": "2026-01-07T16:52:49.367239",
+      "size": 7364
+    },
+    "kubernetes/1.12.10-do.3.md": {
+      "hash": "2ee619e771a5356af5b56b847c074c0b",
+      "mtime": "2026-01-07T16:52:49.358677",
+      "size": 7383
+    },
+    "kubernetes/1.12.10-do.4.md": {
+      "hash": "02e5dd0c4790847b775050aea88593b0",
+      "mtime": "2026-01-07T16:52:49.422344",
+      "size": 7326
+    },
+    "kubernetes/1.12.10-do.5.md": {
+      "hash": "f399f344873885aac996ff5714af50d3",
+      "mtime": "2026-01-07T16:52:49.403956",
+      "size": 7693
+    },
+    "kubernetes/1.12.10-do.6.md": {
+      "hash": "ada932ba47fcdcbfd5fab1da6f47fd3c",
+      "mtime": "2026-01-07T16:52:49.378231",
+      "size": 7431
+    },
+    "kubernetes/1.12.10-do.8.md": {
+      "hash": "59895b0dd2d8f47a8e5e552a9f7ea8bd",
+      "mtime": "2026-01-07T16:52:49.320069",
+      "size": 7699
+    },
+    "kubernetes/1.12.10-do.9.md": {
+      "hash": "614bc067abbad1a90bbfad90d0d77c6a",
+      "mtime": "2026-01-07T16:52:49.309184",
+      "size": 7774
+    },
+    "kubernetes/1.12.8-do.0.md": {
+      "hash": "36bc3d04306617ea256c308df897677f",
+      "mtime": "2026-01-07T16:52:49.343620",
+      "size": 7365
+    },
+    "kubernetes/1.12.8-do.1.md": {
+      "hash": "cf1e16beb08cea5fe27eae0995c21f96",
+      "mtime": "2026-01-07T16:52:49.300092",
+      "size": 7304
+    },
+    "kubernetes/1.12.8-do.3.md": {
+      "hash": "066be6fd74d87c5b7183e97cdd5fa079",
+      "mtime": "2026-01-07T16:52:49.478804",
+      "size": 7291
+    },
+    "kubernetes/1.12.8-do.4.md": {
+      "hash": "44eb4d4834ad72028bb5b66cd8e74dec",
+      "mtime": "2026-01-07T16:52:49.328034",
+      "size": 7258
+    },
+    "kubernetes/1.12.9-do.0.md": {
+      "hash": "6d30586ad583f40690ee8318d39bf614",
+      "mtime": "2026-01-07T16:52:49.299111",
+      "size": 8459
+    },
+    "kubernetes/1.13.10-do.0.md": {
+      "hash": "58649e6df8a6cfd73151d7f226f1e2fe",
+      "mtime": "2026-01-07T16:52:49.309661",
+      "size": 7621
+    },
+    "kubernetes/1.13.10-do.1.md": {
+      "hash": "5aea95f8bddc0a8f9048b8f5e7b47eaf",
+      "mtime": "2026-01-07T16:52:49.320838",
+      "size": 7326
+    },
+    "kubernetes/1.13.10-do.2.md": {
+      "hash": "241dc5a98066d6b5fabaeb5c936c299c",
+      "mtime": "2026-01-07T16:52:49.461714",
+      "size": 8007
+    },
+    "kubernetes/1.13.10-do.3.md": {
+      "hash": "c4f732e5c9220c58eb3999748008893f",
+      "mtime": "2026-01-07T16:52:49.501294",
+      "size": 7670
+    },
+    "kubernetes/1.13.11-do.0.md": {
+      "hash": "a6332a4baf529162563ec8032bf7c79b",
+      "mtime": "2026-01-07T16:52:49.318754",
+      "size": 7460
+    },
+    "kubernetes/1.13.12-do.0.md": {
+      "hash": "25af4743715533020c43f46497aff893",
+      "mtime": "2026-01-07T16:52:49.379504",
+      "size": 7469
+    },
+    "kubernetes/1.13.12-do.12.md": {
+      "hash": "42543f1952ba5c3c44e7b77eb7537353",
+      "mtime": "2026-01-07T16:52:49.423543",
+      "size": 7249
+    },
+    "kubernetes/1.13.12-do.13.md": {
+      "hash": "b07dd3645858de102d304523e6af62be",
+      "mtime": "2026-01-07T16:52:49.405107",
+      "size": 7251
+    },
+    "kubernetes/1.13.12-do.2.md": {
+      "hash": "6523711d02dc862a4e404fa344b88eaa",
+      "mtime": "2026-01-07T16:52:49.424102",
+      "size": 7801
+    },
+    "kubernetes/1.13.12-do.3.md": {
+      "hash": "04d0504f1cfad30bf1667e4b9a38fbbd",
+      "mtime": "2026-01-07T16:52:49.405823",
+      "size": 7774
+    },
+    "kubernetes/1.13.12-do.4.md": {
+      "hash": "01318a9823e98f12c69f7d6c9038a27b",
+      "mtime": "2026-01-07T16:52:49.365790",
+      "size": 7589
+    },
+    "kubernetes/1.13.12-do.5.md": {
+      "hash": "20de10e5be7218be0e1b66af189a0995",
+      "mtime": "2026-01-07T16:52:49.358197",
+      "size": 7327
+    },
+    "kubernetes/1.13.12-do.6.md": {
+      "hash": "933b47f2dca2f83a561a7ab890aeaa62",
+      "mtime": "2026-01-07T16:52:49.437697",
+      "size": 7430
+    },
+    "kubernetes/1.13.12-do.7.md": {
+      "hash": "0763299186b5b30a5636a5d4455af01c",
+      "mtime": "2026-01-07T16:52:49.391871",
+      "size": 7326
+    },
+    "kubernetes/1.13.12-do.8.md": {
+      "hash": "74e6662706886f703037bb2001752a05",
+      "mtime": "2026-01-07T16:52:49.487096",
+      "size": 7415
+    },
+    "kubernetes/1.13.12-do.9.md": {
+      "hash": "eb7310605b1aecdd6de20fcee5d5971c",
+      "mtime": "2026-01-07T16:52:49.472540",
+      "size": 7244
+    },
+    "kubernetes/1.13.5-do.0.md": {
+      "hash": "7e46b91c1d483527958451b25f9580d4",
+      "mtime": "2026-01-07T16:52:49.424816",
+      "size": 7220
+    },
+    "kubernetes/1.13.5-do.1.md": {
+      "hash": "e8bde9073800fb6558c8aedcc1553d4b",
+      "mtime": "2026-01-07T16:52:49.408157",
+      "size": 7310
+    },
+    "kubernetes/1.13.5-do.2.md": {
+      "hash": "090c7381861b65031a7d027250ea8751",
+      "mtime": "2026-01-07T16:52:49.382737",
+      "size": 7340
+    },
+    "kubernetes/1.13.5-do.3.md": {
+      "hash": "cef77ce3f6a41449cc411256d8e4b27d",
+      "mtime": "2026-01-07T16:52:49.346568",
+      "size": 7304
+    },
+    "kubernetes/1.13.5-do.4.md": {
+      "hash": "612ab6e9fe3512021d3f734dff104081",
+      "mtime": "2026-01-07T16:52:49.443919",
+      "size": 7316
+    },
+    "kubernetes/1.13.5-do.5.md": {
+      "hash": "391ff8dcf7ff593846a393bee74c5204",
+      "mtime": "2026-01-07T16:52:49.396744",
+      "size": 7258
+    },
+    "kubernetes/1.13.6-do.0.md": {
+      "hash": "4820d108eb8995580e463fd230fd85e2",
+      "mtime": "2026-01-07T16:52:49.497959",
+      "size": 7229
+    },
+    "kubernetes/1.13.6-do.1.md": {
+      "hash": "fc47aaf30ca6b2c3774c8d5f98fac344",
+      "mtime": "2026-01-07T16:52:49.458141",
+      "size": 7291
+    },
+    "kubernetes/1.13.7-do.0.md": {
+      "hash": "b40032290fe4787626151db1302696d7",
+      "mtime": "2026-01-07T16:52:49.456805",
+      "size": 8459
+    },
+    "kubernetes/1.13.8-do.0.md": {
+      "hash": "3e8d34f0ab937875653a9a99e5434c25",
+      "mtime": "2026-01-07T16:52:49.387587",
+      "size": 7690
+    },
+    "kubernetes/1.13.8-do.1.md": {
+      "hash": "22e12b13da62f58cc42058e93b1f027c",
+      "mtime": "2026-01-07T16:52:49.351567",
+      "size": 7240
+    },
+    "kubernetes/1.13.9-do.0.md": {
+      "hash": "92ec01dbc661b21b01ab418afafeaf73",
+      "mtime": "2026-01-07T16:52:49.349606",
+      "size": 7483
+    },
+    "kubernetes/1.14.1-do.1.md": {
+      "hash": "76cc8cbd29e4c57c372043b4aed4b2eb",
+      "mtime": "2026-01-07T16:52:49.332338",
+      "size": 7365
+    },
+    "kubernetes/1.14.1-do.2.md": {
+      "hash": "5a4ef59012eeaff6eba8c9dd5481fea4",
+      "mtime": "2026-01-07T16:52:49.468706",
+      "size": 7304
+    },
+    "kubernetes/1.14.1-do.3.md": {
+      "hash": "5a4cb3c846a68a9a59302b381c3ff355",
+      "mtime": "2026-01-07T16:52:49.480822",
+      "size": 7316
+    },
+    "kubernetes/1.14.1-do.4.md": {
+      "hash": "45f0244d2898cd54f54d8129a5833d18",
+      "mtime": "2026-01-07T16:52:49.304662",
+      "size": 7258
+    },
+    "kubernetes/1.14.10-do.0.md": {
+      "hash": "bfa7b6206b5bc9c60a84d94c8185b795",
+      "mtime": "2026-01-07T16:52:49.372650",
+      "size": 7733
+    },
+    "kubernetes/1.14.10-do.1.md": {
+      "hash": "ba6986aa5b923cac2ae357df870e5a3e",
+      "mtime": "2026-01-07T16:52:49.362235",
+      "size": 7327
+    },
+    "kubernetes/1.14.10-do.2.md": {
+      "hash": "bff2492092073829b260567c09a0f88c",
+      "mtime": "2026-01-07T16:52:49.448960",
+      "size": 7430
+    },
+    "kubernetes/1.14.10-do.3.md": {
+      "hash": "90b728e96551099bcc7fe166e7cc95cf",
+      "mtime": "2026-01-07T16:52:49.400277",
+      "size": 7788
+    },
+    "kubernetes/1.14.10-do.4.md": {
+      "hash": "1efdd202b097ac88f89467aa2b034f72",
+      "mtime": "2026-01-07T16:52:49.386387",
+      "size": 8332
+    },
+    "kubernetes/1.14.10-do.5.md": {
+      "hash": "784a1a04b0b5c4dc3a44547765f9700a",
+      "mtime": "2026-01-07T16:52:49.349130",
+      "size": 16514
+    },
+    "kubernetes/1.14.10-do.8.md": {
+      "hash": "e18f270f92fda82742f26c3fb2d5e1ea",
+      "mtime": "2026-01-07T16:52:49.516305",
+      "size": 7241
+    },
+    "kubernetes/1.14.10-do.9.md": {
+      "hash": "f52b9ec0a2a9a8c95d823fec56fcba24",
+      "mtime": "2026-01-07T16:52:49.468065",
+      "size": 10612
+    },
+    "kubernetes/1.14.2-do.0.md": {
+      "hash": "892dde3807df913fb85cc94e12be44ef",
+      "mtime": "2026-01-07T16:52:49.359616",
+      "size": 7229
+    },
+    "kubernetes/1.14.2-do.1.md": {
+      "hash": "1d8f3fbdbfe75eeeafde448f389d8b67",
+      "mtime": "2026-01-07T16:52:49.369436",
+      "size": 7291
+    },
+    "kubernetes/1.14.3-do.0.md": {
+      "hash": "749696ca0118da36961c1145a5858106",
+      "mtime": "2026-01-07T16:52:49.368970",
+      "size": 8408
+    },
+    "kubernetes/1.14.4-do.0.md": {
+      "hash": "e6ecd9641f768bbb210418d85e37fb5a",
+      "mtime": "2026-01-07T16:52:49.502761",
+      "size": 7745
+    },
+    "kubernetes/1.14.4-do.1.md": {
+      "hash": "d1b5fcd38f1086a93b8a1835b110f070",
+      "mtime": "2026-01-07T16:52:49.464206",
+      "size": 7240
+    },
+    "kubernetes/1.14.5-do.0.md": {
+      "hash": "a71f1cb31866a3a1f8b7e203dd80e9a8",
+      "mtime": "2026-01-07T16:52:49.465004",
+      "size": 7483
+    },
+    "kubernetes/1.14.6-do.0.md": {
+      "hash": "73d32d36ee6d4b97c37e2a94e531c0f9",
+      "mtime": "2026-01-07T16:52:49.420381",
+      "size": 7612
+    },
+    "kubernetes/1.14.6-do.1.md": {
+      "hash": "28fadc509680effdfe1d113d18d9de1e",
+      "mtime": "2026-01-07T16:52:49.435336",
+      "size": 7404
+    },
+    "kubernetes/1.14.6-do.2.md": {
+      "hash": "72389169a88133d5dfb4d2b3b1f20a9d",
+      "mtime": "2026-01-07T16:52:49.353508",
+      "size": 7999
+    },
+    "kubernetes/1.14.6-do.3.md": {
+      "hash": "e5d83fb02cd1b9c0a0179b12eacf9988",
+      "mtime": "2026-01-07T16:52:49.388994",
+      "size": 7662
+    },
+    "kubernetes/1.14.7-do.0.md": {
+      "hash": "17b439fc16892d1771dff21c59719b43",
+      "mtime": "2026-01-07T16:52:49.436998",
+      "size": 7450
+    },
+    "kubernetes/1.14.8-do.0.md": {
+      "hash": "ebccc6c6af6c5f6a99fbf473d56f37d8",
+      "mtime": "2026-01-07T16:52:49.307948",
+      "size": 7373
+    },
+    "kubernetes/1.14.8-do.1.md": {
+      "hash": "894894f1d57cc6182b10635d1e8319cd",
+      "mtime": "2026-01-07T16:52:49.319351",
+      "size": 7508
+    },
+    "kubernetes/1.14.8-do.2.md": {
+      "hash": "feec7c5b2ae1ecba7da6f26ab7d79dd5",
+      "mtime": "2026-01-07T16:52:49.459471",
+      "size": 8012
+    },
+    "kubernetes/1.14.8-do.3.md": {
+      "hash": "cdc72709701f358e4c349059854d2bce",
+      "mtime": "2026-01-07T16:52:49.499389",
+      "size": 8114
+    },
+    "kubernetes/1.15.11-do.0.md": {
+      "hash": "9a402c3e5a3cf47adb8d8e05ec8dbe14",
+      "mtime": "2026-01-07T16:52:49.515100",
+      "size": 7933
+    },
+    "kubernetes/1.15.12-do.0.md": {
+      "hash": "762b83502ca33b3d1c68e2e486109fb4",
+      "mtime": "2026-01-07T16:52:49.431884",
+      "size": 8548
+    },
+    "kubernetes/1.15.12-do.1.md": {
+      "hash": "625fab9ce3ad10382fd8f21dab57f018",
+      "mtime": "2026-01-07T16:52:49.411774",
+      "size": 10751
+    },
+    "kubernetes/1.15.12-do.4.md": {
+      "hash": "450edcb9687f1d31574cfdb0337031b8",
+      "mtime": "2026-01-07T16:52:49.446877",
+      "size": 7241
+    },
+    "kubernetes/1.15.12-do.5.md": {
+      "hash": "994645799e7370194097e54f22697b9b",
+      "mtime": "2026-01-07T16:52:49.399070",
+      "size": 7243
+    },
+    "kubernetes/1.15.12-do.6.md": {
+      "hash": "c4b02ee0d9d30ecabbc99eb68e94de25",
+      "mtime": "2026-01-07T16:52:49.371573",
+      "size": 10116
+    },
+    "kubernetes/1.15.2-do.0.md": {
+      "hash": "73de5a5158ee6179e09fd8bef54e1192",
+      "mtime": "2026-01-07T16:52:49.303151",
+      "size": 7220
+    },
+    "kubernetes/1.15.3-do.0.md": {
+      "hash": "f86802d26f32404a0dea6f855c8f83e5",
+      "mtime": "2026-01-07T16:52:49.315493",
+      "size": 7612
+    },
+    "kubernetes/1.15.3-do.1.md": {
+      "hash": "fee1bccb93a12b0a95842daf625668e8",
+      "mtime": "2026-01-07T16:52:49.300670",
+      "size": 7318
+    },
+    "kubernetes/1.15.3-do.2.md": {
+      "hash": "c1e7624e72c76a201ab3b7cbdc393a6a",
+      "mtime": "2026-01-07T16:52:49.496535",
+      "size": 7999
+    },
+    "kubernetes/1.15.3-do.3.md": {
+      "hash": "31fe1983d714bf1e9d32b57caecd68ad",
+      "mtime": "2026-01-07T16:52:49.455693",
+      "size": 7662
+    },
+    "kubernetes/1.15.4-do.0.md": {
+      "hash": "58ff276cd45d60502ddbcb7a6247a8f7",
+      "mtime": "2026-01-07T16:52:49.451750",
+      "size": 7450
+    },
+    "kubernetes/1.15.5-do.0.md": {
+      "hash": "745f58eb3608eec1299a51bf697fbf6d",
+      "mtime": "2026-01-07T16:52:49.403336",
+      "size": 7459
+    },
+    "kubernetes/1.15.5-do.1.md": {
+      "hash": "33337a946f2cc23fa78f02188d0a7a37",
+      "mtime": "2026-01-07T16:52:49.454404",
+      "size": 7508
+    },
+    "kubernetes/1.15.5-do.2.md": {
+      "hash": "b1ed40bf9db6f4135d0e96866c754d45",
+      "mtime": "2026-01-07T16:52:49.364369",
+      "size": 8012
+    },
+    "kubernetes/1.15.5-do.3.md": {
+      "hash": "25d76f6dac2cf37cef608cda1e096b3e",
+      "mtime": "2026-01-07T16:52:49.375294",
+      "size": 8114
+    },
+    "kubernetes/1.15.9-do.0.md": {
+      "hash": "27a23909628dd9d454e5257507c3a828",
+      "mtime": "2026-01-07T16:52:49.368264",
+      "size": 7724
+    },
+    "kubernetes/1.15.9-do.1.md": {
+      "hash": "295449ee1e7819af1b7ba69591fe5b03",
+      "mtime": "2026-01-07T16:52:49.359144",
+      "size": 7319
+    },
+    "kubernetes/1.15.9-do.2.md": {
+      "hash": "a6e8ab86bd75f481dde37430f273c16b",
+      "mtime": "2026-01-07T16:52:49.439148",
+      "size": 7422
+    },
+    "kubernetes/1.16.10-do.0.md": {
+      "hash": "d878d31fcb6975cd3cc5cff24337eab4",
+      "mtime": "2026-01-07T16:52:49.317220",
+      "size": 8547
+    },
+    "kubernetes/1.16.13-do.0.md": {
+      "hash": "bc785e506ef8cc2ed0efb7a08bace9bf",
+      "mtime": "2026-01-07T16:52:49.380061",
+      "size": 7561
+    },
+    "kubernetes/1.16.14-do.0.md": {
+      "hash": "19c66a200fe50f588f4d47cdae71698a",
+      "mtime": "2026-01-07T16:52:49.489005",
+      "size": 7559
+    },
+    "kubernetes/1.16.14-do.1.md": {
+      "hash": "547d656e19b0eabe252f82561e8a276a",
+      "mtime": "2026-01-07T16:52:49.474553",
+      "size": 6193
+    },
+    "kubernetes/1.16.15-do.0.md": {
+      "hash": "d8ed5b5b02f0c801f80171be49673284",
+      "mtime": "2026-01-07T16:52:49.475868",
+      "size": 7366
+    },
+    "kubernetes/1.16.15-do.1.md": {
+      "hash": "5b0f82feef99259a1586e6bb18913f0c",
+      "mtime": "2026-01-07T16:52:49.490757",
+      "size": 7243
+    },
+    "kubernetes/1.16.15-do.2.md": {
+      "hash": "06f7b88b869d0f5c52ee9ae3faf0cbc4",
+      "mtime": "2026-01-07T16:52:49.297952",
+      "size": 7243
+    },
+    "kubernetes/1.16.2-do.0.md": {
+      "hash": "4942e3f5b343164327f494e4d18a8494",
+      "mtime": "2026-01-07T16:52:49.479447",
+      "size": 7548
+    },
+    "kubernetes/1.16.2-do.1.md": {
+      "hash": "4610c04071e9a13de1273733dddf6c43",
+      "mtime": "2026-01-07T16:52:49.493124",
+      "size": 8012
+    },
+    "kubernetes/1.16.2-do.2.md": {
+      "hash": "e50e825191d29c8eecf41059476efe89",
+      "mtime": "2026-01-07T16:52:49.299601",
+      "size": 7332
+    },
+    "kubernetes/1.16.2-do.3.md": {
+      "hash": "99ae9f6a953a26bacc02b5e345ac3045",
+      "mtime": "2026-01-07T16:52:49.343027",
+      "size": 8281
+    },
+    "kubernetes/1.16.6-do.0.md": {
+      "hash": "470ae22b5780850e98effdba246e0423",
+      "mtime": "2026-01-07T16:52:49.306137",
+      "size": 7724
+    },
+    "kubernetes/1.16.6-do.1.md": {
+      "hash": "7b1de27b5c36331737152db9d3cd0e0e",
+      "mtime": "2026-01-07T16:52:49.318281",
+      "size": 7319
+    },
+    "kubernetes/1.16.6-do.2.md": {
+      "hash": "360c13092b359acb4e01ad2cc909e63c",
+      "mtime": "2026-01-07T16:52:49.461035",
+      "size": 7422
+    },
+    "kubernetes/1.16.8-do.0.md": {
+      "hash": "4705c4faea57b292e1e3bc0b2fec8669",
+      "mtime": "2026-01-07T16:52:49.413842",
+      "size": 7923
+    },
+    "kubernetes/1.17.11-do.0.md": {
+      "hash": "9391fd322209ba301676e8f28949d168",
+      "mtime": "2026-01-07T16:52:49.442464",
+      "size": 7737
+    },
+    "kubernetes/1.17.11-do.1.md": {
+      "hash": "83e2beafb7c62cd3222b0fa891d9015c",
+      "mtime": "2026-01-07T16:52:49.395538",
+      "size": 9045
+    },
+    "kubernetes/1.17.13-do.0.md": {
+      "hash": "047518d4280d74239a14c3c81b2f5de0",
+      "mtime": "2026-01-07T16:52:49.469496",
+      "size": 7543
+    },
+    "kubernetes/1.17.13-do.1.md": {
+      "hash": "3599fd57ee677fa3165aeea043c4e9ea",
+      "mtime": "2026-01-07T16:52:49.480140",
+      "size": 8540
+    },
+    "kubernetes/1.17.13-do.2.md": {
+      "hash": "60e1e4eee4b948c18ce4c9a5832e4d16",
+      "mtime": "2026-01-07T16:52:49.291166",
+      "size": 7243
+    },
+    "kubernetes/1.17.13-do.3.md": {
+      "hash": "dd90c178d391bd3ecd9a06b3305605ba",
+      "mtime": "2026-01-07T16:52:49.333025",
+      "size": 4494
+    },
+    "kubernetes/1.17.16-do.0.md": {
+      "hash": "fc5c343b979f8cb067e89ee4eb4e7a55",
+      "mtime": "2026-01-07T16:52:49.322436",
+      "size": 7326
+    },
+    "kubernetes/1.17.5-do.0.md": {
+      "hash": "6fbcb72e399c12f872f2774d8fd94639",
+      "mtime": "2026-01-07T16:52:49.294163",
+      "size": 7815
+    },
+    "kubernetes/1.17.6-do.0.md": {
+      "hash": "eb2fd074392e8ef61fce95fd0f905f25",
+      "mtime": "2026-01-07T16:52:49.356354",
+      "size": 8294
+    },
+    "kubernetes/1.17.9-do.0.md": {
+      "hash": "e2e418e66fcd7d8ce9818571861a8f37",
+      "mtime": "2026-01-07T16:52:49.491287",
+      "size": 7551
+    },
+    "kubernetes/1.18.10-do.0.md": {
+      "hash": "32e16956e9652219a36d0bc8674c79b7",
+      "mtime": "2026-01-07T16:52:49.475339",
+      "size": 8200
+    },
+    "kubernetes/1.18.10-do.1.md": {
+      "hash": "e44fbeebcc2ef5695540d668d0ff8961",
+      "mtime": "2026-01-07T16:52:49.490237",
+      "size": 7761
+    },
+    "kubernetes/1.18.10-do.2.md": {
+      "hash": "52e9327bce8845321ac3b2c01457c3f7",
+      "mtime": "2026-01-07T16:52:49.295252",
+      "size": 7295
+    },
+    "kubernetes/1.18.10-do.3.md": {
+      "hash": "38a1da9cc4d530eb5bbdd557c925d6c0",
+      "mtime": "2026-01-07T16:52:49.337851",
+      "size": 7847
+    },
+    "kubernetes/1.18.14-do.0.md": {
+      "hash": "7f5c03d77d9bb9f9cbb5dd27edcc77f0",
+      "mtime": "2026-01-07T16:52:49.303638",
+      "size": 7904
+    },
+    "kubernetes/1.18.19-do.0.md": {
+      "hash": "8b88ecfc3eeee19e8160d10bc6da61fc",
+      "mtime": "2026-01-07T16:52:49.466812",
+      "size": 9552
+    },
+    "kubernetes/1.18.3-do.0.md": {
+      "hash": "d809bf52318f6099e84be1b8f352e88d",
+      "mtime": "2026-01-07T16:52:49.330834",
+      "size": 8932
+    },
+    "kubernetes/1.18.6-do.0.md": {
+      "hash": "e2fd97ea48c13ef21a09c729bcf1fbc1",
+      "mtime": "2026-01-07T16:52:49.462994",
+      "size": 7551
+    },
+    "kubernetes/1.18.8-do.0.md": {
+      "hash": "1fcdbb50cb508599bed4aec7fbcdaf22",
+      "mtime": "2026-01-07T16:52:49.344193",
+      "size": 7736
+    },
+    "kubernetes/1.18.8-do.1.md": {
+      "hash": "ecbde9c982c2859fcb12fd9cbf62dc63",
+      "mtime": "2026-01-07T16:52:49.377769",
+      "size": 7551
+    },
+    "kubernetes/1.19.11-do.0.md": {
+      "hash": "4b42ae57d38ebcba3b1bd8e4043832a2",
+      "mtime": "2026-01-07T16:52:49.355841",
+      "size": 8460
+    },
+    "kubernetes/1.19.12-do.0.md": {
+      "hash": "486545c69a5a12ede4d1901f570e39bb",
+      "mtime": "2026-01-07T16:52:49.312275",
+      "size": 10381
+    },
+    "kubernetes/1.19.13-do.0.md": {
+      "hash": "4d2fda2977514ee5ec8694a59c09fa0f",
+      "mtime": "2026-01-07T16:52:49.323119",
+      "size": 7007
+    },
+    "kubernetes/1.19.15-do.0.md": {
+      "hash": "25cc1baa98e2c5040ab138ff4fb3a858",
+      "mtime": "2026-01-07T16:52:49.395047",
+      "size": 9397
+    },
+    "kubernetes/1.19.3-do.0.md": {
+      "hash": "66afe03af12dc3c2908d82d1a92007a4",
+      "mtime": "2026-01-07T16:52:49.382173",
+      "size": 8841
+    },
+    "kubernetes/1.19.3-do.1.md": {
+      "hash": "56efd3ae281807ca683eed14150c8d76",
+      "mtime": "2026-01-07T16:52:49.347119",
+      "size": 7913
+    },
+    "kubernetes/1.19.3-do.2.md": {
+      "hash": "424a8609d8879f19b329d60db8a91b91",
+      "mtime": "2026-01-07T16:52:49.429302",
+      "size": 7413
+    },
+    "kubernetes/1.19.3-do.3.md": {
+      "hash": "04e8ac9425038880f214a8497feb2065",
+      "mtime": "2026-01-07T16:52:49.407632",
+      "size": 17913
+    },
+    "kubernetes/1.19.6-do.0.md": {
+      "hash": "0abd8c9f9775f9abc4e116afd0d33111",
+      "mtime": "2026-01-07T16:52:49.401435",
+      "size": 8348
+    },
+    "kubernetes/1.20.11-do.0.md": {
+      "hash": "92d5dc2e6b36e88a8230929a938cca08",
+      "mtime": "2026-01-07T16:52:49.441685",
+      "size": 9251
+    },
+    "kubernetes/1.20.2-do.0.md": {
+      "hash": "f820c5dae7439df77723452fc4210856",
+      "mtime": "2026-01-07T16:52:49.313444",
+      "size": 11511
+    },
+    "kubernetes/1.20.7-do.0.md": {
+      "hash": "cd7a6bc9d0aaf82c5c78d4f62390510a",
+      "mtime": "2026-01-07T16:52:49.482890",
+      "size": 7838
+    },
+    "kubernetes/1.20.8-do.0.md": {
+      "hash": "d8ffd5ebc66de4f4d0a0233fcdd7cfef",
+      "mtime": "2026-01-07T16:52:49.361286",
+      "size": 6594
+    },
+    "kubernetes/1.20.9-do.0.md": {
+      "hash": "e9f25b8a295780fa272a711e0057e33d",
+      "mtime": "2026-01-07T16:52:49.370467",
+      "size": 7327
+    },
+    "kubernetes/1.21.2-do.0.md": {
+      "hash": "586b95c3341ee4e2a8a9714a167db8a5",
+      "mtime": "2026-01-07T16:52:49.362913",
+      "size": 10374
+    },
+    "kubernetes/1.21.2-do.1.md": {
+      "hash": "827dffb19de2ce948fa5acb0461ecc5e",
+      "mtime": "2026-01-07T16:52:49.373780",
+      "size": 7519
+    },
+    "kubernetes/1.21.2-do.2.md": {
+      "hash": "434fe6156e53c88131114f117590589c",
+      "mtime": "2026-01-07T16:52:49.400962",
+      "size": 6913
+    },
+    "kubernetes/1.21.3-do.0.md": {
+      "hash": "8223ecaefd78f1f5a8bc1c56a2e0116d",
+      "mtime": "2026-01-07T16:52:49.376828",
+      "size": 11132
+    },
+    "kubernetes/1.21.5-do.0.md": {
+      "hash": "fa657721d3ff3f198996d7067a632403",
+      "mtime": "2026-01-07T16:52:49.456280",
+      "size": 5454
+    },
+    "kubernetes/1.21.9-do.0.md": {
+      "hash": "4e885a1a45a6da56464cbf3173fffb2e",
+      "mtime": "2026-01-07T16:52:49.327082",
+      "size": 15954
+    },
+    "kubernetes/AGENT-04-HARVEST-SUMMARY.md": {
+      "hash": "721aab8c9a59a6545363c3e1cfaa9107",
+      "mtime": "2026-01-07T16:52:49.321411",
+      "size": 5961
+    },
+    "kubernetes/concepts-best-practices.md": {
+      "hash": "a2adae6f65db0b1b3daeb82e6cfdc0f5",
+      "mtime": "2026-01-07T16:52:49.308722",
+      "size": 16946
+    },
+    "kubernetes/concepts-choosing-a-plan.md": {
+      "hash": "d1b342579bd03e7b7cf252e8d1d58d63",
+      "mtime": "2026-01-07T16:52:49.357734",
+      "size": 12581
+    },
+    "kubernetes/concepts.md": {
+      "hash": "e58ce0ac67ee6afec58cecf4b695fea5",
+      "mtime": "2026-01-07T16:52:49.350143",
+      "size": 7460
+    },
+    "kubernetes/details-availability.md": {
+      "hash": "499cc24791810646a158ae4c2622695c",
+      "mtime": "2026-01-07T16:52:49.402644",
+      "size": 7318
+    },
+    "kubernetes/details-changelog-1.32.1.do-0.md": {
+      "hash": "97b5b4d8dcd62d8dafeaf462c461dab7",
+      "mtime": "2026-01-07T16:52:49.346023",
+      "size": 8943
+    },
+    "kubernetes/details-changelog-1.32.10-do.1.md": {
+      "hash": "f9e824366c2362ad3e036f0ba2b095ba",
+      "mtime": "2026-01-07T16:52:49.409401",
+      "size": 7477
+    },
+    "kubernetes/details-changelog-1.32.10-do.2.md": {
+      "hash": "ec754753e9a7bd61fca95e8ecc881b12",
+      "mtime": "2026-01-07T16:52:49.381157",
+      "size": 7326
+    },
+    "kubernetes/details-changelog-1.32.10.do-0.md": {
+      "hash": "2a5fc4a2a19f439212d07fe7f327f04d",
+      "mtime": "2026-01-07T16:52:49.312799",
+      "size": 7332
+    },
+    "kubernetes/details-changelog-1.32.2.do-0.md": {
+      "hash": "076234eabf987b51d087390bb33d3a19",
+      "mtime": "2026-01-07T16:52:49.304193",
+      "size": 7408
+    },
+    "kubernetes/details-changelog-1.32.2.do-1.md": {
+      "hash": "3efd3a5db77d3cce91cc7fd595907a49",
+      "mtime": "2026-01-07T16:52:49.316488",
+      "size": 7838
+    },
+    "kubernetes/details-changelog-1.32.2.do-2.md": {
+      "hash": "351f93e283ee676e1faa62ad55ff8a46",
+      "mtime": "2026-01-07T16:52:49.457544",
+      "size": 7225
+    },
+    "kubernetes/details-changelog-1.32.2.do-3.md": {
+      "hash": "1c12fcfdd10f9f6dbcc955e93fbb8661",
+      "mtime": "2026-01-07T16:52:49.498651",
+      "size": 7556
+    },
+    "kubernetes/details-changelog-1.32.5.do-0.md": {
+      "hash": "c7f41d32a409b692de7d4dab72b8dcbd",
+      "mtime": "2026-01-07T16:52:49.402152",
+      "size": 7322
+    },
+    "kubernetes/details-changelog-1.32.5.do-1.md": {
+      "hash": "d0a152bab06b140e547080ef2fda8373",
+      "mtime": "2026-01-07T16:52:49.452460",
+      "size": 7311
+    },
+    "kubernetes/details-changelog-1.32.5.do-2.md": {
+      "hash": "aec709f4f4d3cff5f21e219de7e0200b",
+      "mtime": "2026-01-07T16:52:49.364836",
+      "size": 7341
+    },
+    "kubernetes/details-changelog-1.32.5.do-3.md": {
+      "hash": "e1a795274250e84ba32ce759fa77275a",
+      "mtime": "2026-01-07T16:52:49.376358",
+      "size": 7297
+    },
+    "kubernetes/details-changelog-1.32.5.do-4.md": {
+      "hash": "23fbabaf526ddef6c0a5a92a32926df0",
+      "mtime": "2026-01-07T16:52:49.412824",
+      "size": 7401
+    },
+    "kubernetes/details-changelog-1.32.5.do-5.md": {
+      "hash": "b1a8677d96cadbda34fd10474d7acbfd",
+      "mtime": "2026-01-07T16:52:49.434025",
+      "size": 8166
+    },
+    "kubernetes/details-changelog-1.33.1.do-0.md": {
+      "hash": "7b1d11ccfae554ba6bafa70aafa6da98",
+      "mtime": "2026-01-07T16:52:49.290588",
+      "size": 8196
+    },
+    "kubernetes/details-changelog-1.33.1.do-1.md": {
+      "hash": "934737007192954f3b9395b78fe22dde",
+      "mtime": "2026-01-07T16:52:49.331545",
+      "size": 7311
+    },
+    "kubernetes/details-changelog-1.33.1.do-2.md": {
+      "hash": "60ce277a82fb8f0f70c6fddd5a4d24de",
+      "mtime": "2026-01-07T16:52:49.470040",
+      "size": 7341
+    },
+    "kubernetes/details-changelog-1.33.1.do-3.md": {
+      "hash": "d994f94745286d508559308aced04ff8",
+      "mtime": "2026-01-07T16:52:49.481622",
+      "size": 7297
+    },
+    "kubernetes/details-changelog-1.33.1.do-4.md": {
+      "hash": "0307ad0d9af744a6dd9952a035231a31",
+      "mtime": "2026-01-07T16:52:49.305122",
+      "size": 7402
+    },
+    "kubernetes/details-changelog-1.33.1.do-5.md": {
+      "hash": "6861f0bce750b215a60016ea4a7e367f",
+      "mtime": "2026-01-07T16:52:49.317767",
+      "size": 8166
+    },
+    "kubernetes/details-changelog-1.33.6.do-0.md": {
+      "hash": "fa7980bdd9eb8a5a51aa4e9cbd80006a",
+      "mtime": "2026-01-07T16:52:49.421085",
+      "size": 7322
+    },
+    "kubernetes/details-changelog-1.33.6.do-1.md": {
+      "hash": "0c477d33ee74de259d1adca8f0aa26b5",
+      "mtime": "2026-01-07T16:52:49.436420",
+      "size": 7469
+    },
+    "kubernetes/details-changelog-1.33.6.do-2.md": {
+      "hash": "2773ae6b47d477632301252de523d0e6",
+      "mtime": "2026-01-07T16:52:49.352068",
+      "size": 7318
+    },
+    "kubernetes/details-changelog-1.34.1.do-0.md": {
+      "hash": "2819300b5a30c01046d85afcc4b7c476",
+      "mtime": "2026-01-07T16:52:49.375893",
+      "size": 8376
+    },
+    "kubernetes/details-changelog-1.34.1.do-1.md": {
+      "hash": "74ec716476da36a35712a7ed476cee5a",
+      "mtime": "2026-01-07T16:52:49.363878",
+      "size": 7575
+    },
+    "kubernetes/details-changelog-1.34.1.do-2.md": {
+      "hash": "85d55a12044f1aeb4c654973b021dcd3",
+      "mtime": "2026-01-07T16:52:49.453786",
+      "size": 7318
+    },
+    "kubernetes/details-changelog.md": {
+      "hash": "38246267ec9519d0af9f406eeb9f14a8",
+      "mtime": "2026-01-07T16:52:49.366770",
+      "size": 157095
+    },
+    "kubernetes/details-features.md": {
+      "hash": "8bf9b0218537aeb1c9e2f0541272cf3e",
+      "mtime": "2026-01-07T16:52:49.399777",
+      "size": 16827
+    },
+    "kubernetes/details-limits.md": {
+      "hash": "0a35552a9601cdc56a9911eb15c74105",
+      "mtime": "2026-01-07T16:52:49.297466",
+      "size": 18521
+    },
+    "kubernetes/details-managed.md": {
+      "hash": "282bf9924fa1cd45139ca3e58c6a3993",
+      "mtime": "2026-01-07T16:52:49.484880",
+      "size": 14924
+    },
+    "kubernetes/details-pricing.md": {
+      "hash": "8fb98aaa39ea06c7d5c8d37f6c8c2f71",
+      "mtime": "2026-01-07T16:52:49.504206",
+      "size": 12774
+    },
+    "kubernetes/details-security.md": {
+      "hash": "08ec81905c642cc0c45aee1c4f75a7a4",
+      "mtime": "2026-01-07T16:52:49.449550",
+      "size": 10901
+    },
+    "kubernetes/details-supported-gpus.md": {
+      "hash": "8b1f9e032e168136560d6ee07ed6f32f",
+      "mtime": "2026-01-07T16:52:49.333774",
+      "size": 12510
+    },
+    "kubernetes/details.md": {
+      "hash": "1b268b21197407a6512f92f503614c23",
+      "mtime": "2026-01-07T16:52:49.341018",
+      "size": 9727
+    },
+    "kubernetes/getting-started-deploy-image-to-cluster.md": {
+      "hash": "b8052df779c59afee55d6505d02df62e",
+      "mtime": "2026-01-07T16:52:49.495140",
+      "size": 24031
+    },
+    "kubernetes/getting-started-operational-readiness-configure-wildcard-certificates.md": {
+      "hash": "0203f34fbfeb2e052b45fcd52ea849cf",
+      "mtime": "2026-01-07T16:52:49.513648",
+      "size": 24459
+    },
+    "kubernetes/getting-started-operational-readiness-enable-https.md": {
+      "hash": "7458587f66f1248d6fb5844a0ae2541b",
+      "mtime": "2026-01-07T16:52:49.460181",
+      "size": 23345
+    },
+    "kubernetes/getting-started-operational-readiness-install-nginx-ingress-controller.md": {
+      "hash": "9fe46fe014db8f3b9690a60a43b2f0c0",
+      "mtime": "2026-01-07T16:52:49.451035",
+      "size": 26286
+    },
+    "kubernetes/getting-started-operational-readiness.md": {
+      "hash": "399cb6d889a186c9d48730acf84a7869",
+      "mtime": "2026-01-07T16:52:49.311058",
+      "size": 9229
+    },
+    "kubernetes/getting-started-quickstart.md": {
+      "hash": "ec5e163ff628db155525726d9b12d3d3",
+      "mtime": "2026-01-07T16:52:49.495926",
+      "size": 14272
+    },
+    "kubernetes/getting-started.md": {
+      "hash": "774b687b20e1244839136d074d294ee7",
+      "mtime": "2026-01-07T16:52:49.392584",
+      "size": 7796
+    },
+    "kubernetes/how-to-add-control-plane-firewall.md": {
+      "hash": "5cd08f3afc2701727f427ea633990a42",
+      "mtime": "2026-01-07T16:52:49.494359",
+      "size": 13842
+    },
+    "kubernetes/how-to-add-load-balancers.md": {
+      "hash": "452c3986a8e7bc134d7d5e123ebd6433",
+      "mtime": "2026-01-07T16:52:49.357119",
+      "size": 15815
+    },
+    "kubernetes/how-to-add-node-pools.md": {
+      "hash": "7e77d5665ac6a093c3967702f48960da",
+      "mtime": "2026-01-07T16:52:49.458858",
+      "size": 16282
+    },
+    "kubernetes/how-to-add-volumes.md": {
+      "hash": "d55e193098a4d2ffc6412fae6524df01",
+      "mtime": "2026-01-07T16:52:49.477357",
+      "size": 19426
+    },
+    "kubernetes/how-to-autoscale.md": {
+      "hash": "be95ed9055e21aab1f64d7ff360f0cfa",
+      "mtime": "2026-01-07T16:52:49.440485",
+      "size": 25965
+    },
+    "kubernetes/how-to-configure-load-balancers.md": {
+      "hash": "cd9b5b5270a8f6af960a36164f3cb086",
+      "mtime": "2026-01-07T16:52:49.348265",
+      "size": 39825
+    },
+    "kubernetes/how-to-configure-multinode-gpus.md": {
+      "hash": "7d0cd2bbce16171dbae695081987ad2d",
+      "mtime": "2026-01-07T16:52:49.438363",
+      "size": 14442
+    },
+    "kubernetes/how-to-connect-to-cluster.md": {
+      "hash": "a7e86e900c46929857cd111f3b970097",
+      "mtime": "2026-01-07T16:52:49.378889",
+      "size": 14289
+    },
+    "kubernetes/how-to-create-clusters.md": {
+      "hash": "ff6dd75e26db4c21c3fcea652af60ee7",
+      "mtime": "2026-01-07T16:52:49.374364",
+      "size": 31825
+    },
+    "kubernetes/how-to-create-snapshots.md": {
+      "hash": "6e43179f4139e7be6e98db0c30ca361d",
+      "mtime": "2026-01-07T16:52:49.499919",
+      "size": 9360
+    },
+    "kubernetes/how-to-customize-coredns.md": {
+      "hash": "5fe2880fbb6c9a1f85f2514b6f70f260",
+      "mtime": "2026-01-07T16:52:49.292856",
+      "size": 11888
+    },
+    "kubernetes/how-to-delete-load-balancers.md": {
+      "hash": "500e9a34aa3923a80c78a06ef5ff4aa8",
+      "mtime": "2026-01-07T16:52:49.421722",
+      "size": 8490
+    },
+    "kubernetes/how-to-delete-volumes.md": {
+      "hash": "a9bbc4a1d64889ebb05314a6ed5d4769",
+      "mtime": "2026-01-07T16:52:49.383796",
+      "size": 8944
+    },
+    "kubernetes/how-to-deploy-using-github-actions.md": {
+      "hash": "2739e1349cb39ce7ff1ad32288d48535",
+      "mtime": "2026-01-07T16:52:49.335320",
+      "size": 17431
+    },
+    "kubernetes/how-to-destroy-clusters.md": {
+      "hash": "7582551d5300e23677bba446bfef4e49",
+      "mtime": "2026-01-07T16:52:49.301286",
+      "size": 11108
+    },
+    "kubernetes/how-to-enable-high-availability.md": {
+      "hash": "600aa51016400ec52cf49a16f518031a",
+      "mtime": "2026-01-07T16:52:49.448354",
+      "size": 12902
+    },
+    "kubernetes/how-to-forward-logs.md": {
+      "hash": "ac2a17114a2984ff7e824ed26154db6a",
+      "mtime": "2026-01-07T16:52:49.450290",
+      "size": 10448
+    },
+    "kubernetes/how-to-import-snapshot.md": {
+      "hash": "7d6ad04095848d5dfd3bef91bed8ee28",
+      "mtime": "2026-01-07T16:52:49.311576",
+      "size": 10978
+    },
+    "kubernetes/how-to-integrate-with-docr.md": {
+      "hash": "82b473cdc7a4cdc7e520c5c40525c1fe",
+      "mtime": "2026-01-07T16:52:49.301940",
+      "size": 11097
+    },
+    "kubernetes/how-to-manage-1click-apps.md": {
+      "hash": "1d3130ff534bf52fc56c73637f307190",
+      "mtime": "2026-01-07T16:52:49.372178",
+      "size": 17082
+    },
+    "kubernetes/how-to-migrate-load-balancers.md": {
+      "hash": "acdfe5dd9e88afc4ad8f796a5a67c8dc",
+      "mtime": "2026-01-07T16:52:49.367804",
+      "size": 10677
+    },
+    "kubernetes/how-to-monitor-advanced.md": {
+      "hash": "f806f051a919da1124cf7faa176b3ab3",
+      "mtime": "2026-01-07T16:52:49.307479",
+      "size": 12701
+    },
+    "kubernetes/how-to-monitor-basic.md": {
+      "hash": "9006e5b4190f13d7d6707e0dc6b5d38f",
+      "mtime": "2026-01-07T16:52:49.352943",
+      "size": 14889
+    },
+    "kubernetes/how-to-restore-volumes.md": {
+      "hash": "35c2814b224b548f13f1eb37162cd292",
+      "mtime": "2026-01-07T16:52:49.340461",
+      "size": 8005
+    },
+    "kubernetes/how-to-upgrade-cluster.md": {
+      "hash": "85a7c185a16696dec977978411503d4c",
+      "mtime": "2026-01-07T16:52:49.444608",
+      "size": 24957
+    },
+    "kubernetes/how-to-use-cilium-hubble.md": {
+      "hash": "e69151448fde92a47fc9b7cedc1a8d56",
+      "mtime": "2026-01-07T16:52:49.397955",
+      "size": 12182
+    },
+    "kubernetes/how-to-use-nfs-storage.md": {
+      "hash": "16badc24dd6c65ae2b41308c0af49bef",
+      "mtime": "2026-01-07T16:52:49.296728",
+      "size": 15414
+    },
+    "kubernetes/how-to-use-routing-agent.md": {
+      "hash": "3d6933ac150877c891e3eb265f51899d",
+      "mtime": "2026-01-07T16:52:49.339762",
+      "size": 21586
+    },
+    "kubernetes/how-to-use-spaces.md": {
+      "hash": "51475dbc0d5c89c71ca50e73680666fb",
+      "mtime": "2026-01-07T16:52:49.463597",
+      "size": 9129
+    },
+    "kubernetes/how-to.md": {
+      "hash": "ff507801b7288ecb5779c81a72d3589a",
+      "mtime": "2026-01-07T16:52:49.289996",
+      "size": 15250
+    },
+    "kubernetes/kubernetes-overview.md": {
+      "hash": "d9d69772fad477fe72f7dfc6910589de",
+      "mtime": "2026-01-07T16:52:49.384365",
+      "size": 7789
+    },
+    "kubernetes/reference.md": {
+      "hash": "54278d3add67b8b49bf066b0c9f62ff0",
+      "mtime": "2026-01-07T16:52:49.310347",
+      "size": 8692
+    },
+    "kubernetes/set-up-autoscaling.md": {
+      "hash": "0bfa66ffd8a5c1afb0ca13d90ac5065d",
+      "mtime": "2026-01-07T16:52:49.486552",
+      "size": 5954
+    },
+    "kubernetes/set-up-custom-rolebindings.md": {
+      "hash": "8bb7962ac7618f3b0d775d50986c9fb0",
+      "mtime": "2026-01-07T16:52:49.291892",
+      "size": 10968
+    },
+    "kubernetes/support.md": {
+      "hash": "2c6404c3f47259e3d1312ebd9feacc73",
+      "mtime": "2026-01-07T16:52:49.398535",
+      "size": 10378
+    },
+    "kubernetes/supported-releases.md": {
+      "hash": "f38da6e995fc5549d345f311dd377a8d",
+      "mtime": "2026-01-07T16:52:49.336114",
+      "size": 11235
+    },
+    "kubernetes/volume-features.md": {
+      "hash": "166f46261fb930b1f29dbdfa7752ba0b",
+      "mtime": "2026-01-07T16:52:49.487659",
+      "size": 10509
+    },
+    "networking/HARVEST-REPORT.md": {
+      "hash": "b0f7f9b19d3e025746c8dfecd27f9015",
+      "mtime": "2026-01-07T16:52:49.161349",
+      "size": 11506
+    },
+    "networking/README.md": {
+      "hash": "87113765a16e82745844adc7f735e44a",
+      "mtime": "2026-01-07T16:52:49.161059",
+      "size": 3544
+    },
+    "networking/dns/dns-concepts.md": {
+      "hash": "4cb4d378d7327c9a1b601704d55c3fbb",
+      "mtime": "2026-01-07T16:52:49.674778",
+      "size": 5832
+    },
+    "networking/dns/dns-details-availability.md": {
+      "hash": "8ccd1ad3cf84ea375f7b7aed6c37cb4a",
+      "mtime": "2026-01-07T16:52:49.673487",
+      "size": 4281
+    },
+    "networking/dns/dns-details-features.md": {
+      "hash": "b489a120e3495b98b795d2d0c425a231",
+      "mtime": "2026-01-07T16:52:49.676458",
+      "size": 4998
+    },
+    "networking/dns/dns-details-limits.md": {
+      "hash": "262d45b53337f6ae3565f5e58ba07b5c",
+      "mtime": "2026-01-07T16:52:49.674127",
+      "size": 6487
+    },
+    "networking/dns/dns-details-pricing.md": {
+      "hash": "3b78923fcccc510f0413f475ac53020a",
+      "mtime": "2026-01-07T16:52:49.668162",
+      "size": 4166
+    },
+    "networking/dns/dns-details.md": {
+      "hash": "bec48ff77ca106dc523f210aa06e1775",
+      "mtime": "2026-01-07T16:52:49.680663",
+      "size": 4844
+    },
+    "networking/dns/dns-getting-started-dns-registrars.md": {
+      "hash": "391c2e2b8b3f7ca6fee25afb0268e532",
+      "mtime": "2026-01-07T16:52:49.678036",
+      "size": 8609
+    },
+    "networking/dns/dns-getting-started-quickstart.md": {
+      "hash": "3ba6f9c2ff981c2fd4b0ea63e5bfabad",
+      "mtime": "2026-01-07T16:52:49.677162",
+      "size": 5647
+    },
+    "networking/dns/dns-getting-started.md": {
+      "hash": "57da72dba99f9d1fb2afb12fa2ecf72d",
+      "mtime": "2026-01-07T16:52:49.671067",
+      "size": 4624
+    },
+    "networking/dns/dns-how-to-add-domains.md": {
+      "hash": "a57bc5afef8054001ff6086062ca6f0c",
+      "mtime": "2026-01-07T16:52:49.670325",
+      "size": 9603
+    },
+    "networking/dns/dns-how-to-add-subdomain.md": {
+      "hash": "72b9021f87a47f9b1ee2d249f3d8baf4",
+      "mtime": "2026-01-07T16:52:49.678646",
+      "size": 7115
+    },
+    "networking/dns/dns-how-to-create-caa-records.md": {
+      "hash": "04e2d86e53d08409d7bef28d213c9a5b",
+      "mtime": "2026-01-07T16:52:49.679426",
+      "size": 7852
+    },
+    "networking/dns/dns-how-to-delete-domains.md": {
+      "hash": "5054d45c4ef960b555a18e67b7f41495",
+      "mtime": "2026-01-07T16:52:49.671942",
+      "size": 8172
+    },
+    "networking/dns/dns-how-to-download-zone-file.md": {
+      "hash": "b030ec7f05fd4a9d0cf864fbb2c9bbc8",
+      "mtime": "2026-01-07T16:52:49.668756",
+      "size": 4984
+    },
+    "networking/dns/dns-how-to-manage-records.md": {
+      "hash": "2e0ceb9cbc151aa3fe6d585a6aa20cbe",
+      "mtime": "2026-01-07T16:52:49.675596",
+      "size": 27202
+    },
+    "networking/dns/dns-how-to.md": {
+      "hash": "f673fd24f282f7f348c41282d4bcba52",
+      "mtime": "2026-01-07T16:52:49.667376",
+      "size": 5540
+    },
+    "networking/dns/dns-reference.md": {
+      "hash": "abf6a69d9f4da64a8b6c302a2f4ee6bd",
+      "mtime": "2026-01-07T16:52:49.680052",
+      "size": 6360
+    },
+    "networking/dns/dns-support.md": {
+      "hash": "4a3ee914b5e928a236d051eda5afb62b",
+      "mtime": "2026-01-07T16:52:49.669559",
+      "size": 7527
+    },
+    "networking/dns/dns.md": {
+      "hash": "1d1eb8fd07b93b11f48c4bceeaec85cf",
+      "mtime": "2026-01-07T16:52:49.672660",
+      "size": 7643
+    },
+    "networking/firewalls/firewalls-concepts-organization.md": {
+      "hash": "c2040a10c6e1fea4e7c1ef6e89d3f248",
+      "mtime": "2026-01-07T16:52:49.640300",
+      "size": 11476
+    },
+    "networking/firewalls/firewalls-concepts.md": {
+      "hash": "2dc8828f27e725b78e2d4d536e76da79",
+      "mtime": "2026-01-07T16:52:49.638783",
+      "size": 5473
+    },
+    "networking/firewalls/firewalls-details-availability.md": {
+      "hash": "c8ebdfb8632fddaa5385579ed0a45522",
+      "mtime": "2026-01-07T16:52:49.633784",
+      "size": 4296
+    },
+    "networking/firewalls/firewalls-details-features.md": {
+      "hash": "a15da4cbeb9ea7c1898efb8cdc088d09",
+      "mtime": "2026-01-07T16:52:49.638000",
+      "size": 4860
+    },
+    "networking/firewalls/firewalls-details-limits.md": {
+      "hash": "39e9a398a056cfc38bb245b8665272fd",
+      "mtime": "2026-01-07T16:52:49.642802",
+      "size": 5689
+    },
+    "networking/firewalls/firewalls-details-pricing.md": {
+      "hash": "dee8f9a65f7ee355ac49f625ba6cce25",
+      "mtime": "2026-01-07T16:52:49.641162",
+      "size": 4218
+    },
+    "networking/firewalls/firewalls-details.md": {
+      "hash": "0f5842ba02a00caf51e2af37cbdd512c",
+      "mtime": "2026-01-07T16:52:49.637238",
+      "size": 5180
+    },
+    "networking/firewalls/firewalls-getting-started-quickstart.md": {
+      "hash": "9bb38445b7bbba77d013575d6f95ad3f",
+      "mtime": "2026-01-07T16:52:49.635104",
+      "size": 6397
+    },
+    "networking/firewalls/firewalls-getting-started.md": {
+      "hash": "e57a1526b02a4dee696d7142941088d9",
+      "mtime": "2026-01-07T16:52:49.643574",
+      "size": 4374
+    },
+    "networking/firewalls/firewalls-how-to-configure-rules.md": {
+      "hash": "88c499c2fb50a09913cfdc63c3ba2cd6",
+      "mtime": "2026-01-07T16:52:49.636615",
+      "size": 26232
+    },
+    "networking/firewalls/firewalls-how-to-create.md": {
+      "hash": "ebb5b8cb46b2372ac5a9b67de1b206a7",
+      "mtime": "2026-01-07T16:52:49.632961",
+      "size": 14921
+    },
+    "networking/firewalls/firewalls-how-to-destroy.md": {
+      "hash": "84426465ad87df9f628c5b81a9d00432",
+      "mtime": "2026-01-07T16:52:49.645787",
+      "size": 8195
+    },
+    "networking/firewalls/firewalls-how-to-manage-droplets.md": {
+      "hash": "d503d0dc564ccb992e506a147761b161",
+      "mtime": "2026-01-07T16:52:49.644254",
+      "size": 12361
+    },
+    "networking/firewalls/firewalls-how-to-view-rules-for-droplet.md": {
+      "hash": "17f44205a46c258d94ea969ccec26ca6",
+      "mtime": "2026-01-07T16:52:49.634429",
+      "size": 5730
+    },
+    "networking/firewalls/firewalls-how-to.md": {
+      "hash": "49f92844bdc19681518ada9843d9e289",
+      "mtime": "2026-01-07T16:52:49.645044",
+      "size": 5464
+    },
+    "networking/firewalls/firewalls-reference.md": {
+      "hash": "93976b25468f65cfc897de25f3ee972f",
+      "mtime": "2026-01-07T16:52:49.635751",
+      "size": 5461
+    },
+    "networking/firewalls/firewalls-support.md": {
+      "hash": "91209b07adb06c1268348c978074cc8b",
+      "mtime": "2026-01-07T16:52:49.639440",
+      "size": 4889
+    },
+    "networking/firewalls/firewalls.md": {
+      "hash": "96b454bb13fb3a0330ec0816d322f3f7",
+      "mtime": "2026-01-07T16:52:49.641947",
+      "size": 7879
+    },
+    "networking/general/index.md": {
+      "hash": "f310502c72f31382b49b1596668f45cb",
+      "mtime": "2026-01-07T16:52:49.588596",
+      "size": 10742
+    },
+    "networking/ipv6/ipv6-concepts.md": {
+      "hash": "90c4d4571b101c1435375c9052d8b872",
+      "mtime": "2026-01-07T16:52:49.689957",
+      "size": 4337
+    },
+    "networking/ipv6/ipv6-details-availability.md": {
+      "hash": "da89b269a185355e621a43d75b6a9dc0",
+      "mtime": "2026-01-07T16:52:49.691502",
+      "size": 4014
+    },
+    "networking/ipv6/ipv6-details-features.md": {
+      "hash": "0dab4db1f9abff299f22ba34af2b0281",
+      "mtime": "2026-01-07T16:52:49.685015",
+      "size": 4561
+    },
+    "networking/ipv6/ipv6-details-limits.md": {
+      "hash": "27949b9464e8c919335023e264429bb6",
+      "mtime": "2026-01-07T16:52:49.688642",
+      "size": 5126
+    },
+    "networking/ipv6/ipv6-details-pricing.md": {
+      "hash": "e91acb541250cf63dd6a65b58ba1443d",
+      "mtime": "2026-01-07T16:52:49.689362",
+      "size": 4115
+    },
+    "networking/ipv6/ipv6-details.md": {
+      "hash": "30406486e6109acd608cc6375c9958b8",
+      "mtime": "2026-01-07T16:52:49.687859",
+      "size": 4773
+    },
+    "networking/ipv6/ipv6-getting-started-quickstart.md": {
+      "hash": "1bd103cc44d681514af8223e004d91a2",
+      "mtime": "2026-01-07T16:52:49.686536",
+      "size": 5713
+    },
+    "networking/ipv6/ipv6-getting-started.md": {
+      "hash": "bdcd89e01dc9361b2d95596db31ea8a0",
+      "mtime": "2026-01-07T16:52:49.685855",
+      "size": 4131
+    },
+    "networking/ipv6/ipv6-how-to-configure-additional-addresses.md": {
+      "hash": "17b8524120c8e66cbbbfc6ac09e4215d",
+      "mtime": "2026-01-07T16:52:49.690769",
+      "size": 10313
+    },
+    "networking/ipv6/ipv6-how-to-disable-ipv4.md": {
+      "hash": "c16dedaf247a24bbbf43dd812e3869f6",
+      "mtime": "2026-01-07T16:52:49.687214",
+      "size": 9150
+    },
+    "networking/ipv6/ipv6-how-to-enable.md": {
+      "hash": "28695a15e8a85ff7a1cf1a2fdfe76e92",
+      "mtime": "2026-01-07T16:52:49.682930",
+      "size": 22498
+    },
+    "networking/ipv6/ipv6-how-to.md": {
+      "hash": "ce4fbf4e798b683c343da26dcc2f132f",
+      "mtime": "2026-01-07T16:52:49.682100",
+      "size": 4641
+    },
+    "networking/ipv6/ipv6-reference.md": {
+      "hash": "a7d2002ac0bbf25d9a9f80e0d03f83c9",
+      "mtime": "2026-01-07T16:52:49.684421",
+      "size": 5544
+    },
+    "networking/ipv6/ipv6-support.md": {
+      "hash": "1b5039d961f5334e94bd465d34090272",
+      "mtime": "2026-01-07T16:52:49.681479",
+      "size": 5111
+    },
+    "networking/ipv6/ipv6.md": {
+      "hash": "9e23b57e374fd0325183bb344a444277",
+      "mtime": "2026-01-07T16:52:49.683685",
+      "size": 6485
+    },
+    "networking/load-balancers/load-balancers-concepts-best-practices.md": {
+      "hash": "85c7e5fc2e4cb94b4bd057fd5005a01a",
+      "mtime": "2026-01-07T16:52:49.653304",
+      "size": 11638
+    },
+    "networking/load-balancers/load-balancers-concepts-load-balancer-status.md": {
+      "hash": "6782c7e9147ac4fa0da9f59d28f6c6e0",
+      "mtime": "2026-01-07T16:52:49.664140",
+      "size": 6086
+    },
+    "networking/load-balancers/load-balancers-concepts.md": {
+      "hash": "91f56c88996b2c99a0e454d79ffacdfb",
+      "mtime": "2026-01-07T16:52:49.664883",
+      "size": 5677
+    },
+    "networking/load-balancers/load-balancers-details-availability.md": {
+      "hash": "aa2ee7b8e3f6adab4b9810046f265aff",
+      "mtime": "2026-01-07T16:52:49.646546",
+      "size": 5501
+    },
+    "networking/load-balancers/load-balancers-details-features.md": {
+      "hash": "deb05f333a3ddabe4e763b087d74a707",
+      "mtime": "2026-01-07T16:52:49.655238",
+      "size": 17269
+    },
+    "networking/load-balancers/load-balancers-details-limits.md": {
+      "hash": "437296250ac177f8e8cc4aa7a41df04d",
+      "mtime": "2026-01-07T16:52:49.654317",
+      "size": 12366
+    },
+    "networking/load-balancers/load-balancers-details-pricing.md": {
+      "hash": "5d717f07150738e5fd4bb604f41b54f8",
+      "mtime": "2026-01-07T16:52:49.663359",
+      "size": 8038
+    },
+    "networking/load-balancers/load-balancers-details.md": {
+      "hash": "4d70779ba2305f9c3422076d5a076057",
+      "mtime": "2026-01-07T16:52:49.647332",
+      "size": 6172
+    },
+    "networking/load-balancers/load-balancers-getting-started-quickstart.md": {
+      "hash": "f9265981d2408b80a3ba454e2abdd83e",
+      "mtime": "2026-01-07T16:52:49.661777",
+      "size": 7522
+    },
+    "networking/load-balancers/load-balancers-getting-started-with-doctl.md": {
+      "hash": "05b337b3cd4ed1a9c3e4fe6dd006675f",
+      "mtime": "2026-01-07T16:52:49.650043",
+      "size": 18900
+    },
+    "networking/load-balancers/load-balancers-getting-started.md": {
+      "hash": "125971a84542931bc9a612755ebcaddd",
+      "mtime": "2026-01-07T16:52:49.659483",
+      "size": 5719
+    },
+    "networking/load-balancers/load-balancers-how-to-configure-droplets-for-nlb.md": {
+      "hash": "15ec51b8b78b1e79451c4744d65a9662",
+      "mtime": "2026-01-07T16:52:49.666721",
+      "size": 9469
+    },
+    "networking/load-balancers/load-balancers-how-to-create-global-load-balancer.md": {
+      "hash": "fdf5df040bbac79618d6dca73cfdfc1e",
+      "mtime": "2026-01-07T16:52:49.662598",
+      "size": 14947
+    },
+    "networking/load-balancers/load-balancers-how-to-create.md": {
+      "hash": "30841f3f6dc87aea5b6c0c1043180a21",
+      "mtime": "2026-01-07T16:52:49.648187",
+      "size": 24058
+    },
+    "networking/load-balancers/load-balancers-how-to-destroy.md": {
+      "hash": "502d2e39553f33a9eca98a4debc6f1eb",
+      "mtime": "2026-01-07T16:52:49.656137",
+      "size": 8901
+    },
+    "networking/load-balancers/load-balancers-how-to-manage-global-load-balancers.md": {
+      "hash": "a457f5bce2f8baf470181331f2c63bd8",
+      "mtime": "2026-01-07T16:52:49.651625",
+      "size": 12518
+    },
+    "networking/load-balancers/load-balancers-how-to-manage.md": {
+      "hash": "3c23d1ed4b539975fdf175d88e2d9e39",
+      "mtime": "2026-01-07T16:52:49.665741",
+      "size": 37844
+    },
+    "networking/load-balancers/load-balancers-how-to-scale.md": {
+      "hash": "aaf7bb528cd453b138d26555181faa23",
+      "mtime": "2026-01-07T16:52:49.652488",
+      "size": 15861
+    },
+    "networking/load-balancers/load-balancers-how-to-ssl-passthrough.md": {
+      "hash": "5b6b7e398e97eb8c443f9d03bfb3a5a6",
+      "mtime": "2026-01-07T16:52:49.660175",
+      "size": 10784
+    },
+    "networking/load-balancers/load-balancers-how-to-ssl-termination.md": {
+      "hash": "a8ac0bdf384368fbf4775f4bd7f4c1ff",
+      "mtime": "2026-01-07T16:52:49.649137",
+      "size": 15606
+    },
+    "networking/load-balancers/load-balancers-how-to-tcp.md": {
+      "hash": "945ea9d7df089b2518a52e11f84db51c",
+      "mtime": "2026-01-07T16:52:49.657874",
+      "size": 7523
+    },
+    "networking/load-balancers/load-balancers-how-to.md": {
+      "hash": "c765460ed171b15bd6cbf4c52652bca7",
+      "mtime": "2026-01-07T16:52:49.660974",
+      "size": 8050
+    },
+    "networking/load-balancers/load-balancers-reference.md": {
+      "hash": "18133b44127a270a35ea12d318f2b22c",
+      "mtime": "2026-01-07T16:52:49.650837",
+      "size": 6211
+    },
+    "networking/load-balancers/load-balancers-support.md": {
+      "hash": "ca7fca3b6539f9ac71619d042d791a88",
+      "mtime": "2026-01-07T16:52:49.658706",
+      "size": 7550
+    },
+    "networking/load-balancers/load-balancers.md": {
+      "hash": "f1ad2c80a9f1938ceee6587a6c6df334",
+      "mtime": "2026-01-07T16:52:49.657144",
+      "size": 10706
+    },
+    "networking/reserved-ips/reserved-ips-concepts.md": {
+      "hash": "8d78f9eb7b8a5d501600a89b66f801c4",
+      "mtime": "2026-01-07T16:52:49.603601",
+      "size": 4861
+    },
+    "networking/reserved-ips/reserved-ips-details-availability.md": {
+      "hash": "d41eeed74fd2cb1e11cb6676e128119b",
+      "mtime": "2026-01-07T16:52:49.600625",
+      "size": 5179
+    },
+    "networking/reserved-ips/reserved-ips-details-features.md": {
+      "hash": "046c9bc82970f4e87df1b39392042eef",
+      "mtime": "2026-01-07T16:52:49.589374",
+      "size": 6146
+    },
+    "networking/reserved-ips/reserved-ips-details-limits.md": {
+      "hash": "bf182b1bfc426ad034e9f10ff1b2772a",
+      "mtime": "2026-01-07T16:52:49.590921",
+      "size": 6876
+    },
+    "networking/reserved-ips/reserved-ips-details-pricing.md": {
+      "hash": "fca4ea2b397b51f4722696e4ec67eb9f",
+      "mtime": "2026-01-07T16:52:49.602865",
+      "size": 5346
+    },
+    "networking/reserved-ips/reserved-ips-details.md": {
+      "hash": "de5aebb4e5a88dc5eabb3dd07db8cb1b",
+      "mtime": "2026-01-07T16:52:49.606565",
+      "size": 5781
+    },
+    "networking/reserved-ips/reserved-ips-getting-started-quickstart.md": {
+      "hash": "bb199f63e94372b6b9499d9a2283c377",
+      "mtime": "2026-01-07T16:52:49.602062",
+      "size": 6643
+    },
+    "networking/reserved-ips/reserved-ips-getting-started.md": {
+      "hash": "6de646ed0969c6bb47d6c878e0592712",
+      "mtime": "2026-01-07T16:52:49.604893",
+      "size": 4979
+    },
+    "networking/reserved-ips/reserved-ips-how-to-assign-byoip-ip.md": {
+      "hash": "d6ecf9f9e635726a8fa501b5ee11a48c",
+      "mtime": "2026-01-07T16:52:49.592254",
+      "size": 7221
+    },
+    "networking/reserved-ips/reserved-ips-how-to-create.md": {
+      "hash": "183667ca3e006a2f077ad04ef8a949eb",
+      "mtime": "2026-01-07T16:52:49.593967",
+      "size": 12817
+    },
+    "networking/reserved-ips/reserved-ips-how-to-delete.md": {
+      "hash": "a13ec8bd98b9b33dbec0d3f2553899ef",
+      "mtime": "2026-01-07T16:52:49.598931",
+      "size": 9615
+    },
+    "networking/reserved-ips/reserved-ips-how-to-deprovision-byoip.md": {
+      "hash": "4d5dfaac79498f0dfabdb0e724a24bf6",
+      "mtime": "2026-01-07T16:52:49.590283",
+      "size": 7075
+    },
+    "networking/reserved-ips/reserved-ips-how-to-find-anchor-ips.md": {
+      "hash": "a9c98d76c5413dd0d7400481c918a37f",
+      "mtime": "2026-01-07T16:52:49.593087",
+      "size": 7381
+    },
+    "networking/reserved-ips/reserved-ips-how-to-manually-enable.md": {
+      "hash": "479fef35f3094277c5d1640c38e4b2b0",
+      "mtime": "2026-01-07T16:52:49.598070",
+      "size": 11938
+    },
+    "networking/reserved-ips/reserved-ips-how-to-modify-byoip-ip.md": {
+      "hash": "287b5886156f93f83892d299bd851abc",
+      "mtime": "2026-01-07T16:52:49.604231",
+      "size": 9902
+    },
+    "networking/reserved-ips/reserved-ips-how-to-modify.md": {
+      "hash": "8c6748604c9b9c0f1df95a51a4ccd816",
+      "mtime": "2026-01-07T16:52:49.605711",
+      "size": 11053
+    },
+    "networking/reserved-ips/reserved-ips-how-to-outbound-traffic.md": {
+      "hash": "db093cc03f7ab2bac192e3507e72169e",
+      "mtime": "2026-01-07T16:52:49.595578",
+      "size": 13528
+    },
+    "networking/reserved-ips/reserved-ips-how-to-pause-byoip.md": {
+      "hash": "a68a45aa2e35c17ff6733da4bcfc1f1e",
+      "mtime": "2026-01-07T16:52:49.591567",
+      "size": 9067
+    },
+    "networking/reserved-ips/reserved-ips-how-to-provision-byoip.md": {
+      "hash": "7f13437270176406e46144ab0f378a01",
+      "mtime": "2026-01-07T16:52:49.601375",
+      "size": 20721
+    },
+    "networking/reserved-ips/reserved-ips-how-to.md": {
+      "hash": "fe6e3acfec5438b004356c2dddecaf68",
+      "mtime": "2026-01-07T16:52:49.594723",
+      "size": 7463
+    },
+    "networking/reserved-ips/reserved-ips-reference.md": {
+      "hash": "c0ebfb113cacd613a575720dc50c857f",
+      "mtime": "2026-01-07T16:52:49.596480",
+      "size": 5974
+    },
+    "networking/reserved-ips/reserved-ips-support.md": {
+      "hash": "6ca85d2ed39cae4189836aa060687308",
+      "mtime": "2026-01-07T16:52:49.599739",
+      "size": 5830
+    },
+    "networking/reserved-ips/reserved-ips.md": {
+      "hash": "20d3f0b804e2f7265c5f0f42b9f6a636",
+      "mtime": "2026-01-07T16:52:49.597267",
+      "size": 8980
+    },
+    "networking/vpc/vpc-concepts-best-practices.md": {
+      "hash": "6d965dac9ec12104c3fc89ee048716eb",
+      "mtime": "2026-01-07T16:52:49.622180",
+      "size": 14395
+    },
+    "networking/vpc/vpc-concepts-plan-your-network.md": {
+      "hash": "5640e371c996e4c45e4f509d62423c31",
+      "mtime": "2026-01-07T16:52:49.619002",
+      "size": 12251
+    },
+    "networking/vpc/vpc-concepts.md": {
+      "hash": "ce0a17e225f12fbc908fa32362b82867",
+      "mtime": "2026-01-07T16:52:49.630961",
+      "size": 5905
+    },
+    "networking/vpc/vpc-details-availability.md": {
+      "hash": "b7fa0fecc880029a55f3ddd3fb9a773a",
+      "mtime": "2026-01-07T16:52:49.607944",
+      "size": 5788
+    },
+    "networking/vpc/vpc-details-features.md": {
+      "hash": "802b9f988892a341f92b50d8664189ad",
+      "mtime": "2026-01-07T16:52:49.612558",
+      "size": 12104
+    },
+    "networking/vpc/vpc-details-limits.md": {
+      "hash": "fb284d4e134c58945af8f8210076eabd",
+      "mtime": "2026-01-07T16:52:49.625363",
+      "size": 9698
+    },
+    "networking/vpc/vpc-details-pricing.md": {
+      "hash": "47d6913832b4a5e1fbe3084544440cdc",
+      "mtime": "2026-01-07T16:52:49.610262",
+      "size": 6909
+    },
+    "networking/vpc/vpc-details.md": {
+      "hash": "23a1046dfbc793c72088d17e49390f4b",
+      "mtime": "2026-01-07T16:52:49.630132",
+      "size": 6593
+    },
+    "networking/vpc/vpc-getting-started-quickstart.md": {
+      "hash": "e5b1f455a94b0b4a5e221df1c3b410c3",
+      "mtime": "2026-01-07T16:52:49.614773",
+      "size": 8220
+    },
+    "networking/vpc/vpc-getting-started.md": {
+      "hash": "311384b338bdc8f5254753e46e947c42",
+      "mtime": "2026-01-07T16:52:49.614131",
+      "size": 5635
+    },
+    "networking/vpc/vpc-how-to-add-ha-to-partner-attachment.md": {
+      "hash": "e3fc2d8622c0069fce66e448c829e882",
+      "mtime": "2026-01-07T16:52:49.626016",
+      "size": 10955
+    },
+    "networking/vpc/vpc-how-to-add-resources.md": {
+      "hash": "bbab3fe73b8090d170a591a3e4c13031",
+      "mtime": "2026-01-07T16:52:49.620489",
+      "size": 7072
+    },
+    "networking/vpc/vpc-how-to-configure-doks-nat-gateway.md": {
+      "hash": "762fb25977ce31f7e5103c921ad9f978",
+      "mtime": "2026-01-07T16:52:49.617047",
+      "size": 6174
+    },
+    "networking/vpc/vpc-how-to-configure-droplet-nat-gateway.md": {
+      "hash": "3716ca303ddbbc0edc95e5b3f6252b23",
+      "mtime": "2026-01-07T16:52:49.615624",
+      "size": 20695
+    },
+    "networking/vpc/vpc-how-to-create-nat-gateway.md": {
+      "hash": "80555d3a6e385eade251c1dd706b69bf",
+      "mtime": "2026-01-07T16:52:49.629461",
+      "size": 11991
+    },
+    "networking/vpc/vpc-how-to-create-partner-attachment.md": {
+      "hash": "4dab1a115257a69f2579c4f1a5edbc29",
+      "mtime": "2026-01-07T16:52:49.626941",
+      "size": 22196
+    },
+    "networking/vpc/vpc-how-to-create-peering.md": {
+      "hash": "36dc832589de7a24a17160b38e200bf7",
+      "mtime": "2026-01-07T16:52:49.618326",
+      "size": 10927
+    },
+    "networking/vpc/vpc-how-to-create.md": {
+      "hash": "ebc59d7f49bcbbe7ef3c749cae67cb13",
+      "mtime": "2026-01-07T16:52:49.631962",
+      "size": 11281
+    },
+    "networking/vpc/vpc-how-to-destroy-nat-gateway.md": {
+      "hash": "4826d324022017bc1ff7fe29b9390c5c",
+      "mtime": "2026-01-07T16:52:49.624506",
+      "size": 8479
+    },
+    "networking/vpc/vpc-how-to-destroy-partner-attachment.md": {
+      "hash": "f551901f853463034ecd7757b2e11336",
+      "mtime": "2026-01-07T16:52:49.609469",
+      "size": 6791
+    },
+    "networking/vpc/vpc-how-to-destroy-peering.md": {
+      "hash": "45ce1d75b797e4c84115be8af02879dc",
+      "mtime": "2026-01-07T16:52:49.613372",
+      "size": 8503
+    },
+    "networking/vpc/vpc-how-to-destroy.md": {
+      "hash": "4f7876044c54ef907e2bcdc760622d6d",
+      "mtime": "2026-01-07T16:52:49.619699",
+      "size": 8960
+    },
+    "networking/vpc/vpc-how-to-edit-partner-attachment-vpc.md": {
+      "hash": "66fe9054292cb0cb0e20aca4c9837024",
+      "mtime": "2026-01-07T16:52:49.622957",
+      "size": 7338
+    },
+    "networking/vpc/vpc-how-to-enable.md": {
+      "hash": "fee08010e7c53e0f5f75aa8019fc9e33",
+      "mtime": "2026-01-07T16:52:49.608770",
+      "size": 16505
+    },
+    "networking/vpc/vpc-how-to-migrate-resources.md": {
+      "hash": "c0246dde0505c64cce72bc437630ff82",
+      "mtime": "2026-01-07T16:52:49.628580",
+      "size": 10367
+    },
+    "networking/vpc/vpc-how-to-set-default-vpc.md": {
+      "hash": "37679ab4898ca1d9db55eec4ccab7d2a",
+      "mtime": "2026-01-07T16:52:49.611911",
+      "size": 6760
+    },
+    "networking/vpc/vpc-how-to-troubleshoot-partner-attachment.md": {
+      "hash": "d6564e71f3fb3292e2560e4ba7ec363c",
+      "mtime": "2026-01-07T16:52:49.607212",
+      "size": 8273
+    },
+    "networking/vpc/vpc-how-to-update-peering-routes.md": {
+      "hash": "b66fbe1e343dc1ef5c11f5d5030b25bb",
+      "mtime": "2026-01-07T16:52:49.627618",
+      "size": 17440
+    },
+    "networking/vpc/vpc-how-to-use-local-dns-resolver.md": {
+      "hash": "0ba5b1a69d853d23cad3f6ccb40d1a43",
+      "mtime": "2026-01-07T16:52:49.623840",
+      "size": 13469
+    },
+    "networking/vpc/vpc-how-to.md": {
+      "hash": "40a898dbe50887eaf5798222f6a1aeac",
+      "mtime": "2026-01-07T16:52:49.617696",
+      "size": 9874
+    },
+    "networking/vpc/vpc-reference.md": {
+      "hash": "3f24853b0f01a9ac2ca95cf3c7915601",
+      "mtime": "2026-01-07T16:52:49.611096",
+      "size": 6796
+    },
+    "networking/vpc/vpc-support.md": {
+      "hash": "26d880c32ca26a26d5f66be89cdd52df",
+      "mtime": "2026-01-07T16:52:49.616393",
+      "size": 5687
+    },
+    "networking/vpc/vpc.md": {
+      "hash": "8ca7c90656dadbb7e1f72a1d98ad7587",
+      "mtime": "2026-01-07T16:52:49.621271",
+      "size": 9500
+    },
+    "storage/FINAL_HARVEST_REPORT.md": {
+      "hash": "f912610bab3b91ed28c52e1a09e66323",
+      "mtime": "2026-01-07T16:52:49.181014",
+      "size": 14760
+    },
+    "storage/README.md": {
+      "hash": "a9e729b129ce9cbd233b9503f2876fb7",
+      "mtime": "2026-01-07T16:52:49.174715",
+      "size": 4435
+    },
+    "storage/SCRAPING_REPORT.md": {
+      "hash": "90c90fd98d1c6f5a985d2b204a6f8290",
+      "mtime": "2026-01-07T16:52:49.179284",
+      "size": 7928
+    },
+    "storage/spaces-concepts.md": {
+      "hash": "53f1ac6ae8218d87455ba7ebc5cf8220",
+      "mtime": "2026-01-07T16:52:49.171424",
+      "size": 1543
+    },
+    "storage/spaces-details-availability.md": {
+      "hash": "c1b272e758f1b2cc5aae0d505c2d06cc",
+      "mtime": "2026-01-07T16:52:49.176270",
+      "size": 1385
+    },
+    "storage/spaces-details-features.md": {
+      "hash": "db0fe7a07c305914142794f34466433f",
+      "mtime": "2026-01-07T16:52:49.177150",
+      "size": 1928
+    },
+    "storage/spaces-details-limits.md": {
+      "hash": "2811debfbdb02fa019cc24b98e8cbdf8",
+      "mtime": "2026-01-07T16:52:49.169735",
+      "size": 3662
+    },
+    "storage/spaces-details-pricing.md": {
+      "hash": "3d73b8ab2c01a53691923a504a8a764f",
+      "mtime": "2026-01-07T16:52:49.171001",
+      "size": 1642
+    },
+    "storage/spaces-details.md": {
+      "hash": "0b2e4c68d78f1c080816e57dd300b90a",
+      "mtime": "2026-01-07T16:52:49.174313",
+      "size": 1469
+    },
+    "storage/spaces-getting-started-quickstart.md": {
+      "hash": "32f0f9207717c29578b2fbeead7dbbe1",
+      "mtime": "2026-01-07T16:52:49.169051",
+      "size": 2010
+    },
+    "storage/spaces-getting-started.md": {
+      "hash": "f1034d45da2e667395a023a740b50089",
+      "mtime": "2026-01-07T16:52:49.171995",
+      "size": 1546
+    },
+    "storage/spaces-how-to-configure-bucket-policies.md": {
+      "hash": "c5974fcac3e619235657e54668a14af7",
+      "mtime": "2026-01-07T16:52:49.173743",
+      "size": 784
+    },
+    "storage/spaces-how-to-configure-lifecycle-rules.md": {
+      "hash": "1e7dd4bccb0d693c5dc53029765466d6",
+      "mtime": "2026-01-07T16:52:49.179844",
+      "size": 865
+    },
+    "storage/spaces-how-to-destroy.md": {
+      "hash": "cae4e97ff09df65e6760e48c35be81dd",
+      "mtime": "2026-01-07T16:52:49.168382",
+      "size": 829
+    },
+    "storage/spaces-how-to-enable-versioning.md": {
+      "hash": "650484482898105e2e6b9e17a8bcf23f",
+      "mtime": "2026-01-07T16:52:49.175833",
+      "size": 947
+    },
+    "storage/spaces-how-to-manage-cdn-cache.md": {
+      "hash": "2e1faf7fc57efe83ce6a4f8280b1dbf5",
+      "mtime": "2026-01-07T16:52:49.180394",
+      "size": 1182
+    },
+    "storage/spaces-how-to-set-file-listing-permissions.md": {
+      "hash": "24ee099724a1c89807a9d7b7a3f31d6d",
+      "mtime": "2026-01-07T16:52:49.167160",
+      "size": 1039
+    },
+    "storage/spaces-how-to-set-file-metadata.md": {
+      "hash": "7d2a8f20da21860167c57e53198c4120",
+      "mtime": "2026-01-07T16:52:49.170401",
+      "size": 1135
+    },
+    "storage/spaces-how-to-transfer-between-regions.md": {
+      "hash": "5be2f70d31f05384d175219d3f0ac36a",
+      "mtime": "2026-01-07T16:52:49.181655",
+      "size": 1061
+    },
+    "storage/spaces-how-to-use-folders.md": {
+      "hash": "e7256544b77cc9b6864e1587e06531a2",
+      "mtime": "2026-01-07T16:52:49.166572",
+      "size": 1080
+    },
+    "storage/spaces-how-to.md": {
+      "hash": "8d11e7cf34c9b70c52372f81c8eaa2a2",
+      "mtime": "2026-01-07T16:52:49.167740",
+      "size": 1461
+    },
+    "storage/spaces-reference-s3cmd-usage.md": {
+      "hash": "fe77fa6bbe43ed7b96e8cfd2a818ba3a",
+      "mtime": "2026-01-07T16:52:49.173147",
+      "size": 901
+    },
+    "storage/spaces-reference-s3cmd.md": {
+      "hash": "3ebff514bb4dfc9ca5292abaa27ab607",
+      "mtime": "2026-01-07T16:52:49.175262",
+      "size": 1029
+    },
+    "storage/spaces-reference-transmit4.md": {
+      "hash": "4bca782762e241aaa474c0a8606d5de1",
+      "mtime": "2026-01-07T16:52:49.176713",
+      "size": 1112
+    },
+    "storage/spaces-reference-transmit5.md": {
+      "hash": "b6211cdfeb47d2cd52b76db972b39a1c",
+      "mtime": "2026-01-07T16:52:49.178338",
+      "size": 1109
+    },
+    "storage/spaces-reference.md": {
+      "hash": "882becac3f76a77df07c332fbbc17bbd",
+      "mtime": "2026-01-07T16:52:49.178893",
+      "size": 1423
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.094238"
+}

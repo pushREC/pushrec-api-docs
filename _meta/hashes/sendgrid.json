@@ -1,0 +1,32 @@
+{
+  "api": "sendgrid",
+  "file_count": 5,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "ff2d6fe4f11b869ac988b820e7465421",
+      "mtime": "2026-01-09T07:35:18.475071",
+      "size": 428
+    },
+    "README.md": {
+      "hash": "e0ba080ca095fe687ed481168ad40227",
+      "mtime": "2026-01-09T07:35:18.474523",
+      "size": 1021
+    },
+    "SOURCES.md": {
+      "hash": "c6662472c0e1d7bfd13ca5d9f55ec260",
+      "mtime": "2026-01-09T07:35:18.474961",
+      "size": 415
+    },
+    "mail-batch.md": {
+      "hash": "fbb682575c0ddecef9c5d964b920eaa5",
+      "mtime": "2026-01-09T07:35:18.474714",
+      "size": 2058
+    },
+    "mail-send.md": {
+      "hash": "4d9e283d9535aa487b95f3f355cca55f",
+      "mtime": "2026-01-09T07:35:18.474845",
+      "size": 950
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.408527"
+}

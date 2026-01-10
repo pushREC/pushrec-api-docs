@@ -1,0 +1,82 @@
+{
+  "api": "groq",
+  "file_count": 15,
+  "files": {
+    "COVERAGE.md": {
+      "hash": "7b89d66938bb320dfdf274646557f62c",
+      "mtime": "2026-01-09T07:28:42.994683",
+      "size": 966
+    },
+    "SOURCES.md": {
+      "hash": "bf0ff42e5d0c1725a8195febb485d5cf",
+      "mtime": "2026-01-09T07:28:42.994577",
+      "size": 768
+    },
+    "api-reference.md": {
+      "hash": "4b0ced4c69a1589937990f7b9dbe9271",
+      "mtime": "2026-01-09T07:27:59.769226",
+      "size": 72840
+    },
+    "audio.md": {
+      "hash": "f5d1f74f222770893649a6e599d5fa64",
+      "mtime": "2026-01-09T07:28:14.312577",
+      "size": 394
+    },
+    "errors.md": {
+      "hash": "b62cddd689e6bb270b9e9f77c199bea2",
+      "mtime": "2026-01-09T07:28:28.784127",
+      "size": 10706
+    },
+    "libraries.md": {
+      "hash": "275346e8241257188f15cc9dffe0f0dc",
+      "mtime": "2026-01-09T07:28:31.389843",
+      "size": 15365
+    },
+    "models.md": {
+      "hash": "a23504abd03dc14e0668d1e12b18cc15",
+      "mtime": "2026-01-09T07:28:02.486445",
+      "size": 13667
+    },
+    "overview.md": {
+      "hash": "a1cb2086dd77ef61534a614a351a278b",
+      "mtime": "2026-01-09T07:27:49.397650",
+      "size": 8769
+    },
+    "quickstart.md": {
+      "hash": "6e3af58d9c3841087078a0159509778d",
+      "mtime": "2026-01-09T07:28:04.666774",
+      "size": 9390
+    },
+    "rate-limits.md": {
+      "hash": "eefc3551bdc18b7be91e8ced814a0f66",
+      "mtime": "2026-01-09T07:28:26.837378",
+      "size": 10538
+    },
+    "speech-to-text.md": {
+      "hash": "3c038bf9e1c486f0b41d9758007e1fa1",
+      "mtime": "2026-01-09T07:28:25.293639",
+      "size": 19115
+    },
+    "streaming.md": {
+      "hash": "5bbea0812e89849d8bf2d0b643479103",
+      "mtime": "2026-01-09T07:28:17.245125",
+      "size": 398
+    },
+    "text-chat.md": {
+      "hash": "8fba902b1a0af5fd30eec5c8441a7d81",
+      "mtime": "2026-01-09T07:28:06.686248",
+      "size": 19789
+    },
+    "tool-use.md": {
+      "hash": "e59ee582c27cb0ae63cdf7125eb8a0ef",
+      "mtime": "2026-01-09T07:28:11.230540",
+      "size": 19622
+    },
+    "vision.md": {
+      "hash": "c2baeffdeba15076dd14aa37f8afc1d0",
+      "mtime": "2026-01-09T07:28:08.888558",
+      "size": 18817
+    }
+  },
+  "generated_at": "2026-01-10T04:20:17.315095"
+}
