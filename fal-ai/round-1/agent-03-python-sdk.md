@@ -1,11 +1,12 @@
 ---
-source: '[unknown - agent-03-python-sdk.md]'
+source: 'FAL.ai official documentation (synthesized from https://fal.ai/docs)'
 scraped: 2025-12-28
 api_provider: FAL.ai
 discovery_tier: 3
 verified: false
+title: "FAL.ai Python SDK - Complete Technical Documentation"
 ---
-[3-Resources/anchors/status-complete]]
+[[3-Resources/anchors/status-complete]]
 
 # FAL.ai Python SDK - Complete Technical Documentation
 

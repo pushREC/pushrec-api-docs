@@ -1,9 +1,10 @@
 ---
-source: '[unknown - agent-07-finetuning-training.md]'
+source: 'FAL.ai official documentation (synthesized from https://fal.ai/docs)'
 scraped: 2025-12-29
 api_provider: FAL.ai
 discovery_tier: 3
 verified: false
+title: "FAL.ai Fine-Tuning & Training API - Complete Reference"
 ---
  FAL.ai Fine-Tuning & Training API - Complete Reference
 

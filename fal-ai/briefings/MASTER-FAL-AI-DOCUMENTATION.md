@@ -1,9 +1,10 @@
 ---
-source: '[unknown - MASTER-FAL-AI-DOCUMENTATION.md]'
+source: 'FAL.ai documentation synthesis (master reference combining 14+ sources)'
 scraped: 2025-12-31
 api_provider: FAL.ai
 discovery_tier: 3
 verified: false
+title: "FAL.ai Platform Documentation - Master Reference"
 ---
 ey = 3aa00e2b-b18a-4345-b394-f61f68f0bfc4:247663577672cdf5fcc2a06dd9632621
 

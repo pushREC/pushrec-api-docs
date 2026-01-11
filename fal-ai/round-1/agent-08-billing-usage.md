@@ -6,7 +6,7 @@ discovery_tier: 3
 verified: false
 title: FAL.ai Billing, Usage & Quota Documentation
 ---
-[3-Resources/anchors/status-complete]]
+[[3-Resources/anchors/status-complete]]
 
 # FAL.ai Billing, Usage & Quota Documentation
 

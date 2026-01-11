@@ -1,9 +1,10 @@
 ---
-source: '[unknown - agent-11-3d-models.md]'
+source: 'FAL.ai official documentation (synthesized from https://fal.ai/docs)'
 scraped: 2025-12-29
 api_provider: FAL.ai
 discovery_tier: 3
 verified: false
+title: "FAL.ai 3D Generation Models - Complete API Reference"
 ---
  FAL.ai 3D Generation Models - Complete API Reference
 

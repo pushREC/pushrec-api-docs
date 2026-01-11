@@ -1,9 +1,10 @@
 ---
-source: '[unknown - KNOWLEDGE-MAP.md]'
+source: 'FAL.ai documentation synthesis (internal knowledge map)'
 scraped: 2025-12-29
 api_provider: FAL.ai
 discovery_tier: 3
 verified: false
+title: "FAL.ai Documentation - Knowledge Map"
 ---
  FAL.ai Documentation - Knowledge Map
 

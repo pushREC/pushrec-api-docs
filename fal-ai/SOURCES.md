@@ -22,6 +22,18 @@ verified: true
 
 ---
 
+## Briefings (Context Documents)
+
+| File | Purpose | Date |
+|------|---------|------|
+| briefings/KNOWLEDGE-MAP.md | Visual topic dependency graph and cross-reference index | 2025-12-29 |
+| briefings/MASTER-FAL-AI-DOCUMENTATION.md | Platform documentation master reference and synthesis | 2025-12-31 |
+| briefings/QUICK-REFERENCE.md | Developer quick-lookup for common operations | 2025-12-29 |
+
+**Note:** Briefings provide contextual understanding and best practices, complementing the API reference documentation.
+
+---
+
 ## Documentation by Category
 
 | Category | Files | Status |
@@ -38,6 +50,23 @@ verified: true
 | File | Source URL | Model |
 |------|------------|-------|
 | `agent-15-nano-banana-pro.md` | https://fal.ai/models/fal-ai/nano-banana-pro/api | Gemini 3 Pro Image |
+
+---
+
+## Supporting Artifacts
+
+| File | Type | Purpose | Date Added |
+|------|------|---------|------------|
+| openapi/fal-ai-documentation-openapi.yaml | OpenAPI Spec | Full API reference schema | 2026-01-07 |
+| postman/fal-ai-collection.json | Postman Collection | Pre-configured API requests | 2026-01-07 |
+| curl/examples.sh | Shell Script | Command-line usage examples | 2026-01-07 |
+
+**Usage:**
+- Import Postman collection for interactive testing
+- Use curl examples for quick CLI-based generation
+- Reference OpenAPI spec for schema validation and code generation
+
+**Location:** All files in ~/api-docs/fal-ai/
 
 ---
 

@@ -1,9 +1,10 @@
 ---
-source: '[unknown - agent-12-serverless.md]'
+source: 'FAL.ai official documentation (synthesized from https://fal.ai/docs)'
 scraped: 2025-12-29
 api_provider: FAL.ai
 discovery_tier: 3
 verified: false
+title: "FAL.ai Serverless Deployment - Complete Platform Reference"
 ---
  FAL.ai Serverless Deployment - Complete Platform Reference
 

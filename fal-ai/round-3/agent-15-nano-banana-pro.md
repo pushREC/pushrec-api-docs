@@ -6,6 +6,7 @@ model_provider: 'Google DeepMind'
 model_name: 'Gemini 3 Pro Image'
 discovery_tier: 1
 verified: true
+title: "Nano Banana Pro (Google Gemini 3 Pro Image)"
 ---
 
 # Nano Banana Pro (Google Gemini 3 Pro Image)

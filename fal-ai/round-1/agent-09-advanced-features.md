@@ -1,9 +1,10 @@
 ---
-source: '[unknown - agent-09-advanced-features.md]'
+source: 'FAL.ai official documentation (synthesized from https://fal.ai/docs)'
 scraped: 2025-12-28
 api_provider: FAL.ai
 discovery_tier: 3
 verified: false
+title: "FAL.ai Advanced Features: Comprehensive Documentation"
 ---
  FAL.ai Advanced Features: Comprehensive Documentation
 

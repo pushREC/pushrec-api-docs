@@ -1,9 +1,10 @@
 ---
-source: '[unknown - agent-02-javascript-sdk.md]'
+source: 'FAL.ai official documentation (synthesized from https://fal.ai/docs)'
 scraped: 2025-12-28
 api_provider: FAL.ai
 discovery_tier: 3
 verified: false
+title: "FAL.ai JavaScript/TypeScript SDK - Complete Documentation"
 ---
  FAL.ai JavaScript/TypeScript SDK - Complete Documentation
 

@@ -1,9 +1,10 @@
 ---
-source: '[unknown - QUICK-REFERENCE.md]'
+source: 'FAL.ai documentation synthesis (quick reference cheatsheet)'
 scraped: 2025-12-29
 api_provider: FAL.ai
 discovery_tier: 3
 verified: false
+title: "FAL.ai Quick Reference Cheatsheet"
 ---
  FAL.ai Quick Reference Cheatsheet
 
